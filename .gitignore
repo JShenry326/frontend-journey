@@ -3,3 +3,10 @@
 
 # 忽略 AHK 脚本
 *.ahk
+
+# 忽略不需要上传的文件
+前端讲座PPT.md
+习题.md
+Typora使用教程.md
+Typora使用教程.pdf
+VScode常用快捷键.md
