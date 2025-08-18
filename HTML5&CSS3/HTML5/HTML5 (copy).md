@@ -46,7 +46,7 @@ HTML 不是一种编程语言，而是一种标记语言 (markup language)
 
 网页是由网页元素组成的，这些元素是利用 html 标签描述出来，然后通过浏览器解析来显示给用户的。
 
-![image-20240902212253064](../../../../AppData/Roaming/Typora/typora-user-images/image-20240902212253064.png)
+![image-20240902212253064](../../images/image-20240902212253064.png)
 
 前端人员开发代码 ----> 浏览器显示代码（解析、渲染） -----> 生成最后的 Web 页面
 
@@ -159,7 +159,7 @@ Web 标准提出的最佳体验方案：**结构、样式、行为相分离**。
 
 双标签关系可以分为两类：**<font color='red'>包含关系</font>**和**<font color='red'>并列关系</font>**。
 
-![image-20240903152028189](../../../../AppData/Roaming/Typora/typora-user-images/image-20240903152028189.png)
+![image-20240903152028189](../../images/image-20240903152028189.png)
 
 
 
@@ -175,7 +175,7 @@ Web 标准提出的最佳体验方案：**结构、样式、行为相分离**。
 
 HTML页面也称为 HTML 文档
 
-![image-20240903152301975](../../../../AppData/Roaming/Typora/typora-user-images/image-20240903152301975.png)
+![image-20240903152301975](../../images/image-20240903152301975.png)
 
 
 
@@ -196,7 +196,7 @@ HTML页面也称为 HTML 文档
 
 
 
-![image-20240903152822858](../../../../AppData/Roaming/Typora/typora-user-images/image-20240903152822858.png)
+![image-20240903152822858](../../images/image-20240903152822858.png)
 
 
 
@@ -204,7 +204,7 @@ HTML页面也称为 HTML 文档
 
 
 
-![image-20240903152847237](../../../../AppData/Roaming/Typora/typora-user-images/image-20240903152847237.png)
+![image-20240903152847237](../../images/image-20240903152847237.png)
 
 > VScode的使用
 
@@ -270,6 +270,8 @@ HTML页面也称为 HTML 文档
 
 ```
 1
+1
+2
 <meta charset=" UTF-8" />
 ```
 
@@ -304,7 +306,7 @@ HTML页面也称为 HTML 文档
 
 **<font color='red'>根据标签的语义，在合适的地方给一个最为合理的标签，可以让页面结构更清晰</font>。**
 
-![image-20240903154650179](../../../../AppData/Roaming/Typora/typora-user-images/image-20240903154650179.png)
+![image-20240903154650179](../../images/image-20240903154650179.png)
 
 
 
@@ -318,6 +320,8 @@ HTML页面也称为 HTML 文档
 
 ```
 1
+1
+2
 <h1> 我是一级标题 </h1>
 ```
 
@@ -344,6 +348,8 @@ HTML页面也称为 HTML 文档
 
 ```
 1
+1
+2
 <p> 我是一个段落标签 </p>
 ```
 
@@ -367,6 +373,8 @@ HTML页面也称为 HTML 文档
 
 ```
 1
+1
+2
 <br />
 ```
 
@@ -409,8 +417,12 @@ HTML页面也称为 HTML 文档
 
 ```
 1
-<div> 这是头部 </div> 
+1
 2
+<div> 这是头部 </div> 
+3
+2
+4
 <span> 今日价格 </span>
 ```
 
@@ -437,6 +449,8 @@ div 是 division 的缩写，表示分割、分区。span 意为跨度、跨距�
 
 ```
 1
+1
+2
 <img src="图像URL" />
 ```
 
@@ -550,6 +564,8 @@ div 是 division 的缩写，表示分割、分区。span 意为跨度、跨距�
 
 ```
 1
+1
+2
 <a href="跳转目标" target="目标窗口的弹出方式"> 文本或图像 </a>
 ```
 
@@ -600,6 +616,8 @@ HTML中的注释以“`<!--”开头，以“ -->`”结束。
 
 ```
 1
+1
+2
  <!-- 注释语句 --> 快捷键: ctrl + / 
 ```
 
@@ -647,7 +665,7 @@ Pink老师总结: 表格不是用来布局页面的,而是用来<font color='red
 
 > 示例：
 
-![image-20240909210509359](../../../../AppData/Roaming/Typora/typora-user-images/image-20240909210509359.png)
+![image-20240909210509359](../../images/image-20240909210509359.png)
 
 
 
@@ -731,7 +749,7 @@ caption 标签支持全局属性。
 
 > 示例：
 
-![image-20240909210919598](../../../../AppData/Roaming/Typora/typora-user-images/image-20240909210919598.png)
+![image-20240909210919598](../../images/image-20240909210919598.png)
 
 Pink老师总结:
 
@@ -768,12 +786,14 @@ Pink老师总结:
 
 在表格标签中，分别用：<font color='red'>`<thead>`标签 表格的头部区域、`<tbody>`标签 表格的主体区域</font>. 这样可以更好的分清表格结构。
 
-> 示例：
+### {0}示例：
 
-![image-20240909211622367](../../../../AppData/Roaming/Typora/typora-user-images/image-20240909211622367.png)
+![image-20240909211622367](../../images/image-20240909211622367.png)
 
 1. `<thead></thead>`：用于定义表格的头部。`<thead> `内部必须拥有 `<tr>` 标签。 一般是位于第一行。
+
 2. `<tbody></tbody>`：用于定义表格的主体，主要用于放数据本体 。
+
 3. 以上标签都是放在 `<table></table> `标签中。
 
 
@@ -785,23 +805,26 @@ Pink老师总结:
 特殊情况下,可以把多个单元格合并为一个单元格, 这里同学们会最简单的合并单元格即可.
 
 1. 合并单元格方式
+
 2. 目标单元格
+
 3. 合并单元格的步骤
 
 > 示例：
 
-![image-20240909211732732](../../../../AppData/Roaming/Typora/typora-user-images/image-20240909211732732.png)
+![image-20240909211732732](../../images/image-20240909211732732.png)
 
 
 
-#### (1）合并单元格方式：
+> 
 
 
 
 - 跨行合并：rowspan="合并单元格的个数" 
+
 - 跨列合并：colspan="合并单元格的个数"
 
-![image-20240909211939335](../../../../AppData/Roaming/Typora/typora-user-images/image-20240909211939335.png)
+![image-20240909211939335](../../images/image-20240909211939335.png)
 
 
 
@@ -810,9 +833,10 @@ Pink老师总结:
 
 
 - 跨行：最上侧单元格为目标单元格, 写合并代码
+
 - 跨列：最左侧单元格为目标单元格, 写合并代码
 
-![image-20240909212024271](../../../../AppData/Roaming/Typora/typora-user-images/image-20240909212024271.png)
+![image-20240909212024271](../../images/image-20240909212024271.png)
 
 
 
@@ -821,7 +845,9 @@ Pink老师总结:
 
 
 1. 先确定是跨行还是跨列合并。
+
 2. 找到目标单元格. 写上合并方式 = 合并的单元格数量。比如：``<td colspan="2"></td>``。
+
 3. 删除多余的单元格。
 
 
@@ -836,7 +862,7 @@ Pink老师总结:
 
 根据使用情景不同，列表可以分为三大类：<font color='red'>无序列表</font>、<font color='red'>有序列表</font>和<font color='red'>自定义列表</font>。
 
-![image-20240909212259239](../../../../AppData/Roaming/Typora/typora-user-images/image-20240909212259239.png)
+![image-20240909212259239](../../images/image-20240909212259239.png)
 
 
 
@@ -856,10 +882,12 @@ Pink老师总结:
 </ul>
 ```
 
-1. 无序列表的各个列表项之间没有顺序级别之分，是并列的。
-2. `<ul></ul>`中只能嵌套`<li></li>`，直接在 `<ul></ul>`标签中输入其他标签或者文字的做法是不被允许的.
-3. `<li></li>`之间相当于一个容器，可以容纳所有元素.
-4. 无序列表会带有自己的样式属性，但在实际使用时，我们会使用 CSS 来设置。
+### 1无序列表的各个列表项之间没有顺序级别之分，是并列的。
+
+### 2`<ul></ul>`中只能嵌套`<li></li>`，直接在 `<ul></ul>`标签中输入其他标签或者文字的做法是不被允许的.
+
+### 3`<li></li>`之间相当于一个容器，可以容纳所有元素.
+### 4无序列表会带有自己的样式属性，但在实际使用时，我们会使用 CSS 来设置。
 
 
 
@@ -883,7 +911,9 @@ Pink老师总结:
 ```
 
 1. `<ol></ol>`中只能嵌套`<li></li>`，直接在`<ol></ol>`标签中输入其他标签或者文字的做法是不被允许的.
+
 2. `<li></li>`之间相当于一个容器，可以容纳所有元素。
+
 3. 有序列表会带有自己样式属性，但在实际使用时，我们会使用 CSS 来设置。
 
 
@@ -896,7 +926,7 @@ Pink老师总结:
 
 自定义列表常用于对术语或名词进行解释和描述，定义列表的列表项前没有任何项目符号。
 
-![image-20240909214128688](../../../../AppData/Roaming/Typora/typora-user-images/image-20240909214128688.png)
+![image-20240909214128688](../../images/image-20240909214128688.png)
 
 在 HTML 标签中，`<dl>`标签用于定义描述列表（或定义列表），该标签会与`<dt>`（定义项目/名字）和`<dd>`>（描述每一个项目/名字）一起使用。
 
@@ -913,6 +943,7 @@ Pink老师总结:
 ```
 
 1. `<dl></dl>` 里面只能包含`<dt>`和`<dd>`。
+
 2. `<dt>`和`<dd>`个数没有限制，经常是一个`<dt>`对应多个`<dd>`
 
 
@@ -939,11 +970,11 @@ Pink老师总结:
 
 现实中的表单，我们去银行办理信用卡填写的单子。
 
-![image-20240909215611688](../../../../AppData/Roaming/Typora/typora-user-images/image-20240909215611688.png)
+![image-20240909215611688](../../images/image-20240909215611688.png)
 
 网页中的表单展示
 
-![image-20240909215627101](../../../../AppData/Roaming/Typora/typora-user-images/image-20240909215627101.png)
+![image-20240909215627101](../../images/image-20240909215627101.png)
 
 ### 8.1 为什么需要表单
 
@@ -961,7 +992,7 @@ Pink老师总结:
 
 在 HTML 中，一个完整的表单通常由<font color='red'>表单域</font>、<font color='red'>表单控件</font>（也称为表单元素）和 <font color='red'>提示信息</font>3个部分构成。
 
-![image-20240909215817675](../../../../AppData/Roaming/Typora/typora-user-images/image-20240909215817675.png)
+![image-20240909215817675](../../images/image-20240909215817675.png)
 
 ### 8.3 表单域
 
@@ -1004,9 +1035,11 @@ Pink老师总结:
 
 接下来我们讲解:
 
-1. input输入表单元素
-2. select下拉表单元素
-3. textarea 文本域元素
+### 1input输入表单元素
+
+### 2select下拉表单元素
+
+### 3textarea 文本域元素
 
 
 
@@ -1018,11 +1051,12 @@ Pink老师总结:
 
 在 `<input>`标签中，包含一个<font color='red'> type</font> 属性，根据不同的<font color='red'> type</font> 属性值，输入字段拥有很多种形式（可以是文本字段、复选框、掩码后的文本控件、单选按钮、按钮等）。
 
-```
+#### 
 <input type="属性值" />
-```
+####
 
 - `<input>`标签为单标签
+
 - type 属性设置不同的属性值用来指定不同的控件类型
 
 
@@ -1068,7 +1102,7 @@ Pink老师总结:
 
 <font color='red'>`<label>`</font>标签用于绑定一个表单元素, 当点击`<label>` 标签内的文本时，浏览器就会自动将焦点(光标)转到或者选择对应的表单元素上,用来增加用户体验.
 
-> **语法：**
+#### {0}**语法：**
 
 ```
 <label for="sex">男</label>
@@ -1085,7 +1119,7 @@ Pink老师总结:
 
 使用场景: 在页面中，如果有多个选项让用户选择，并且想要节约页面空间时，我们可以使用`<select>`标签控件定义下拉列表。
 
-![image-20240909222103161](../../../../AppData/Roaming/Typora/typora-user-images/image-20240909222103161.png)
+![image-20240909222103161](../../images/image-20240909222103161.png)
 
 在页面中，如果有多个选项让用户选择，并且想要节约页面空间时，我们可以使用<font color='red'>`<select>`</font>标签控件定义<font color='red'>下拉列表</font>
 
@@ -1101,6 +1135,7 @@ Pink老师总结:
 ```
 
 1. `<select>` 中至少包含一对`<option>`。
+
 2. 在`<option>` 中定义 selected =”selected”时，当前项即为默认选中项。
 
 
@@ -1115,7 +1150,7 @@ Pink老师总结:
 
 使用多行文本输入控件，可以输入更多的文字，该控件常见于留言板，评论。
 
-> **语法：**
+#### {0}**语法：**
 
 ```
 <textarea rows="3" cols="20">
@@ -1124,6 +1159,7 @@ Pink老师总结:
 ```
 
 1. 通过`<textarea>` 标签可以轻松地创建多行文本输入框。
+
 2. cols=“每行中的字符数” ，rows=“显示的行数”，<font color='red'>我们在实际开发中不会使用，都是用 CSS 来改变大小</font>。
 
 
@@ -1135,7 +1171,7 @@ Pink老师总结:
 1. 表单元素我们学习了三大组 <font color='green'>input 输入表单元素 </font><font color='orange'>select 下拉表单元素</font> <font color='blue'>textarea 文本域表单元素</font>
 2. 这三组表单元素都应该包含在form表单域里面,并且有 name 属性.
 
-```
+. 
 <form>
 	<input type=“text" name=“username”>
 	<select name=“jiguan”>
@@ -1143,7 +1179,7 @@ Pink老师总结:
 	</select> 
 	<textarea name= "message"></textarea>
 </form>
-```
+. 
 
 3. 有三个名字非常相似的标签:
 

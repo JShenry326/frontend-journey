@@ -1,0 +1,580 @@
+# 一、JavaScript速览
+
+
+
+1. JavaScript是⼀⻔<font color='red'>动态、解释性</font>编程语⾔，⾮常适合<font color='red'>⾯向对象和函数式编程</font>⻛格。
+2. 核⼼JavaScript定义了最⼩限度的API，⽤于操作数值、⽂本、数组、Map、Set等。
+3. <font color='red'>浏览器</font>是JavaScript最早的运⾏环境；<font color='red'>Node.js</font>是JavaScript的另⼀个运⾏环境，给予了JavaScript访问整个操作系统的权限。
+4. JavaScript类型可以分为<font color='red'>原始类型（Number、String、Boolean、null、undefined、Symbol）和对象类型（Array、Set、Map、RegExp、Date等）</font>。
+5. JavaScript有⼀个灵活⽽被诟病的<font color='red'>⾃动转换规则</font>。
+
+
+
+# 二、基本API
+
+
+
+## 1.Number
+
+
+
+数学计算
+
+```js
+Math.round(1.5) / 2
+Math.fround(1.5) / 1.5，舍⼊到最接近的32位浮点数
+Math.ceil(1.1) / 2
+Math.floor(1.9) / 1
+Math.sqrt(4) / 2
+Math.pow(2, 10) / 1024
+Math.random() / 0.0 ~ 1.0
+Math.max(1, 2, 3) / 3
+Math.min(1, 2, 3) / 1
+```
+
+上溢出？下溢出？被零除？
+
+```js
+Number.MAX_VALUE / 1.7976931348623157e+308
+Number.MIN_VALUE / 5e-324
+Number.isNaN(x)
+Number.isFinite(x)
+Number.isInteger(x)
+Number.isSafeInteger(x)
+```
+
+
+
+## 2.String
+
+
+
+```js
+let str = 'hello world';
+str.length / 11
+str[0] / 'h'
+str[str.length - 1] / 'd'
+str.substring(0, 5) / 'hello'，
+str.slice(0, 5) / 'hello'
+str.slice(6) / 'world'，默认截取到结尾
+str.slice(-1) / 'd'，⽀持负数
+```
+
+```js
+let str = 'hello world';
+str.indexOf('world') / 6
+str.lastIndexOf('o') / 7
+str.includes('hello') / true
+str.startsWith('hello') / true
+str.endsWith('world') / true
+```
+
+```js
+let str = 'hello world';
+str.toUpperCase() / 'HELLO WORLD'
+str.toLowerCase() / 'hello world
+```
+
+```js
+let str = 'hello world';
+str.split(' ') / ['hello', 'world']
+str.replace('world', 'javascript') / 'hello javascript'
+```
+
+```js
+let str = ' hello world ';
+str.trim() / 'hello world'
+str.trimStart() / 'hello world '
+str.trimEnd() / ' hello world'
+```
+
+```js
+"x".padStart(3, "*") / ' *x'
+"x".padEnd(3, "*") / 'x *
+"x".padStart(3) / ' x'
+" >".repeat(3) / ' > > >'
+```
+
+
+
+## 3.Boolean
+
+
+
+```js
+Boolean(0) / false
+Boolean(NaN) / false
+Boolean('') / false
+Boolean(null) / false
+Boolean(undefined) / false
+Boolean([]) / true!!!
+Boolean({}) / true!!!
+Boolean(' ') / true
+Boolean('false') / true
+```
+
+
+
+## 4.原始值类型转换
+
+
+
+隐式的类型转换：
+
+```js
+x + "" / String(x)
+`${x}` / String(x), recommended
++x / Number(x)
+!x / Boolean(x)
+```
+
+显式的类型转换：
+
+```js
+String(x)
+Number(x)
+Boolean(x)
+```
+
+在每次进⾏类型转换时，都需要想⼀下<font color='red'> undefined</font> 和 <font color='red'>null</font> ！
+
+控制数字转字符串的格式：
+
+```js
+let num = 123456.789;
+num.toFixed(2) / "123456.79"
+num.toPrecision(5) / "1.2346e+5"
+num.toExponential(2) / "1.23e+5"
+```
+
+
+
+## 5.Object
+
+
+
+```js
+let obj = {
+	name: 'Alice',
+	age: 18,
+	sayHello: function() {
+	console.log('Hello, my name is ' + this.name);
+	},
+	sayHello2() { / 简写语法
+		console.log('Hello, my name is ' + this.name);
+	},
+	['key' + '1']: 'value1', / ⽅括号⾥⽀持 JavaScript 表达式
+	get info() {
+		return this.name + ' ' + this.age;
+	}, / getter, 计算属性
+	set setName(name) {
+		this.name = name;
+	} / setter
+}
+
+obj.name / 'Alice'
+obj.age.length / undefined
+"xxx" in obj / false
+obj.xxx.length / Error
+obj .xxx .length / 可空属性访问，undefined
+obj .xxx .length ? 0 / 默认值
+```
+
+
+
+## 6.Array
+
+
+
+⚠ <font color='red'>数组是⼀种对象</font>，其下标是⼀种特殊的<font color='red'>对象属性</font>，这可以解释很多JavaScript数组与其他语⾔不同的语法特性。
+
+```js
+let arr = [1, , , 2]
+arr.length / 4
+
+arr[0] / 1
+arr[-1] / undefined
+arr[10] / undefined
+
+arr = new Array(10)
+arr.length / 10
+arr[0] / undefined
+
+Array.of(1, 2, 3) / [1, 2, 3]
+
+Array.from('hello') / ['h', 'e', 'l', 'l', 'o']
+[ .'hello'] / the same
+```
+
+
+
+### 6.1 Array 的就地操作
+
+
+
+- push(item) : 末尾添加元素。
+- pop() : 删除并返回末尾元素。
+
+使⽤ push 和 pop 可以模拟栈。
+
+- unshift(item) : 开头添加元素。
+- shift() : 删除并返回开头元素。
+
+使⽤ push 和 shift 可以模拟队列。
+
+- splice(loc) ：删除从索引 loc 开始的所有元素，返回被删除的元素数组。
+- splice(loc, count) ：切出从索引 loc 开始的 count 个元素，返回被删除的元素数组。
+- splice(loc, count, .items) : 在切出元素的基础上，在 loc 位置插⼊元素。
+
+⚠ 这⼏个⽅法都是对数组的<font color='red'>就地操作</font>，会改变原数组但不会返回原数组。
+
+
+
+### 6.2 Array 的其他操作
+
+
+
+- slice(start, end) : 返回从 start 到 end （不包括 end ）的⽚段。
+- fill(item, start, end) : ⽤ item 填充从 start 到 end （不包括 end ）的⽚段。
+- sort(func) ：按照指定规则排序。默认按照字符串字典序排序。
+
+```js
+[1, 2, 3].sort((a, b) => a - b) / [1, 2, 3]
+[1, 2, 3].sort((a, b) => b - a) / [3, 2, 1]
+[
+{name: "Alice", grade: 1},
+{name: "Bob", grade: 2}
+].sort((a, b) => a.grade - b.grade)
+/ [{name: "Alice", grade: 1}, {name: "Bob", grade: 2}]
+```
+
+- reverse() ：反转数组。
+- concat( .items) : 返回新数组，新数组是原数组的副本，并在末尾添加 items 。
+- join(sep) : 返回字符串，字符串由原数组的元素组成，元素之间⽤ sep 分隔。
+
+
+
+### 6.3 Array 的迭代 🗡
+
+
+
+- forEach(func) : 对每个元素调⽤ func 。
+- map(func) : 对每个元素调⽤ func ，返回新数组。
+- filter(func) : 对每个元素调⽤ func ，返回新数组，其中只包含 func 返回 true 的元素。
+- reduce(func, init) : 对每个元素调⽤ func ， func 的返回值作为下⼀次调⽤ func 时的第⼀个参数，init 是第⼀次调⽤ func 时的第⼀个参数。
+
+```js
+/ ⽣成⼀个1~20的列表，筛选出其中的奇数，然后求和
+new Array(20).fill(0)
+.map((_, idx) => idx + 1)
+.filter(x => x % 2 = 0)
+.reduce((a, b) => a + b, 0)
+```
+
+- every(func) : 对每个元素调⽤ func ，如果所有 func 都返回 true ，则返回 true 。
+- some(func) : 对每个元素调⽤ func ，如果任意⼀个 func 返回 true ，则返回 true 。
+- find(func) : 对每个元素调⽤ func ，返回第⼀个 func 返回 true 的元素。
+- findIndex(func) : 对每个元素调⽤ func ，返回第⼀个 func 返回 true 的元素的索引。
+
+其它数组⽅法：https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+
+
+## 7.Set
+
+
+
+与数组不同的是，集合<font color='red'>没有索引或顺序，也不允许重复</font>：⼀个值要么是集合的成员，要么不是；不可能存在⼀个值在⼀个集合中出现多次。
+
+```js
+let set = new Set([1, 2, 3])
+set.add(4)
+set.delete(2)
+set.has(3) / true
+set.size / 2
+```
+
+
+
+## 8.Map
+
+
+
+Map 对象保存键值对。任何值(对象或者原始值) 都可以作为⼀个键或⼀个值
+
+```js
+let map = new Map()
+map.set('name', 'Alice')
+map.set('age', 20)
+map.get('name') / 'Alice'
+map.has('age') / true
+map.delete('age')
+map.size / 1
+```
+
+
+
+## 9.Array , Set , Map , Object 之间的转换
+
+
+
+<img src="../images/image-20250409214055951.png" alt="image-20250409214055951" style="zoom:50%;" />
+
+
+
+## 10.RegExp
+
+
+
+学习正则表达式：Geek Hour
+
+```js
+/ `String.search`: 返回第⼀个匹配项起点的位置，或-1.
+"JavaScript".search(/script/ui) / => 4
+"Python".search(/script/ui) / => -1
+/ `String.replace`: 按正则替换字符串，⽀持捕获组和命名捕获组。
+let quote = /"([^"]*)"/g / ⼀个引号 + 任意多个⾮引号字符 + 引号
+'He said "stop"'.replace(quote, '<q>$1 /q>') / => 'He said <q>stop /q>'
+let quote = /"(?<quote>[^"]*)"/g
+'He said "stop"'.replace(quote, '<q>$<quote> /q>') / => 'He said <q>stop /q>'
+```
+
+replace 传⼊函数的⾼级⽤法：https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#specifying_a_function_as_the_replacement
+
+```js
+function replacer(match, p1, p2, p3, offset, string, groups) {
+/ p1 is non-digits, p2 digits, and p3 non-alphanumerics
+return [p1, p2, p3].join(" - ");
+}
+const newString = "abc12345#$*%".replace(/([^\d]*)(\d*)([^\w]*)/, replacer); / abc - 12345 - #$*%
+```
+
+
+
+```js
+/ `String.match`: 返回⼀个数组，数组中包含所有匹配项（如果有g标识），或第⼀个匹配项的详细信息（如果⽆g标识）。
+let nums = "12345678"
+nums.match(/\d/g) / => ["1", "2", "3", "4", "5", "6", "7", "8"]
+nums.match(/\d/) / => ["1", index: 0, input: "12345678", groups: undefined]
+/ `String.matchAll`：适⽤于循环遍历所有匹配项，必须带g标识。
+[ .nums.matchAll(/\d/g)] / => 0: ['1', index: 0, input: '12345678', groups: undefined]
+/ 1: ['2', index: 1, input: '12345678', groups: undefined]
+/ .
+/ 7: ['8', index: 7, input: '12345678', groups: undefined]
+```
+
+⚠️ 会被g标志影响的⽅法： String.match() , String.replace() 。
+⚠️ 不会被g标志影响的⽅法： String.search()
+⚠️ 必须带g标志的⽅法： String.matchAll() 。
+
+
+
+RegExp 的⽅法：
+test() : 返回⼀个布尔值，表示当前模式是否能匹配参数字符串。
+exec() : 始终返回⼀个匹配项。每次匹配后会更新搜索起点。
+
+
+
+## 11.Date
+
+
+
+```js
+let date = new Date()
+date.getFullYear() / => 2025
+date.getMonth() / => 0 (0表示1⽉)
+date.getDate() / => 1
+date.getDay() / => 0 (0表示星期⽇)
+date.getTime() / => 1704128000000 (时间戳，毫秒)
+date.setFullYear(2020) / => 1577836800000
+date.setMonth(date.getMonth() + 1) / 可进⾏计算
+date > new Date(2020, 0, 1) / => true，可进⾏⽐较
+```
+
+更多⽤法：https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+
+
+
+# 三、浏览器API
+
+
+
+## 1.CSS选择器
+
+
+
+浏览器提供了 document.querySelector 和 document.querySelectorAll 两个⽅法，可以⽤来根据 CSS 选择器来获取 DOM 元素。
+
+**通过标签名、id、class**
+
+```css
+div
+#nav
+.warning
+```
+
+**通过属性**
+
+```css
+p[lang="fr"]
+*[name="x"]
+```
+
+**组合**
+
+```css
+span.fatal.error / 取交集，同时满⾜
+img, video / 取并集，满⾜其⼀
+#log span / 后代
+#log > span / ⼦代
+body > h1 :first-child / 伪类
+```
+
+
+
+## 2.⽂档结构与遍历
+
+
+
+<font color='red'>Element 对象</font>上的⽅法：
+
+- parentElement
+- children
+- firstElementChild
+- lastElementChild
+- nextElementSibling
+- previousElementSibling
+
+这些⽅法都是不带Text节点、Comment节点的，如果想学习Node对象上定义的节点树属性，可参阅
+https://developer.mozilla.org/en-US/docs/Web/API/Node。
+
+
+
+## 3.属性
+
+
+
+**HTML属性**
+
+```js
+let image = document.querySelector('#main_img');
+let url = image.src;
+image.id = 'main_img';
+let f = document.querySelector('#form');
+f.action = 'https: /example.com';
+f.method = 'POST';
+let button = document.querySelector('#submit');
+button.onclick = function() { / 更推荐使⽤`addEventListener`
+alert('Button clicked');
+}
+```
+
+注意： class 映射到 classList , for 映射到 htmlFor 。 classList 是⼀个可迭代的<font color='red'>类数组对象</font>，可以使⽤数组⽅法来操作。
+
+```js
+let spinner = document.querySelector('#spinner');
+spinner.classList.has('show') = true;
+spinner.classList.add('show');
+spinner.classList.remove('show');
+spinner.classList.toggle('show');
+```
+
+
+
+## 4.通⽤属性管理
+
+
+
+- getAttribute(name) ：获取属性值
+- setAttribute(name, value) ：设置属性值
+- removeAttribute(name) ：移除属性
+- hasAttribute(name) ：检查属性是否存在
+
+
+
+## 5.元素内容
+
+
+
+```js
+<div id="target">
+This is the element content.
+</div>
+Inserted here
+```
+
+1. innerHTML
+2. ele.innerHTML = "Inserted here" + ele.innerHTML
+3. ele.innerHTML += "Inserted here"
+4. outerHTML
+5. ele.outerHTML = "Inserted here" + ele.outerHTML
+6. ele.outerHTML += "Inserted here"
+
+textContent ⽤于获取元素中的纯⽂本内容，或者向⽂档中插⼊纯⽂本内容。
+
+
+
+## 6.创建、插⼊和删除节点
+
+
+
+使⽤ document.createElement(tagName) 创建⼀个新元素；
+使⽤ append(node) , prepend(node) , before(node) , after(node) , replaceWith(node) 插⼊元素或⽂本；
+使⽤ remove() 删除元素
+
+```js
+let para = document.createElement('p');
+let img = document.createElement('img');
+para.after(img);
+para.before(img);
+para.replaceWith(img);
+para.remove(); / 删除⾃⼰
+para.removeChildren(); / 删除所有⼦节点；还可以怎样操作？
+```
+
+
+
+## 7.操作CSS
+
+
+
+### 7.1 基于class的样式
+
+
+
+⻅属性 —— classList。
+
+
+
+### 7.2 基于style的样式
+
+
+
+常⽤的CSS属性都挂在了 Element.style 上，⚠️ 使⽤<font color='red'>⼩驼峰</font>命名，⚠️ 且<font color='red'>包含单位</font>
+
+```js
+function displayAt(tooltip, x, y) {
+tooltip.style.left = x + 'px';
+tooltip.style.top = y + 'px';
+tooltip.style.display = 'block';
+tooltip.style.position = 'absolute';
+tooltip.style.backgroundColor = 'white';
+}
+```
+
+如果要对⼀个带单位的style做数值计算，需要做<font color='red'>两次转换</font>。
+
+
+
+## 8.计算样式
+
+
+
+ 计算属性是<font color='red'>只读</font>的，任何指定⼤⼩的属性都将以<font color='red'>像素</font>度量，且<font color='red'>包含单位</font>
+
+```js
+let title = document.querySelector('h1');
+let fontSize = window.getComputedStyle(title).fontSize;
+console.log(fontSize); / "16px"
+```
+

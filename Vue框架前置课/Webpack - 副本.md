@@ -8,7 +8,7 @@
 
 **定义：**[概念 | webpack 中文文档](https://webpack.docschina.org/concepts/)
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526172102956.png" alt="image-20250526172102956" style="zoom:50%;" />
+<img src="../images/image-20250526172102956.png" alt="image-20250526172102956" style="zoom:50%;" />
 
 **静态模块：**指的是编写代码过程中的，html，css，js，图片等固定内容的文件
 
@@ -18,7 +18,7 @@
 - 把 ES6+ 降级成 ES5
 - 支持多种模块标准语法
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526172156249.png" alt="image-20250526172156249" style="zoom:50%;" />
+<img src="../images/image-20250526172156249.png" alt="image-20250526172156249" style="zoom:50%;" />
 
 > 问题：为何不学 vite ？
 >
@@ -38,13 +38,13 @@
 2. 下载 webpack webpack-cli 到当前项目中（版本独立），并<font color='red'>配置</font>局部自定义命令
 3. 运行<font color='red'>打包</font>命令，自动产生 dist 分发文件夹（压缩和优化后，用于最终运行的代码）
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526172347107.png" alt="image-20250526172347107" style="zoom:50%;" />
+<img src="../images/image-20250526172347107.png" alt="image-20250526172347107" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526172354253.png" alt="image-20250526172354253" style="zoom:50%;" />
+<img src="../images/image-20250526172354253.png" alt="image-20250526172354253" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526172401565.png" alt="image-20250526172401565" style="zoom:50%;" />
+<img src="../images/image-20250526172401565.png" alt="image-20250526172401565" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526172409846.png" alt="image-20250526172409846" style="zoom:50%;" />
+<img src="../images/image-20250526172409846.png" alt="image-20250526172409846" style="zoom:50%;" />
 
 
 
@@ -62,7 +62,7 @@
 
 **注意：**只有和入口产生直接/间接的引入关系，才会被打包
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526172557842.png" alt="image-20250526172557842" style="zoom:50%;" />
+<img src="../images/image-20250526172557842.png" alt="image-20250526172557842" style="zoom:50%;" />
 
 
 
@@ -80,9 +80,9 @@
 
 <font color='red'>**核心：**</font>Webpack 打包后的代码，作用在前端网页中使用
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526210219306.png" alt="image-20250526210219306" style="zoom:50%;" />
+<img src="../images/image-20250526210219306.png" alt="image-20250526210219306" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526210227253.png" alt="image-20250526210227253" style="zoom:50%;" />
+<img src="../images/image-20250526210227253.png" alt="image-20250526210227253" style="zoom:50%;" />
 
 
 
@@ -98,9 +98,9 @@
 2. <font color='red'>配置</font> webpack.config.js 让 Webpack 拥有插件功能
 3. 重新<font color='red'>打包</font>观察效果
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526212540493.png" alt="image-20250526212540493" style="zoom:50%;" />
+<img src="../images/image-20250526212540493.png" alt="image-20250526212540493" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526212547979.png" alt="image-20250526212547979" style="zoom:50%;" />
+<img src="../images/image-20250526212547979.png" alt="image-20250526212547979" style="zoom:50%;" />
 
 
 
@@ -121,9 +121,9 @@
 
 **注意：**Webpack 默认只识别 js 代码
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526212739582.png" alt="image-20250526212739582" style="zoom:50%;" />
+<img src="../images/image-20250526212739582.png" alt="image-20250526212739582" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526212912220.png" alt="image-20250526212912220" style="zoom:50%;" />
+<img src="../images/image-20250526212912220.png" alt="image-20250526212912220" style="zoom:50%;" />
 
 
 
@@ -147,9 +147,9 @@
 
 **好处：**css 文件可以被浏览器缓存，减少 js 文件体积
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526213048100.png" alt="image-20250526213048100" style="zoom:50%;" />
+<img src="../images/image-20250526213048100.png" alt="image-20250526213048100" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526213054897.png" alt="image-20250526213054897" style="zoom:50%;" />
+<img src="../images/image-20250526213054897.png" alt="image-20250526213054897" style="zoom:50%;" />
 
 
 
@@ -167,9 +167,9 @@
 2. <font color='red'>配置</font> webpack.config.js 让 webpack 拥有该功能
 3. 打包重新观察
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526213624134.png" alt="image-20250526213624134" style="zoom:50%;" />
+<img src="../images/image-20250526213624134.png" alt="image-20250526213624134" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526213631663.png" alt="image-20250526213631663" style="zoom:50%;" />
+<img src="../images/image-20250526213631663.png" alt="image-20250526213631663" style="zoom:50%;" />
 
 
 
@@ -188,9 +188,9 @@
 
 注意：less-loader 需要配合 less 软件包使用
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526213800772.png" alt="image-20250526213800772" style="zoom: 50%;" />
+<img src="../images/image-20250526213800772.png" alt="image-20250526213800772" style="zoom: 50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526213813160.png" alt="image-20250526213813160" style="zoom:50%;" />
+<img src="../images/image-20250526213813160.png" alt="image-20250526213813160" style="zoom:50%;" />
 
 
 
@@ -215,11 +215,11 @@
 - 大于 8KB 文件：发送一个单独的文件并导出 URL 地址 
 - 小于 8KB 文件：导出一个 data URI（base64字符串）
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526213958730.png" alt="image-20250526213958730" style="zoom:50%;" />
+<img src="../images/image-20250526213958730.png" alt="image-20250526213958730" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526214005551.png" alt="image-20250526214005551" style="zoom:50%;" />
+<img src="../images/image-20250526214005551.png" alt="image-20250526214005551" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526214013158.png" alt="image-20250526214013158" style="zoom:50%;" />
+<img src="../images/image-20250526214013158.png" alt="image-20250526214013158" style="zoom:50%;" />
 
 
 
@@ -235,9 +235,9 @@
 2. 准备并修改 utils 工具包源代码<font color='red'>导出</font>实现函数
 3. <font color='red'>导入</font>并编写逻辑代码，打包后运行观察效果
 
-​                                                                                                                                                   <img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526214114191.png" alt="image-20250526214114191" style="zoom: 50%;" />
+​                                                                                                                                                   <img src="../images/image-20250526214114191.png" alt="image-20250526214114191" style="zoom: 50%;" />
 
-![image-20250526214108872](../../../AppData/Roaming/Typora/typora-user-images/image-20250526214108872.png)
+![image-20250526214108872](../images/image-20250526214108872.png)
 
 
 
@@ -259,7 +259,7 @@
 2. 设置模式为<font color='red'>开发模式</font>，并配置<font color='red'>自定义命令</font>
 3. 使用 npm run dev 来启动开发服务器，试试热更新效果
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526214307114.png" alt="image-20250526214307114" style="zoom:50%;" />
+<img src="../images/image-20250526214307114.png" alt="image-20250526214307114" style="zoom:50%;" />
 
 
 
@@ -284,7 +284,7 @@
 
 	
 
-	<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526221315071.png" alt="image-20250526221315071" style="zoom:50%;" />
+	<img src="../images/image-20250526221315071.png" alt="image-20250526221315071" style="zoom:50%;" />
 
 	
 
@@ -292,7 +292,7 @@
 
 	
 
-	<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526221549140.png" alt="image-20250526221549140" style="zoom:50%;" />
+	<img src="../images/image-20250526221549140.png" alt="image-20250526221549140" style="zoom:50%;" />
 
 	
 
@@ -321,9 +321,9 @@
 3. 在 webpack.config.js 区分不同环境<font color='red'>使用</font>不同配置
 4. 重新打包观察两种配置区别
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526223120958.png" alt="image-20250526223120958" style="zoom:50%;" />
+<img src="../images/image-20250526223120958.png" alt="image-20250526223120958" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526223128225.png" alt="image-20250526223128225" style="zoom:50%;" />
+<img src="../images/image-20250526223128225.png" alt="image-20250526223128225" style="zoom:50%;" />
 
 **方案3（[生产环境 | webpack 中文文档](https://webpack.docschina.org/guides/production/#setup)）：**配置不同的 webpack.config.js （适用多种模式差异性较大情况）
 
@@ -341,7 +341,7 @@
 
 **作用：**在编译时，将前端代码中匹配的变量名，替换为值或表达式
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526223250283.png" alt="image-20250526223250283" style="zoom:50%;" />
+<img src="../images/image-20250526223250283.png" alt="image-20250526223250283" style="zoom:50%;" />
 
 
 
@@ -355,7 +355,7 @@
 
 **设置**：webpack.config.js 配置 devtool 选项（[Devtool | webpack 中文文档](https://webpack.docschina.org/configuration/devtool/)）
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250526223325197.png" alt="image-20250526223325197" style="zoom:50%;" />
+<img src="../images/image-20250526223325197.png" alt="image-20250526223325197" style="zoom:50%;" />
 
 **inline-source-map 选项：**把源码的位置信息一起打包在 js 文件内
 
@@ -373,11 +373,11 @@
 
 **解决：**在 webpack.config.js 中配置解析别名 @ 来代表 src 绝对路径
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250527171506588.png" alt="image-20250527171506588" style="zoom:50%;" />
+<img src="../images/image-20250527171506588.png" alt="image-20250527171506588" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250527171514791.png" alt="image-20250527171514791" style="zoom:50%;" />
+<img src="../images/image-20250527171514791.png" alt="image-20250527171514791" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250527171527835.png" alt="image-20250527171527835" style="zoom:50%;" />
+<img src="../images/image-20250527171527835.png" alt="image-20250527171527835" style="zoom:50%;" />
 
 
 
@@ -391,24 +391,24 @@
 
 **好处**：减轻自己服务器请求压力，就近请求物理延迟低，配套缓存策略
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250527171626483.png" alt="image-20250527171626483" style="zoom:50%;" />
+<img src="../images/image-20250527171626483.png" alt="image-20250527171626483" style="zoom:50%;" />
 
 
 
 **需求：**开发模式使用本地第三方库，生产模式下使用 CDN 加载引入
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250527171744493.png" alt="image-20250527171744493" style="zoom:50%;" />
+<img src="../images/image-20250527171744493.png" alt="image-20250527171744493" style="zoom:50%;" />
 
 步骤：
 1. 在 html 中引入第三方库的 CDN 地址（[BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务 铂特优选](https://www.bootcdn.cn/)） 并用模板语法判断
 2. 配置 webpack.config.js 中 externals（[外部扩展(Externals) | webpack 中文文档](https://webpack.docschina.org/configuration/externals/#root)） 外部扩展选项（防止某些 import 的包被打包）
 3. 两种模式下打包观察效果
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250527171838369.png" alt="image-20250527171838369" style="zoom:50%;" />
+<img src="../images/image-20250527171838369.png" alt="image-20250527171838369" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250527171852710.png" alt="image-20250527171852710" style="zoom:50%;" />
+<img src="../images/image-20250527171852710.png" alt="image-20250527171852710" style="zoom:50%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250527171859543.png" alt="image-20250527171859543" style="zoom:50%;" />
+<img src="../images/image-20250527171859543.png" alt="image-20250527171859543" style="zoom:50%;" />
 
 
 
@@ -429,7 +429,7 @@
 3. 配置 webpack.config.js <font color='red'>多入口</font>和<font color='red'>多页面</font>的设置
 4. 重新打包观察效果
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250527172100269.png" alt="image-20250527172100269" style="zoom:50%;" />
+<img src="../images/image-20250527172100269.png" alt="image-20250527172100269" style="zoom:50%;" />
 
 
 
@@ -458,11 +458,11 @@
 1. <font color='red'>配置</font> webpack.config.js 的 splitChunks 分割功能
 2. <font color='red'>打包</font>观察效果
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250527172213055.png" alt="image-20250527172213055" style="zoom:50%;" />
+<img src="../images/image-20250527172213055.png" alt="image-20250527172213055" style="zoom:50%;" />
 
 
 
 ------
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20250527172229696.png" alt="image-20250527172229696" style="zoom:50%;" />
+<img src="../images/image-20250527172229696.png" alt="image-20250527172229696" style="zoom:50%;" />
 
