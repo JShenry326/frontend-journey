@@ -6,7 +6,7 @@
 
 
 
-<img src="../images/image-20250627152854637.png" alt="image-20250627152854637" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250627152854637.png" alt="image-20250627152854637" style="zoom:50%;" />
 
 
 

@@ -46,7 +46,7 @@ HTML 不是一种编程语言，而是一种标记语言 (markup language)
 
 网页是由网页元素组成的，这些元素是利用 html 标签描述出来，然后通过浏览器解析来显示给用户的。
 
-![image-20240902212253064](../../images/image-20240902212253064.png)
+![image-20240902212253064](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240902212253064.png)
 
 前端人员开发代码 ----> 浏览器显示代码（解析、渲染） -----> 生成最后的 Web 页面
 
@@ -159,7 +159,7 @@ Web 标准提出的最佳体验方案：**结构、样式、行为相分离**。
 
 双标签关系可以分为两类：**<font color='red'>包含关系</font>**和**<font color='red'>并列关系</font>**。
 
-![image-20240903152028189](../../images/image-20240903152028189.png)
+![image-20240903152028189](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240903152028189.png)
 
 
 
@@ -175,7 +175,7 @@ Web 标准提出的最佳体验方案：**结构、样式、行为相分离**。
 
 HTML页面也称为 HTML 文档
 
-![image-20240903152301975](../../images/image-20240903152301975.png)
+![image-20240903152301975](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240903152301975.png)
 
 
 
@@ -196,7 +196,7 @@ HTML页面也称为 HTML 文档
 
 
 
-![image-20240903152822858](../../images/image-20240903152822858.png)
+![image-20240903152822858](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240903152822858.png)
 
 
 
@@ -204,7 +204,7 @@ HTML页面也称为 HTML 文档
 
 
 
-![image-20240903152847237](../../images/image-20240903152847237.png)
+![image-20240903152847237](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240903152847237.png)
 
 > VScode的使用
 
@@ -306,7 +306,7 @@ HTML页面也称为 HTML 文档
 
 **<font color='red'>根据标签的语义，在合适的地方给一个最为合理的标签，可以让页面结构更清晰</font>。**
 
-![image-20240903154650179](../../images/image-20240903154650179.png)
+![image-20240903154650179](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240903154650179.png)
 
 
 
@@ -665,7 +665,7 @@ Pink老师总结: 表格不是用来布局页面的,而是用来<font color='red
 
 > 示例：
 
-![image-20240909210509359](../../images/image-20240909210509359.png)
+![image-20240909210509359](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240909210509359.png)
 
 
 
@@ -749,7 +749,7 @@ caption 标签支持全局属性。
 
 > 示例：
 
-![image-20240909210919598](../../images/image-20240909210919598.png)
+![image-20240909210919598](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240909210919598.png)
 
 Pink老师总结:
 
@@ -788,7 +788,7 @@ Pink老师总结:
 
 ### {0}示例：
 
-![image-20240909211622367](../../images/image-20240909211622367.png)
+![image-20240909211622367](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240909211622367.png)
 
 1. `<thead></thead>`：用于定义表格的头部。`<thead> `内部必须拥有 `<tr>` 标签。 一般是位于第一行。
 
@@ -812,7 +812,7 @@ Pink老师总结:
 
 > 示例：
 
-![image-20240909211732732](../../images/image-20240909211732732.png)
+![image-20240909211732732](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240909211732732.png)
 
 
 
@@ -824,7 +824,7 @@ Pink老师总结:
 
 - 跨列合并：colspan="合并单元格的个数"
 
-![image-20240909211939335](../../images/image-20240909211939335.png)
+![image-20240909211939335](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240909211939335.png)
 
 
 
@@ -836,7 +836,7 @@ Pink老师总结:
 
 - 跨列：最左侧单元格为目标单元格, 写合并代码
 
-![image-20240909212024271](../../images/image-20240909212024271.png)
+![image-20240909212024271](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240909212024271.png)
 
 
 
@@ -862,7 +862,7 @@ Pink老师总结:
 
 根据使用情景不同，列表可以分为三大类：<font color='red'>无序列表</font>、<font color='red'>有序列表</font>和<font color='red'>自定义列表</font>。
 
-![image-20240909212259239](../../images/image-20240909212259239.png)
+![image-20240909212259239](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240909212259239.png)
 
 
 
@@ -926,7 +926,7 @@ Pink老师总结:
 
 自定义列表常用于对术语或名词进行解释和描述，定义列表的列表项前没有任何项目符号。
 
-![image-20240909214128688](../../images/image-20240909214128688.png)
+![image-20240909214128688](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240909214128688.png)
 
 在 HTML 标签中，`<dl>`标签用于定义描述列表（或定义列表），该标签会与`<dt>`（定义项目/名字）和`<dd>`>（描述每一个项目/名字）一起使用。
 
@@ -970,11 +970,11 @@ Pink老师总结:
 
 现实中的表单，我们去银行办理信用卡填写的单子。
 
-![image-20240909215611688](../../images/image-20240909215611688.png)
+![image-20240909215611688](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240909215611688.png)
 
 网页中的表单展示
 
-![image-20240909215627101](../../images/image-20240909215627101.png)
+![image-20240909215627101](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240909215627101.png)
 
 ### 8.1 为什么需要表单
 
@@ -992,7 +992,7 @@ Pink老师总结:
 
 在 HTML 中，一个完整的表单通常由<font color='red'>表单域</font>、<font color='red'>表单控件</font>（也称为表单元素）和 <font color='red'>提示信息</font>3个部分构成。
 
-![image-20240909215817675](../../images/image-20240909215817675.png)
+![image-20240909215817675](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240909215817675.png)
 
 ### 8.3 表单域
 
@@ -1119,7 +1119,7 @@ Pink老师总结:
 
 使用场景: 在页面中，如果有多个选项让用户选择，并且想要节约页面空间时，我们可以使用`<select>`标签控件定义下拉列表。
 
-![image-20240909222103161](../../images/image-20240909222103161.png)
+![image-20240909222103161](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20240909222103161.png)
 
 在页面中，如果有多个选项让用户选择，并且想要节约页面空间时，我们可以使用<font color='red'>`<select>`</font>标签控件定义<font color='red'>下拉列表</font>
 

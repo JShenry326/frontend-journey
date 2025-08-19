@@ -23,7 +23,7 @@
 - 数据交互 (获取后台的数据, 渲染到前端) 
 - 服务端编程 (node.js)
 
-<img src="../images/image-20250218211146613.png" alt="image-20250218211146613" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218211146613.png" alt="image-20250218211146613" style="zoom:50%;" />
 
 ### 1.3 JavaScript的组成（有什么？）
 
@@ -45,13 +45,13 @@
 
 JavaScript权威网站： https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
 
-<img src="../images/image-20250218211444597.png" alt="image-20250218211444597" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218211444597.png" alt="image-20250218211444597" style="zoom: 50%;" />
 
 ## 2. JavaScript 书写位置
 
 
 
-<img src="../images/image-20250218211534330.png" alt="image-20250218211534330" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218211534330.png" alt="image-20250218211534330" style="zoom:50%;" />
 
 
 
@@ -65,7 +65,7 @@ JavaScript权威网站： https://developer.mozilla.org/zh-CN/docs/Web/JavaScrip
 
 拓展： alert(‘你好，js’) 页面弹出警告对话框
 
-<img src="../images/image-20250218211851199.png" alt="image-20250218211851199" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218211851199.png" alt="image-20250218211851199" style="zoom:50%;" />
 
 > [!CAUTION]
 >
@@ -83,7 +83,7 @@ JavaScript权威网站： https://developer.mozilla.org/zh-CN/docs/Web/JavaScrip
 
 <font color='red'>语法：</font>通过script标签，引入到html页面中。
 
-<img src="../images/image-20250218211836310.png" alt="image-20250218211836310" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218211836310.png" alt="image-20250218211836310" style="zoom:50%;" />
 
 > [!CAUTION]
 >
@@ -100,7 +100,7 @@ JavaScript权威网站： https://developer.mozilla.org/zh-CN/docs/Web/JavaScrip
 
 <font color='red'>语法：</font>
 
-<img src="../images/image-20250218212205693.png" alt="image-20250218212205693" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218212205693.png" alt="image-20250218212205693" style="zoom:50%;" />
 
 注意： 此处作为了解即可，但是后面vue框架会用这种模式
 
@@ -116,7 +116,7 @@ JavaScript权威网站： https://developer.mozilla.org/zh-CN/docs/Web/JavaScrip
 - 作用：//右边这一行的代码会被忽略
 - 快捷键：ctrl + /
 
-<img src="../images/image-20250218212554619.png" alt="image-20250218212554619" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218212554619.png" alt="image-20250218212554619" style="zoom:50%;" />
 
 <font color='red'>2. 块注释</font>
 
@@ -124,7 +124,7 @@ JavaScript权威网站： https://developer.mozilla.org/zh-CN/docs/Web/JavaScrip
 - 作用：在/* 和 */ 之间的所有内容都会被忽略
 - 快捷键：shift + alt + A
 
-<img src="../images/image-20250218212604200.png" alt="image-20250218212604200" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218212604200.png" alt="image-20250218212604200" style="zoom:50%;" />
 
 
 
@@ -137,7 +137,7 @@ JavaScript权威网站： https://developer.mozilla.org/zh-CN/docs/Web/JavaScrip
 - **现状**： 在实际开发中，越来越多的人主张，书写 JavaScript 代码时省略结束符
 - <font color='red'>约定：为了风格统一，结束符要么每句都写，要么每句都不写（按照团队要求.）</font>
 
-<img src="../images/image-20250218212705698.png" alt="image-20250218212705698" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218212705698.png" alt="image-20250218212705698" style="zoom:50%;" />
 
 
 
@@ -162,7 +162,7 @@ JavaScript权威网站： https://developer.mozilla.org/zh-CN/docs/Web/JavaScrip
 
 **<font color='red'>语法1：</font>**
 
-<img src="../images/image-20250218212835786.png" alt="image-20250218212835786" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218212835786.png" alt="image-20250218212835786" style="zoom:50%;" />
 
 **作用**：向body内输出内容
 
@@ -172,7 +172,7 @@ JavaScript权威网站： https://developer.mozilla.org/zh-CN/docs/Web/JavaScrip
 
 **<font color='red'>语法2：</font>**
 
-<img src="../images/image-20250218212923620.png" alt="image-20250218212923620" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218212923620.png" alt="image-20250218212923620" style="zoom:50%;" />
 
 **作用**：页面弹出警告对话框
 
@@ -180,7 +180,7 @@ JavaScript权威网站： https://developer.mozilla.org/zh-CN/docs/Web/JavaScrip
 
 **<font color='red'>语法3：</font>**
 
-<img src="../images/image-20250218212955121.png" alt="image-20250218212955121" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218212955121.png" alt="image-20250218212955121" style="zoom:50%;" />
 
 **作用**：控制台输出语法，程序员调试使用
 
@@ -202,13 +202,13 @@ confirm(message)
 
 <font color='red'>**1. 语法：**</font>
 
-<img src="../images/image-20250218213055891.png" alt="image-20250218213055891" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218213055891.png" alt="image-20250218213055891" style="zoom:50%;" />
 
 **作用**：显示一个对话框，对话框中包含一条文字信息，用来提示用户输入文字
 
 **展示**：
 
-<img src="../images/image-20250218213127481.png" alt="image-20250218213127481" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218213127481.png" alt="image-20250218213127481" style="zoom:50%;" />
 
 
 
@@ -245,7 +245,7 @@ confirm(message)
 
 问题1：用户输入的数据我们如何存储起来？
 
-<img src="../images/image-20250218213546211.png" alt="image-20250218213546211" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218213546211.png" alt="image-20250218213546211" style="zoom:50%;" />
 
 答案1：变量
 
@@ -256,7 +256,7 @@ confirm(message)
 - 白话：变量就是一个装东西的盒子。
 - 通俗：变量是计算机中用来**存储数据**的“<font color='red'>容器</font>”，它可以让计算机变得有记忆。
 
-<img src="../images/image-20250218213646805.png" alt="image-20250218213646805" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218213646805.png" alt="image-20250218213646805" style="zoom:50%;" />
 
 > [!CAUTION]
 >
@@ -276,14 +276,14 @@ confirm(message)
 
 **语法：**
 
-<img src="../images/image-20250218213809833.png" alt="image-20250218213809833" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218213809833.png" alt="image-20250218213809833" style="zoom:50%;" />
 
 - 声明变量有两部分构成：声明关键字、变量名（标识）
 - let 即关键字 (let: 允许、许可、让、要)，所谓关键字是系统提供的专门用来声明（定义）变量的词语
 
 **举例：**
 
-<img src="../images/image-20250218213833521.png" alt="image-20250218213833521" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218213833521.png" alt="image-20250218213833521" style="zoom:50%;" />
 
 - 我们声明了一个age变量
 - age 即<font color='red'>变量的名称</font>，也叫标识符
@@ -296,13 +296,13 @@ confirm(message)
 
 定义了一个变量后，你就能够初始化它（赋值）。在变量名之后跟上一个“=”，然后是数值。
 
-<img src="../images/image-20250218213931800.png" alt="image-20250218213931800" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218213931800.png" alt="image-20250218213931800" style="zoom:50%;" />
 
 注意：是通过<font color='red'>变量名</font>来获得变量里面的数据
 
 简单点，也可以声明变量的时候直接完成赋值操作,这种操作也称为 变量<font color='red'>初始化</font>。
 
-<img src="../images/image-20250218214016343.png" alt="image-20250218214016343" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218214016343.png" alt="image-20250218214016343" style="zoom:50%;" />
 
 
 
@@ -312,9 +312,9 @@ confirm(message)
 
 变量赋值后，还可以通过简单地给它一个不同的值来更新它。
 
-<img src="../images/image-20250218214129890.png" alt="image-20250218214129890" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218214129890.png" alt="image-20250218214129890" style="zoom:50%;" />
 
-注意： let 不允许多次声明一个变量							<img src="../images/image-20250218214139143.png" alt="image-20250218214139143" style="zoom: 40%;" />
+注意： let 不允许多次声明一个变量							<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218214139143.png" alt="image-20250218214139143" style="zoom: 40%;" />
 
 
 
@@ -326,11 +326,11 @@ confirm(message)
 
 **语法：**多个变量中间用逗号隔开。
 
-<img src="../images/image-20250218214304294.png" alt="image-20250218214304294" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218214304294.png" alt="image-20250218214304294" style="zoom:50%;" />
 
 **说明：**看上去代码长度更短，但并<font color='red'>不推荐</font>这样。为了更好的可读性，请一行只声明一个变量。
 
-<img src="../images/image-20250218214325472.png" alt="image-20250218214325472" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250218214325472.png" alt="image-20250218214325472" style="zoom:50%;" />
 
 
 
@@ -342,7 +342,7 @@ confirm(message)
 
 **变量本质：**是程序在内存中申请的一块用来存放数据的小空间
 
-<img src="../images/image-20250220160005274.png" alt="image-20250220160005274" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250220160005274.png" alt="image-20250220160005274" style="zoom:50%;" />
 
 
 
@@ -410,15 +410,15 @@ var 声明:
 
 数组 (Array) —— 一种将 **一组数据存储在单个变量名下** 的优雅方式
 
-<img src="../images/image-20250220161234164.png" alt="image-20250220161234164" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250220161234164.png" alt="image-20250220161234164" style="zoom:50%;" />
 
 ### 6.1 声明语法
 
-<img src="../images/image-20250220161258161.png" alt="image-20250220161258161" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250220161258161.png" alt="image-20250220161258161" style="zoom:50%;" />
 
 例
 
-<img src="../images/image-20250220161311978.png" alt="image-20250220161311978" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250220161311978.png" alt="image-20250220161311978" style="zoom:50%;" />
 
 - 数组是按顺序保存，所以每个数据都有自己的编号
 - 计算机中的编号从0开始，所以小明的编号为0，小刚编号为1，以此类推
@@ -429,11 +429,11 @@ var 声明:
 
 ### 6.2 取值语法
 
-<img src="../images/image-20250220161400987.png" alt="image-20250220161400987" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250220161400987.png" alt="image-20250220161400987" style="zoom:50%;" />
 
 例
 
-<img src="../images/image-20250220161411492.png" alt="image-20250220161411492" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250220161411492.png" alt="image-20250220161411492" style="zoom:50%;" />
 
 - 通过下标取数据
 - 取出来是什么类型的，就根据这种类型特点来访问
@@ -448,7 +448,7 @@ var 声明:
 - 下标：数组中数据的编号
 - 长度：数组中数据的个数，通过数组的length属性获得
 
-<img src="../images/image-20250220161526218.png" alt="image-20250220161526218" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250220161526218.png" alt="image-20250220161526218" style="zoom:50%;" />
 
 
 
@@ -465,7 +465,7 @@ var 声明:
 - **命名规范：**和变量一致
 - **常量使用：**
 
-<img src="../images/image-20250220161714929.png" alt="image-20250220161714929" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250220161714929.png" alt="image-20250220161714929" style="zoom:50%;" />
 
 > [!CAUTION]
 >
@@ -500,7 +500,7 @@ var 声明:
 
 比如：
 
-<img src="../images/image-20250220161958793.png" alt="image-20250220161958793" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250220161958793.png" alt="image-20250220161958793" style="zoom:50%;" />
 
 
 
@@ -509,7 +509,7 @@ var 声明:
 - 基本数据类型
 - 引用数据类型
 
-<img src="../images/image-20250220162044414.png" alt="image-20250220162044414" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250220162044414.png" alt="image-20250220162044414" style="zoom:50%;" />
 
 
 
@@ -519,7 +519,7 @@ var 声明:
 
 即我们数学中学习到的数字，可以是整数、小数、正数、负数
 
-<img src="../images/image-20250223124302121.png" alt="image-20250223124302121" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223124302121.png" alt="image-20250223124302121" style="zoom:50%;" />
 
 JavaScript 中的正数、负数、小数等 统一称为 数字类型。
 
@@ -561,11 +561,11 @@ JavaScript中 优先级越高越先被执行，<font color='red'>优先级相同
 
 NaN 代表一个计算错误。它是一个不正确的或者一个未定义的数学操作所得到的结果
 
-<img src="../images/image-20250223124548208.png" alt="image-20250223124548208" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223124548208.png" alt="image-20250223124548208" style="zoom:50%;" />
 
 NaN 是粘性的。任何对 NaN 的操作都会返回 NaN
 
-<img src="../images/image-20250223124601245.png" alt="image-20250223124601245" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223124601245.png" alt="image-20250223124601245" style="zoom:50%;" />
 
 
 
@@ -575,7 +575,7 @@ NaN 是粘性的。任何对 NaN 的操作都会返回 NaN
 
 <font color='red'>通过单引号（ ''） 、双引号（ ""）或反引号( ` ) 包裹的数据都叫字符串</font>，单引号和双引号没有本质上的区别，推荐使用<font color='red'>**单引号**</font>。
 
-<img src="../images/image-20250223124652939.png" alt="image-20250223124652939" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223124652939.png" alt="image-20250223124652939" style="zoom:50%;" />
 
 注意事项：
 1. 无论单引号或是双引号必须成对使用
@@ -590,7 +590,7 @@ NaN 是粘性的。任何对 NaN 的操作都会返回 NaN
 
 口诀：数字相加，字符相连
 
-<img src="../images/image-20250223124759992.png" alt="image-20250223124759992" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223124759992.png" alt="image-20250223124759992" style="zoom:50%;" />
 
 <font color='red'>**模板字符串：**</font>
 
@@ -599,7 +599,7 @@ NaN 是粘性的。任何对 NaN 的操作都会返回 NaN
 - 拼接字符串和变量
 - 在没有它之前，要拼接变量比较麻烦
 
-<img src="../images/image-20250223124917388.png" alt="image-20250223124917388" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223124917388.png" alt="image-20250223124917388" style="zoom:50%;" />
 
 语法
 
@@ -607,7 +607,7 @@ NaN 是粘性的。任何对 NaN 的操作都会返回 NaN
 - 在英文输入模式下按键盘的tab键上方那个键（1左边那个键）
 - 内容拼接变量时，用<font color='red'> ${ } </font>包住变量
 
-<img src="../images/image-20250223124945168.png" alt="image-20250223124945168" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223124945168.png" alt="image-20250223124945168" style="zoom:50%;" />
 
 
 
@@ -619,7 +619,7 @@ NaN 是粘性的。任何对 NaN 的操作都会返回 NaN
 
 它有两个固定的值 true 和 false，表示肯定的数据用 true（真），表示否定的数据用 false（假）。
 
-<img src="../images/image-20250223125021792.png" alt="image-20250223125021792" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223125021792.png" alt="image-20250223125021792" style="zoom:50%;" />
 
 
 
@@ -633,7 +633,7 @@ NaN 是粘性的。任何对 NaN 的操作都会返回 NaN
 
 只声明变量，不赋值的情况下，变量的默认值为 undefined，一般很少【直接】为某个变量赋值为 undefined。
 
-<img src="../images/image-20250223125107469.png" alt="image-20250223125107469" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223125107469.png" alt="image-20250223125107469" style="zoom:50%;" />
 
 **工作中的使用场景：**
 
@@ -648,7 +648,7 @@ NaN 是粘性的。任何对 NaN 的操作都会返回 NaN
 
 JavaScript 中的 null 仅仅是一个代表“无”、“空”或“值未知”的特殊值
 
-<img src="../images/image-20250223125145360.png" alt="image-20250223125145360" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223125145360.png" alt="image-20250223125145360" style="zoom:50%;" />
 
 **null 和 undefined 区别：**
 
@@ -670,7 +670,7 @@ JavaScript 中的 null 仅仅是一个代表“无”、“空”或“值未知
 
 
 
-<img src="../images/image-20250223125322985.png" alt="image-20250223125322985" style="zoom:50%;" /><img src="../images/image-20250223125330999.png" alt="image-20250223125330999" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223125322985.png" alt="image-20250223125322985" style="zoom:50%;" /><img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223125330999.png" alt="image-20250223125330999" style="zoom:50%;" />
 
 - 控制台语句经常用于测试结果来使用。
 - 可以看出数字型和布尔型颜色为蓝色，字符串和undefined颜色为灰色
@@ -687,7 +687,7 @@ typeof 运算符可以返回被检测的数据类型。它支持两种语法形�
 
 换言之，有括号和没有括号，得到的结果是一样的，所以我们直接使用<font color='red'>运算符</font>的写法。
 
-<img src="../images/image-20250223125449690.png" alt="image-20250223125449690" style="zoom:50%;" /><img src="../images/image-20250223125455365.png" alt="image-20250223125455365" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223125449690.png" alt="image-20250223125449690" style="zoom:50%;" /><img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223125455365.png" alt="image-20250223125455365" style="zoom:50%;" />
 
 
 
@@ -703,7 +703,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 坑： 使用表单、prompt 获取过来的数据默认是字符串类型的，此时就不能直接简单的进行加法运算。
 
-<img src="../images/image-20250223125648511.png" alt="image-20250223125648511" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223125648511.png" alt="image-20250223125648511" style="zoom:50%;" />
 
 此时需要转换变量的数据类型。
 
@@ -731,7 +731,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 - <font color='red'>+号作为正号解析可以转换成数字型</font>
 - <font color='red'>任何数据和字符串相加结果都是字符串</font>
 
-<img src="../images/image-20250223125831429.png" alt="image-20250223125831429" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223125831429.png" alt="image-20250223125831429" style="zoom:50%;" />
 
 
 
@@ -802,7 +802,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 - 二元运算符：
 	- 例：
 
-<img src="../images/image-20250223130523185.png" alt="image-20250223130523185" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223130523185.png" alt="image-20250223130523185" style="zoom:50%;" />
 
 - 一元运算符：
 	- 自增：
@@ -826,14 +826,14 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 <font color='red'>前置自增：</font>
 
-<img src="../images/image-20250223130742629.png" alt="image-20250223130742629" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223130742629.png" alt="image-20250223130742629" style="zoom:50%;" />
 
 - 每执行1次，当前变量数值加1
 - 其作用相当于 num += 1
 
 <font color='red'>后置自增：</font>
 
-<img src="../images/image-20250223130805600.png" alt="image-20250223130805600" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223130805600.png" alt="image-20250223130805600" style="zoom:50%;" />
 
 - 每执行1次，当前变量数值加1
 - 其作用相当于 num += 1
@@ -850,13 +850,13 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 先自加再使用（记忆口诀：++在前 <font color='red'>先加</font>）
 
-<img src="../images/image-20250223131022737.png" alt="image-20250223131022737" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223131022737.png" alt="image-20250223131022737" style="zoom:50%;" />
 
 <font color='red'>后置自增：</font>
 
 先使用再自加（记忆口诀：++在后 <font color='red'>后加</font>）
 
-<img src="../images/image-20250223131045276.png" alt="image-20250223131045276" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223131045276.png" alt="image-20250223131045276" style="zoom:50%;" />
 
 > [!IMPORTANT]
 >
@@ -875,7 +875,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 - 使用场景：比较两个数据大小、是否相等
 - 实际运用案例：
 
-<img src="../images/image-20250223131312017.png" alt="image-20250223131312017" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223131312017.png" alt="image-20250223131312017" style="zoom:50%;" />
 
 **比较运算符：**
 
@@ -916,7 +916,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 	- 最终把数据隐式转换转成number类型再比较
 	- 所以开发中，如果进行准确的比较我们<font color='red'>更喜欢 \==\=</font>或者 !==
 
-<img src="../images/image-20250223131639177.png" alt="image-20250223131639177" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223131639177.png" alt="image-20250223131639177" style="zoom:50%;" />
 
 
 
@@ -976,7 +976,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 表达式是可以被求值的代码，JavaScript 引擎会将其计算出一个结果
 
-<img src="../images/image-20250223173533785.png" alt="image-20250223173533785" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223173533785.png" alt="image-20250223173533785" style="zoom:50%;" />
 
 **语句：**
 
@@ -1006,7 +1006,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 - 有的时候要根据条件选择执行代码，这种就叫分支结构
 - 某段代码被重复执行，就叫循环结构
 
-<img src="../images/image-20250223173742533.png" alt="image-20250223173742533" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223173742533.png" alt="image-20250223173742533" style="zoom:50%;" />
 
 
 
@@ -1030,7 +1030,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 #### 单分支使用语法：
 
-<img src="../images/image-20250223173918866.png" alt="image-20250223173918866" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223173918866.png" alt="image-20250223173918866" style="zoom:50%;" />
 
 - 括号内的条件为true时，进入大括号里执行代码
 - 小括号内的结果若不是布尔类型时，会发生隐式转换转为布尔类型
@@ -1040,7 +1040,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 #### 双分支if语法：
 
-<img src="../images/image-20250223174027016.png" alt="image-20250223174027016" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223174027016.png" alt="image-20250223174027016" style="zoom:50%;" />
 
 #### 多分支if语法：
 
@@ -1048,7 +1048,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 使用场景： 适合于有多个结果的时候， 比如学习成绩可以分为： 优 良 中 差
 
-<img src="../images/image-20250223174054375.png" alt="image-20250223174054375" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223174054375.png" alt="image-20250223174054375" style="zoom:50%;" />
 
 释义：
 
@@ -1068,7 +1068,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 - 符号：? 与 : 配合使用
 - 语法：
 
-<img src="../images/image-20250223174202560.png" alt="image-20250223174202560" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223174202560.png" alt="image-20250223174202560" style="zoom:50%;" />
 
 - 一般用来取值
 
@@ -1080,7 +1080,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 目标：能利用switch行满足条件的语句
 
-<img src="../images/image-20250223174244288.png" alt="image-20250223174244288" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223174244288.png" alt="image-20250223174244288" style="zoom:50%;" />
 
 释义：
 
@@ -1108,7 +1108,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 	3. 选择代码文件
 - **断点：**在某句代码上加的标记就叫断点，当程序执行到这句有标记的代码时会暂停下来
 
-<img src="../images/image-20250223174447837.png" alt="image-20250223174447837" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223174447837.png" alt="image-20250223174447837" style="zoom:50%;" />
 
 
 
@@ -1120,7 +1120,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 
 
-<img src="../images/image-20250223174629395.png" alt="image-20250223174629395" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223174629395.png" alt="image-20250223174629395" style="zoom:50%;" />
 
 **释义：**
 
@@ -1141,7 +1141,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 2. 终止条件（没有终止条件，循环会一直执行，造成死循环）
 3. 变量变化量（用自增或者自减）
 
-<img src="../images/image-20250223174903500.png" alt="image-20250223174903500" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223174903500.png" alt="image-20250223174903500" style="zoom:50%;" />
 
 
 
@@ -1174,7 +1174,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 - 作用：重复执行代码
 - 好处：把声明起始值、循环条件、变化值写到一起，让人一目了然，它是最常使用的循环形式
 
-<img src="../images/image-20250223175500647.png" alt="image-20250223175500647" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223175500647.png" alt="image-20250223175500647" style="zoom:50%;" />
 
 **2. 退出循环**
 
@@ -1193,7 +1193,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 **3. 循环嵌套**
 
-<img src="../images/image-20250223175604394.png" alt="image-20250223175604394" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223175604394.png" alt="image-20250223175604394" style="zoom:50%;" />
 
 一个循环里再套一个循环，一般用在for循环里
 
@@ -1222,13 +1222,13 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 
 
-<img src="../images/image-20250223175801630.png" alt="image-20250223175801630" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223175801630.png" alt="image-20250223175801630" style="zoom:50%;" />
 
-<img src="../images/image-20250223175809259.png" alt="image-20250223175809259" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223175809259.png" alt="image-20250223175809259" style="zoom:50%;" />
 
 例
 
-<img src="../images/image-20250223175824505.png" alt="image-20250223175824505" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223175824505.png" alt="image-20250223175824505" style="zoom:50%;" />
 
 - 数组是按顺序保存，所以每个数据都有自己的编号
 - 计算机中的编号从0开始，所以小明的编号为0，小刚编号为1，以此类推
@@ -1241,9 +1241,9 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 
 
-<img src="../images/image-20250223175939615.png" alt="image-20250223175939615" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223175939615.png" alt="image-20250223175939615" style="zoom:50%;" />
 
-<img src="../images/image-20250223175947171.png" alt="image-20250223175947171" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223175947171.png" alt="image-20250223175947171" style="zoom:50%;" />
 
 - 通过下标取数据
 - 取出来是什么类型的，就根据这种类型特点来访问
@@ -1258,7 +1258,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 - 下标：数组中数据的编号
 - 长度：数组中数据的个数，通过数组的length属性获得
 
-<img src="../images/image-20250223180113765.png" alt="image-20250223180113765" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223180113765.png" alt="image-20250223180113765" style="zoom:50%;" />
 
 
 
@@ -1270,11 +1270,11 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 **语法：**
 
-<img src="../images/image-20250223180146207.png" alt="image-20250223180146207" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223180146207.png" alt="image-20250223180146207" style="zoom:50%;" />
 
 例
 
-<img src="../images/image-20250223180159967.png" alt="image-20250223180159967" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250223180159967.png" alt="image-20250223180159967" style="zoom:50%;" />
 
 
 
@@ -1286,7 +1286,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 **语法：**
 
-<img src="../images/image-20250304154559780.png" alt="image-20250304154559780" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304154559780.png" alt="image-20250304154559780" style="zoom:50%;" />
 
 
 
@@ -1300,13 +1300,13 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 **语法：**
 
-<img src="../images/image-20250304154659857.png" alt="image-20250304154659857" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304154659857.png" alt="image-20250304154659857" style="zoom:50%;" />
 
 例如：
 
-<img src="../images/image-20250304154713718.png" alt="image-20250304154713718" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304154713718.png" alt="image-20250304154713718" style="zoom:50%;" />
 
-<img src="../images/image-20250304154720710.png" alt="image-20250304154720710" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304154720710.png" alt="image-20250304154720710" style="zoom:50%;" />
 
 <font color='red'>**arr.unshift()** </font>
 
@@ -1314,13 +1314,13 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 **语法：**
 
-<img src="../images/image-20250304154855190.png" alt="image-20250304154855190" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304154855190.png" alt="image-20250304154855190" style="zoom:50%;" />
 
 **例如：**
 
-<img src="../images/image-20250304154912843.png" alt="image-20250304154912843" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304154912843.png" alt="image-20250304154912843" style="zoom:50%;" />
 
-<img src="../images/image-20250304154919792.png" alt="image-20250304154919792" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304154919792.png" alt="image-20250304154919792" style="zoom:50%;" />
 
 
 
@@ -1334,11 +1334,11 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 **语法：**
 
-<img src="../images/image-20250304155106699.png" alt="image-20250304155106699" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304155106699.png" alt="image-20250304155106699" style="zoom:50%;" />
 
 **例如：**
 
-<img src="../images/image-20250304155424194.png" alt="image-20250304155424194" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304155424194.png" alt="image-20250304155424194" style="zoom:50%;" />
 
 
 
@@ -1348,11 +1348,11 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 **语法：**
 
-<img src="../images/image-20250304155510117.png" alt="image-20250304155510117" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304155510117.png" alt="image-20250304155510117" style="zoom:50%;" />
 
 **例如：**
 
-<img src="../images/image-20250304155524474.png" alt="image-20250304155524474" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304155524474.png" alt="image-20250304155524474" style="zoom:50%;" />
 
 需求使用场景：
 1. 随机抽奖，中奖的用户就需要从数组里面删除，不允许重复抽奖
@@ -1368,7 +1368,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 **语法：**
 
-<img src="../images/image-20250304155632901.png" alt="image-20250304155632901" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304155632901.png" alt="image-20250304155632901" style="zoom:50%;" />
 
 **解释：**
 
@@ -1390,7 +1390,7 @@ JavaScript是弱数据类型： JavaScript也不知道变量到底属于那种�
 
 **语法：**
 
-<img src="../images/image-20250304155903416.png" alt="image-20250304155903416" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304155903416.png" alt="image-20250304155903416" style="zoom:50%;" />
 
 
 
@@ -1420,11 +1420,11 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 
 ### 2.1 函数的声明语法
 
-<img src="../images/image-20250304160301482.png" alt="image-20250304160301482" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304160301482.png" alt="image-20250304160301482" style="zoom:50%;" />
 
 - 例
 
-<img src="../images/image-20250304160333772.png" alt="image-20250304160333772" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304160333772.png" alt="image-20250304160333772" style="zoom:50%;" />
 
 
 
@@ -1437,7 +1437,7 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 
 
 
-![image-20250304160440853](../images/image-20250304160440853.png)
+![image-20250304160440853](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304160440853.png)
 
 | 动词 | 含义                   |
 | ---- | ---------------------- |
@@ -1452,13 +1452,13 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 
 ### 2.3 函数的调用语法
 
-<img src="../images/image-20250304160648231.png" alt="image-20250304160648231" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304160648231.png" alt="image-20250304160648231" style="zoom:50%;" />
 
 注意：声明（定义）的函数必须调用才会真正被执行，使用 () 调用函数
 
 例
 
-<img src="../images/image-20250304160712507.png" alt="image-20250304160712507" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304160712507.png" alt="image-20250304160712507" style="zoom:50%;" />
 
 我们曾经使用的 alert() , parseInt() 这种名字后面跟小括号的本质都是函数的调用
 
@@ -1468,7 +1468,7 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 
 函数体是函数的构成部分，它负责将相同或相似代码“包裹”起来，直到函数调用时函数体内的代码才会被执行。函数的功能代码都要写在函数体当中
 
-<img src="../images/image-20250304160907427.png" alt="image-20250304160907427" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304160907427.png" alt="image-20250304160907427" style="zoom:50%;" />
 
 
 
@@ -1480,7 +1480,7 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 
 
 
-<img src="../images/image-20250304161108811.png" alt="image-20250304161108811" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304161108811.png" alt="image-20250304161108811" style="zoom:50%;" />
 
 参数列表
 
@@ -1494,11 +1494,11 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 
 单个参数
 
-<img src="../images/image-20250304161139902.png" alt="image-20250304161139902" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304161139902.png" alt="image-20250304161139902" style="zoom: 50%;" />
 
 多个参数
 
-<img src="../images/image-20250304161153238.png" alt="image-20250304161153238" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304161153238.png" alt="image-20250304161153238" style="zoom:50%;" />
 
 
 
@@ -1506,13 +1506,13 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 
 
 
-<img src="../images/image-20250304161216527.png" alt="image-20250304161216527" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304161216527.png" alt="image-20250304161216527" style="zoom:50%;" />
 
 例
 
-<img src="../images/image-20250304161227604.png" alt="image-20250304161227604" style="zoom:50%;" /><img src="../images/image-20250304161233305.png" alt="image-20250304161233305" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304161227604.png" alt="image-20250304161227604" style="zoom:50%;" /><img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304161233305.png" alt="image-20250304161233305" style="zoom:50%;" />
 
-<img src="../images/image-20250304161246147.png" alt="image-20250304161246147" style="zoom: 50%;" /><img src="../images/image-20250304161255479.png" alt="image-20250304161255479" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304161246147.png" alt="image-20250304161246147" style="zoom: 50%;" /><img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304161255479.png" alt="image-20250304161255479" style="zoom:50%;" />
 
 
 
@@ -1520,7 +1520,7 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 
 
 
-<img src="../images/image-20250304161354313.png" alt="image-20250304161354313" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304161354313.png" alt="image-20250304161354313" style="zoom:50%;" />
 
 - 形参：声明函数时写在函数名右边小括号里的叫形参（形式上的参数）
 - 实参：调用函数时写在函数名右边小括号里的叫实参（实际上的参数）
@@ -1545,7 +1545,7 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 
 我们可以改进下，用户不输入实参，可以给 <font color='red'>形参默认值</font>，可以默认为 0, 这样程序更严谨，可以如下操作：
 
-<img src="../images/image-20250304161522878.png" alt="image-20250304161522878" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304161522878.png" alt="image-20250304161522878" style="zoom:50%;" />
 
 <font color='red'>说明：这个默认值只会在缺少实参参数传递时 才会被执行，所以有参数会优先执行传递过来的实参, 否则默认为undefined</font>
 
@@ -1569,19 +1569,19 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 > 	- 当调用某个函数，这个函数会返回一个结果出来
 > 	- 这就是有<font color='red'>返回值</font>的函数
 >
-> <img src="../images/image-20250304164443383.png" alt="image-20250304164443383" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304164443383.png" alt="image-20250304164443383" style="zoom:50%;" />
 >
 > 
 >
 > 其实我们前面已经接触了很多的函数具备返回值:
 >
-> <img src="../images/image-20250304164458735.png" alt="image-20250304164458735" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304164458735.png" alt="image-20250304164458735" style="zoom:50%;" />
 >
 > 只是这些函数是JS底层内置的.我们直接就可以使用
 >
 > 当然有些函数，则没有返回值
 >
-> <img src="../images/image-20250304164513663.png" alt="image-20250304164513663" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304164513663.png" alt="image-20250304164513663" style="zoom:50%;" />
 >
 > 所以要根据需求，来设定需不需要返回值
 
@@ -1591,13 +1591,13 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 
 ### 4.1 语法
 
-<img src="../images/image-20250304164601486.png" alt="image-20250304164601486" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304164601486.png" alt="image-20250304164601486" style="zoom:50%;" />
 
-<img src="../images/image-20250304164607467.png" alt="image-20250304164607467" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304164607467.png" alt="image-20250304164607467" style="zoom:50%;" />
 
 怎么使用呢？
 
-<img src="../images/image-20250304164626865.png" alt="image-20250304164626865" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304164626865.png" alt="image-20250304164626865" style="zoom:50%;" />
 
 ### 4.2 细节：
 
@@ -1706,11 +1706,11 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 
 **语法：**
 
-<img src="../images/image-20250304165718415.png" alt="image-20250304165718415" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304165718415.png" alt="image-20250304165718415" style="zoom:50%;" />
 
 **调用：**
 
-<img src="../images/image-20250304165732438.png" alt="image-20250304165732438" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304165732438.png" alt="image-20250304165732438" style="zoom:50%;" />
 
 其中函数的形参和实参使用跟具名函数一致。
 
@@ -1722,7 +1722,7 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 
 后期 web API 会使用：
 
-<img src="../images/image-20250304170820685.png" alt="image-20250304170820685" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304170820685.png" alt="image-20250304170820685" style="zoom:50%;" />
 
 
 
@@ -1734,7 +1734,7 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 
 **语法：**
 
-<img src="../images/image-20250304170934693.png" alt="image-20250304170934693" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304170934693.png" alt="image-20250304170934693" style="zoom:50%;" />
 
 > [!CAUTION]
 >
@@ -1748,7 +1748,7 @@ function，是被设计为<font color='red'>执行特定任务</font>的代码�
 
 开发中，还会见到以下的写法：
 
-<img src="../images/image-20250304171016799.png" alt="image-20250304171016799" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304171016799.png" alt="image-20250304171016799" style="zoom:50%;" />
 
 其实类似参数的默认值写法
 
@@ -1862,7 +1862,7 @@ console.log(false || 0); // 输出：0
 
 **记忆：**<font color='red'> ‘’、0、undefined、null、false、NaN 转换为布尔值后都是false, 其余则为 true</font>
 
-<img src="../images/image-20250304171509778.png" alt="image-20250304171509778" style="zoom:50%;" /><img src="../images/image-20250304171515982.png" alt="image-20250304171515982" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304171509778.png" alt="image-20250304171509778" style="zoom:50%;" /><img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304171515982.png" alt="image-20250304171515982" style="zoom:50%;" />
 
 
 
@@ -1873,9 +1873,9 @@ console.log(false || 0); // 输出：0
 3. null 经过数字转换之后会变为 0
 4. undefined 经过数字转换之后会变为 NaN
 
-<img src="../images/image-20250304171555461.png" alt="image-20250304171555461" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304171555461.png" alt="image-20250304171555461" style="zoom:50%;" />
 
-<img src="../images/image-20250304171605367.png" alt="image-20250304171605367" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250304171605367.png" alt="image-20250304171605367" style="zoom:50%;" />
 
 
 
@@ -1901,7 +1901,7 @@ console.log(false || 0); // 输出：0
 - 静态特征 (姓名, 年龄, 身高, 性别, 爱好) => 可以使用数字, 字符串, 数组, 布尔类型等表示
 - 动态行为 (点名, 唱, 跳, rap) => 使用函数表示
 
-<img src="../images/image-20250309150335954.png" alt="image-20250309150335954" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309150335954.png" alt="image-20250309150335954" style="zoom:50%;" />
 
 
 
@@ -1915,13 +1915,13 @@ console.log(false || 0); // 输出：0
 
 
 
-<img src="../images/image-20250309150523941.png" alt="image-20250309150523941" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309150523941.png" alt="image-20250309150523941" style="zoom:50%;" />
 
-<img src="../images/image-20250309150532281.png" alt="image-20250309150532281" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309150532281.png" alt="image-20250309150532281" style="zoom:50%;" />
 
 例如：
 
-<img src="../images/image-20250309150548660.png" alt="image-20250309150548660" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309150548660.png" alt="image-20250309150548660" style="zoom:50%;" />
 
 实际开发中，我们多用花括号。 <font color='red'>{} 是对象字面量</font>
 
@@ -1934,7 +1934,7 @@ console.log(false || 0); // 输出：0
 - 属性：信息或叫特征（名词）。 比如 手机尺寸、颜色、重量等…
 - 方法：功能或叫行为（动词）。 比如 手机打电话、发短信、玩游戏
 
-<img src="../images/image-20250309150654063.png" alt="image-20250309150654063" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309150654063.png" alt="image-20250309150654063" style="zoom:50%;" />
 
 
 
@@ -1944,7 +1944,7 @@ console.log(false || 0); // 输出：0
 
 数据描述性的信息称为属性，如人的姓名、身高、年龄、性别等，一般是名词性的。
 
-<img src="../images/image-20250309150720651.png" alt="image-20250309150720651" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309150720651.png" alt="image-20250309150720651" style="zoom:50%;" />
 
 - 属性都是成对出现的，包括<font color='red'>属性名和值</font>，它们之间使用英文 <font color='red'>: </font>分隔
 - <font color='red'>多个属性</font>之间使用英文<font color='red'> , </font>分隔
@@ -1957,7 +1957,7 @@ console.log(false || 0); // 输出：0
 
 对象本质是无序的数据集合, 操作数据无非就是 增 删 改 查 语法：
 
-<img src="../images/image-20250309150916871.png" alt="image-20250309150916871" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309150916871.png" alt="image-20250309150916871" style="zoom:50%;" />
 
 
 
@@ -1969,20 +1969,20 @@ console.log(false || 0); // 输出：0
 - 语法：<font color='red'>对象名.属性</font>
 - 简单理解就是获得对象里面的属性值
 
-<img src="../images/image-20250309151004180.png" alt="image-20250309151004180" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309151004180.png" alt="image-20250309151004180" style="zoom:50%;" />
 
 **属性-查的另外一种写法**
 
 - 对于多词属性或则 - 等属性，点操作就不能用了。
 - 我们可以采取： 对象[‘属性’] 方式， 单引号和双引号都阔以
 
-<img src="../images/image-20250309151252030.png" alt="image-20250309151252030" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309151252030.png" alt="image-20250309151252030" style="zoom:50%;" />
 
-<img src="../images/image-20250309151300270.png" alt="image-20250309151300270" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309151300270.png" alt="image-20250309151300270" style="zoom:50%;" />
 
 - 也可以用于其他正常属性，比如：[]语法里面的值如果不添加引号 默认会当成变量解析
 
-<img src="../images/image-20250309151733989.png" alt="image-20250309151733989" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309151733989.png" alt="image-20250309151733989" style="zoom:50%;" />
 
 **总结：**
 
@@ -1996,7 +1996,7 @@ console.log(false || 0); // 输出：0
 
 语法：<font color='red'>对象名.属性 = 新值</font>
 
-<img src="../images/image-20250309151039473.png" alt="image-20250309151039473" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309151039473.png" alt="image-20250309151039473" style="zoom:50%;" />
 
 
 
@@ -2006,9 +2006,9 @@ console.log(false || 0); // 输出：0
 
 语法：<font color='red'>对象名.新属性 = 新值</font>
 
-<img src="../images/image-20250309151109198.png" alt="image-20250309151109198" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309151109198.png" alt="image-20250309151109198" style="zoom:50%;" />
 
-<img src="../images/image-20250309151120417.png" alt="image-20250309151120417" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309151120417.png" alt="image-20250309151120417" style="zoom:50%;" />
 
 
 
@@ -2018,9 +2018,9 @@ console.log(false || 0); // 输出：0
 
 语法：<font color='red'>delete 对象名.属性</font>
 
-<img src="../images/image-20250309151153994.png" alt="image-20250309151153994" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309151153994.png" alt="image-20250309151153994" style="zoom:50%;" />
 
-<img src="../images/image-20250309151200881.png" alt="image-20250309151200881" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309151200881.png" alt="image-20250309151200881" style="zoom:50%;" />
 
 
 
@@ -2030,7 +2030,7 @@ console.log(false || 0); // 输出：0
 
 数据行为性的信息称为方法，如跑步、唱歌等，一般是动词性的，其本质是函数。
 
-<img src="../images/image-20250309151856168.png" alt="image-20250309151856168" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309151856168.png" alt="image-20250309151856168" style="zoom:50%;" />
 
 1. 方法是由方法名和函数两部分构成，它们之间使用 : 分隔
 2. 多个属性之间使用英文 , 分隔
@@ -2043,7 +2043,7 @@ console.log(false || 0); // 输出：0
 
 也可以添加形参和实参
 
-<img src="../images/image-20250309152010028.png" alt="image-20250309152010028" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309152010028.png" alt="image-20250309152010028" style="zoom:50%;" />
 
 
 
@@ -2058,7 +2058,7 @@ console.log(false || 0); // 输出：0
 
 
 
-<img src="../images/image-20250309152129016.png" alt="image-20250309152129016" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309152129016.png" alt="image-20250309152129016" style="zoom:50%;" />
 
 - 一般不用这种方式遍历数组、主要是用来遍历对象
 - for in语法中的 k 是一个变量, 在循环的过程中依次代表对象的属性名
@@ -2175,7 +2175,7 @@ Math.floor(Math.random() * (M - N + 1)) + N
 
 <font color='red'>引用数据类型存放到堆里面</font>
 
-<img src="../images/image-20250309153201234.png" alt="image-20250309153201234" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309153201234.png" alt="image-20250309153201234" style="zoom:50%;" />
 
 
 
@@ -2186,7 +2186,7 @@ Math.floor(Math.random() * (M - N + 1)) + N
 - 值类型（简单数据类型）： string ，number，boolean，undefined，null
 - 值类型变量的数据直接存放在变量（栈空间）中
 
-<img src="../images/image-20250309153253694.png" alt="image-20250309153253694" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309153253694.png" alt="image-20250309153253694" style="zoom:50%;" />
 
 
 
@@ -2197,7 +2197,7 @@ Math.floor(Math.random() * (M - N + 1)) + N
 - 引用类型（复杂数据类型）：通过 new 关键字创建的对象（系统对象、自定义对象），如 Object、Array、Date等
 - 引用类型变量（栈空间）里存放的是地址，真正的对象实例存放在堆空间中
 
-<img src="../images/image-20250309153328687.png" alt="image-20250309153328687" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250309153328687.png" alt="image-20250309153328687" style="zoom:50%;" />
 
 
 
@@ -2229,9 +2229,9 @@ let or const ?
 
 - **请问以下的 可不可以把let 改为 const？**
 
-<img src="../images/image-20250310200611265.png" alt="image-20250310200611265" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310200611265.png" alt="image-20250310200611265" style="zoom:50%;" />
 
-<img src="../images/image-20250310200619837.png" alt="image-20250310200619837" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310200619837.png" alt="image-20250310200619837" style="zoom:50%;" />
 
 可以，因为他们的值没有变过
 
@@ -2241,9 +2241,9 @@ let or const ?
 
 - **请问以下的 可不可以把let 改为 const？**
 
-<img src="../images/image-20250310200706806.png" alt="image-20250310200706806" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310200706806.png" alt="image-20250310200706806" style="zoom:50%;" />
 
-<img src="../images/image-20250310200714561.png" alt="image-20250310200714561" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310200714561.png" alt="image-20250310200714561" style="zoom:50%;" />
 
 不可以，因为变量进行了重新赋值
 
@@ -2253,9 +2253,9 @@ let or const ?
 
 - **请问以下的 可不可以把let 改为 const？**
 
-<img src="../images/image-20250310200824468.png" alt="image-20250310200824468" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310200824468.png" alt="image-20250310200824468" style="zoom:50%;" />
 
-<img src="../images/image-20250310200831748.png" alt="image-20250310200831748" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310200831748.png" alt="image-20250310200831748" style="zoom:50%;" />
 
 可以	doge
 
@@ -2266,9 +2266,9 @@ let or const ?
 - const 声明的值不能更改，而且const声明变量的时候需要里面进行初始化
 - 但是对于引用数据类型，const声明的变量，里面存的不是 值，不是值，不是值，是 地址。
 
-<img src="../images/image-20250310200914621.png" alt="image-20250310200914621" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310200914621.png" alt="image-20250310200914621" style="zoom:50%;" />
 
-<img src="../images/image-20250310201023712.png" alt="image-20250310201023712" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310201023712.png" alt="image-20250310201023712" style="zoom:50%;" />
 
 1. 以后声明变量我们优先使用哪个？
   - const
@@ -2294,7 +2294,7 @@ let or const ?
 
 **分类：**DOM (文档对象模型)、BOM（浏览器对象模型）
 
-<img src="../images/image-20250310201315376.png" alt="image-20250310201315376" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310201315376.png" alt="image-20250310201315376" style="zoom:50%;" />
 
 
 
@@ -2310,7 +2310,7 @@ DOM作用
 
 - 开发网页内容特效和实现用户交互
 
-<img src="../images/image-20250310201412739.png" alt="image-20250310201412739" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310201412739.png" alt="image-20250310201412739" style="zoom:50%;" />
 
 
 
@@ -2324,7 +2324,7 @@ DOM树是什么
 - 描述网页内容关系的名词
 - 作用：<font color='red'>文档树直观的体现了标签与标签之间的关系</font>
 
-<img src="../images/image-20250310201450079.png" alt="image-20250310201450079" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310201450079.png" alt="image-20250310201450079" style="zoom:50%;" />
 
 
 
@@ -2348,9 +2348,9 @@ document 对象
 	- 例：document.write()
 - 网页所有内容都在document里面
 
-<img src="../images/image-20250310201715126.png" alt="image-20250310201715126" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310201715126.png" alt="image-20250310201715126" style="zoom:50%;" />
 
-<img src="../images/image-20250310201722212.png" alt="image-20250310201722212" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310201722212.png" alt="image-20250310201722212" style="zoom:50%;" />
 
 
 
@@ -2372,7 +2372,7 @@ document 对象
 
 **语法：**
 
-<img src="../images/image-20250310201859512.png" alt="image-20250310201859512" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310201859512.png" alt="image-20250310201859512" style="zoom:50%;" />
 
 **参数:**
 
@@ -2393,7 +2393,7 @@ CSS选择器匹配的<font color='red'>第一个元素</font>,一个 HTMLElement
 
 **语法：**
 
-<img src="../images/image-20250310202014929.png" alt="image-20250310202014929" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310202014929.png" alt="image-20250310202014929" style="zoom:50%;" />
 
 **参数:**
 
@@ -2405,7 +2405,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 例如：
 
-<img src="../images/image-20250310202048811.png" alt="image-20250310202048811" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310202048811.png" alt="image-20250310202048811" style="zoom:50%;" />
 
 此方法得到的是一个<font color='red'>伪数组</font>：
 
@@ -2424,7 +2424,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 
 
-<img src="../images/image-20250310202233749.png" alt="image-20250310202233749" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310202233749.png" alt="image-20250310202233749" style="zoom:50%;" />
 
 
 
@@ -2441,7 +2441,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 例：
 
-<img src="../images/image-20250310202630366.png" alt="image-20250310202630366" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310202630366.png" alt="image-20250310202630366" style="zoom:50%;" />
 
 
 
@@ -2454,7 +2454,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 例：
 
-<img src="../images/image-20250310202725489.png" alt="image-20250310202725489" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310202725489.png" alt="image-20250310202725489" style="zoom:50%;" />
 
 
 
@@ -2471,11 +2471,11 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 **语法：**
 
-<img src="../images/image-20250310202840152.png" alt="image-20250310202840152" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310202840152.png" alt="image-20250310202840152" style="zoom:50%;" />
 
 例：
 
-<img src="../images/image-20250310202904229.png" alt="image-20250310202904229" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310202904229.png" alt="image-20250310202904229" style="zoom:50%;" />
 
 
 
@@ -2488,7 +2488,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 - 比如通过 轮播图小圆点自动更换颜色样式
 - 点击按钮可以滚动图片，这是移动的图片的位置 left 等等
 
-<img src="../images/image-20250310203011718.png" alt="image-20250310203011718" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310203011718.png" alt="image-20250310203011718" style="zoom:50%;" />
 
 学习路径：
 
@@ -2504,11 +2504,11 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 **语法：**
 
-<img src="../images/image-20250310203046131.png" alt="image-20250310203046131" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310203046131.png" alt="image-20250310203046131" style="zoom:50%;" />
 
 例：
 
-<img src="../images/image-20250310203057906.png" alt="image-20250310203057906" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310203057906.png" alt="image-20250310203057906" style="zoom:50%;" />
 
 > [!CAUTION]
 >
@@ -2526,7 +2526,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 **语法：**
 
-<img src="../images/image-20250310203215895.png" alt="image-20250310203215895" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310203215895.png" alt="image-20250310203215895" style="zoom:50%;" />
 
 **注意：**
 
@@ -2543,7 +2543,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 **语法：**
 
-<img src="../images/image-20250310203344371.png" alt="image-20250310203344371" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310203344371.png" alt="image-20250310203344371" style="zoom:50%;" />
 
 > toggle：判断元素是否含有该类名，有的话删除，没有的话添加
 
@@ -2562,9 +2562,9 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 - **获取:** DOM对象.属性名
 - **设置:** DOM对象.属性名 = 新值
 
-<img src="../images/image-20250310203721800.png" alt="image-20250310203721800" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310203721800.png" alt="image-20250310203721800" style="zoom:50%;" />
 
-<img src="../images/image-20250310203727103.png" alt="image-20250310203727103" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310203727103.png" alt="image-20250310203727103" style="zoom:50%;" />
 
 
 
@@ -2586,7 +2586,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 - 在标签上一律以data-开头
 - 在DOM对象上一律以dataset对象方式获取
 
-<img src="../images/image-20250310222421170.png" alt="image-20250310222421170" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310222421170.png" alt="image-20250310222421170" style="zoom:50%;" />
 
 
 
@@ -2603,7 +2603,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 - 要实现这种需求，需要定时器函数
 - 定时器函数有两种，今天我先讲间歇函数
 
-<img src="../images/image-20250310222515108.png" alt="image-20250310222515108" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310222515108.png" alt="image-20250310222515108" style="zoom:50%;" />
 
 
 
@@ -2619,7 +2619,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 
 
-<img src="../images/image-20250310222554622.png" alt="image-20250310222554622" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310222554622.png" alt="image-20250310222554622" style="zoom:50%;" />
 
 - **作用：**每隔一段时间调用这个函数
 - 间隔时间单位是毫秒
@@ -2628,7 +2628,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 例：
 
-<img src="../images/image-20250310222619880.png" alt="image-20250310222619880" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310222619880.png" alt="image-20250310222619880" style="zoom:50%;" />
 
 > [!CAUTION]
 >
@@ -2643,17 +2643,17 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 
 
-<img src="../images/image-20250310222735277.png" alt="image-20250310222735277" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310222735277.png" alt="image-20250310222735277" style="zoom:50%;" />
 
 一般不会刚创建就停止，而是满足一定条件再停止
 
-<img src="../images/image-20250310222746232.png" alt="image-20250310222746232" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310222746232.png" alt="image-20250310222746232" style="zoom:50%;" />
 
 
 
 ## 案例：轮播图定时器版
 
-<img src="../images/image-20250310222953606.png" alt="image-20250310222953606" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250310222953606.png" alt="image-20250310222953606" style="zoom:50%;" />
 
 需求：每隔一秒钟切换一个图片
 
@@ -2692,7 +2692,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 **语法：**
 
-<img src="../images/image-20250311172416450.png" alt="image-20250311172416450" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250311172416450.png" alt="image-20250311172416450" style="zoom:50%;" />
 
 事件监听三要素：
 
@@ -2704,7 +2704,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 例：
 
-<img src="../images/image-20250311172531148.png" alt="image-20250311172531148" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250311172531148.png" alt="image-20250311172531148" style="zoom:50%;" />
 
 > [!CAUTION]
 >
@@ -2742,7 +2742,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 
 
-<img src="../images/image-20250311172852388.png" alt="image-20250311172852388" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250311172852388.png" alt="image-20250311172852388" style="zoom:50%;" />
 
 
 
@@ -2769,7 +2769,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 - 在事件绑定的回调函数的第一个参数就是事件对象
 - 一般命名为event、ev、e
 
-<img src="../images/image-20250311173117827.png" alt="image-20250311173117827" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250311173117827.png" alt="image-20250311173117827" style="zoom:50%;" />
 
 > 其中e为事件对象
 
@@ -2817,9 +2817,9 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 常见的使用场景：
 
-<img src="../images/image-20250311173503484.png" alt="image-20250311173503484" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250311173503484.png" alt="image-20250311173503484" style="zoom:50%;" />
 
-<img src="../images/image-20250311173509911.png" alt="image-20250311173509911" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250311173509911.png" alt="image-20250311173509911" style="zoom:50%;" />
 
 - 回调函数本质还是函数，只不过把它当成参数使用
 - 使用匿名函数做为回调函数比较常见
@@ -2836,7 +2836,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 事件流指的是事件完整执行过程中的流动路径
 
-<img src="../images/image-20250317172859365.png" alt="image-20250317172859365" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317172859365.png" alt="image-20250317172859365" style="zoom:50%;" />
 
 - 说明：假设页面里有个div，当触发事件时，会经历两个阶段，分别是捕获阶段、冒泡阶段
 - 简单来说：捕获阶段是 从父到子 冒泡阶段是从子到父
@@ -2856,7 +2856,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 **代码：**
 
-<img src="../images/image-20250317172950486.png" alt="image-20250317172950486" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317172950486.png" alt="image-20250317172950486" style="zoom:50%;" />
 
 **说明：**
 
@@ -2876,7 +2876,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 - 事件冒泡是默认存在的
 - L2事件监听第三个参数是 false，或者默认都是冒泡
 
-<img src="../images/image-20250317173117914.png" alt="image-20250317173117914" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317173117914.png" alt="image-20250317173117914" style="zoom:50%;" />
 
 
 
@@ -2896,13 +2896,13 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 **语法：**
 
-<img src="../images/image-20250317173206800.png" alt="image-20250317173206800" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317173206800.png" alt="image-20250317173206800" style="zoom:50%;" />
 
 > [!CAUTION]
 >
 > 注意：此方法可以阻断事件流动传播，不光在冒泡阶段有效，捕获阶段也有效
 
-<img src="../images/image-20250317173226626.png" alt="image-20250317173226626" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317173226626.png" alt="image-20250317173226626" style="zoom:50%;" />
 
 
 
@@ -2910,9 +2910,9 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 **语法：**
 
-<img src="../images/image-20250317173339905.png" alt="image-20250317173339905" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317173339905.png" alt="image-20250317173339905" style="zoom:50%;" />
 
-<img src="../images/image-20250317173356823.png" alt="image-20250317173356823" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317173356823.png" alt="image-20250317173356823" style="zoom:50%;" />
 
 
 
@@ -2924,7 +2924,7 @@ CSS选择器匹配的<font color='red'>NodeList 对象集合</font>
 
 **语法：**
 
-<img src="../images/image-20250317173533755.png" alt="image-20250317173533755" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317173533755.png" alt="image-20250317173533755" style="zoom:50%;" />
 
 **<font color='red'>addEventListener方式</font>**，必须使用：
 
@@ -2934,7 +2934,7 @@ removeEventListener(事件类型, 事件处理函数, [获取捕获或者冒泡�
 
 例如：
 
-<img src="../images/image-20250317173646511.png" alt="image-20250317173646511" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317173646511.png" alt="image-20250317173646511" style="zoom:50%;" />
 
 <font color='red'>注意：匿名函数无法被解绑</font>
 
@@ -2981,9 +2981,9 @@ removeEventListener(事件类型, 事件处理函数, [获取捕获或者冒泡�
 >
 > 2. 有没有一种技巧 注册一次事件就能完成以上效果呢？
 >
-> <img src="../images/image-20250317174419711.png" alt="image-20250317174419711" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317174419711.png" alt="image-20250317174419711" style="zoom:50%;" />
 >
-> <img src="../images/image-20250317174426795.png" alt="image-20250317174426795" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317174426795.png" alt="image-20250317174426795" style="zoom:50%;" />
 
 事件委托是利用事件流的特征解决一些开发需求的知识技巧
 
@@ -3001,9 +3001,9 @@ removeEventListener(事件类型, 事件处理函数, [获取捕获或者冒泡�
 
 	 可以获得真正触发事件的元素
 
-<img src="../images/image-20250317174233913.png" alt="image-20250317174233913" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317174233913.png" alt="image-20250317174233913" style="zoom:50%;" />
 
-<img src="../images/image-20250317174248113.png" alt="image-20250317174248113" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317174248113.png" alt="image-20250317174248113" style="zoom:50%;" />
 
 
 
@@ -3026,7 +3026,7 @@ removeEventListener(事件类型, 事件处理函数, [获取捕获或者冒泡�
 
 **监听页面所有资源加载完毕，给** <font color='red'>**window**</font> **添加 load 事件**
 
-<img src="../images/image-20250317174723729.png" alt="image-20250317174723729" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317174723729.png" alt="image-20250317174723729" style="zoom:50%;" />
 
 > [!CAUTION]
 >
@@ -3040,7 +3040,7 @@ removeEventListener(事件类型, 事件处理函数, [获取捕获或者冒泡�
 
 **监听页面DOM加载完毕，给** <font color='red'>**document**</font> **添加 DOMContentLoaded 事件**
 
-<img src="../images/image-20250317174914157.png" alt="image-20250317174914157" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317174914157.png" alt="image-20250317174914157" style="zoom:50%;" />
 
 
 
@@ -3058,7 +3058,7 @@ removeEventListener(事件类型, 事件处理函数, [获取捕获或者冒泡�
 
 **监听整个页面滚动：**
 
-<img src="../images/image-20250317214652705.png" alt="image-20250317214652705" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317214652705.png" alt="image-20250317214652705" style="zoom:50%;" />
 
 > 给 window 或 document 添加 scroll 事件
 
@@ -3078,7 +3078,7 @@ removeEventListener(事件类型, 事件处理函数, [获取捕获或者冒泡�
 
 
 
-<img src="../images/image-20250317215545146.png" alt="image-20250317215545146" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317215545146.png" alt="image-20250317215545146" style="zoom:50%;" />
 
 **<font color='red'>scrollLeft</font>**和**<font color='red'>scrollTop</font>** （属性）
 
@@ -3088,7 +3088,7 @@ removeEventListener(事件类型, 事件处理函数, [获取捕获或者冒泡�
 
 尽量在scroll事件里面获取被卷去的距离
 
-<img src="../images/image-20250317215628519.png" alt="image-20250317215628519" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317215628519.png" alt="image-20250317215628519" style="zoom:50%;" />
 
 
 
@@ -3098,11 +3098,11 @@ removeEventListener(事件类型, 事件处理函数, [获取捕获或者冒泡�
 document.documentElement.scrollTop
 ```
 
-<img src="../images/image-20250317215733895.png" alt="image-20250317215733895" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317215733895.png" alt="image-20250317215733895" style="zoom:50%;" />
 
 > [!CAUTION]
 >
-> document.documentElement HTML 文档返回对象为HTML元素	<img src="../images/image-20250317215757081.png" alt="image-20250317215757081" style="zoom:50%;" />
+> document.documentElement HTML 文档返回对象为HTML元素	<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317215757081.png" alt="image-20250317215757081" style="zoom:50%;" />
 
 
 
@@ -3118,7 +3118,7 @@ document.documentElement.scrollTop
 
 例如：
 
-<img src="../images/image-20250317220018837.png" alt="image-20250317220018837" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317220018837.png" alt="image-20250317220018837" style="zoom:50%;" />
 
 
 
@@ -3130,11 +3130,11 @@ document.documentElement.scrollTop
 
 - **<font color='red'>resize</font>**
 
-<img src="../images/image-20250317220102540.png" alt="image-20250317220102540" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317220102540.png" alt="image-20250317220102540" style="zoom:50%;" />
 
 检测屏幕宽度：
 
-<img src="../images/image-20250317220125562.png" alt="image-20250317220125562" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317220125562.png" alt="image-20250317220125562" style="zoom:50%;" />
 
 
 
@@ -3142,7 +3142,7 @@ document.documentElement.scrollTop
 
 
 
-<img src="../images/image-20250317220223576.png" alt="image-20250317220223576" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317220223576.png" alt="image-20250317220223576" style="zoom:50%;" />
 
 <font color='red'>获取宽高：</font>
 
@@ -3161,7 +3161,7 @@ document.documentElement.scrollTop
 - 简单说，就是通过js的方式，得到<font color='red'>元素在页面中的位置</font>
 - 这样我们可以做，页面滚动到这个位置，就可以做某些操作，省去计算了
 
-<img src="../images/image-20250317220337621.png" alt="image-20250317220337621" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317220337621.png" alt="image-20250317220337621" style="zoom:50%;" />
 
 
 
@@ -3169,7 +3169,7 @@ document.documentElement.scrollTop
 
 
 
-<img src="../images/image-20250317220519721.png" alt="image-20250317220519721" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250317220519721.png" alt="image-20250317220519721" style="zoom:50%;" />
 
 **获取宽高：**
 
@@ -3221,15 +3221,15 @@ element.getBoundingClientRect()
 
 	- 获得当前时间
 
-	<img src="../images/image-20250320205045338.png" alt="image-20250320205045338" style="zoom:50%;" />
+	<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320205045338.png" alt="image-20250320205045338" style="zoom:50%;" />
 
 	- 获得指定时间
 
-	<img src="../images/image-20250320205101465.png" alt="image-20250320205101465" style="zoom:50%;" />
+	<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320205101465.png" alt="image-20250320205101465" style="zoom:50%;" />
 	
 	- 获取xxxx/xx/xx xx:xx:xx格式方法：
 	
-	<img src="../images/image-20250324103243017.png" alt="image-20250324103243017" style="zoom:50%;" />
+	<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250324103243017.png" alt="image-20250324103243017" style="zoom:50%;" />
 
 > 2025/3/24 10:33:27
 
@@ -3259,7 +3259,7 @@ element.getBoundingClientRect()
 
 如果计算倒计时效果，前面方法无法直接计算，需要借助于时间戳完成
 
-<img src="../images/image-20250320205537566.png" alt="image-20250320205537566" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320205537566.png" alt="image-20250320205537566" style="zoom:50%;" />
 
 **什么是时间戳:**
 
@@ -3280,20 +3280,20 @@ element.getBoundingClientRect()
 
 <font color='red'>**1. 使用 getTime() 方法**</font>
 
-<img src="../images/image-20250320205704624.png" alt="image-20250320205704624" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320205704624.png" alt="image-20250320205704624" style="zoom:50%;" />
 
 
 
 **<font color='red'>2. 简写 +new Date()</font>**
 
-<img src="../images/image-20250320205900120.png" alt="image-20250320205900120" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320205900120.png" alt="image-20250320205900120" style="zoom:50%;" />
 
 <font color='red'>**3.使用 Date.now()**</font>
 
 - 无需实例化
 - 但是只能得到当前的时间戳， 而前面两种可以返回指定时间的时间戳
 
-<img src="../images/image-20250320210024313.png" alt="image-20250320210024313" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320210024313.png" alt="image-20250320210024313" style="zoom: 50%;" />
 
 
 
@@ -3325,7 +3325,7 @@ DOM树里每一个内容都称之为节点
 
 4. 其他
 
-<img src="../images/image-20250320210315265.png" alt="image-20250320210315265" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320210315265.png" alt="image-20250320210315265" style="zoom:50%;" />
 
 
 
@@ -3337,7 +3337,7 @@ DOM树里每一个内容都称之为节点
 
 - 点击关闭按钮， 关闭的是二维码的盒子， 还要获取erweima盒子
 
-<img src="../images/image-20250320210458484.png" alt="image-20250320210458484" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320210458484.png" alt="image-20250320210458484" style="zoom:50%;" />
 
 思考：
 
@@ -3361,7 +3361,7 @@ DOM树里每一个内容都称之为节点
 - parentNode 属性
 - 返回最近一级的父节点 找不到返回为null
 
-<img src="../images/image-20250320210533825.png" alt="image-20250320210533825" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320210533825.png" alt="image-20250320210533825" style="zoom:50%;" />
 
 
 
@@ -3378,7 +3378,7 @@ DOM树里每一个内容都称之为节点
 - 仅获得所有元素节点
 - 返回的还是一个伪数组
 
-<img src="../images/image-20250320210710087.png" alt="image-20250320210710087" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320210710087.png" alt="image-20250320210710087" style="zoom:50%;" />
 
 
 
@@ -3406,7 +3406,7 @@ DOM树里每一个内容都称之为节点
 - 创建一个新的节点
 - 把创建的新的节点放入到指定的元素内部
 
-<img src="../images/image-20250320210902751.png" alt="image-20250320210902751" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320210902751.png" alt="image-20250320210902751" style="zoom:50%;" />
 
 
 
@@ -3418,7 +3418,7 @@ DOM树里每一个内容都称之为节点
 
 创建元素节点方法：
 
-<img src="../images/image-20250320211153666.png" alt="image-20250320211153666" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320211153666.png" alt="image-20250320211153666" style="zoom:50%;" />
 
 
 
@@ -3429,11 +3429,11 @@ DOM树里每一个内容都称之为节点
 - 要想在界面看到，还得插入到某个父元素中
 - 插入到父元素的最后一个子元素:
 
-<img src="../images/image-20250320214126408.png" alt="image-20250320214126408" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320214126408.png" alt="image-20250320214126408" style="zoom:50%;" />
 
 - 插入到父元素中某个子元素的前面
 
-<img src="../images/image-20250320214150049.png" alt="image-20250320214150049" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320214150049.png" alt="image-20250320214150049" style="zoom:50%;" />
 
 
 
@@ -3448,7 +3448,7 @@ DOM树里每一个内容都称之为节点
 
 **克隆节点**
 
-<img src="../images/image-20250320214232709.png" alt="image-20250320214232709" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320214232709.png" alt="image-20250320214232709" style="zoom:50%;" />
 
 cloneNode会克隆出一个跟原标签一样的元素，括号内传入布尔值
 
@@ -3467,7 +3467,7 @@ cloneNode会克隆出一个跟原标签一样的元素，括号内传入布尔�
 
 **语法**
 
-<img src="../images/image-20250320214323355.png" alt="image-20250320214323355" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320214323355.png" alt="image-20250320214323355" style="zoom:50%;" />
 
 注：
 
@@ -3514,7 +3514,7 @@ cloneNode会克隆出一个跟原标签一样的元素，括号内传入布尔�
 
 
 
-<img src="../images/image-20250320214906017.png" alt="image-20250320214906017" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320214906017.png" alt="image-20250320214906017" style="zoom:50%;" />
 
 
 
@@ -3533,7 +3533,7 @@ cloneNode会克隆出一个跟原标签一样的元素，括号内传入布尔�
 - 进行绘制 Painting(重绘): 根据计算和获取的信息进行整个页面的绘制
 - Display: 展示在页面上
 
-<img src="../images/image-20250320215010643.png" alt="image-20250320215010643" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320215010643.png" alt="image-20250320215010643" style="zoom:50%;" />
 
 
 
@@ -3573,7 +3573,7 @@ cloneNode会克隆出一个跟原标签一样的元素，括号内传入布尔�
 
 
 
-<img src="../images/image-20250320215219821.png" alt="image-20250320215219821" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250320215219821.png" alt="image-20250320215219821" style="zoom:50%;" />
 
 
 
@@ -3587,7 +3587,7 @@ cloneNode会克隆出一个跟原标签一样的元素，括号内传入布尔�
 
 BOM(Browser Object Model ) 是浏览器对象模型
 
-<img src="../images/image-20250323211358970.png" alt="image-20250323211358970" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323211358970.png" alt="image-20250323211358970" style="zoom:50%;" />
 
 - window对象是一个全局对象，也可以说是JavaScript中的顶级对象
 - 像document、alert()、console.log()这些都是window的属性，基本BOM的属性和方法都是window的。
@@ -3606,13 +3606,13 @@ JavaScript 内置的一个用来让代码延迟执行的函数，叫 <font color
 
 
 
-<img src="../images/image-20250323211604726.png" alt="image-20250323211604726" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323211604726.png" alt="image-20250323211604726" style="zoom:50%;" />
 
 setTimeout 仅仅只执行一次，所以可以理解为就是把一段代码延迟执行, 平时省略window
 
 **清除延时函数：**
 
-<img src="../images/image-20250323211629259.png" alt="image-20250323211629259" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323211629259.png" alt="image-20250323211629259" style="zoom:50%;" />
 
 **注意点**
 
@@ -3634,11 +3634,11 @@ setTimeout 仅仅只执行一次，所以可以理解为就是把一段代码延
 
 **经典面试题**
 
-<img src="../images/image-20250323212013539.png" alt="image-20250323212013539" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323212013539.png" alt="image-20250323212013539" style="zoom:50%;" />
 
 > 1111 3333 2222
 
-<img src="../images/image-20250323212020970.png" alt="image-20250323212020970" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323212020970.png" alt="image-20250323212020970" style="zoom:50%;" />
 
 > 1111 3333 2222
 
@@ -3668,7 +3668,7 @@ JavaScript 语言的一大特点就是<font color='red'>单线程</font>，也�
 
 同步任务都在主线程上执行，形成一个<font color='red'>执行栈</font>。
 
-<img src="../images/image-20250323212545134.png" alt="image-20250323212545134" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323212545134.png" alt="image-20250323212545134" style="zoom:50%;" />
 
 **异步任务**
 
@@ -3682,7 +3682,7 @@ JS 的异步是通过回调函数实现的。
 
 异步任务相关添加到<font color='red'>任务队列</font>中（任务队列也称为消息队列）。
 
-<img src="../images/image-20250323212615492.png" alt="image-20250323212615492" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323212615492.png" alt="image-20250323212615492" style="zoom:50%;" />
 
 
 
@@ -3692,9 +3692,9 @@ JS 的异步是通过回调函数实现的。
 2. 异步任务放入任务队列中。
 3. 一旦执行栈中的所有同步任务执行完毕，系统就会按次序读取<font color='red'>任务队列</font>中的异步任务，于是被读取的异步任务结束等待状态，进入执行栈，开始执行。
 
-<img src="../images/image-20250323212708684.png" alt="image-20250323212708684" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323212708684.png" alt="image-20250323212708684" style="zoom:50%;" />
 
-<img src="../images/image-20250323212718217.png" alt="image-20250323212718217" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323212718217.png" alt="image-20250323212718217" style="zoom:50%;" />
 
 由于主线程不断的重复获得任务、执行任务、再获取任务、再执行，所以这种机制被称为<font color='red'>事件循环（ event loop ）</font>。
 
@@ -3710,21 +3710,21 @@ location 的数据类型是对象，它拆分并保存了 URL 地址的各个组
 
 - <font color='red'>href</font> 属性获取完整的 URL 地址，对其赋值时用于地址的跳转
 
-	<img src="../images/image-20250323213024022.png" alt="image-20250323213024022" style="zoom:50%;" />
+	<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323213024022.png" alt="image-20250323213024022" style="zoom:50%;" />
 
 - <font color='red'>search</font> 属性获取地址中携带的参数，符号 ？后面部分
 
-	<img src="../images/image-20250323213040551.png" alt="image-20250323213040551" style="zoom:50%;" />
+	<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323213040551.png" alt="image-20250323213040551" style="zoom:50%;" />
 
 - <font color='red'>hash</font> 属性获取地址中的哈希值，符号 # 后面部分
 
-	<img src="../images/image-20250323213049626.png" alt="image-20250323213049626" style="zoom:50%;" />
+	<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323213049626.png" alt="image-20250323213049626" style="zoom:50%;" />
 
 	> 后期vue路由的铺垫，经常用于不刷新页面，显示不同页面，比如 网易云音乐
 
 - <font color='red'>reload</font> 方法用来刷新当前页面，传入参数 true 时表示强制刷新
 
-<img src="../images/image-20250323213151703.png" alt="image-20250323213151703" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323213151703.png" alt="image-20250323213151703" style="zoom:50%;" />
 
 
 
@@ -3769,7 +3769,7 @@ history 的数据类型是对象，主要管理历史记录， 该对象与浏�
 
 history 对象一般在实际开发中比较少用，但是会在一些 OA 办公系统中见到。
 
-<img src="../images/image-20250323213639195.png" alt="image-20250323213639195" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323213639195.png" alt="image-20250323213639195" style="zoom:50%;" />
 
 
 
@@ -3834,7 +3834,7 @@ localStorage.removeItem(key)
 
 **浏览器查看本地数据:** 
 
-<img src="../images/image-20250323214145937.png" alt="image-20250323214145937" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323214145937.png" alt="image-20250323214145937" style="zoom: 50%;" />
 
 
 
@@ -3855,9 +3855,9 @@ localStorage.removeItem(key)
 
 > 问题：本地只能存储字符串,无法存储复杂数据类型.
 >
-> <img src="../images/image-20250323214307738.png" alt="image-20250323214307738" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323214307738.png" alt="image-20250323214307738" style="zoom:50%;" />
 >
-> <img src="../images/image-20250323214316161.png" alt="image-20250323214316161" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323214316161.png" alt="image-20250323214316161" style="zoom:50%;" />
 
 
 
@@ -3865,17 +3865,17 @@ localStorage.removeItem(key)
 
 **语法：**<font color='red'>JSON.stringify</font>(复杂数据类型)
 
-<img src="../images/image-20250323214426492.png" alt="image-20250323214426492" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323214426492.png" alt="image-20250323214426492" style="zoom:50%;" />
 
 将复杂数据转换成JSON字符串 <font color='red'>存储</font> 本地存储中
 
-<img src="../images/image-20250323214443856.png" alt="image-20250323214443856" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323214443856.png" alt="image-20250323214443856" style="zoom:50%;" />
 
 
 
 > 问题：因为本地存储里面取出来的是字符串，不是对象，无法直接使用
 >
-> <img src="../images/image-20250323214508744.png" alt="image-20250323214508744" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323214508744.png" alt="image-20250323214508744" style="zoom:50%;" />
 
 
 
@@ -3883,11 +3883,11 @@ localStorage.removeItem(key)
 
 **语法：**<font color='red'>JSON.parse</font>(JSON字符串)
 
-<img src="../images/image-20250323214616429.png" alt="image-20250323214616429" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323214616429.png" alt="image-20250323214616429" style="zoom:50%;" />
 
 将JSON字符串转换成对象 <font color='red'>取出</font> 时候使用
 
-<img src="../images/image-20250323214657467.png" alt="image-20250323214657467" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323214657467.png" alt="image-20250323214657467" style="zoom:50%;" />
 
 
 
@@ -3899,15 +3899,15 @@ localStorage.removeItem(key)
 
 **语法：**
 
-<img src="../images/image-20250323214747046.png" alt="image-20250323214747046" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323214747046.png" alt="image-20250323214747046" style="zoom:50%;" />
 
 **使用场景：**
 
 map 可以处理数据，并且返回新的数组
 
-<img src="../images/image-20250323214942588.png" alt="image-20250323214942588" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323214942588.png" alt="image-20250323214942588" style="zoom:50%;" />
 
-<img src="../images/image-20250323214955192.png" alt="image-20250323214955192" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323214955192.png" alt="image-20250323214955192" style="zoom:50%;" />
 
 <font color='red'>map 也称为映射</font>。映射是个术语，指两个元素的集之间元素相互“对应”的关系
 
@@ -3923,7 +3923,7 @@ join() 方法用于把数组中的所有元素转换为一个字符串
 
 **语法：**
 
-<img src="../images/image-20250323215051247.png" alt="image-20250323215051247" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250323215051247.png" alt="image-20250323215051247" style="zoom:50%;" />
 
 **参数：**
 
@@ -3954,7 +3954,7 @@ join() 方法用于把数组中的所有元素转换为一个字符串
 - 比如用户名: /^[a-z0-9_-]{3,16}$/
 - 过滤掉页面内容中的一些敏感词(<font color='red'>替换</font>），或从字符串中获取我们想要的特定部分(<font color='red'>提取</font>)等 。
 
-<img src="../images/image-20250401174020770.png" alt="image-20250401174020770" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401174020770.png" alt="image-20250401174020770" style="zoom:50%;" />
 
 
 
@@ -3973,7 +3973,7 @@ join() 方法用于把数组中的所有元素转换为一个字符串
 
 比如：查找下面文本中是否包含字符串 '前端'
 
-<img src="../images/image-20250401174132878.png" alt="image-20250401174132878" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401174132878.png" alt="image-20250401174132878" style="zoom:50%;" />
 
 
 
@@ -3985,13 +3985,13 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 
 
 
-<img src="../images/image-20250401174210439.png" alt="image-20250401174210439" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401174210439.png" alt="image-20250401174210439" style="zoom:50%;" />
 
 > 其中 / / 是正则表达式字面量
 
 比如：
 
-<img src="../images/image-20250401174241718.png" alt="image-20250401174241718" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401174241718.png" alt="image-20250401174241718" style="zoom:50%;" />
 
 
 
@@ -4003,11 +4003,11 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 
 **语法：**
 
-<img src="../images/image-20250401174345214.png" alt="image-20250401174345214" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401174345214.png" alt="image-20250401174345214" style="zoom:50%;" />
 
 比如：
 
-<img src="../images/image-20250401174358201.png" alt="image-20250401174358201" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401174358201.png" alt="image-20250401174358201" style="zoom:50%;" />
 
 如果正则表达式与指定的字符串匹配 ，返回true，否则false
 
@@ -4021,13 +4021,13 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 
 **语法：**
 
-<img src="../images/image-20250401174530726.png" alt="image-20250401174530726" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401174530726.png" alt="image-20250401174530726" style="zoom:50%;" />
 
 比如：
 
-<img src="../images/image-20250401174549768.png" alt="image-20250401174549768" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401174549768.png" alt="image-20250401174549768" style="zoom:50%;" />
 
-![image-20250401174606224](../images/image-20250401174606224.png)
+![image-20250401174606224](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401174606224.png)
 
 如果匹配成功，exec() 方法返回一个数组，否则返回null
 
@@ -4077,7 +4077,7 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 
 如果 ^ 和 $ 在一起，表示必须是精确匹配。
 
-<img src="../images/image-20250401175154001.png" alt="image-20250401175154001" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401175154001.png" alt="image-20250401175154001" style="zoom:50%;" />
 
 
 
@@ -4102,13 +4102,13 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 >
 > 注意： 逗号左右两侧千万不要出现空格
 
-<img src="../images/image-20250401175509739.png" alt="image-20250401175509739" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401175509739.png" alt="image-20250401175509739" style="zoom:50%;" />
 
-<img src="../images/image-20250401175526214.png" alt="image-20250401175526214" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401175526214.png" alt="image-20250401175526214" style="zoom:50%;" />
 
-<img src="../images/image-20250401175535173.png" alt="image-20250401175535173" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401175535173.png" alt="image-20250401175535173" style="zoom:50%;" />
 
-<img src="../images/image-20250401175558125.png" alt="image-20250401175558125" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401175558125.png" alt="image-20250401175558125" style="zoom:50%;" />
 
 
 
@@ -4122,7 +4122,7 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 
 后面的字符串只要包含 abc 中任意<font color='red'>一个字符</font>，都返回 true 。
 
-<img src="../images/image-20250401175701904.png" alt="image-20250401175701904" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401175701904.png" alt="image-20250401175701904" style="zoom:50%;" />
 
 
 
@@ -4132,7 +4132,7 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 
 使用连字符 - 表示一个范围
 
-<img src="../images/image-20250401175750881.png" alt="image-20250401175750881" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401175750881.png" alt="image-20250401175750881" style="zoom:50%;" />
 
 比如：
 
@@ -4142,7 +4142,7 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 
 例：
 
-<img src="../images/image-20250401175824614.png" alt="image-20250401175824614" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401175824614.png" alt="image-20250401175824614" style="zoom:50%;" />
 
 
 
@@ -4182,7 +4182,7 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 |   \s   | 匹配空格（包括换行符、制表符、空格符等），相当于[\t\r\n\v\f] |
 |   \S   |           匹配非空格的字符，相当于`[^\t\r\n\v\f]`            |
 
-<img src="../images/image-20250401202437531.png" alt="image-20250401202437531" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401202437531.png" alt="image-20250401202437531" style="zoom:50%;" />
 
 
 
@@ -4194,12 +4194,12 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 
 **语法：**
 
-<img src="../images/image-20250401202535948.png" alt="image-20250401202535948" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401202535948.png" alt="image-20250401202535948" style="zoom:50%;" />
 
 - <font color='red'>i</font>是单词 ignore 的缩写，正则匹配时<font color='red'>字母不区分大小写</font>
 - <font color='red'>g</font> 是单词 global 的缩写，匹配<font color='red'>所有满足正则表达式的结果</font>
 
-<img src="../images/image-20250401202555274.png" alt="image-20250401202555274" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401202555274.png" alt="image-20250401202555274" style="zoom:50%;" />
 
 
 
@@ -4207,7 +4207,7 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 
 **语法：**
 
-<img src="../images/image-20250401202657162.png" alt="image-20250401202657162" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401202657162.png" alt="image-20250401202657162" style="zoom:50%;" />
 
 
 
@@ -4242,7 +4242,7 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 
 在函数内部声明的变量只能在函数内部被访问，外部无法直接访问。
 
-<img src="../images/image-20250401203952523.png" alt="image-20250401203952523" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401203952523.png" alt="image-20250401203952523" style="zoom:50%;" />
 
 总结：
 1. 函数内部声明的变量，在函数外部无法被访问
@@ -4258,7 +4258,7 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 
 在 JavaScript 中使用 { } 包裹的代码称为代码块，代码块内部声明的变量外部将<font color='red'>【有可能】</font>无法被访问
 
-<img src="../images/image-20250401204046139.png" alt="image-20250401204046139" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401204046139.png" alt="image-20250401204046139" style="zoom:50%;" />
 
 总结：
 1. let 声明的变量会产生块作用域，var 不会产生块作用域
@@ -4276,7 +4276,7 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 
 全局作用域中声明的变量，任何其它作用域都可以被访问
 
-<img src="../images/image-20250401204319410.png" alt="image-20250401204319410" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401204319410.png" alt="image-20250401204319410" style="zoom:50%;" />
 
 注意：
 1. 为 window 对象动态添加的属性默认也是全局的，不推荐！
@@ -4292,9 +4292,9 @@ JavaScript 中定义正则表达式的语法有两种，我们先学习其中比
 作用域链本质上是底层的变量查找机制。
 
 - 在函数被执行时，会优先查找当前函数作用域中查找变量
-- 如果当前作用域查找不到则会依次逐级查找父级作用域直到全局作用域             <img src="../images/image-20250401204425479.png" alt="image-20250401204425479" style="zoom:33%;" />
+- 如果当前作用域查找不到则会依次逐级查找父级作用域直到全局作用域             <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401204425479.png" alt="image-20250401204425479" style="zoom:33%;" />
 
-<img src="../images/image-20250401204411417.png" alt="image-20250401204411417" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401204411417.png" alt="image-20250401204411417" style="zoom:50%;" />
 
 总结：
 1. 嵌套关系的作用域串联起来形成了作用域链
@@ -4334,7 +4334,7 @@ JS环境中分配的内存, 一般有如下生命周期：
   - 全局变量一般不会回收(关闭页面回收)；
   - 一般情况下局部变量的值, 不用了, 会被自动回收掉
 
-<img src="../images/image-20250401204640577.png" alt="image-20250401204640577" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401204640577.png" alt="image-20250401204640577" style="zoom:50%;" />
 
 ### 4.3 拓展-JS垃圾回收机制-算法说明
 
@@ -4361,9 +4361,9 @@ IE采用的引用计数算法, 定义“<font color='red'>内存不再使用</fo
 
 
 
-<img src="../images/image-20250401204917108.png" alt="image-20250401204917108" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401204917108.png" alt="image-20250401204917108" style="zoom:50%;" />
 
-<img src="../images/image-20250401204925752.png" alt="image-20250401204925752" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401204925752.png" alt="image-20250401204925752" style="zoom:50%;" />
 
 由上面可以看出，引用计数算法是个简单有效的算法。
 
@@ -4373,7 +4373,7 @@ IE采用的引用计数算法, 定义“<font color='red'>内存不再使用</fo
 
 如果两个对象<font color='red'>相互引用</font>，尽管他们已不再使用，垃圾回收器不会进行回收，导致内存泄露。
 
-<img src="../images/image-20250401205009675.png" alt="image-20250401205009675" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401205009675.png" alt="image-20250401205009675" style="zoom:50%;" />
 
 因为他们的引用次数永远不会是0。这样的相互引用如果说很大量的存在就会导致大量的内存泄露
 
@@ -4394,9 +4394,9 @@ IE采用的引用计数算法, 定义“<font color='red'>内存不再使用</fo
 
 标记所有的引用
 
-<img src="../images/image-20250401205145190.png" alt="image-20250401205145190" style="zoom:50%;" />              <img src="../images/image-20250401205157559.png" alt="image-20250401205157559" style="zoom: 45%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401205145190.png" alt="image-20250401205145190" style="zoom:50%;" />              <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401205157559.png" alt="image-20250401205157559" style="zoom: 45%;" />
 
-<img src="../images/image-20250401205251732.png" alt="image-20250401205251732" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401205251732.png" alt="image-20250401205251732" style="zoom:50%;" />
 
 > 根部已经访问不到，所以自动清除
 
@@ -4414,17 +4414,17 @@ IE采用的引用计数算法, 定义“<font color='red'>内存不再使用</fo
 
 **闭包的基本格式:**
 
-<img src="../images/image-20250401205334930.png" alt="image-20250401205334930" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401205334930.png" alt="image-20250401205334930" style="zoom:50%;" />
 
 **闭包应用：**实现数据的私有
 
 比如，我们要做个统计函数调用次数，函数调用一次，就++
 
-<img src="../images/image-20250401210732872.png" alt="image-20250401210732872" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401210732872.png" alt="image-20250401210732872" style="zoom:50%;" />
 
 >  但是，这个count 是个全局变量，很容易被修改
 
-<img src="../images/image-20250401210742175.png" alt="image-20250401210742175" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401210742175.png" alt="image-20250401210742175" style="zoom:50%;" />
 
 > 这样实现了数据私有，无法直接修改count
 
@@ -4443,7 +4443,7 @@ IE采用的引用计数算法, 定义“<font color='red'>内存不再使用</fo
 4. 变量提升出现在相同作用域当中
 5. <font color='red'>实际开发中推荐先声明再访问变量</font>
 
-<img src="../images/image-20250401210919055.png" alt="image-20250401210919055" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401210919055.png" alt="image-20250401210919055" style="zoom:50%;" />
 
 说明：
 
@@ -4463,7 +4463,7 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 
 
-<img src="../images/image-20250401211047849.png" alt="image-20250401211047849" style="zoom:50%;" /><img src="../images/image-20250401211055432.png" alt="image-20250401211055432" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211047849.png" alt="image-20250401211047849" style="zoom:50%;" /><img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211055432.png" alt="image-20250401211055432" style="zoom:50%;" />
 
 
 
@@ -4481,11 +4481,11 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 > 产品需求： 写一个求和函数
 > 不管用户传入几个实参，都要把和求出来
 >
-> <img src="../images/image-20250401211253821.png" alt="image-20250401211253821" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211253821.png" alt="image-20250401211253821" style="zoom:50%;" />
 >
 > 形参我改咋写？
 >
-> <img src="../images/image-20250401211306854.png" alt="image-20250401211306854" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211306854.png" alt="image-20250401211306854" style="zoom:50%;" />
 
 
 
@@ -4495,7 +4495,7 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 <font color='red'>arguments </font>是函数内部内置的伪数组变量，它包含了调用函数时传入的所有实参
 
-<img src="../images/image-20250401211215350.png" alt="image-20250401211215350" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211215350.png" alt="image-20250401211215350" style="zoom:50%;" />
 
 总结：
 1. <font color='red'>arguments</font> 是一个<font color='red'>伪数组</font>，只存在于函数中
@@ -4510,14 +4510,14 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 剩余参数允许我们将一个不定数量的参数表示为一个数组
 
-<img src="../images/image-20250401211330129.png" alt="image-20250401211330129" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211330129.png" alt="image-20250401211330129" style="zoom:50%;" />
 
 > 那和arguments 有什么不同吗？
 
 1. ... 是语法符号，置于最末函数形参之前，用于获取<font color='red'>多余</font>的实参
 2. 借助 ... 获取的剩余实参，是个<font color='red'>真数组</font>
 
-<img src="../images/image-20250401211430068.png" alt="image-20250401211430068" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211430068.png" alt="image-20250401211430068" style="zoom:50%;" />
 
 
 
@@ -4531,7 +4531,7 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 展开运算符(…),将一个数组进行展开
 
-<img src="../images/image-20250401211521674.png" alt="image-20250401211521674" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211521674.png" alt="image-20250401211521674" style="zoom:50%;" />
 
 **说明：**不会修改原数组
 
@@ -4539,9 +4539,9 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 **典型运用场景：** 求数组最大值(最小值)、合并数组等
 
-<img src="../images/image-20250401211552583.png" alt="image-20250401211552583" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211552583.png" alt="image-20250401211552583" style="zoom:50%;" />
 
-<img src="../images/image-20250401211600874.png" alt="image-20250401211600874" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211600874.png" alt="image-20250401211600874" style="zoom:50%;" />
 
 **展开运算符 or 剩余参数**
 
@@ -4551,7 +4551,7 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 展开运算符：<font color='red'>数组中使用</font>，数组展开
 
-<img src="../images/image-20250401211643875.png" alt="image-20250401211643875" style="zoom:50%;" />                                            <img src="../images/image-20250401211649900.png" alt="image-20250401211649900" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211643875.png" alt="image-20250401211643875" style="zoom:50%;" />                                            <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211649900.png" alt="image-20250401211649900" style="zoom:50%;" />
 
 
 
@@ -4575,9 +4575,9 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 
 
-<img src="../images/image-20250401211838192.png" alt="image-20250401211838192" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211838192.png" alt="image-20250401211838192" style="zoom:50%;" />
 
-<img src="../images/image-20250402210649326.png" alt="image-20250402210649326" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402210649326.png" alt="image-20250402210649326" style="zoom:50%;" />
 
 
 
@@ -4585,9 +4585,9 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 
 
-<img src="../images/image-20250401211925415.png" alt="image-20250401211925415" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211925415.png" alt="image-20250401211925415" style="zoom:50%;" />
 
-<img src="../images/image-20250401211931676.png" alt="image-20250401211931676" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401211931676.png" alt="image-20250401211931676" style="zoom:50%;" />
 
 
 
@@ -4595,11 +4595,11 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 
 
-<img src="../images/image-20250401212021909.png" alt="image-20250401212021909" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401212021909.png" alt="image-20250401212021909" style="zoom:50%;" />
 
-<img src="../images/image-20250401212031334.png" alt="image-20250401212031334" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401212031334.png" alt="image-20250401212031334" style="zoom:50%;" />
 
-<img src="../images/image-20250401212040456.png" alt="image-20250401212040456" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401212040456.png" alt="image-20250401212040456" style="zoom:50%;" />
 
 
 
@@ -4607,9 +4607,9 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 
 
-<img src="../images/image-20250401212104076.png" alt="image-20250401212104076" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401212104076.png" alt="image-20250401212104076" style="zoom:50%;" />
 
-<img src="../images/image-20250401212113046.png" alt="image-20250401212113046" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401212113046.png" alt="image-20250401212113046" style="zoom:50%;" />
 
 
 
@@ -4620,7 +4620,7 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 1. 普通函数有arguments 动态参数
 2. <font color='red'>箭头函数</font>没有 arguments 动态参数，但是<font color='red'>有 剩余参数</font> ..args
 
-<img src="../images/image-20250401212312825.png" alt="image-20250401212312825" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401212312825.png" alt="image-20250401212312825" style="zoom:50%;" />
 
 
 
@@ -4632,17 +4632,17 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 <font color='red'>箭头函数不会创建自己的this</font>,它只会从自己的作用域链的上一层沿用this。
 
-<img src="../images/image-20250401212447413.png" alt="image-20250401212447413" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401212447413.png" alt="image-20250401212447413" style="zoom:50%;" />
 
-<img src="../images/image-20250401214320243.png" alt="image-20250401214320243" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401214320243.png" alt="image-20250401214320243" style="zoom:50%;" />
 
-<img src="../images/image-20250401214344415.png" alt="image-20250401214344415" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401214344415.png" alt="image-20250401214344415" style="zoom:50%;" />
 
 
 
 在开发中【使用箭头函数前需要考虑函数中 this 的值】，事件回调函数使用箭头函数时，this 为全局的 window，因此<font color='red'>DOM事件回调函数为了简便，还是不太推荐使用箭头函数</font>
 
-<img src="../images/image-20250401214437459.png" alt="image-20250401214437459" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401214437459.png" alt="image-20250401214437459" style="zoom:50%;" />
 
 
 
@@ -4650,13 +4650,13 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 
 
-> <img src="../images/image-20250401214533918.png" alt="image-20250401214533918" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401214533918.png" alt="image-20250401214533918" style="zoom:50%;" />
 >
-> <img src="../images/image-20250401214543395.png" alt="image-20250401214543395" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401214543395.png" alt="image-20250401214543395" style="zoom:50%;" />
 >
 > 以上要么不好记忆，要么书写麻烦，此时可以使用解构赋值的方法让代码更简洁
 >
-> <img src="../images/image-20250401214557396.png" alt="image-20250401214557396" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401214557396.png" alt="image-20250401214557396" style="zoom:50%;" />
 >
 > 解构赋值是一种快速为变量赋值的简洁语法，本质上仍然是为变量赋值。
 >
@@ -4682,15 +4682,15 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 1. 赋值运算符 = 左侧的 [] 用于批量声明变量，右侧数组的单元值将被赋值给左侧的变量
 2. 变量的顺序对应数组单元值的位置依次进行赋值操作
 
-<img src="../images/image-20250401214717728.png" alt="image-20250401214717728" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401214717728.png" alt="image-20250401214717728" style="zoom:50%;" />
 
-<img src="../images/image-20250401214731096.png" alt="image-20250401214731096" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401214731096.png" alt="image-20250401214731096" style="zoom:50%;" />
 
 **典型应用：**交换2个变量
 
-<img src="../images/image-20250401214753943.png" alt="image-20250401214753943" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401214753943.png" alt="image-20250401214753943" style="zoom:50%;" />
 
-<img src="../images/image-20250401214804715.png" alt="image-20250401214804715" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401214804715.png" alt="image-20250401214804715" style="zoom:50%;" />
 
 
 
@@ -4700,13 +4700,13 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 >
 > 1. 立即执行函数
 >
-> <img src="../images/image-20250401214913136.png" alt="image-20250401214913136" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401214913136.png" alt="image-20250401214913136" style="zoom:50%;" />
 >
 > 2. 数组解构
 >
-> <img src="../images/image-20250401214937805.png" alt="image-20250401214937805" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401214937805.png" alt="image-20250401214937805" style="zoom:50%;" />
 >
-> <img src="../images/image-20250401214953356.png" alt="image-20250401214953356" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401214953356.png" alt="image-20250401214953356" style="zoom:50%;" />
 
 
 
@@ -4714,7 +4714,7 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 
 
-<img src="../images/image-20250401215212748.png" alt="image-20250401215212748" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401215212748.png" alt="image-20250401215212748" style="zoom:50%;" />
 
 变量的数量大于单元值数量时，多余的变量将被赋值为 undefined
 
@@ -4724,11 +4724,11 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 
 
-<img src="../images/image-20250401215251330.png" alt="image-20250401215251330" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401215251330.png" alt="image-20250401215251330" style="zoom:50%;" />
 
 利用剩余参数解决变量少 单元值多的情况：
 
-<img src="../images/image-20250401215319099.png" alt="image-20250401215319099" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401215319099.png" alt="image-20250401215319099" style="zoom: 50%;" />
 
 剩余参数返回的还是一个数组
 
@@ -4738,7 +4738,7 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 
 
-<img src="../images/image-20250401215355252.png" alt="image-20250401215355252" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401215355252.png" alt="image-20250401215355252" style="zoom:50%;" />
 
 允许初始化变量的默认值，且只有单元值为 undefined 时默认值才会生效
 
@@ -4748,7 +4748,7 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 
 
-<img src="../images/image-20250401215429818.png" alt="image-20250401215429818" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401215429818.png" alt="image-20250401215429818" style="zoom:50%;" />
 
 
 
@@ -4756,9 +4756,9 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 
 
-<img src="../images/image-20250401215503337.png" alt="image-20250401215503337" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401215503337.png" alt="image-20250401215503337" style="zoom:50%;" />
 
-<img src="../images/image-20250401215516011.png" alt="image-20250401215516011" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401215516011.png" alt="image-20250401215516011" style="zoom:50%;" />
 
 
 
@@ -4779,7 +4779,7 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 3. 注意解构的变量名不要和外面的变量名冲突否则报错
 4. 对象中找不到与变量名一致的属性时变量值为 undefined
 
-<img src="../images/image-20250401215640981.png" alt="image-20250401215640981" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401215640981.png" alt="image-20250401215640981" style="zoom:50%;" />
 
 
 
@@ -4789,7 +4789,7 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 可以从一个对象中提取变量并同时修改新的变量名
 
-<img src="../images/image-20250401215750214.png" alt="image-20250401215750214" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401215750214.png" alt="image-20250401215750214" style="zoom:50%;" />
 
 冒号表示“什么值：赋值给谁”
 
@@ -4801,9 +4801,9 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 
 
-<img src="../images/image-20250401215836841.png" alt="image-20250401215836841" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401215836841.png" alt="image-20250401215836841" style="zoom:50%;" />
 
-<img src="../images/image-20250401215846436.png" alt="image-20250401215846436" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401215846436.png" alt="image-20250401215846436" style="zoom:50%;" />
 
 
 
@@ -4811,19 +4811,19 @@ JS初学者经常花很多时间才能习惯变量提升，还经常出现一些
 
 
 
-<img src="../images/image-20250401215947191.png" alt="image-20250401215947191" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401215947191.png" alt="image-20250401215947191" style="zoom:50%;" />
 
-<img src="../images/image-20250401224555149.png" alt="image-20250401224555149" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401224555149.png" alt="image-20250401224555149" style="zoom:50%;" />
 
-<img src="../images/image-20250401224602528.png" alt="image-20250401224602528" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401224602528.png" alt="image-20250401224602528" style="zoom:50%;" />
 
 **多级数组对象解构：**
 
-<img src="../images/image-20250401224653711.png" alt="image-20250401224653711" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401224653711.png" alt="image-20250401224653711" style="zoom:50%;" />
 
-<img src="../images/image-20250401224700723.png" alt="image-20250401224700723" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401224700723.png" alt="image-20250401224700723" style="zoom:50%;" />
 
-<img src="../images/image-20250401224726095.png" alt="image-20250401224726095" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401224726095.png" alt="image-20250401224726095" style="zoom:50%;" />
 
 
 
@@ -4839,13 +4839,13 @@ forEach() 方法用于调用数组的每个元素，并将元素传递给回调�
 
 **语法：**
 
-<img src="../images/image-20250401224828370.png" alt="image-20250401224828370" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401224828370.png" alt="image-20250401224828370" style="zoom:50%;" />
 
 **例如：**
 
-<img src="../images/image-20250401224846703.png" alt="image-20250401224846703" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401224846703.png" alt="image-20250401224846703" style="zoom:50%;" />
 
-<img src="../images/image-20250401224859243.png" alt="image-20250401224859243" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250401224859243.png" alt="image-20250401224859243" style="zoom:50%;" />
 
 > [!CAUTION]
 >
@@ -4859,7 +4859,7 @@ forEach() 方法用于调用数组的每个元素，并将元素传递给回调�
 
 
 
-<img src="../images/image-20250402221704096.png" alt="image-20250402221704096" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402221704096.png" alt="image-20250402221704096" style="zoom:50%;" />
 
 filter() 方法创建一个新的数组，新数组中的元素是通过检查指定数组中符合条件的所有元素
 
@@ -4867,11 +4867,11 @@ filter() 方法创建一个新的数组，新数组中的元素是通过检查�
 
 **语法：**
 
-<img src="../images/image-20250402221312768.png" alt="image-20250402221312768" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402221312768.png" alt="image-20250402221312768" style="zoom:50%;" />
 
 **例：**
 
-<img src="../images/image-20250402221326846.png" alt="image-20250402221326846" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402221326846.png" alt="image-20250402221326846" style="zoom:50%;" />
 
 
 
@@ -4895,13 +4895,13 @@ filter() 方法创建一个新的数组，新数组中的元素是通过检查�
 
 
 
-<img src="../images/image-20250402222334774.png" alt="image-20250402222334774" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402222334774.png" alt="image-20250402222334774" style="zoom:50%;" />
 
 ### 2.2 利用 new Object 创建对象
 
 
 
-<img src="../images/image-20250402222510271.png" alt="image-20250402222510271" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402222510271.png" alt="image-20250402222510271" style="zoom:50%;" />
 
 ### 2.3 利用构造函数创建对象
 
@@ -4919,9 +4919,9 @@ filter() 方法创建一个新的数组，新数组中的元素是通过检查�
 
 
 
-<img src="../images/image-20250402223328010.png" alt="image-20250402223328010" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402223328010.png" alt="image-20250402223328010" style="zoom:50%;" />
 
-<img src="../images/image-20250402223335433.png" alt="image-20250402223335433" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402223335433.png" alt="image-20250402223335433" style="zoom:50%;" />
 
 
 
@@ -4938,7 +4938,7 @@ filter() 方法创建一个新的数组，新数组中的元素是通过检查�
 
 **创建构造函数：**
 
-<img src="../images/image-20250402223528046.png" alt="image-20250402223528046" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402223528046.png" alt="image-20250402223528046" style="zoom:50%;" />
 
 > [!NOTE]
 >
@@ -4954,7 +4954,7 @@ filter() 方法创建一个新的数组，新数组中的元素是通过检查�
 
 **实例化执行过程：**
 
-<img src="../images/image-20250402223637569.png" alt="image-20250402223637569" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402223637569.png" alt="image-20250402223637569" style="zoom:50%;" />
 
 > [!NOTE]
 >
@@ -4975,7 +4975,7 @@ filter() 方法创建一个新的数组，新数组中的元素是通过检查�
 
 通过构造函数创建的对象称为实例对象，实例对象中的属性和方法称为实例成员。
 
-<img src="../images/image-20250402223709719.png" alt="image-20250402223709719" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402223709719.png" alt="image-20250402223709719" style="zoom:50%;" />
 
 > [!NOTE]
 >
@@ -4991,7 +4991,7 @@ filter() 方法创建一个新的数组，新数组中的元素是通过检查�
 
 构造函数的属性和方法被称为静态成员
 
-<img src="../images/image-20250402223827505.png" alt="image-20250402223827505" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402223827505.png" alt="image-20250402223827505" style="zoom:50%;" />
 
 > [!NOTE]
 >
@@ -5019,7 +5019,7 @@ filter() 方法创建一个新的数组，新数组中的元素是通过检查�
 
 但是，我们会发现有些特殊情况：
 
-<img src="../images/image-20250402224122074.png" alt="image-20250402224122074" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402224122074.png" alt="image-20250402224122074" style="zoom:50%;" />
 
 其实字符串、数值、布尔、等基本类型也都有专门的构造函数，这些我们称为包装类型。
 
@@ -5043,7 +5043,7 @@ JS中几乎所有的数据都可以基于构成函数创建。
 
 Object 是内置的构造函数，用于创建普通对象。
 
-<img src="../images/image-20250402224221727.png" alt="image-20250402224221727" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402224221727.png" alt="image-20250402224221727" style="zoom:50%;" />
 
 推荐使用字面量方式声明对象，而不是 Object 构造函数
 
@@ -5051,9 +5051,9 @@ Object 是内置的构造函数，用于创建普通对象。
 
 学习三个常用静态方法（静态方法就是只有构造函数Object可以调用的）：
 
-<img src="../images/image-20250402224242771.png" alt="image-20250402224242771" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402224242771.png" alt="image-20250402224242771" style="zoom:50%;" />
 
-<img src="../images/image-20250402224334537.png" alt="image-20250402224334537" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402224334537.png" alt="image-20250402224334537" style="zoom:50%;" />
 
 现在有新的方法了~
 
@@ -5067,7 +5067,7 @@ Object 是内置的构造函数，用于创建普通对象。
 
 **语法：**
 
-<img src="../images/image-20250402224513462.png" alt="image-20250402224513462" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402224513462.png" alt="image-20250402224513462" style="zoom:50%;" />
 
 **注意：** 返回的是一个数组
 
@@ -5081,7 +5081,7 @@ Object 是内置的构造函数，用于创建普通对象。
 
 **语法：**
 
-<img src="../images/image-20250402224655605.png" alt="image-20250402224655605" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402224655605.png" alt="image-20250402224655605" style="zoom:50%;" />
 
 **注意：** 返回的是一个数组
 
@@ -5095,11 +5095,11 @@ Object 是内置的构造函数，用于创建普通对象。
 
 **语法：**
 
-<img src="../images/image-20250402224743929.png" alt="image-20250402224743929" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402224743929.png" alt="image-20250402224743929" style="zoom:50%;" />
 
 **使用：**经常使用的场景给对象添加属性
 
-<img src="../images/image-20250402224828849.png" alt="image-20250402224828849" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250402224828849.png" alt="image-20250402224828849" style="zoom:50%;" />
 
 
 
@@ -5109,7 +5109,7 @@ Object 是内置的构造函数，用于创建普通对象。
 
 Array 是内置的构造函数，用于创建数组
 
-<img src="../images/image-20250403204407730.png" alt="image-20250403204407730" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403204407730.png" alt="image-20250403204407730" style="zoom:50%;" />
 
 创建数组建议使用字面量创建，不用 Array构造函数创建
 
@@ -5119,7 +5119,7 @@ Array 是内置的构造函数，用于创建数组
 
 
 
-<img src="../images/image-20250403204451408.png" alt="image-20250403204451408" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403204451408.png" alt="image-20250403204451408" style="zoom:50%;" />
 
 |  方法   |   作用   |                             说明                             |
 | :-----: | :------: | :----------------------------------------------------------: |
@@ -5134,9 +5134,9 @@ Array 是内置的构造函数，用于创建数组
 
 **基本语法：**
 
-<img src="../images/image-20250403204931960.png" alt="image-20250403204931960" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403204931960.png" alt="image-20250403204931960" style="zoom:50%;" />
 
-<img src="../images/image-20250403205007486.png" alt="image-20250403205007486" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403205007486.png" alt="image-20250403205007486" style="zoom:50%;" />
 
 **参数：**
 
@@ -5154,7 +5154,7 @@ Array 是内置的构造函数，用于创建数组
 
 **使用场景：**求和运算：
 
-<img src="../images/image-20250403205041475.png" alt="image-20250403205041475" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403205041475.png" alt="image-20250403205041475" style="zoom:50%;" />
 
 
 
@@ -5176,9 +5176,9 @@ Array 是内置的构造函数，用于创建数组
 
 
 
-<img src="../images/image-20250403205201467.png" alt="image-20250403205201467" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403205201467.png" alt="image-20250403205201467" style="zoom:50%;" />
 
-<img src="../images/image-20250403205124700.png" alt="image-20250403205124700" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403205124700.png" alt="image-20250403205124700" style="zoom:50%;" />
 
 
 
@@ -5196,7 +5196,7 @@ Array 是内置的构造函数，用于创建数组
 
 在 JavaScript 中的字符串、数值、布尔具有对象的使用特征，如具有属性和方法
 
-<img src="../images/image-20250403205315691.png" alt="image-20250403205315691" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403205315691.png" alt="image-20250403205315691" style="zoom:50%;" />
 
 之所以具有对象特征的原因是字符串、数值、布尔类型数据是 JavaScript 底层使用 Object 构造函数“包装”来的，被称为<font color='red'>包装类型</font>。
 
@@ -5220,7 +5220,7 @@ Array 是内置的构造函数，用于创建数组
 | 实例方法 |                           replace                            |                 用于替换字符串，支持正则匹配                 |
 | 实例方法 |                            match                             |                 用于查找字符串，支持正则匹配                 |
 
-<img src="../images/image-20250406154542394.png" alt="image-20250406154542394" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250406154542394.png" alt="image-20250406154542394" style="zoom:50%;" />
 
 
 
@@ -5236,9 +5236,9 @@ Array 是内置的构造函数，用于创建数组
 
 > 方法
 
-<img src="../images/image-20250404180916794.png" alt="image-20250404180916794" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250404180916794.png" alt="image-20250404180916794" style="zoom:50%;" />
 
-<img src="../images/image-20250404180806241.png" alt="image-20250404180806241" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250404180806241.png" alt="image-20250404180806241" style="zoom:50%;" />
 
 
 
@@ -5252,7 +5252,7 @@ Number 是内置的构造函数，用于创建数值
 
 toFixed() 设置保留小数位的长度
 
-<img src="../images/image-20250403205446503.png" alt="image-20250403205446503" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403205446503.png" alt="image-20250403205446503" style="zoom:50%;" />
 
 Number()	转换为数字型
 
@@ -5272,7 +5272,7 @@ Number()	转换为数字型
 
 举个栗子：蛋炒饭
 
-<img src="../images/image-20250403210302317.png" alt="image-20250403210302317" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403210302317.png" alt="image-20250403210302317" style="zoom:50%;" />
 
 <font color='red'>面向过程，就是按照我们分析好了的步骤，按照步骤解决问题。</font>
 
@@ -5286,7 +5286,7 @@ Number()	转换为数字型
 
 举个栗子：盖浇饭
 
-<img src="../images/image-20250403210458509.png" alt="image-20250403210458509" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403210458509.png" alt="image-20250403210458509" style="zoom:50%;" />
 
 <font color='red'>面向对象是以对象功能来划分问题，而不是步骤。</font>
 
@@ -5302,7 +5302,7 @@ Number()	转换为数字型
 - 继承性
 - 多态性
 
-<img src="../images/image-20250403210617167.png" alt="image-20250403210617167" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403210617167.png" alt="image-20250403210617167" style="zoom:50%;" />
 
 
 
@@ -5338,7 +5338,7 @@ Number()	转换为数字型
 
 同样的将变量和函数组合到了一起并能通过 this 实现数据的共享，所不同的是借助构造函数创建出来的实例对象之间是彼此不影响的
 
-<img src="../images/image-20250403210848039.png" alt="image-20250403210848039" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403210848039.png" alt="image-20250403210848039" style="zoom:50%;" />
 
 总结：
 1. 构造函数体现了面向对象的封装特性
@@ -5350,9 +5350,9 @@ Number()	转换为数字型
 
 前面我们学过的构造函数方法很好用，但是 <font color='red'>存在浪费内存的问题</font>
 
-<img src="../images/image-20250403210935963.png" alt="image-20250403210935963" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403210935963.png" alt="image-20250403210935963" style="zoom:50%;" />
 
-<img src="../images/image-20250403210951057.png" alt="image-20250403210951057" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403210951057.png" alt="image-20250403210951057" style="zoom:50%;" />
 
 > 我们希望所有的对象使用同一个函数，这样就比较节省内存，那么我们要怎样做呢？
 
@@ -5372,9 +5372,9 @@ Number()	转换为数字型
 - <font color='red'>我们可以把那些不变的方法，直接定义在 prototype 对象上，这样所有对象的实例就可以共享这些方法。</font>
 - <font color='red'>构造函数和原型对象中的this 都指向 实例化的对象</font>
 
-<img src="../images/image-20250403211326663.png" alt="image-20250403211326663" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403211326663.png" alt="image-20250403211326663" style="zoom:50%;" />
 
-<img src="../images/image-20250403211335986.png" alt="image-20250403211335986" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403211335986.png" alt="image-20250403211335986" style="zoom:50%;" />
 
 
 
@@ -5384,9 +5384,9 @@ Number()	转换为数字型
 
 <font color='red'>构造函数和原型对象中的this 都指向 实例化的对象</font>
 
-<img src="../images/image-20250403211416649.png" alt="image-20250403211416649" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403211416649.png" alt="image-20250403211416649" style="zoom:50%;" />
 
-<img src="../images/image-20250403211424158.png" alt="image-20250403211424158" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403211424158.png" alt="image-20250403211424158" style="zoom:50%;" />
 
 
 
@@ -5398,7 +5398,7 @@ Number()	转换为数字型
 
 **作用：**该属性<font color='red'>指向</font>该原型对象的<font color='red'>构造函数， 简单理解，就是指向我的爸爸，我是有爸爸的孩子</font>
 
-<img src="../images/image-20250403211605299.png" alt="image-20250403211605299" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403211605299.png" alt="image-20250403211605299" style="zoom:50%;" />
 
 
 
@@ -5408,9 +5408,9 @@ Number()	转换为数字型
 但是这样就会覆盖构造函数原型对象原来的内容，这样修改后的原型对象 constructor 就不再指向当前构造函数了
 此时，我们可以在修改后的原型对象中，添加一个 constructor 指向原来的构造函数。
 
-<img src="../images/image-20250403211632783.png" alt="image-20250403211632783" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403211632783.png" alt="image-20250403211632783" style="zoom:50%;" />
 
-<img src="../images/image-20250403211640036.png" alt="image-20250403211640036" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403211640036.png" alt="image-20250403211640036" style="zoom:50%;" />
 
 
 
@@ -5423,13 +5423,13 @@ Number()	转换为数字型
 > 构造函数可以创建实例对象，构造函数还有一个原型对象，一些公共的属性或者方法放到这个原型对象身上
 > 但是 为啥实例对象可以访问原型对象里面的属性和方法呢？
 >
-> <img src="../images/image-20250403212328511.png" alt="image-20250403212328511" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403212328511.png" alt="image-20250403212328511" style="zoom:50%;" />
 
 
 
 <font color='red'>对象都会有一个属性 `__proto__` </font>指向构造函数的 prototype 原型对象，之所以我们对象可以使用构造函数 prototype 原型对象的属性和方法，就是因为对象有 `__proto__` 原型的存在。
 
-<img src="../images/image-20250403212515269.png" alt="image-20250403212515269" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403212515269.png" alt="image-20250403212515269" style="zoom:50%;" />
 
 
 
@@ -5442,7 +5442,7 @@ Number()	转换为数字型
 
 
 
-<img src="../images/image-20250403212635040.png" alt="image-20250403212635040" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403212635040.png" alt="image-20250403212635040" style="zoom:50%;" />
 
 
 
@@ -5454,9 +5454,9 @@ Number()	转换为数字型
 龙生龙、凤生凤、老鼠的儿子会打洞描述的正是继承的含义。
 我们来看个代码：
 
-<img src="../images/image-20250403212712647.png" alt="image-20250403212712647" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403212712647.png" alt="image-20250403212712647" style="zoom:50%;" />
 
-<img src="../images/image-20250403212719635.png" alt="image-20250403212719635" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403212719635.png" alt="image-20250403212719635" style="zoom:50%;" />
 
 
 
@@ -5466,7 +5466,7 @@ Number()	转换为数字型
 
 把男人和女人公共的部分抽取出来放到人类里面
 
-<img src="../images/image-20250403212753732.png" alt="image-20250403212753732" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403212753732.png" alt="image-20250403212753732" style="zoom:50%;" />
 
 
 
@@ -5478,9 +5478,9 @@ Number()	转换为数字型
 - 然后赋值给Man的原型对象，可以共享这些属性和方法
 - 注意让constructor指回Man这个构造函数
 
-<img src="../images/image-20250403212845159.png" alt="image-20250403212845159" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403212845159.png" alt="image-20250403212845159" style="zoom:50%;" />
 
-<img src="../images/image-20250403212831657.png" alt="image-20250403212831657" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403212831657.png" alt="image-20250403212831657" style="zoom:50%;" />
 
 
 
@@ -5490,15 +5490,15 @@ Number()	转换为数字型
 
 如果我们给男人添加了一个吸烟的方法，发现女人自动也添加这个方法
 
-<img src="../images/image-20250403213004059.png" alt="image-20250403213004059" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403213004059.png" alt="image-20250403213004059" style="zoom:50%;" />
 
-<img src="../images/image-20250403213010513.png" alt="image-20250403213010513" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403213010513.png" alt="image-20250403213010513" style="zoom:50%;" />
 
  **原因**
 
 男人和女人都同时使用了同一个对象，根据引用类型的特点，他们指向同一个对象，修改一个就会都影响
 
-<img src="../images/image-20250403213034560.png" alt="image-20250403213034560" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403213034560.png" alt="image-20250403213034560" style="zoom:50%;" />
 
 
 
@@ -5512,9 +5512,9 @@ Number()	转换为数字型
 
 new 每次都会创建一个新的对象
 
-<img src="../images/image-20250403213115394.png" alt="image-20250403213115394" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403213115394.png" alt="image-20250403213115394" style="zoom:50%;" />
 
-<img src="../images/image-20250403213136809.png" alt="image-20250403213136809" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403213136809.png" alt="image-20250403213136809" style="zoom:50%;" />
 
 
 
@@ -5522,15 +5522,15 @@ new 每次都会创建一个新的对象
 
 
 
-<img src="../images/image-20250403213201169.png" alt="image-20250403213201169" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403213201169.png" alt="image-20250403213201169" style="zoom:50%;" />
 
-<img src="../images/image-20250403213211001.png" alt="image-20250403213211001" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403213211001.png" alt="image-20250403213211001" style="zoom:50%;" />
 
-<img src="../images/image-20250403213222382.png" alt="image-20250403213222382" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403213222382.png" alt="image-20250403213222382" style="zoom:50%;" />
 
-<img src="../images/image-20250403213318772.png" alt="image-20250403213318772" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403213318772.png" alt="image-20250403213318772" style="zoom:50%;" />
 
-<img src="../images/image-20250403213506943.png" alt="image-20250403213506943" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403213506943.png" alt="image-20250403213506943" style="zoom:50%;" />
 
 **思路**
 
@@ -5549,7 +5549,7 @@ new 每次都会创建一个新的对象
 
 基于原型对象的继承使得不同构造函数的原型对象关联在一起，并且这种关联的关系是一种链状的结构，我们将原型对象的链状结构关系称为原型链
 
-<img src="../images/image-20250403213607212.png" alt="image-20250403213607212" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250403213607212.png" alt="image-20250403213607212" style="zoom:50%;" />
 
 
 
@@ -5572,9 +5572,9 @@ new 每次都会创建一个新的对象
 
 > 开发中我们经常需要复制一个对象。如果直接用赋值会有下面问题：
 >
-> <img src="../images/image-20250408214517079.png" alt="image-20250408214517079" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408214517079.png" alt="image-20250408214517079" style="zoom:50%;" />
 >
-> <img src="../images/image-20250408214529041.png" alt="image-20250408214529041" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408214529041.png" alt="image-20250408214529041" style="zoom:50%;" />
 >
 > 这好比有同学来pink老师这里拷视频，竟然用的是剪切…气人不
 
@@ -5593,17 +5593,17 @@ new 每次都会创建一个新的对象
 1. 拷贝对象：Object.assgin() / 展开运算符 {...obj} 拷贝对象
 2. 拷贝数组：Array.prototype.concat() 或者 [...arr]
 
-<img src="../images/image-20250408214649371.png" alt="image-20250408214649371" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408214649371.png" alt="image-20250408214649371" style="zoom:50%;" />
 
-<img src="../images/image-20250408214713390.png" alt="image-20250408214713390" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408214713390.png" alt="image-20250408214713390" style="zoom:50%;" />
 
 但是还有问题……
 
 
 
-<img src="../images/image-20250408214749184.png" alt="image-20250408214749184" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408214749184.png" alt="image-20250408214749184" style="zoom:50%;" />
 
-<img src="../images/image-20250408214757215.png" alt="image-20250408214757215" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408214757215.png" alt="image-20250408214757215" style="zoom:50%;" />
 
 如果是简单数据类型拷贝值，引用数据类型拷贝的是地址 (简单理解： 如果是单层对象，没问题，如果有多层就有问题)
 
@@ -5633,23 +5633,23 @@ new 每次都会创建一个新的对象
 
 <font color='red'>如果一个函数在内部可以调用其本身，那么这个函数就是递归函数</font>
 
-<img src="../images/image-20250408215038409.png" alt="image-20250408215038409" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408215038409.png" alt="image-20250408215038409" style="zoom: 50%;" />
 
 - 简单理解:函数内部自己调用自己, 这个函数就是递归函数
 - 递归函数的作用和循环效果类似
 - 由于递归很容易发生“栈溢出”错误（stack overflow），所以<font color='red'>必须要加退出条件 return</font>
 
-<img src="../images/image-20250408214955060.png" alt="image-20250408214955060" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408214955060.png" alt="image-20250408214955060" style="zoom:50%;" />
 
 
 
 **利用递归函数实现 setTimeout 模拟 setInterval效果**
 
-<img src="../images/image-20250408215112452.png" alt="image-20250408215112452" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408215112452.png" alt="image-20250408215112452" style="zoom:50%;" />
 
 **通过递归函数实现深拷贝（简版）**
 
-<img src="../images/image-20250408215151032.png" alt="image-20250408215151032" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408215151032.png" alt="image-20250408215151032" style="zoom:50%;" />
 
 
 
@@ -5657,7 +5657,7 @@ new 每次都会创建一个新的对象
 
 
 
-<img src="../images/image-20250408215218239.png" alt="image-20250408215218239" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408215218239.png" alt="image-20250408215218239" style="zoom:50%;" />
 
 
 
@@ -5665,7 +5665,7 @@ new 每次都会创建一个新的对象
 
 
 
-<img src="../images/image-20250408215356907.png" alt="image-20250408215356907" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408215356907.png" alt="image-20250408215356907" style="zoom:50%;" />
 
 
 
@@ -5679,7 +5679,7 @@ new 每次都会创建一个新的对象
 
 异常处理是指预估代码执行过程中可能发生的错误，然后最大程度的避免错误的发生导致整个程序无法继续运行
 
-<img src="../images/image-20250408215508454.png" alt="image-20250408215508454" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408215508454.png" alt="image-20250408215508454" style="zoom:50%;" />
 
 总结：
 1. throw 抛出异常信息，程序也会终止执行
@@ -5694,7 +5694,7 @@ new 每次都会创建一个新的对象
 
 我们可以通过try / catch 捕获错误信息（浏览器提供的错误信息） try 试试 catch 拦住 finally 最后
 
-<img src="../images/image-20250408215547878.png" alt="image-20250408215547878" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408215547878.png" alt="image-20250408215547878" style="zoom:50%;" />
 
 
 
@@ -5712,7 +5712,7 @@ new 每次都会创建一个新的对象
 
 我们可以通过try / catch 捕获错误信息（浏览器提供的错误信息）
 
-<img src="../images/image-20250408215643473.png" alt="image-20250408215643473" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408215643473.png" alt="image-20250408215643473" style="zoom:50%;" />
 
 
 
@@ -5728,7 +5728,7 @@ new 每次都会创建一个新的对象
 
 
 
-<img src="../images/image-20250408215807257.png" alt="image-20250408215807257" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408215807257.png" alt="image-20250408215807257" style="zoom:50%;" />
 
 普通函数没有明确调用者时 this 值为 window，<font color='red'>严格模式</font>下没有调用者时 this 的值为 undefined
 
@@ -5745,9 +5745,9 @@ new 每次都会创建一个新的对象
 
 
 
-<img src="../images/image-20250408215920573.png" alt="image-20250408215920573" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408215920573.png" alt="image-20250408215920573" style="zoom:50%;" />
 
-<img src="../images/image-20250408215930144.png" alt="image-20250408215930144" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408215930144.png" alt="image-20250408215930144" style="zoom:50%;" />
 
 
 
@@ -5757,13 +5757,13 @@ new 每次都会创建一个新的对象
 
 因此DOM事件回调函数<font color='red'>如果里面需要</font>DOM对象的this，则不推荐使用箭头函数
 
-<img src="../images/image-20250408220005607.png" alt="image-20250408220005607" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408220005607.png" alt="image-20250408220005607" style="zoom:50%;" />
 
 **注意情况2：**
 
 同样由于箭头函数 this 的原因，基于原型的面向对象也不推荐采用箭头函数
 
-<img src="../images/image-20250408220032496.png" alt="image-20250408220032496" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408220032496.png" alt="image-20250408220032496" style="zoom:50%;" />
 
 总结：
 1. 函数内不存在this，沿用上一级的
@@ -5804,9 +5804,9 @@ fun.call(thisArg, arg1, arg2, ...)
 - arg1，arg2：传递的其他参数
 - 返回值就是函数的返回值，因为它就是调用函数
 
-<img src="../images/image-20250408220440552.png" alt="image-20250408220440552" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408220440552.png" alt="image-20250408220440552" style="zoom:50%;" />
 
-<img src="../images/image-20250408220451563.png" alt="image-20250408220451563" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408220451563.png" alt="image-20250408220451563" style="zoom:50%;" />
 
 ### 3.2  apply()-理解
 
@@ -5825,13 +5825,13 @@ fun.apply(thisArg, [argsArray])
 - 返回值就是函数的返回值，因为它就是调用函数
 - 因此 apply 主要跟数组有关系，比如使用 Math.max() 求数组的最大值
 
-<img src="../images/image-20250408220556362.png" alt="image-20250408220556362" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408220556362.png" alt="image-20250408220556362" style="zoom:50%;" />
 
 
 
 求数组最大值2个方法：
 
-<img src="../images/image-20250408220612120.png" alt="image-20250408220612120" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408220612120.png" alt="image-20250408220612120" style="zoom:50%;" />
 
 
 
@@ -5852,7 +5852,7 @@ fun.bind(thisArg, arg1, arg2, ...)
 - 返回由指定的 this 值和初始化参数改造的 <font color='red'>原函数拷贝 （新函数）</font>
 - 因此当我们只是想改变 this 指向，并且不想调用这个函数的时候，可以使用 bind，比如改变定时器内部的this指向.
 
-<img src="../images/image-20250408220722967.png" alt="image-20250408220722967" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408220722967.png" alt="image-20250408220722967" style="zoom:50%;" />
 
 
 
@@ -5886,7 +5886,7 @@ fun.bind(thisArg, arg1, arg2, ...)
 
 
 
-<img src="../images/image-20250408221720212.png" alt="image-20250408221720212" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408221720212.png" alt="image-20250408221720212" style="zoom:50%;" />
 
 节流（throttle）
 
@@ -5894,7 +5894,7 @@ fun.bind(thisArg, arg1, arg2, ...)
 
 开发使用场景 – **小米轮播图点击效果 、 鼠标移动、页面尺寸缩放resize、滚动条滚动** 就可以加节流
 
-<img src="../images/image-20250408220941144.png" alt="image-20250408220941144" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408220941144.png" alt="image-20250408220941144" style="zoom:50%;" />
 
 - 假如一张轮播图完成切换需要300ms， 不加节流效果，快速点击，则嗖嗖嗖的切换
 - 加上节流效果， 不管快速点击多少次， 300ms时间内，只能切换一张图片。
@@ -5909,11 +5909,11 @@ fun.bind(thisArg, arg1, arg2, ...)
 
 
 
-<img src="../images/image-20250408221117540.png" alt="image-20250408221117540" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408221117540.png" alt="image-20250408221117540" style="zoom:50%;" />
 
 ①： 如果以前方式，每次鼠标移动就会有大量操作，触发频次太高
 
-<img src="../images/image-20250408221141498.png" alt="image-20250408221141498" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408221141498.png" alt="image-20250408221141498" style="zoom:50%;" />
 
 利用节流的方式， 鼠标经过，500ms ，数字才显示
 
@@ -5929,7 +5929,7 @@ fun.bind(thisArg, arg1, arg2, ...)
 6. 记录当前时间 now = Date.now()
 7. 进行判断 如果大于等于 500ms，则执行函数， 但是千万不要忘记 让 起始时间 = 现在时间
 
-<img src="../images/image-20250408221313176.png" alt="image-20250408221313176" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408221313176.png" alt="image-20250408221313176" style="zoom:50%;" />
 
 
 
@@ -5939,7 +5939,7 @@ fun.bind(thisArg, arg1, arg2, ...)
 
 防抖（debounce）
 
-<img src="../images/image-20250408221736877.png" alt="image-20250408221736877" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408221736877.png" alt="image-20250408221736877" style="zoom:50%;" />
 
 所谓防抖，就是指触发事件后在 n 秒内函数只能执行一次，如果在 n 秒内又触发了事件，则会重新计算函数执行时间
 
@@ -5957,7 +5957,7 @@ fun.bind(thisArg, arg1, arg2, ...)
 
 要求： 鼠标在盒子上移动，鼠标停止之后，500ms后里面的数字就会变化+1
 
-<img src="../images/image-20250408221454720.png" alt="image-20250408221454720" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408221454720.png" alt="image-20250408221454720" style="zoom:50%;" />
 
 利用防抖的方式实现
 
@@ -5973,7 +5973,7 @@ fun.bind(thisArg, arg1, arg2, ...)
 6. 如果有定时器，则清除定时器
 7. 否则开启定时器， 在设定时间内，调用函数
 
-<img src="../images/image-20250408221551471.png" alt="image-20250408221551471" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408221551471.png" alt="image-20250408221551471" style="zoom:50%;" />
 
 
 
@@ -5981,6 +5981,6 @@ fun.bind(thisArg, arg1, arg2, ...)
 
 
 
-<img src="../images/image-20250408221625689.png" alt="image-20250408221625689" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408221625689.png" alt="image-20250408221625689" style="zoom:50%;" />
 
-<img src="../images/image-20250408221653430.png" alt="image-20250408221653430" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250408221653430.png" alt="image-20250408221653430" style="zoom:50%;" />

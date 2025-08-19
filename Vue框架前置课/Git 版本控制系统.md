@@ -15,9 +15,9 @@
 - 个人本机使用：Git 基础命令和概念
 - 多人共享使用：团队开发同一个项目的代码版本管理
 
-<img src="../images/image-20250531201941790.png" alt="image-20250531201941790" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531201941790.png" alt="image-20250531201941790" style="zoom:50%;" />
 
-<img src="../images/image-20250531201949505.png" alt="image-20250531201949505" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531201949505.png" alt="image-20250531201949505" style="zoom:50%;" />
 
 
 
@@ -34,9 +34,9 @@
 1. 打开 bash 终端（git 专用）
 2. 命令：<font color='red'>git -v</font>（查看版本号）
 
-<img src="../images/image-20250531202021890.png" alt="image-20250531202021890" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531202021890.png" alt="image-20250531202021890" style="zoom:50%;" />
 
-<img src="../images/image-20250531202028967.png" alt="image-20250531202028967" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531202028967.png" alt="image-20250531202028967" style="zoom:50%;" />
 
 
 
@@ -51,7 +51,7 @@
 git config --global user.name "itheima"
 git config --global user.email "itheima@itcast.cn"
 
-<img src="../images/image-20250531202133232.png" alt="image-20250531202133232" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531202133232.png" alt="image-20250531202133232" style="zoom:50%;" />
 
 
 
@@ -61,7 +61,7 @@ git config --global user.email "itheima@itcast.cn"
 
 Git 仓库（repository）：记录文件状态内容的地方，存储着修改的<font color='red'>历史记录</font>
 
-<img src="../images/image-20250531202233253.png" alt="image-20250531202233253" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531202233253.png" alt="image-20250531202233253" style="zoom:50%;" />
 
 **创建：**
 
@@ -70,7 +70,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 
 需求：创建一个空白的 Git 仓库
 
-<img src="../images/image-20250531202240485.png" alt="image-20250531202240485" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531202240485.png" alt="image-20250531202240485" style="zoom:50%;" />
 
 
 
@@ -84,7 +84,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 - **暂存区：**保存之前的<font color='red'>准备区域</font>（暂存改动过的文件）
 - **版本库：**提交并<font color='red'>保存</font>暂存区中的内容，产生一个版本快照
 
-<img src="../images/image-20250531202353100.png" alt="image-20250531202353100" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531202353100.png" alt="image-20250531202353100" style="zoom:50%;" />
 
 |           命令           |           作用           |
 | :----------------------: | :----------------------: |
@@ -128,9 +128,9 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 第一列是暂存区状态
 第二列是工作区状态
 
-<img src="../images/image-20250531202659766.png" alt="image-20250531202659766" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531202659766.png" alt="image-20250531202659766" style="zoom:50%;" />
 
-<img src="../images/image-20250531202706712.png" alt="image-20250531202706712" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531202706712.png" alt="image-20250531202706712" style="zoom: 50%;" />
 
 
 
@@ -144,7 +144,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 
 **从暂存区移除文件，命令：**<font color='red'>git rm --cached 目标文件</font>
 
-<img src="../images/image-20250531203155532.png" alt="image-20250531203155532" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531203155532.png" alt="image-20250531203155532" style="zoom:50%;" />
 
 
 
@@ -160,7 +160,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 2. 临时存放在暂存区
 3. 提交保存到版本库
 
-<img src="../images/image-20250531203254751.png" alt="image-20250531203254751" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531203254751.png" alt="image-20250531203254751" style="zoom:50%;" />
 
 
 
@@ -176,9 +176,9 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 
 <font color='red'>git reflog --oneline</font>
 
-<img src="../images/image-20250531203336098.png" alt="image-20250531203336098" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531203336098.png" alt="image-20250531203336098" style="zoom:50%;" />
 
-<img src="../images/image-20250531203357582.png" alt="image-20250531203357582" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531203357582.png" alt="image-20250531203357582" style="zoom:50%;" />
 
 
 
@@ -225,7 +225,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 
 工作区只要改变，都可以暂存提交产生新记录
 
-<img src="../images/image-20250531204125944.png" alt="image-20250531204125944" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531204125944.png" alt="image-20250531204125944" style="zoom:50%;" />
 
 
 
@@ -251,7 +251,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 
 **注意：**如果文件已经被暂存区跟踪过，可以从暂存区移除即可
 
-<img src="../images/image-20250531205154760.png" alt="image-20250531205154760" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531205154760.png" alt="image-20250531205154760" style="zoom:50%;" />
 
 
 
@@ -266,9 +266,9 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 
 **注意：**<font color='red'>HEAD 指针</font>影响工作区/暂存区的代码状态
 
-<img src="../images/image-20250531205238421.png" alt="image-20250531205238421" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531205238421.png" alt="image-20250531205238421" style="zoom:50%;" />
 
-<img src="../images/image-20250531205245038.png" alt="image-20250531205245038" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531205245038.png" alt="image-20250531205245038" style="zoom:50%;" />
 
 **场景：**开发新需求 / 修复 Bug，保证主线代码随时可用，多人协同开发提高效率
 
@@ -277,7 +277,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 在现有代码上创建新分支完成内容列表业务
 突然需要紧急修复 Bug - 单独创建分支解决 Bug
 
-<img src="../images/image-20250531205311871.png" alt="image-20250531205311871" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531205311871.png" alt="image-20250531205311871" style="zoom:50%;" />
 
 **需求：**创建内容列表 content 分支，并产生 3 次提交记录
 
@@ -285,15 +285,15 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 
 1. 创建分支命令：<font color='red'>git branch 分支名</font>
 
-<img src="../images/image-20250531205337687.png" alt="image-20250531205337687" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531205337687.png" alt="image-20250531205337687" style="zoom:50%;" />
 
 2. 切换分支命令：<font color='red'>git checkout 分支名</font>
 
-<img src="../images/image-20250531205401969.png" alt="image-20250531205401969" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531205401969.png" alt="image-20250531205401969" style="zoom:50%;" />
 
 3. 工作区准备代码并暂存提交，重复 3 次
 
-<img src="../images/image-20250531205422157.png" alt="image-20250531205422157" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531205422157.png" alt="image-20250531205422157" style="zoom:50%;" />
 
 
 
@@ -310,7 +310,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 3. 切换新分支：git checkout login-bug
 4. 修改代码，暂存，提交产生版本记录
 
-<img src="../images/image-20250531205539837.png" alt="image-20250531205539837" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531205539837.png" alt="image-20250531205539837" style="zoom:50%;" />
 
 
 
@@ -326,7 +326,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 2. 合并其他分支过来：<font color='red'>git merge login-bug</font>
 3. 删除合并后的分支指针：git branch -d login-bug
 
-<img src="../images/image-20250531205703817.png" alt="image-20250531205703817" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531205703817.png" alt="image-20250531205703817" style="zoom:50%;" />
 
 
 
@@ -342,13 +342,13 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 2. 合并其他分支过来：git merge <font color='red'>content</font>
 3. 删除合并后的分支：git branch -d content
 
-<img src="../images/image-20250531205801038.png" alt="image-20250531205801038" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531205801038.png" alt="image-20250531205801038" style="zoom:50%;" />
 
 最后合并回到主分支上时，提交记录流程图：
 
 **注意：**提交记录的顺序按照产生的先后顺序排列，而非合并的先后顺序
 
-<img src="../images/image-20250531205816593.png" alt="image-20250531205816593" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531205816593.png" alt="image-20250531205816593" style="zoom:50%;" />
 
 
 
@@ -364,7 +364,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 
 **概念：**<font color='red'>不同分支</font>中，对<font color='red'>同一个文件</font>的<font color='red'>同一部分</font>修改，Git 无法干净的合并，产生合并冲突
 
-<img src="../images/image-20250531205937352.png" alt="image-20250531205937352" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531205937352.png" alt="image-20250531205937352" style="zoom:50%;" />
 
 **解决：**
 
@@ -418,7 +418,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 
 **创建：**公司自己服务器 / 第三方托管平台（<font color='red'>Gitee</font>，GitLab，GitHub...）
 
-<img src="../images/image-20250531210811311.png" alt="image-20250531210811311" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531210811311.png" alt="image-20250531210811311" style="zoom:50%;" />
 
 
 
@@ -444,7 +444,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 
   完整写法：git push --set-upstream origin master:master
 
-<img src="../images/image-20250531210900201.png" alt="image-20250531210900201" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531210900201.png" alt="image-20250531210900201" style="zoom:50%;" />
 
 
 
@@ -462,7 +462,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 
 **注意2：**仓库公开随意克隆，推送需要身为仓库团队成员
 
-<img src="../images/image-20250531211016332.png" alt="image-20250531211016332" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531211016332.png" alt="image-20250531211016332" style="zoom:50%;" />
 
 
 
@@ -484,7 +484,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 
   git merge origin/master (把远程分支记录合并到所在分支下）
 
-<img src="../images/image-20250531211100286.png" alt="image-20250531211100286" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531211100286.png" alt="image-20250531211100286" style="zoom:50%;" />
 
 
 
@@ -494,7 +494,7 @@ Git 仓库（repository）：记录文件状态内容的地方，存储着修改
 
 **使用：**源代码管理，进行暂存，撤销，对比差异，提交等操作
 
-<img src="../images/image-20250531211430949.png" alt="image-20250531211430949" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250531211430949.png" alt="image-20250531211430949" style="zoom:50%;" />
 
 
 

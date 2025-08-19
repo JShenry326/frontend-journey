@@ -24,11 +24,11 @@
 
 ①
 
-​	<img src="../images/image-20250604213612384.png" alt="image-20250604213612384" style="zoom:50%;" />
+​	<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604213612384.png" alt="image-20250604213612384" style="zoom:50%;" />
 
 ②
 
-<img src="../images/image-20250604213647179.png" alt="image-20250604213647179" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604213647179.png" alt="image-20250604213647179" style="zoom:50%;" />
 
 **Vue 的两种使用方式：**
 
@@ -44,7 +44,7 @@
 
 ③
 
-<img src="../images/image-20250604213814768.png" alt="image-20250604213814768" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604213814768.png" alt="image-20250604213814768" style="zoom:50%;" />
 
 **优点**：大大提升开发效率 (<font color='red'>70%</font>↑)
 
@@ -60,7 +60,7 @@
 
 
 
-<img src="../images/image-20250604213927403.png" alt="image-20250604213927403" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604213927403.png" alt="image-20250604213927403" style="zoom:50%;" />
 
 
 
@@ -76,7 +76,7 @@
 
 
 
-<img src="../images/image-20250604214010728.png" alt="image-20250604214010728" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604214010728.png" alt="image-20250604214010728" style="zoom:50%;" />
 
 
 
@@ -84,27 +84,27 @@
 
 表达式：是可以被求值的代码，JS引擎会将其计算出一个结果
 
-<img src="../images/image-20250604214042349.png" alt="image-20250604214042349" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604214042349.png" alt="image-20250604214042349" style="zoom:50%;" />
 
-<img src="../images/image-20250604214049545.png" alt="image-20250604214049545" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604214049545.png" alt="image-20250604214049545" style="zoom:50%;" />
 
 **<font color='red'>2. 语法：</font>**{{ 表达式 }}
 
-<img src="../images/image-20250604214127595.png" alt="image-20250604214127595" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604214127595.png" alt="image-20250604214127595" style="zoom:50%;" />
 
 **<font color='red'>3.注意点：</font>**
 
 （1）使用的数据必须存在 （data）
 
-<img src="../images/image-20250604214147556.png" alt="image-20250604214147556" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604214147556.png" alt="image-20250604214147556" style="zoom:50%;" />
 
 （2）支持的是表达式，而非语句，比如：if for ...
 
-<img src="../images/image-20250604214201766.png" alt="image-20250604214201766" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604214201766.png" alt="image-20250604214201766" style="zoom:50%;" />
 
 （3）不能在标签属性中使用 {{ }} 插值
 
-<img src="../images/image-20250604214217779.png" alt="image-20250604214217779" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604214217779.png" alt="image-20250604214217779" style="zoom:50%;" />
 
 
 
@@ -120,7 +120,7 @@
 
 比如：<font color='red'>数据的响应式处理</font> → 响应式：<font color='red'>数据变化，视图自动更新</font>
 
-<img src="../images/image-20250604214330281.png" alt="image-20250604214330281" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604214330281.png" alt="image-20250604214330281" style="zoom: 50%;" />
 
 如何访问 or 修改？data中的数据, 最终会被添加到实例上
 
@@ -132,7 +132,7 @@
 
 数据改变，视图会自动更新
 
-<img src="../images/image-20250604214414214.png" alt="image-20250604214414214" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604214414214.png" alt="image-20250604214414214" style="zoom:50%;" />
 
 <font color='red'>聚焦于数据 → 数据驱动视图</font>
 
@@ -152,13 +152,13 @@
 
 （2）极简插件: 下载 → 开发者模式 → 拖拽安装 → 插件详情允许访问文件	https://chrome.zzzmh.cn/index
 
-<img src="../images/image-20250604214526211.png" alt="image-20250604214526211" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604214526211.png" alt="image-20250604214526211" style="zoom:50%;" />
 
 
 
 打开 Vue <font color='red'>运行的页面</font>，调试工具中 <font color='red'>Vue 栏</font>，即可查看<font color='red'>修改数据</font>，进行调试。
 
-<img src="../images/image-20250604214552828.png" alt="image-20250604214552828" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604214552828.png" alt="image-20250604214552828" style="zoom:50%;" />
 
 
 
@@ -178,7 +178,7 @@ Vue 会根据不同的<font color='red'>【指令】</font>，针对标签实现
 
 ## 2. v-html
 
-<img src="../images/image-20250604214703051.png" alt="image-20250604214703051" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604214703051.png" alt="image-20250604214703051" style="zoom:50%;" />
 
 
 
@@ -199,7 +199,7 @@ Vue 会根据不同的<font color='red'>【指令】</font>，针对标签实现
 3. **原理**： <font color='red'>切换 display:none</font> 控制显示隐藏
 4. **场景**： 频繁切换显示隐藏的场景
 
-<img src="../images/image-20250604215359384.png" alt="image-20250604215359384" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604215359384.png" alt="image-20250604215359384" style="zoom:50%;" />
 
 ### v-if
 
@@ -208,7 +208,7 @@ Vue 会根据不同的<font color='red'>【指令】</font>，针对标签实现
 3. **原理**： 基于<font color='red'>条件判断</font>，是否 <font color='red'>创建</font> 或 <font color='red'>移除</font> 元素节点
 4. **场景**： 要么显示，要么隐藏，不频繁切换的场景
 
-<img src="../images/image-20250604215514942.png" alt="image-20250604215514942" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604215514942.png" alt="image-20250604215514942" style="zoom:50%;" />
 
 
 
@@ -220,9 +220,9 @@ Vue 会根据不同的<font color='red'>【指令】</font>，针对标签实现
 2. **语法**： v-else      v-else-if = "<font color='red'>表达式</font>"
 3. **注意**： 需要紧挨着 v-if 一起使用
 
-<img src="../images/image-20250604215620611.png" alt="image-20250604215620611" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604215620611.png" alt="image-20250604215620611" style="zoom:50%;" />
 
-<img src="../images/image-20250604215655572.png" alt="image-20250604215655572" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604215655572.png" alt="image-20250604215655572" style="zoom:50%;" />
 
 
 
@@ -239,11 +239,11 @@ Vue 会根据不同的<font color='red'>【指令】</font>，针对标签实现
 
 3. **简写**：<font color='red'>@事件名</font>
 
-<img src="../images/image-20250604215819975.png" alt="image-20250604215819975" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604215819975.png" alt="image-20250604215819975" style="zoom:50%;" />
 
 4. **注意**：methods函数内的 <font color='red'>this 指向 Vue 实例</font>
 
-<img src="../images/image-20250604215849185.png" alt="image-20250604215849185" style="zoom:33%;" /><img src="../images/image-20250604215905469.png" alt="image-20250604215905469" style="zoom:50%;" />    
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604215849185.png" alt="image-20250604215849185" style="zoom:33%;" /><img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604215905469.png" alt="image-20250604215905469" style="zoom:50%;" />    
 
 
 
@@ -251,13 +251,13 @@ Vue 会根据不同的<font color='red'>【指令】</font>，针对标签实现
 
 
 
-<img src="../images/image-20250604220024263.png" alt="image-20250604220024263" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220024263.png" alt="image-20250604220024263" style="zoom:50%;" />
 
-<img src="../images/image-20250604220034041.png" alt="image-20250604220034041" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220034041.png" alt="image-20250604220034041" style="zoom:50%;" />
 
-<img src="../images/image-20250604220100588.png" alt="image-20250604220100588" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220100588.png" alt="image-20250604220100588" style="zoom:50%;" />
 
-<img src="../images/image-20250604220107985.png" alt="image-20250604220107985" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220107985.png" alt="image-20250604220107985" style="zoom:50%;" />
 
 
 
@@ -269,7 +269,7 @@ Vue 会根据不同的<font color='red'>【指令】</font>，针对标签实现
 2. **语法**： v-bind:<font color='red'>属性名</font>="表达式"
 3. **注意**： 简写形式 :<font color='red'>属性名="表达式"</font>
 
-<img src="../images/image-20250604220211343.png" alt="image-20250604220211343" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220211343.png" alt="image-20250604220211343" style="zoom:50%;" />
 
 
 
@@ -277,7 +277,7 @@ Vue 会根据不同的<font color='red'>【指令】</font>，针对标签实现
 
 
 
-<img src="../images/image-20250604220312501.png" alt="image-20250604220312501" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220312501.png" alt="image-20250604220312501" style="zoom:50%;" />
 
 **核心思路分析**：
 
@@ -292,7 +292,7 @@ Vue 会根据不同的<font color='red'>【指令】</font>，针对标签实现
 
 1. **作用**： 基于<font color='red'>数据</font>循环，<font color='red'> 多次</font>渲染整个元素   → <font color='red'>数组</font>、对象、数字...
 
-<img src="../images/image-20250604220417712.png" alt="image-20250604220417712" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220417712.png" alt="image-20250604220417712" style="zoom:50%;" />
 
 2. **遍历数组语法**：
 
@@ -315,9 +315,9 @@ Vue 会根据不同的<font color='red'>【指令】</font>，针对标签实现
 
 ② 删除功能   <font color='red'>→</font> 用<font color='red'> filter</font> 根据<font color='red'> id</font> 从数组中删除对应项
 
-<img src="../images/image-20250604220640056.png" alt="image-20250604220640056" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220640056.png" alt="image-20250604220640056" style="zoom:50%;" />
 
-<img src="../images/image-20250604220646450.png" alt="image-20250604220646450" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220646450.png" alt="image-20250604220646450" style="zoom:50%;" />
 
 
 
@@ -335,17 +335,17 @@ Vue 会根据不同的<font color='red'>【指令】</font>，针对标签实现
 2. key 的值必须具有 <font color='red'>唯一性</font>
 3. 推荐使用 <font color='red'>id</font> 作为 key（唯一），不推荐使用 <font color='red'>index</font> 作为 key（会变化，不对应）
 
-<img src="../images/image-20250604220955303.png" alt="image-20250604220955303" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220955303.png" alt="image-20250604220955303" style="zoom:50%;" />
 
 
 
-<img src="../images/image-20250604220734690.png" alt="image-20250604220734690" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220734690.png" alt="image-20250604220734690" style="zoom:50%;" />
 
-<img src="../images/image-20250604220813536.png" alt="image-20250604220813536" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220813536.png" alt="image-20250604220813536" style="zoom:50%;" />
 
-<img src="../images/image-20250604220822887.png" alt="image-20250604220822887" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220822887.png" alt="image-20250604220822887" style="zoom:50%;" />
 
-<img src="../images/image-20250604220830298.png" alt="image-20250604220830298" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220830298.png" alt="image-20250604220830298" style="zoom:50%;" />
 
 
 
@@ -355,9 +355,9 @@ Vue 会根据不同的<font color='red'>【指令】</font>，针对标签实现
 
 v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<font color='red'>就地复用</font>）
 
-<img src="../images/image-20250604220903426.png" alt="image-20250604220903426" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220903426.png" alt="image-20250604220903426" style="zoom:50%;" />
 
-<img src="../images/image-20250604220917374.png" alt="image-20250604220917374" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604220917374.png" alt="image-20250604220917374" style="zoom:50%;" />
 
 
 
@@ -372,7 +372,7 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 
 2. **语法**: v-model = '变量
 
-<img src="../images/image-20250604221136784.png" alt="image-20250604221136784" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604221136784.png" alt="image-20250604221136784" style="zoom:50%;" />
 
 
 
@@ -380,7 +380,7 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 
 
 
-<img src="../images/image-20250604221212255.png" alt="image-20250604221212255" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250604221212255.png" alt="image-20250604221212255" style="zoom:50%;" />
 
 **功能需求：**
 
@@ -437,7 +437,7 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 - @事件名.stop → 阻止冒泡
 - @事件名.prevent → 阻止默认行为
 
-<img src="../images/image-20250605103528971.png" alt="image-20250605103528971" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605103528971.png" alt="image-20250605103528971" style="zoom:50%;" />
 
 
 
@@ -447,7 +447,7 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 
 为了方便开发者进行<font color='red'>样式控制</font>， Vue 扩展了 <font color='red'>v-bind </font>的语法，可以针对 <font color='red'>class 类名</font> 和<font color='red'> style 行内样式</font> 进行控制
 
-<img src="../images/image-20250605103636207.png" alt="image-20250605103636207" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605103636207.png" alt="image-20250605103636207" style="zoom:50%;" />
 
 
 
@@ -461,17 +461,17 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 
 ① <font color='red'>对象</font> → 键就是类名，值是布尔值。如果值为 <font color='red'>true</font>，有这个类，否则没有这个类
 
-<img src="../images/image-20250605103714004.png" alt="image-20250605103714004" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605103714004.png" alt="image-20250605103714004" style="zoom:50%;" />
 
-适用场景：一个类名，来回切换		<img src="../images/image-20250605103726874.png" alt="image-20250605103726874" style="zoom:50%;" />
+适用场景：一个类名，来回切换		<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605103726874.png" alt="image-20250605103726874" style="zoom:50%;" />
 
 
 
 ②<font color='red'> 数组</font> → 数组中所有的类，都会添加到盒子上，本质就是一个 <font color='red'>class 列表</font>
 
-<img src="../images/image-20250605103759369.png" alt="image-20250605103759369" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605103759369.png" alt="image-20250605103759369" style="zoom:50%;" />
 
-适用场景：批量添加或删除类			<img src="../images/image-20250605103811000.png" alt="image-20250605103811000" style="zoom:50%;" />
+适用场景：批量添加或删除类			<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605103811000.png" alt="image-20250605103811000" style="zoom:50%;" />
 
 
 
@@ -479,9 +479,9 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 
 
 
-<img src="../images/image-20250605103834740.png" alt="image-20250605103834740" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605103834740.png" alt="image-20250605103834740" style="zoom:50%;" />
 
-<img src="../images/image-20250605103841921.png" alt="image-20250605103841921" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605103841921.png" alt="image-20250605103841921" style="zoom:50%;" />
 
 **核心思路：**
 
@@ -499,11 +499,11 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 
 **语法** ：	<font color='red'>:style = "样式对象"</font>
 
-<img src="../images/image-20250605104019017.png" alt="image-20250605104019017" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605104019017.png" alt="image-20250605104019017" style="zoom:50%;" />
 
 **适用场景**：某个具体属性的动态设置
 
-<img src="../images/image-20250605104035453.png" alt="image-20250605104035453" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605104035453.png" alt="image-20250605104035453" style="zoom:50%;" />
 
 
 
@@ -529,7 +529,7 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 
 	
 
-<img src="../images/image-20250605104308741.png" alt="image-20250605104308741" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605104308741.png" alt="image-20250605104308741" style="zoom:50%;" />
 
 
 
@@ -552,7 +552,7 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 
 计算属性 → 可以将一段 <font color='red'>求值的代码</font> 进行封装
 
-<img src="../images/image-20250605200122432.png" alt="image-20250605200122432" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605200122432.png" alt="image-20250605200122432" style="zoom:50%;" />
 
 
 
@@ -599,9 +599,9 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 
 如果要<font color='red'> "修改" </font>→ 需要写计算属性的<font color='red'>完整写法</font>。
 
-<img src="../images/image-20250605105323216.png" alt="image-20250605105323216" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605105323216.png" alt="image-20250605105323216" style="zoom:50%;" />
 
-<img src="../images/image-20250605105331369.png" alt="image-20250605105331369" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605105331369.png" alt="image-20250605105331369" style="zoom:50%;" />
 
 
 
@@ -615,7 +615,7 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 3. 添加功能
 4. 统计总分，求平均分
 
-<img src="../images/image-20250605105412240.png" alt="image-20250605105412240" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605105412240.png" alt="image-20250605105412240" style="zoom:50%;" />
 
 
 
@@ -652,9 +652,9 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 1. <font color='red'>简单写法 → 简单类型数据，直接监视</font>
 2. 完整写法 → 添加额外配置项
 
-<img src="../images/image-20250605105943559.png" alt="image-20250605105943559" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605105943559.png" alt="image-20250605105943559" style="zoom:50%;" />
 
-<img src="../images/image-20250605105950747.png" alt="image-20250605105950747" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605105950747.png" alt="image-20250605105950747" style="zoom:50%;" />
 
 2. 完整写法 → 添加额外<font color='red'>配置项</font>
 
@@ -664,13 +664,13 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 	
 	(2) <font color='red'>immediate: true</font> 初始化页面立刻执行一次handler方法
 
-<img src="../images/image-20250605110034779.png" alt="image-20250605110034779" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605110034779.png" alt="image-20250605110034779" style="zoom:50%;" />
 
-<img src="../images/image-20250605110048997.png" alt="image-20250605110048997" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605110048997.png" alt="image-20250605110048997" style="zoom:50%;" />
 
-<img src="../images/image-20250605110105623.png" alt="image-20250605110105623" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605110105623.png" alt="image-20250605110105623" style="zoom:50%;" />
 
-<img src="../images/image-20250605110116523.png" alt="image-20250605110116523" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605110116523.png" alt="image-20250605110116523" style="zoom:50%;" />
 
 
 
@@ -687,7 +687,7 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 5. 统计 <font color='red'>选中的</font> 总价 和 总数量
 6. 持久化到本地
 
-<img src="../images/image-20250605110202280.png" alt="image-20250605110202280" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250605110202280.png" alt="image-20250605110202280" style="zoom:50%;" />
 
 **业务技术点总结：**
 
@@ -714,7 +714,7 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 
 **生命周期四个阶段：**① 创建 ② 挂载 ③ 更新 ④ 销毁
 
-<img src="../images/image-20250606164610842.png" alt="image-20250606164610842" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606164610842.png" alt="image-20250606164610842" style="zoom:50%;" />
 
 
 
@@ -724,11 +724,11 @@ v-for 的默认行为会尝试 <font color='red'>原地修改元素</font> （<f
 
 Vue生命周期过程中，会<font color='red'>自动运行一些函数</font>font>，被称为<font color='red'>【生命周期钩子】</font>→ 让开发者可以在<font color='red'>【特定阶段】</font>运行<font color='red'>自己的代码</font>。
 
-<img src="../images/image-20250606164716411.png" alt="image-20250606164716411" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606164716411.png" alt="image-20250606164716411" style="zoom:50%;" />
 
-<img src="../images/image-20250606164741520.png" alt="image-20250606164741520" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606164741520.png" alt="image-20250606164741520" style="zoom:50%;" />
 
-<img src="../images/image-20250606164755721.png" alt="image-20250606164755721" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606164755721.png" alt="image-20250606164755721" style="zoom:50%;" />
 
 
 
@@ -736,7 +736,7 @@ Vue生命周期过程中，会<font color='red'>自动运行一些函数</font>f
 
 ## 
 
-<img src="../images/image-20250606164815922.png" alt="image-20250606164815922" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606164815922.png" alt="image-20250606164815922" style="zoom:50%;" />
 
 
 
@@ -744,11 +744,11 @@ Vue生命周期过程中，会<font color='red'>自动运行一些函数</font>f
 
 
 
-<img src="../images/image-20250606164858944.png" alt="image-20250606164858944" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606164858944.png" alt="image-20250606164858944" style="zoom:50%;" />
 
 **案例总结：**
 
-<img src="../images/image-20250606164911889.png" alt="image-20250606164911889" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606164911889.png" alt="image-20250606164911889" style="zoom:50%;" />
 
 
 
@@ -765,7 +765,7 @@ Vue生命周期过程中，会<font color='red'>自动运行一些函数</font>f
 1. 核心包传统开发模式：基于 html / css / js 文件，直接引入核心包，开发 Vue。
 2. <font color='red'>工程化开发模式：基于构建工具（例如：webpack ) 的环境中开发 Vue。</font>
 
-<img src="../images/image-20250606165015542.png" alt="image-20250606165015542" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606165015542.png" alt="image-20250606165015542" style="zoom:50%;" />
 
 问题：
 ① webpack 配置<font color='red'>不简单</font>
@@ -782,7 +782,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 可以帮助我们<font color='red'>快速创建</font>一个开发 Vue 项目的<font color='red'>标准化基础架子</font>。【集成了 webpack 配置】
 
-<img src="../images/image-20250606165154912.png" alt="image-20250606165154912" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606165154912.png" alt="image-20250606165154912" style="zoom:50%;" />
 
 **好处：**
 
@@ -805,11 +805,11 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 
 
-<img src="../images/image-20250606165515367.png" alt="image-20250606165515367" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606165515367.png" alt="image-20250606165515367" style="zoom:50%;" />
 
-<img src="../images/image-20250606165529795.png" alt="image-20250606165529795" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606165529795.png" alt="image-20250606165529795" style="zoom:50%;" />
 
-<img src="../images/image-20250606165541918.png" alt="image-20250606165541918" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606165541918.png" alt="image-20250606165541918" style="zoom:50%;" />
 
 
 
@@ -817,7 +817,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 
 
-<img src="../images/image-20250606165632042.png" alt="image-20250606165632042" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606165632042.png" alt="image-20250606165632042" style="zoom:50%;" />
 
 ① **组件化**：一个页面可以拆分成<font color='red'>一个个组件</font>，每个组件有着自己独立的<font color='red'>结构、样式、行为</font>。
 
@@ -827,9 +827,9 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 ② **根组件**：整个应用最上层的组件，包裹所有普通小组件。
 
-<img src="../images/image-20250606170127127.png" alt="image-20250606170127127" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606170127127.png" alt="image-20250606170127127" style="zoom:50%;" />
 
-<img src="../images/image-20250606170143701.png" alt="image-20250606170143701" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606170143701.png" alt="image-20250606170143701" style="zoom:50%;" />
 
 
 
@@ -839,7 +839,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 1. **语法高亮插件：**
 
-<img src="../images/image-20250606170307886.png" alt="image-20250606170307886" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606170307886.png" alt="image-20250606170307886" style="zoom:50%;" />
 
 2. **三部分组成：**
 
@@ -847,7 +847,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 - script: js逻辑
 - style： 样式 (可支持less，需要装包)
 
-<img src="../images/image-20250606170733099.png" alt="image-20250606170733099" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606170733099.png" alt="image-20250606170733099" style="zoom:50%;" />
 
 
 
@@ -872,7 +872,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 2. 全局注册：所有组件内都能使用
 
-<img src="../images/image-20250606171008378.png" alt="image-20250606171008378" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606171008378.png" alt="image-20250606171008378" style="zoom:50%;" />
 
 **使用：**
 
@@ -882,7 +882,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 ◆ 组件名规范 → 大驼峰命名法，如：HmHeader
 
-<img src="../images/image-20250606171144558.png" alt="image-20250606171144558" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606171144558.png" alt="image-20250606171144558" style="zoom:50%;" />
 
 
 
@@ -892,9 +892,9 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
   ② <font color='red'>main.js</font> 中进行全局注册
 
-<img src="../images/image-20250606171318659.png" alt="image-20250606171318659" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606171318659.png" alt="image-20250606171318659" style="zoom:50%;" />
 
-<img src="../images/image-20250606171353854.png" alt="image-20250606171353854" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606171353854.png" alt="image-20250606171353854" style="zoom:50%;" />
 
 **使用：**
 
@@ -924,7 +924,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 
 
-<img src="../images/image-20250606171521317.png" alt="image-20250606171521317" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606171521317.png" alt="image-20250606171521317" style="zoom:50%;" />
 
 **页面开发思路：**
 
@@ -934,7 +934,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 将来 → 通过 js 动态渲染，实现功能
 
-<img src="../images/image-20250606171540480.png" alt="image-20250606171540480" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250606171540480.png" alt="image-20250606171540480" style="zoom:50%;" />
 
 
 
@@ -942,7 +942,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 
 
-<img src="../images/image-20250609154304209.png" alt="image-20250609154304209" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609154304209.png" alt="image-20250609154304209" style="zoom:50%;" />
 
 
 
@@ -964,7 +964,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 最终效果: <font color='red'>必须是当前组件的元素,</font> 才会有这个自定义属性, 才会被这个样式作用到
 
-​					<img src="../images/image-20250609160553539.png" alt="image-20250609160553539" style="zoom:50%;" /><img src="../images/image-20250609160600748.png" alt="image-20250609160600748" style="zoom:50%;" />
+​					<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609160553539.png" alt="image-20250609160553539" style="zoom:50%;" /><img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609160600748.png" alt="image-20250609160600748" style="zoom:50%;" />
 
 
 
@@ -976,7 +976,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 每次创建新的组件实例，都会新执行一次 data 函数，得到一个新对象。
 
-<img src="../images/image-20250609160657898.png" alt="image-20250609160657898" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609160657898.png" alt="image-20250609160657898" style="zoom:50%;" />
 
 
 
@@ -993,7 +993,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 - 组件的数据是<font color='red'>独立</font>的，无法直接访问其他组件的数据。
 - 想用其他组件的数据 → 组件通信
 
-<img src="../images/image-20250609160929997.png" alt="image-20250609160929997" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609160929997.png" alt="image-20250609160929997" style="zoom:50%;" />
 
 
 
@@ -1008,7 +1008,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 1. <font color='red'>父子关系</font>
 2. 非父子关系
 
-<img src="../images/image-20250609161052374.png" alt="image-20250609161052374" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609161052374.png" alt="image-20250609161052374" style="zoom:50%;" />
 
 
 
@@ -1016,7 +1016,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 
 
-<img src="../images/image-20250609161133901.png" alt="image-20250609161133901" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609161133901.png" alt="image-20250609161133901" style="zoom:50%;" />
 
 
 
@@ -1027,7 +1027,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 1. 父组件通过 <font color='red'>props </font>将数据传递给子组件
 2. 子组件利用 <font color='red'>$emit</font> 通知父组件修改更新
 
-<img src="../images/image-20250609161222432.png" alt="image-20250609161222432" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609161222432.png" alt="image-20250609161222432" style="zoom:50%;" />
 
 
 
@@ -1039,9 +1039,9 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 ① 父中给子添加属性传值 ② 子props 接收 ③ 子组件使用
 
-<img src="../images/image-20250609161308459.png" alt="image-20250609161308459" style="zoom: 67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609161308459.png" alt="image-20250609161308459" style="zoom: 67%;" />
 
-<img src="../images/image-20250609161315364.png" alt="image-20250609161315364" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609161315364.png" alt="image-20250609161315364" style="zoom:50%;" />
 
 
 
@@ -1053,9 +1053,9 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 ① 子 $emit 发送消息 ②父中给子添加消息监听 ③ 父中实现处理函数
 
-<img src="../images/image-20250609161430612.png" alt="image-20250609161430612" style="zoom: 67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609161430612.png" alt="image-20250609161430612" style="zoom: 67%;" />
 
-<img src="../images/image-20250609161446075.png" alt="image-20250609161446075" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609161446075.png" alt="image-20250609161446075" style="zoom:50%;" />
 
 
 
@@ -1074,9 +1074,9 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 - 可以 传递 <font color='red'>任意数量</font> 的prop
 - 可以 传递<font color='red'> 任意类型</font> 的prop
 
-<img src="../images/image-20250609161831184.png" alt="image-20250609161831184" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609161831184.png" alt="image-20250609161831184" style="zoom:50%;" />
 
-<img src="../images/image-20250609161838217.png" alt="image-20250609161838217" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609161838217.png" alt="image-20250609161838217" style="zoom:50%;" />
 
 
 
@@ -1095,9 +1095,9 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 ③ 默认值
 ④ 自定义校验
 
-<img src="../images/image-20250609161943516.png" alt="image-20250609161943516" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609161943516.png" alt="image-20250609161943516" style="zoom:50%;" />
 
-<img src="../images/image-20250609161955281.png" alt="image-20250609161955281" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609161955281.png" alt="image-20250609161955281" style="zoom:50%;" />
 
 
 
@@ -1114,7 +1114,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 单向数据流：父级 prop 的数据更新，会向下流动，影响子组件。这个数据流动是单向的。
 
-<img src="../images/image-20250609162100516.png" alt="image-20250609162100516" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609162100516.png" alt="image-20250609162100516" style="zoom:50%;" />
 
 > [!CAUTION]
 >
@@ -1139,7 +1139,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 ⑤ 底部合计 和 清空功能
 ⑥ 持久化存储
 
-<img src="../images/image-20250609162216775.png" alt="image-20250609162216775" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609162216775.png" alt="image-20250609162216775" style="zoom:50%;" />
 
 **核心步骤：**
 
@@ -1180,17 +1180,17 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 1. 创建一个都能访问到的事件总线 (空 Vue 实例) → utils/EventBus.js 
 
-<img src="../images/image-20250609162430762.png" alt="image-20250609162430762" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609162430762.png" alt="image-20250609162430762" style="zoom:50%;" />
 
 2. A 组件(接收方)，监听 Bus 实例的事件
 
-<img src="../images/image-20250609162444315.png" alt="image-20250609162444315" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609162444315.png" alt="image-20250609162444315" style="zoom:50%;" />
 
 3. B 组件(发送方)，触发 Bus 实例的事件
 
-<img src="../images/image-20250609162457320.png" alt="image-20250609162457320" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609162457320.png" alt="image-20250609162457320" style="zoom:50%;" />
 
-<img src="../images/image-20250609162505241.png" alt="image-20250609162505241" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609162505241.png" alt="image-20250609162505241" style="zoom:50%;" />
 
 
 
@@ -1202,13 +1202,13 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 1. 父组件 provide 提供数据
 
-<img src="../images/image-20250609162553639.png" alt="image-20250609162553639" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609162553639.png" alt="image-20250609162553639" style="zoom:50%;" />
 
 2. 子/孙组件 inject 取值使用
 
-<img src="../images/image-20250609162609354.png" alt="image-20250609162609354" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609162609354.png" alt="image-20250609162609354" style="zoom:50%;" />
 
-<img src="../images/image-20250609162615928.png" alt="image-20250609162615928" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609162615928.png" alt="image-20250609162615928" style="zoom:50%;" />
 
 
 
@@ -1229,9 +1229,9 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 **注意**：<font color='red'>$event</font> 用于在模板中，获取事件的形参，相当于事件对象 e
 
-<img src="../images/image-20250609162836252.png" alt="image-20250609162836252" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609162836252.png" alt="image-20250609162836252" style="zoom:50%;" />
 
-<img src="../images/image-20250609162843690.png" alt="image-20250609162843690" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609162843690.png" alt="image-20250609162843690" style="zoom:50%;" />
 
 
 
@@ -1245,9 +1245,9 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 ② <font color='red'>子传父</font>：监听输入，子传父传值给父组件修改
 
-<img src="../images/image-20250609163028759.png" alt="image-20250609163028759" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609163028759.png" alt="image-20250609163028759" style="zoom:50%;" />
 
-<img src="../images/image-20250609163037070.png" alt="image-20250609163037070" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609163037070.png" alt="image-20250609163037070" style="zoom:50%;" />
 
 ***2.*** 父组件 v-model <font color='red'>简化代码</font>，实现 子组件 和 父组件数据 <font color='red'>双向绑定</font>
 
@@ -1255,9 +1255,9 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 ② 父组件中：<font color='red'>v-model</font> 给组件直接绑数据 <font color='red'>( :value + @input )</font>
 
-<img src="../images/image-20250609163413882.png" alt="image-20250609163413882" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609163413882.png" alt="image-20250609163413882" style="zoom:50%;" />
 
-<img src="../images/image-20250609163421165.png" alt="image-20250609163421165" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609163421165.png" alt="image-20250609163421165" style="zoom:50%;" />
 
 
 
@@ -1273,9 +1273,9 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 **本质：**就是 <font color='red'>:属性名</font> 和 <font color='red'>@update:属性名</font> 合写
 
-<img src="../images/image-20250609163611027.png" alt="image-20250609163611027" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609163611027.png" alt="image-20250609163611027" style="zoom:50%;" />
 
-<img src="../images/image-20250609163617969.png" alt="image-20250609163617969" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609163617969.png" alt="image-20250609163617969" style="zoom: 50%;" />
 
 
 
@@ -1291,19 +1291,19 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 1. 目标标签 – 添加 ref 属性
 
-<img src="../images/image-20250609163724665.png" alt="image-20250609163724665" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609163724665.png" alt="image-20250609163724665" style="zoom:50%;" />
 
 2. 恰当时机（dom元素加载完之后）, 通过 this.$refs.xxx, 获取目标标签
 
-<img src="../images/image-20250609163740046.png" alt="image-20250609163740046" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609163740046.png" alt="image-20250609163740046" style="zoom:50%;" />
 
-<img src="../images/image-20250609163750240.png" alt="image-20250609163750240" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609163750240.png" alt="image-20250609163750240" style="zoom:50%;" />
 
 就可以<font color='red'>调用组件对象里面的方法</font>
 
-<img src="../images/image-20250609163837214.png" alt="image-20250609163837214" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609163837214.png" alt="image-20250609163837214" style="zoom:50%;" />
 
-<img src="../images/image-20250609163843811.png" alt="image-20250609163843811" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609163843811.png" alt="image-20250609163843811" style="zoom:50%;" />
 
 
 
@@ -1316,19 +1316,19 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 1. 点击编辑，显示编辑框
 2. 让编辑框，<font color='red'>立刻获取焦点</font>
 
-<img src="../images/image-20250609163911249.png" alt="image-20250609163911249" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609163911249.png" alt="image-20250609163911249" style="zoom:50%;" />
 
 问题："显示之后"，立刻获取焦点是不能成功的！
 
 <font color='red'>**原因：**Vue 是 异步更新 DOM (提升性能)</font>
 
-<img src="../images/image-20250609163935162.png" alt="image-20250609163935162" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609163935162.png" alt="image-20250609163935162" style="zoom:50%;" />
 
 **$nextTick：**<font color='red'>等 DOM 更新后</font>, 才会触发执行此方法里的函数体
 
 语法:  this.$nextTick(函数体)
 
-<img src="../images/image-20250609164025244.png" alt="image-20250609164025244" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250609164025244.png" alt="image-20250609164025244" style="zoom:50%;" />
 
 
 
@@ -1342,7 +1342,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 > 思考：
 >
-> <img src="../images/image-20250610135202311.png" alt="image-20250610135202311" style="zoom:50%;" />
+> <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610135202311.png" alt="image-20250610135202311" style="zoom:50%;" />
 >
 > 每个指令有着自己各自独立的功能
 
@@ -1358,13 +1358,13 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 **解决：**操作dom：dom元素.focus()
 
-<img src="../images/image-20250610135518463.png" alt="image-20250610135518463" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610135518463.png" alt="image-20250610135518463" style="zoom:50%;" />
 
 
 
 - **全局注册 - 语法**
 
-<img src="../images/image-20250610135352766.png" alt="image-20250610135352766" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610135352766.png" alt="image-20250610135352766" style="zoom:50%;" />
 
 <font color='red'>inserted </font>为指令的生命周期钩子，表示<font color='red'>当指令所绑定的元素被添加到页面当中的时候，会自动调用</font>
 
@@ -1372,11 +1372,11 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 - **局部注册 – 语法**
 
-<img src="../images/image-20250610135404875.png" alt="image-20250610135404875" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610135404875.png" alt="image-20250610135404875" style="zoom:50%;" />
 
 - **使用：**
 
-<img src="../images/image-20250610135535669.png" alt="image-20250610135535669" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610135535669.png" alt="image-20250610135535669" style="zoom:50%;" />
 
 
 
@@ -1386,15 +1386,15 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 **需求：**实现一个 color 指令 - 传入不同的颜色, 给标签设置文字颜色
 
-<img src="../images/image-20250610135736821.png" alt="image-20250610135736821" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610135736821.png" alt="image-20250610135736821" style="zoom:50%;" />
 
 **语法：**在绑定指令时，可以通过“等号”的形式为指令 绑定 <font color='red'>具体的参数值</font>
 
-<img src="../images/image-20250610135641916.png" alt="image-20250610135641916" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610135641916.png" alt="image-20250610135641916" style="zoom:50%;" />
 
 通过 <font color='red'>binding.value</font> 可以拿到指令值，指令值修改会 <font color='red'>触发 update 函数</font>。
 
-<img src="../images/image-20250610135654106.png" alt="image-20250610135654106" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610135654106.png" alt="image-20250610135654106" style="zoom:50%;" />
 
 
 
@@ -1414,11 +1414,11 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 
 
-<img src="../images/image-20250610135919842.png" alt="image-20250610135919842" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610135919842.png" alt="image-20250610135919842" style="zoom:50%;" />
 
 **需求：**封装一个 v-loading 指令，实现加载中的效果
 
-<img src="../images/image-20250610140031040.png" alt="image-20250610140031040" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610140031040.png" alt="image-20250610140031040" style="zoom:50%;" />
 
 **分析：**
 
@@ -1432,7 +1432,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 2. 开启关闭 loading 状态（添加移除蒙层），本质只需要添加移除类即可
 3. 结合自定义指令的语法进行封装复用
 
-<img src="../images/image-20250610140052218.png" alt="image-20250610140052218" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610140052218.png" alt="image-20250610140052218" style="zoom:50%;" />
 
 
 
@@ -1450,7 +1450,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 **问题：**组件的内容部分，<font color='red'>不希望写死</font>，希望能使用的时候<font color='red'>自定义</font>。怎么办？
 
-<img src="../images/image-20250610140220376.png" alt="image-20250610140220376" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610140220376.png" alt="image-20250610140220376" style="zoom:50%;" />
 
 
 
@@ -1459,7 +1459,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 1. 组件内需要定制的结构部分，改用`<slot></slot>`占位
 2. 使用组件时, `<MyDialog></MyDialog>`标签内部, 传入结构替换slot
 
-<img src="../images/image-20250610140250598.png" alt="image-20250610140250598" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610140250598.png" alt="image-20250610140250598" style="zoom:50%;" />
 
 
 
@@ -1471,7 +1471,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 能否给插槽设置 <font color='red'>默认显示内容</font> 呢？
 
-<img src="../images/image-20250610140330713.png" alt="image-20250610140330713" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610140330713.png" alt="image-20250610140330713" style="zoom:50%;" />
 
 
 
@@ -1483,13 +1483,13 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 - 外部使用组件时，不传东西，则slot会显示后备内容
 
-	<img src="../images/image-20250610141309609.png" alt="image-20250610141309609" style="zoom:50%;" />
+	<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610141309609.png" alt="image-20250610141309609" style="zoom:50%;" />
 
 - 外部使用组件时，传东西了，则slot整体会被换掉
 
-<img src="../images/image-20250610141317028.png" alt="image-20250610141317028" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610141317028.png" alt="image-20250610141317028" style="zoom:50%;" />
 
-<img src="../images/image-20250610141325108.png" alt="image-20250610141325108" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610141325108.png" alt="image-20250610141325108" style="zoom:50%;" />
 
 
 
@@ -1501,19 +1501,19 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 **默认插槽：**一个的定制位置
 
-<img src="../images/image-20250610154138055.png" alt="image-20250610154138055" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610154138055.png" alt="image-20250610154138055" style="zoom:50%;" />
 
 **具名插槽语法:**
 
 1. 多个slot使用name属性区分名字
 
-<img src="../images/image-20250610154157380.png" alt="image-20250610154157380" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610154157380.png" alt="image-20250610154157380" style="zoom:50%;" />
 
 2. template配合v-slot:名字来分发对应标签
 
-<img src="../images/image-20250610154211299.png" alt="image-20250610154211299" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610154211299.png" alt="image-20250610154211299" style="zoom:50%;" />
 
-<img src="../images/image-20250610154231485.png" alt="image-20250610154231485" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610154231485.png" alt="image-20250610154231485" style="zoom:50%;" />
 
 
 
@@ -1523,13 +1523,13 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 1. 多个slot使用name属性区分名字
 
-<img src="../images/image-20250610154304715.png" alt="image-20250610154304715" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610154304715.png" alt="image-20250610154304715" style="zoom:50%;" />
 
 2. template配合v-slot:名字来分发对应标签
 
-<img src="../images/image-20250610154319051.png" alt="image-20250610154319051" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610154319051.png" alt="image-20250610154319051" style="zoom:50%;" />
 
-<img src="../images/image-20250610154348874.png" alt="image-20250610154348874" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610154348874.png" alt="image-20250610154348874" style="zoom:50%;" />
 
 <font color='red'>v-slot:插槽名</font> 可以简化成 <font color='red'>\#插槽名</font>
 
@@ -1547,23 +1547,23 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 2. 利用默认插槽，定制操作列
 3. 删除或查看都需要用到 <font color='red'>当前项的 id</font>，属于 <font color='red'>组件内部的数据</font>，通过 <font color='red'>作用域插槽</font> 传值绑定，进而使用
 
-<img src="../images/image-20250610154504330.png" alt="image-20250610154504330" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610154504330.png" alt="image-20250610154504330" style="zoom:50%;" />
 
-<img src="../images/image-20250610154511928.png" alt="image-20250610154511928" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610154511928.png" alt="image-20250610154511928" style="zoom:50%;" />
 
 **基本使用步骤：**
 
 1. 给 slot 标签, 以 添加属性的方式传值
 
-<img src="../images/image-20250610154528751.png" alt="image-20250610154528751" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610154528751.png" alt="image-20250610154528751" style="zoom:50%;" />
 
 2. 所有添加的属性, 都会被收集到一个对象中
 
-	<img src="../images/image-20250610154541217.png" alt="image-20250610154541217" style="zoom:50%;" />
+	<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610154541217.png" alt="image-20250610154541217" style="zoom:50%;" />
 
 3. 在template中, 通过 <font color='red'>#插槽名= "obj" </font>接收，默认插槽名为 <font color='red'>default</font>
 
-<img src="../images/image-20250610154554242.png" alt="image-20250610154554242" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610154554242.png" alt="image-20250610154554242" style="zoom:50%;" />
 
 
 
@@ -1588,7 +1588,7 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
   (2) 表头支持用户自定义
   (3) 主体支持用户自定义
 
-<img src="../images/image-20250610154718120.png" alt="image-20250610154718120" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610154718120.png" alt="image-20250610154718120" style="zoom:50%;" />
 
 **小结**
 
@@ -1616,11 +1616,11 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 **具体示例:** 网易云音乐 https://music.163.com/
 
-<img src="../images/image-20250610154924997.png" alt="image-20250610154924997" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610154924997.png" alt="image-20250610154924997" style="zoom:50%;" />
 
 
 
-<img src="../images/image-20250610155025768.png" alt="image-20250610155025768" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155025768.png" alt="image-20250610155025768" style="zoom:50%;" />
 
 > SEO：搜索引擎优化
 
@@ -1642,13 +1642,13 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 **生活中的路由：**设备和ip的映射关系
 
-<img src="../images/image-20250610155207815.png" alt="image-20250610155207815" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155207815.png" alt="image-20250610155207815" style="zoom:50%;" />
 
 
 
 **Vue中路由：**<font color='red'>路径 和 组件</font> 的 <font color='red'>映射</font> 关系
 
-<img src="../images/image-20250610155234862.png" alt="image-20250610155234862" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155234862.png" alt="image-20250610155234862" style="zoom:50%;" />
 
 
 
@@ -1664,13 +1664,13 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 **作用：**修改地址栏路径时，切换显示匹配的组件
 
-<img src="../images/image-20250610155335723.png" alt="image-20250610155335723" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155335723.png" alt="image-20250610155335723" style="zoom: 50%;" />
 
 **说明：**Vue 官方的一个路由插件，是一个第三方包
 
 **官网：**https://v3.router.vuejs.org/zh/
 
-<img src="../images/image-20250610155320118.png" alt="image-20250610155320118" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155320118.png" alt="image-20250610155320118" style="zoom:50%;" />
 
 
 
@@ -1682,25 +1682,25 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 ① 下载： 下载 VueRouter 模块到当前工程，版本3.6.5
 
-<img src="../images/image-20250610155642197.png" alt="image-20250610155642197" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155642197.png" alt="image-20250610155642197" style="zoom:50%;" />
 
 ② 引入
 
-<img src="../images/image-20250610155649654.png" alt="image-20250610155649654" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155649654.png" alt="image-20250610155649654" style="zoom:50%;" />
 
 ③ 安装注册
 
-<img src="../images/image-20250610155704416.png" alt="image-20250610155704416" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155704416.png" alt="image-20250610155704416" style="zoom:50%;" />
 
 ④ 创建路由对象
 
-<img src="../images/image-20250610155716953.png" alt="image-20250610155716953" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155716953.png" alt="image-20250610155716953" style="zoom:50%;" />
 
 ⑤ 注入，将路由对象注入到new Vue实例中，建立关联
 
-<img src="../images/image-20250610155729065.png" alt="image-20250610155729065" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155729065.png" alt="image-20250610155729065" style="zoom:50%;" />
 
-<img src="../images/image-20250610155737631.png" alt="image-20250610155737631" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155737631.png" alt="image-20250610155737631" style="zoom:50%;" />
 
 
 
@@ -1712,11 +1712,11 @@ Vue CLI 是 Vue 官方提供的一个<font color='red'>全局命令工具</font>
 
 Find.vue 	My.vue 	Friend.vue
 
-<img src="../images/image-20250610155810153.png" alt="image-20250610155810153" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155810153.png" alt="image-20250610155810153" style="zoom:50%;" />
 
 ② 配置导航，配置路由出口(路径匹配的组件显示的位置)
 
-<img src="../images/image-20250610155825523.png" alt="image-20250610155825523" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155825523.png" alt="image-20250610155825523" style="zoom:50%;" />
 
 
 
@@ -1728,9 +1728,9 @@ Find.vue 	My.vue 	Friend.vue
 
 路由相关的组件，为什么放在 views 目录呢？	<font color='red'>组件分类</font>
 
-<img src="../images/image-20250610155923519.png" alt="image-20250610155923519" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155923519.png" alt="image-20250610155923519" style="zoom:50%;" />
 
-<img src="../images/image-20250610155930996.png" alt="image-20250610155930996" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610155930996.png" alt="image-20250610155930996" style="zoom:50%;" />
 
 
 
@@ -1742,9 +1742,9 @@ Find.vue 	My.vue 	Friend.vue
 
 **注意：**都是 <font color='red'>.vue文件 (本质无区别)</font>
 
-<img src="../images/image-20250610160021948.png" alt="image-20250610160021948" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610160021948.png" alt="image-20250610160021948" style="zoom:50%;" />
 
-<img src="../images/image-20250610160609721.png" alt="image-20250610160609721" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610160609721.png" alt="image-20250610160609721" style="zoom:50%;" />
 
 分类开来 更易维护
 
@@ -1760,11 +1760,11 @@ src/components文件夹
 
 **小练习：**以下 .vue 文件，属于什么分类组件？应该放在哪个目录?
 
-<img src="../images/image-20250610160635234.png" alt="image-20250610160635234" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610160635234.png" alt="image-20250610160635234" style="zoom:50%;" />
 
 <font color='red'>页面组件 </font>配合路由用，放在 views 目录
 
-<img src="../images/image-20250610160658217.png" alt="image-20250610160658217" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250610160658217.png" alt="image-20250610160658217" style="zoom:50%;" />
 
 <font color='red'>复用组件</font>，放在 components 目录
 
@@ -1788,13 +1788,13 @@ src/components文件夹
 
 **好处：**<font color='red'>拆分模块，利于维护</font>
 
-<img src="../images/image-20250612150530096.png" alt="image-20250612150530096" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612150530096.png" alt="image-20250612150530096" style="zoom:50%;" />
 
-<img src="../images/image-20250612150540720.png" alt="image-20250612150540720" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612150540720.png" alt="image-20250612150540720" style="zoom:50%;" />
 
 <font color='red'>**绝对路径：**@指代src目录，可以用于快速引入组件</font>
 
-<img src="../images/image-20250612162338927.png" alt="image-20250612162338927" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612162338927.png" alt="image-20250612162338927" style="zoom:50%;" />
 
 
 
@@ -1808,7 +1808,7 @@ src/components文件夹
 
 **需求：**实现导航高亮效果
 
-<img src="../images/image-20250612150731702.png" alt="image-20250612150731702" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612150731702.png" alt="image-20250612150731702" style="zoom:50%;" />
 
 vue-router 提供了一个全局组件 **router-link** (取代 a 标签)
 
@@ -1816,7 +1816,7 @@ vue-router 提供了一个全局组件 **router-link** (取代 a 标签)
 
 ②<font color='red'> 能高亮</font>，默认就会提供<font color='red'>高亮类名</font>，可以直接设置高亮样式
 
-<img src="../images/image-20250612150853719.png" alt="image-20250612150853719" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612150853719.png" alt="image-20250612150853719" style="zoom:50%;" />
 
 
 
@@ -1830,7 +1830,7 @@ vue-router 提供了一个全局组件 **router-link** (取代 a 标签)
 
 **说明：**我们发现 router-link 自动给当前导航添加了<font color='red'> 两个高亮类名</font>
 
-<img src="../images/image-20250612150944931.png" alt="image-20250612150944931" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612150944931.png" alt="image-20250612150944931" style="zoom:50%;" />
 
 **① router-link-active** <font color='red'>模糊匹配 (用的多)</font>
 
@@ -1840,7 +1840,7 @@ to="/my" 可以匹配 /my /my/a /my/b ....
 
 to="/my" 仅可以匹配 /my
 
-<img src="../images/image-20250612151026642.png" alt="image-20250612151026642" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612151026642.png" alt="image-20250612151026642" style="zoom:50%;" />
 
 > 模糊匹配应用场景：一级目录下还有二级目录，点击二级目录一级目录依然高亮
 
@@ -1852,11 +1852,11 @@ to="/my" 仅可以匹配 /my
 
 **说明：**router-link 的<font color='red'> 两个高亮类名 太长了</font>，我们希望能定制怎么办？
 
-<img src="../images/image-20250612151057782.png" alt="image-20250612151057782" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612151057782.png" alt="image-20250612151057782" style="zoom:50%;" />
 
-<img src="../images/image-20250612151105398.png" alt="image-20250612151105398" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612151105398.png" alt="image-20250612151105398" style="zoom:50%;" />
 
-<img src="../images/image-20250612151114277.png" alt="image-20250612151114277" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612151114277.png" alt="image-20250612151114277" style="zoom:50%;" />
 
 **如何自定义 router-link 的 两个高亮类名？**
 
@@ -1876,7 +1876,7 @@ to="/my" 仅可以匹配 /my
 1. 查询参数传参
 2. 动态路由传参
 
-<img src="../images/image-20250612151227201.png" alt="image-20250612151227201" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612151227201.png" alt="image-20250612151227201" style="zoom:50%;" />
 
 **<font color='red'>1. 查询参数传参</font>**
 
@@ -1890,7 +1890,7 @@ to="/my" 仅可以匹配 /my
 
 - $route.<font color='red'>query.参数名</font>
 
-<img src="../images/image-20250612151412121.png" alt="image-20250612151412121" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612151412121.png" alt="image-20250612151412121" style="zoom:50%;" />
 
 
 
@@ -1900,7 +1900,7 @@ to="/my" 仅可以匹配 /my
 
 ① 配置动态路由
 
-<img src="../images/image-20250612151513337.png" alt="image-20250612151513337" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612151513337.png" alt="image-20250612151513337" style="zoom:50%;" />
 
 ② 配置导航链接
 
@@ -1910,7 +1910,7 @@ to="/my" 仅可以匹配 /my
 
 - $route.<font color='red'>params.参数名</font>
 
-<img src="../images/image-20250612151600655.png" alt="image-20250612151600655" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612151600655.png" alt="image-20250612151600655" style="zoom:50%;" />
 
 
 
@@ -1937,9 +1937,9 @@ to="/my" 仅可以匹配 /my
 
 **原因：** /search/:words 表示，必须要传参数。如果不传参数，也希望匹配，可以加个可选符 <font color='red'>"?"</font>
 
-<img src="../images/image-20250612151827263.png" alt="image-20250612151827263" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612151827263.png" alt="image-20250612151827263" style="zoom:50%;" />
 
-<img src="../images/image-20250612151834686.png" alt="image-20250612151834686" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612151834686.png" alt="image-20250612151834686" style="zoom:50%;" />
 
 
 
@@ -1957,9 +1957,9 @@ to="/my" 仅可以匹配 /my
 
 **<font color='red'>语法：</font>** { path: 匹配路径, redirect: 重定向到的路径 },
 
-<img src="../images/image-20250612151950561.png" alt="image-20250612151950561" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612151950561.png" alt="image-20250612151950561" style="zoom:50%;" />
 
-<img src="../images/image-20250612151957348.png" alt="image-20250612151957348" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612151957348.png" alt="image-20250612151957348" style="zoom:50%;" />
 
 
 
@@ -1969,7 +1969,7 @@ to="/my" 仅可以匹配 /my
 
 **Vue路由 - 404**
 
-<img src="../images/image-20250612152046600.png" alt="image-20250612152046600" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152046600.png" alt="image-20250612152046600" style="zoom:50%;" />
 
 **作用：**当路径找不到匹配时，给个提示页面
 
@@ -1977,7 +1977,7 @@ to="/my" 仅可以匹配 /my
 
 **语法：**path: "*" (任意路径) – 前面不匹配就命中最后这个
 
-<img src="../images/image-20250612152058293.png" alt="image-20250612152058293" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152058293.png" alt="image-20250612152058293" style="zoom:50%;" />
 
 
 
@@ -1994,7 +1994,7 @@ to="/my" 仅可以匹配 /my
 - hash路由(默认) 例如: http://localhost:8080/#/home
 - history路由(常用) 例如: http://localhost:8080/home (以后上线需要服务器端支持)
 
-<img src="../images/image-20250612152149280.png" alt="image-20250612152149280" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152149280.png" alt="image-20250612152149280" style="zoom:50%;" />
 
 
 
@@ -2015,17 +2015,17 @@ to="/my" 仅可以匹配 /my
 ① path 路径跳转
 ② name 命名路由跳转
 
-<img src="../images/image-20250612152246995.png" alt="image-20250612152246995" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152246995.png" alt="image-20250612152246995" style="zoom:50%;" />
 
 <font color='red'>① path 路径跳转 (简易方便)</font>
 
-<img src="../images/image-20250612152310664.png" alt="image-20250612152310664" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152310664.png" alt="image-20250612152310664" style="zoom:50%;" />
 
 <font color='red'>② name 命名路由跳转 (适合 path 路径长的场景)</font>
 
-<img src="../images/image-20250612152341886.png" alt="image-20250612152341886" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152341886.png" alt="image-20250612152341886" style="zoom:50%;" />
 
-<img src="../images/image-20250612152348895.png" alt="image-20250612152348895" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152348895.png" alt="image-20250612152348895" style="zoom:50%;" />
 
 
 
@@ -2046,7 +2046,7 @@ to="/my" 仅可以匹配 /my
 ① path 路径跳转传参
 ② name 命名路由跳转传参
 
-<img src="../images/image-20250612152452116.png" alt="image-20250612152452116" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152452116.png" alt="image-20250612152452116" style="zoom:50%;" />
 
 
 
@@ -2054,15 +2054,15 @@ to="/my" 仅可以匹配 /my
 
 **query传参**
 
-<img src="../images/image-20250612152524767.png" alt="image-20250612152524767" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152524767.png" alt="image-20250612152524767" style="zoom:50%;" />
 
-<img src="../images/image-20250612152531157.png" alt="image-20250612152531157" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152531157.png" alt="image-20250612152531157" style="zoom:50%;" />
 
 **动态路由传参 (需要配动态路由)**
 
-<img src="../images/image-20250612152606818.png" alt="image-20250612152606818" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152606818.png" alt="image-20250612152606818" style="zoom:50%;" />
 
-<img src="../images/image-20250612152626164.png" alt="image-20250612152626164" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152626164.png" alt="image-20250612152626164" style="zoom:50%;" />
 
 
 
@@ -2070,15 +2070,15 @@ to="/my" 仅可以匹配 /my
 
 **query传参**
 
-<img src="../images/image-20250612152651615.png" alt="image-20250612152651615" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152651615.png" alt="image-20250612152651615" style="zoom:50%;" />
 
-<img src="../images/image-20250612152659200.png" alt="image-20250612152659200" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152659200.png" alt="image-20250612152659200" style="zoom:50%;" />
 
 **动态路由传参 (需要配动态路由)**
 
-<img src="../images/image-20250612152714287.png" alt="image-20250612152714287" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152714287.png" alt="image-20250612152714287" style="zoom:50%;" />
 
-<img src="../images/image-20250612152727573.png" alt="image-20250612152727573" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152727573.png" alt="image-20250612152727573" style="zoom:50%;" />
 
 
 
@@ -2088,7 +2088,7 @@ to="/my" 仅可以匹配 /my
 
 ## 1. 案例效果
 
-<img src="../images/image-20250612152923941.png" alt="image-20250612152923941" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152923941.png" alt="image-20250612152923941" style="zoom:50%;" />
 
 <font color='red'>分析：配路由 + 实现功能</font>
 
@@ -2103,7 +2103,7 @@ to="/my" 仅可以匹配 /my
   ② <font color='red'>跳转传参</font> 到 详情页，详情页渲染
   ③ <font color='red'>组件缓存</font>，优化性能
 
-<img src="../images/image-20250612152956553.png" alt="image-20250612152956553" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612152956553.png" alt="image-20250612152956553" style="zoom:50%;" />
 
 
 
@@ -2117,7 +2117,7 @@ to="/my" 仅可以匹配 /my
 
 **解决：**利用 keep-alive 将组件缓存下来
 
-<img src="../images/image-20250612153034213.png" alt="image-20250612153034213" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612153034213.png" alt="image-20250612153034213" style="zoom:50%;" />
 
 
 
@@ -2131,7 +2131,7 @@ keep-alive 是一个抽象组件：它自身不会渲染成一个 DOM 元素，�
 
 在组件切换过程中 把切换出去的组件保留在内存中，防止重复渲染DOM，减少加载时间及性能消耗，提高用户体验性。
 
-<img src="../images/image-20250612153118399.png" alt="image-20250612153118399" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612153118399.png" alt="image-20250612153118399" style="zoom:50%;" />
 
 **问题：**缓存了所有被切换的组件
 
@@ -2145,7 +2145,7 @@ keep-alive 是一个抽象组件：它自身不会渲染成一个 DOM 元素，�
 ② exclude ： 组件名数组，任何匹配的组件都不会被缓存
 ③ max ： 最多可以缓存多少组件实例
 
-<img src="../images/image-20250612153152344.png" alt="image-20250612153152344" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612153152344.png" alt="image-20250612153152344" style="zoom:50%;" />
 
 **4. keep-alive的使用会触发两个生命周期函数**
 
@@ -2159,7 +2159,7 @@ deactivated 当组件<font color='red'>不被使用</font>的时候触发 → �
 
 所以其提供了<font color='red'>actived</font> 和 <font color='red'>deactived</font>钩子，帮我们实现业务需求。
 
-<img src="../images/image-20250612153254045.png" alt="image-20250612153254045" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612153254045.png" alt="image-20250612153254045" style="zoom:50%;" />
 
 
 
@@ -2169,7 +2169,7 @@ deactivated 当组件<font color='red'>不被使用</font>的时候触发 → �
 
 **目标：**基于 VueCli 自定义创建项目架子
 
-<img src="../images/image-20250612153412331.png" alt="image-20250612153412331" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612153412331.png" alt="image-20250612153412331" style="zoom:50%;" />
 
 
 
@@ -2203,7 +2203,7 @@ JavaScript Standard Style 规范说明 https://standardjs.com/rules-zhcn.html
 
 **比如：**在main.js中随意做一些改动，添加一些分号，空行
 
-<img src="../images/image-20250612153616420.png" alt="image-20250612153616420" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612153616420.png" alt="image-20250612153616420" style="zoom:50%;" />
 
 **两种解决方案：**
 
@@ -2218,9 +2218,9 @@ JavaScript Standard Style 规范说明 https://standardjs.com/rules-zhcn.html
 基于 vscode 插件 ESLint <font color='red'>高亮错误</font>，并<font color='red'>通过配置 自动</font> 帮助我们<font color='red'>修复</font>错误。
 
 
-<img src="../images/image-20250612154002115.png" alt="image-20250612154002115" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612154002115.png" alt="image-20250612154002115" style="zoom:50%;" />
 
-<img src="../images/image-20250612154009194.png" alt="image-20250612154009194" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250612154009194.png" alt="image-20250612154009194" style="zoom:50%;" />
 
 
 
@@ -2240,7 +2240,7 @@ JavaScript Standard Style 规范说明 https://standardjs.com/rules-zhcn.html
 
   大白话：vuex 是一个插件，可以帮我们管<font color='red'>理 vue 通用的数据 (多组件共享的数据)</font>，例如：购物车数据 个人信息数据
 
-<img src="../images/image-20250613124828004.png" alt="image-20250613124828004" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613124828004.png" alt="image-20250613124828004" style="zoom:50%;" />
 
 2. **场景：**
 
@@ -2259,7 +2259,7 @@ JavaScript Standard Style 规范说明 https://standardjs.com/rules-zhcn.html
   ③ 操作简洁 (vuex提供了一些辅助函数)
 
 
-<img src="../images/image-20250613124838736.png" alt="image-20250613124838736" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613124838736.png" alt="image-20250613124838736" style="zoom:50%;" />
 
 
 
@@ -2269,7 +2269,7 @@ JavaScript Standard Style 规范说明 https://standardjs.com/rules-zhcn.html
 
 **目标：**基于脚手架创建项目，构建 vuex 多组件数据共享环境
 
-<img src="../images/image-20250613125033765.png" alt="image-20250613125033765" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125033765.png" alt="image-20250613125033765" style="zoom:50%;" />
 
 效果是三个组件, 共享一份数据:
 
@@ -2284,25 +2284,25 @@ JavaScript Standard Style 规范说明 https://standardjs.com/rules-zhcn.html
 
 **目标：**安装 vuex 插件，初始化一个空仓库
 
-<img src="../images/image-20250613125208821.png" alt="image-20250613125208821" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125208821.png" alt="image-20250613125208821" style="zoom:50%;" />
 
 1. yarn add vuex@3
 
 2. 新建 store/index.js 专门存放 vuex
 
-<img src="../images/image-20250613125126739.png" alt="image-20250613125126739" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125126739.png" alt="image-20250613125126739" style="zoom:50%;" />
 
 3. Vue.use(Vuex)
 
   创建仓库 new Vuex.Store()
 
-<img src="../images/image-20250613125139856.png" alt="image-20250613125139856" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125139856.png" alt="image-20250613125139856" style="zoom:50%;" />
 
 4. 在 main.js 中导入挂载到 Vue 实例上
 
 ​	检验：<font color='red'>this.$store</font>
 
-<img src="../images/image-20250613125155882.png" alt="image-20250613125155882" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125155882.png" alt="image-20250613125155882" style="zoom:50%;" />
 
 
 
@@ -2316,7 +2316,7 @@ JavaScript Standard Style 规范说明 https://standardjs.com/rules-zhcn.html
 
 **目标：**明确如何给仓库 <font color='red'>提供</font> 数据，如何 <font color='red'>使用</font> 仓库的数据
 
-<img src="../images/image-20250613125321434.png" alt="image-20250613125321434" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125321434.png" alt="image-20250613125321434" style="zoom:50%;" />
 
 **1. 提供数据：**
 
@@ -2326,7 +2326,7 @@ State 提供唯一的公共数据源，所有共享的数据都要统一放到 S
 
 在 state 对象中可以添加我们要共享的数据。
 
-<img src="../images/image-20250613125329413.png" alt="image-20250613125329413" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125329413.png" alt="image-20250613125329413" style="zoom:50%;" />
 
 **2. 使用数据：**
 
@@ -2334,13 +2334,13 @@ State 提供唯一的公共数据源，所有共享的数据都要统一放到 S
 
 <font color='red'>① 通过 store 直接访问</font>
 
-<img src="../images/image-20250613125420460.png" alt="image-20250613125420460" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125420460.png" alt="image-20250613125420460" style="zoom:50%;" />
 
 <font color='red'>② 通过辅助函数 (简化)</font>
 
 **mapState**是辅助函数，帮助我们把 store中的数据 <font color='red'>自动</font> 映射到 组件的计算属性中
 
-<img src="../images/image-20250613125522971.png" alt="image-20250613125522971" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125522971.png" alt="image-20250613125522971" style="zoom:50%;" />
 
 
 
@@ -2354,7 +2354,7 @@ State 提供唯一的公共数据源，所有共享的数据都要统一放到 S
 
 通过 strict: true 可以开启严格模式
 
-<img src="../images/image-20250613125639565.png" alt="image-20250613125639565" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125639565.png" alt="image-20250613125639565" style="zoom:50%;" />
 
 this.$store.state.count++ <font color='red'>(错误写法)</font>
 
@@ -2366,13 +2366,13 @@ this.$store.state.count++ <font color='red'>(错误写法)</font>
 
 1. 定义 mutations 对象，对象中存放修改 state 的方法
 
-<img src="../images/image-20250613125734710.png" alt="image-20250613125734710" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125734710.png" alt="image-20250613125734710" style="zoom:50%;" />
 
 2. 组件中提交调用 mutations
 
-<img src="../images/image-20250613125748811.png" alt="image-20250613125748811" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125748811.png" alt="image-20250613125748811" style="zoom:50%;" />
 
-<img src="../images/image-20250613125756197.png" alt="image-20250613125756197" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125756197.png" alt="image-20250613125756197" style="zoom:50%;" />
 
 
 
@@ -2380,25 +2380,25 @@ this.$store.state.count++ <font color='red'>(错误写法)</font>
 
 
 
-<img src="../images/image-20250613130127890.png" alt="image-20250613130127890" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613130127890.png" alt="image-20250613130127890" style="zoom:50%;" />
 
 提交 mutation 是可以传递参数的 <font color='red'>this.$store.commit( 'xxx', 参数 )</font>
 
 1. 提供 mutation 函数 (带参数 - 提交载荷 payload )
 
-<img src="../images/image-20250613125935933.png" alt="image-20250613125935933" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125935933.png" alt="image-20250613125935933" style="zoom:50%;" />
 
 2. 页面中提交调用 mutation
 
-<img src="../images/image-20250613125952111.png" alt="image-20250613125952111" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613125952111.png" alt="image-20250613125952111" style="zoom:50%;" />
 
 > [!NOTE]
 >
 > Tips: 提交参数只能一个，如果有多个参数，包装成一个对象传递，store文件中使用obj.对象名来接受
 
-<img src="../images/image-20250613130107536.png" alt="image-20250613130107536" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613130107536.png" alt="image-20250613130107536" style="zoom:50%;" />
 
-<img src="../images/image-20250614161542352.png" alt="image-20250614161542352" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250614161542352.png" alt="image-20250614161542352" style="zoom:50%;" />
 
 
 
@@ -2408,11 +2408,11 @@ this.$store.state.count++ <font color='red'>(错误写法)</font>
 
 **目标：**减法功能，巩固 mutations 传参语法
 
-<img src="../images/image-20250613130203078.png" alt="image-20250613130203078" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613130203078.png" alt="image-20250613130203078" style="zoom:50%;" />
 
 **目标：**实时输入，实时更新，巩固 mutations 传参语法
 
-<img src="../images/image-20250613130216997.png" alt="image-20250613130216997" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613130216997.png" alt="image-20250613130216997" style="zoom:50%;" />
 
 
 
@@ -2424,7 +2424,7 @@ this.$store.state.count++ <font color='red'>(错误写法)</font>
 
 mapMutations 和 mapState很像，它是把位于<font color='red'>mutations中的方法</font>提取了出来，映射到<font color='red'>组件methods</font>中
 
-<img src="../images/image-20250613130359064.png" alt="image-20250613130359064" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613130359064.png" alt="image-20250613130359064" style="zoom:50%;" />
 
 
 
@@ -2438,7 +2438,7 @@ mapMutations 和 mapState很像，它是把位于<font color='red'>mutations中�
 
 **说明：**<font color='red'>mutations 必须是同步的 (便于监测数据变化，记录调试)</font>
 
-<img src="../images/image-20250613130450876.png" alt="image-20250613130450876" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613130450876.png" alt="image-20250613130450876" style="zoom:50%;" />
 
 
 
@@ -2448,7 +2448,7 @@ mapMutations 和 mapState很像，它是把位于<font color='red'>mutations中�
 
 mapActions 是把位于 <font color='red'>actions中的方法</font>提取了出来，映射到<font color='red'>组件methods</font>中
 
-<img src="../images/image-20250613130547648.png" alt="image-20250613130547648" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613130547648.png" alt="image-20250613130547648" style="zoom:50%;" />
 
 
 
@@ -2462,9 +2462,9 @@ mapActions 是把位于 <font color='red'>actions中的方法</font>提取了出
 
 **例如：**state中定义了list，为 1-10 的数组，组件中，需要显示所有大于5的数据
 
-<img src="../images/image-20250613130656119.png" alt="image-20250613130656119" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613130656119.png" alt="image-20250613130656119" style="zoom:50%;" />
 
-<img src="../images/image-20250613130708572.png" alt="image-20250613130708572" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613130708572.png" alt="image-20250613130708572" style="zoom:50%;" />
 
 
 
@@ -2478,7 +2478,7 @@ mapActions 是把位于 <font color='red'>actions中的方法</font>提取了出
 
 由于 vuex 使用<font color='red'>单一状态树</font>，应用的所有状态<font color='red'>会集中到一个比较大的对象</font>。当应用变得非常复杂时，store 对象就有可能变得相当臃肿。(当项目变得越来越大的时候，Vuex会变得越来越难以维护)
 
-<img src="../images/image-20250613130758392.png" alt="image-20250613130758392" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613130758392.png" alt="image-20250613130758392" style="zoom:50%;" />
 
 
 
@@ -2486,9 +2486,9 @@ mapActions 是把位于 <font color='red'>actions中的方法</font>提取了出
 
 user模块: store/modules/user.js
 
-<img src="../images/image-20250613130913573.png" alt="image-20250613130913573" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613130913573.png" alt="image-20250613130913573" style="zoom:50%;" />
 
-<img src="../images/image-20250613130919937.png" alt="image-20250613130919937" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613130919937.png" alt="image-20250613130919937" style="zoom:50%;" />
 
 
 
@@ -2507,7 +2507,7 @@ user模块: store/modules/user.js
 - 默认根级别的映射 <font color='red'>mapState([ 'xxx' ])</font>
 - 子模块的映射<font color='red'> mapState('模块名', ['xxx'])</font> - 需要开启命名空间
 
-<img src="../images/image-20250613131111070.png" alt="image-20250613131111070" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613131111070.png" alt="image-20250613131111070" style="zoom:50%;" />
 
 
 
@@ -2524,7 +2524,7 @@ user模块: store/modules/user.js
 - 默认根级别的映射 <font color='red'>mapGetters([ 'xxx' ])</font>
 - 子模块的映射 <font color='red'>mapGetters('模块名', ['xxx'])</font> - 需要开启命名空间
 
-<img src="../images/image-20250613131213498.png" alt="image-20250613131213498" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613131213498.png" alt="image-20250613131213498" style="zoom:50%;" />
 
 
 
@@ -2543,9 +2543,9 @@ user模块: store/modules/user.js
 - 默认根级别的映射 <font color='red'>mapMutations([ 'xxx' ])</font>
 - 子模块的映射 <font color='red'>mapMutations('模块名', ['xxx'])</font> - 需要开启命名空间
 
-<img src="../images/image-20250613131303225.png" alt="image-20250613131303225" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613131303225.png" alt="image-20250613131303225" style="zoom: 50%;" />
 
-<img src="../images/image-20250613131314254.png" alt="image-20250613131314254" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613131314254.png" alt="image-20250613131314254" style="zoom:50%;" />
 
 
 
@@ -2564,9 +2564,9 @@ user模块: store/modules/user.js
 - 默认根级别的映射 <font color='red'>mapActions([ 'xxx' ])</font>
 - 子模块的映射 <font color='red'>mapActions('模块名', ['xxx'])</font> - 需要开启命名空间
 
-<img src="../images/image-20250613131403963.png" alt="image-20250613131403963" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613131403963.png" alt="image-20250613131403963" style="zoom:50%;" />
 
-<img src="../images/image-20250613131410515.png" alt="image-20250613131410515" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613131410515.png" alt="image-20250613131410515" style="zoom:50%;" />
 
 # 综合案例 - 购物车
 
@@ -2585,7 +2585,7 @@ user模块: store/modules/user.js
 vue create vue-cart-demo
 3. 将原本src内容清空，替换成素材的《vuex-cart-准备代码》并分析
 
-<img src="../images/image-20250613131502966.png" alt="image-20250613131502966" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613131502966.png" alt="image-20250613131502966" style="zoom:50%;" />
 
 
 
@@ -2595,7 +2595,7 @@ vue create vue-cart-demo
 
 **说明：**既然明确数据要存 vuex，建议分模块存，购物车数据存 cart 模块，将来还会有 user 模块，article 模块...
 
-<img src="../images/image-20250613131556093.png" alt="image-20250613131556093" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613131556093.png" alt="image-20250613131556093" style="zoom:50%;" />
 
 
 
@@ -2613,7 +2613,7 @@ vue create vue-cart-demo
 
 **推荐：**<font color='red'> json-server --watch index.json(可以实时监听 json 文件的修改)</font> 
 
-<img src="../images/image-20250613131733507.png" alt="image-20250613131733507" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613131733507.png" alt="image-20250613131733507" style="zoom:50%;" />
 
 
 
@@ -2621,7 +2621,7 @@ vue create vue-cart-demo
 
 
 
-<img src="../images/image-20250613131759220.png" alt="image-20250613131759220" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613131759220.png" alt="image-20250613131759220" style="zoom:50%;" />
 
 
 
@@ -2631,7 +2631,7 @@ vue create vue-cart-demo
 
 **注意：**前端 vuex 数据，后端数据库数据都要更新
 
-![image-20250613131831510](../images/image-20250613131831510.png)
+![image-20250613131831510](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613131831510.png)
 
 
 
@@ -2641,13 +2641,13 @@ vue create vue-cart-demo
 
 1. 提供 getters
 
-	<img src="../images/image-20250613132024800.png" alt="image-20250613132024800" style="zoom:50%;" />
+	<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613132024800.png" alt="image-20250613132024800" style="zoom:50%;" />
 
 2. 使用 getters
 
-<img src="../images/image-20250613132035913.png" alt="image-20250613132035913" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613132035913.png" alt="image-20250613132035913" style="zoom:50%;" />
 
-<img src="../images/image-20250613132045356.png" alt="image-20250613132045356" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250613132045356.png" alt="image-20250613132045356" style="zoom:50%;" />
 
 
 
@@ -2661,7 +2661,7 @@ vue create vue-cart-demo
 
 **目标：**查看项目效果，明确功能模块 → 完整的电商购物流程
 
-<img src="../images/image-20250615172329903.png" alt="image-20250615172329903" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615172329903.png" alt="image-20250615172329903" style="zoom:50%;" />
 
 
 
@@ -2671,7 +2671,7 @@ vue create vue-cart-demo
 
 **目标：**明确做完本项目，能够收获哪些内容
 
-<img src="../images/image-20250615172353857.png" alt="image-20250615172353857" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615172353857.png" alt="image-20250615172353857" style="zoom:50%;" />
 
 
 
@@ -2681,7 +2681,7 @@ vue create vue-cart-demo
 
 **目标：**基于 VueCli 自定义创建项目架子
 
-<img src="../images/image-20250615172423276.png" alt="image-20250615172423276" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615172423276.png" alt="image-20250615172423276" style="zoom:50%;" />
 
 
 
@@ -2691,7 +2691,7 @@ vue create vue-cart-demo
 
 **目标：**将目录调整成符合企业规范的目录
 
-<img src="../images/image-20250615172448364.png" alt="image-20250615172448364" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615172448364.png" alt="image-20250615172448364" style="zoom:50%;" />
 
 1. 删除 多余的文件
 2. 修改 路由配置 和 App.vue
@@ -2711,7 +2711,7 @@ vue create vue-cart-demo
 
 [Vant 4 - 轻量、可定制的移动端组件库](https://vant-ui.github.io/vant/#/zh-CN)
 
-<img src="../images/image-20250615172530468.png" alt="image-20250615172530468" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615172530468.png" alt="image-20250615172530468" style="zoom:50%;" />
 
 
 
@@ -2739,7 +2739,7 @@ Vue的组件库并不是唯一的，vant-ui 也仅仅只是组件库的一种。
 
 	- Cube UI (滴滴)([cube-ui Document](https://didi.github.io/cube-ui/#/zh-CN))
 
-<img src="../images/image-20250615173046632.png" alt="image-20250615173046632" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173046632.png" alt="image-20250615173046632" style="zoom:50%;" />
 
 
 
@@ -2751,9 +2751,9 @@ Vue的组件库并不是唯一的，vant-ui 也仅仅只是组件库的一种。
 
 
 
-<img src="../images/image-20250615173124265.png" alt="image-20250615173124265" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173124265.png" alt="image-20250615173124265" style="zoom:50%;" />
 
-<img src="../images/image-20250615173131962.png" alt="image-20250615173131962" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173131962.png" alt="image-20250615173131962" style="zoom:50%;" />
 
 
 
@@ -2767,17 +2767,17 @@ Vue的组件库并不是唯一的，vant-ui 也仅仅只是组件库的一种。
 
 ① 安装 vant-ui
 
-<img src="../images/image-20250615173441411.png" alt="image-20250615173441411" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173441411.png" alt="image-20250615173441411" style="zoom:50%;" />
 
 ② main.js 中注册
 
-<img src="../images/image-20250615173458087.png" alt="image-20250615173458087" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173458087.png" alt="image-20250615173458087" style="zoom:50%;" />
 
 ③ 使用测试
 
-<img src="../images/image-20250615173509706.png" alt="image-20250615173509706" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173509706.png" alt="image-20250615173509706" style="zoom:50%;" />
 
-<img src="../images/image-20250615173518610.png" alt="image-20250615173518610" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173518610.png" alt="image-20250615173518610" style="zoom:50%;" />
 
 
 
@@ -2791,27 +2791,27 @@ Vue的组件库并不是唯一的，vant-ui 也仅仅只是组件库的一种。
 
 ① 安装 vant-ui (已安装)
 
-<img src="../images/image-20250615173551547.png" alt="image-20250615173551547" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173551547.png" alt="image-20250615173551547" style="zoom:50%;" />
 
 ② 安装插件
 
-<img src="../images/image-20250615173603830.png" alt="image-20250615173603830" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173603830.png" alt="image-20250615173603830" style="zoom:50%;" />
 
 ③ babel.config.js 中配置
 
-<img src="../images/image-20250615173616043.png" alt="image-20250615173616043" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173616043.png" alt="image-20250615173616043" style="zoom:50%;" />
 
 ④ main.js 按需导入注册
 
-<img src="../images/image-20250615173627052.png" alt="image-20250615173627052" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173627052.png" alt="image-20250615173627052" style="zoom:50%;" />
 
 ⑤ 测试使用
 
-<img src="../images/image-20250615173636804.png" alt="image-20250615173636804" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173636804.png" alt="image-20250615173636804" style="zoom:50%;" />
 
 ⑥ 提取到 vant-ui.js 中，main.js 导入
 
-<img src="../images/image-20250615173648006.png" alt="image-20250615173648006" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173648006.png" alt="image-20250615173648006" style="zoom:50%;" />
 
 
 
@@ -2825,13 +2825,13 @@ Vue的组件库并不是唯一的，vant-ui 也仅仅只是组件库的一种。
 
 ① 安装插件
 
-<img src="../images/image-20250615173739548.png" alt="image-20250615173739548" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173739548.png" alt="image-20250615173739548" style="zoom:50%;" />
 
 ② 根目录新建 postcss.config.js 文件，填入配置
 
-<img src="../images/image-20250615173809977.png" alt="image-20250615173809977" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173809977.png" alt="image-20250615173809977" style="zoom:50%;" />
 
-<img src="../images/image-20250615173818363.png" alt="image-20250615173818363" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173818363.png" alt="image-20250615173818363" style="zoom:50%;" />
 
 
 
@@ -2845,7 +2845,7 @@ Vue的组件库并不是唯一的，vant-ui 也仅仅只是组件库的一种。
 
 但凡是单个页面，独立展示的，都是一级路由
 
-<img src="../images/image-20250615173906455.png" alt="image-20250615173906455" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173906455.png" alt="image-20250615173906455" style="zoom:50%;" />
 
 
 
@@ -2853,21 +2853,21 @@ Vue的组件库并不是唯一的，vant-ui 也仅仅只是组件库的一种。
 
 
 
-<img src="../images/image-20250615173932135.png" alt="image-20250615173932135" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173932135.png" alt="image-20250615173932135" style="zoom:50%;" />
 
 **tabbar标签页：**
 
 ① vant-ui.js 按需引入
 
-<img src="../images/image-20250615173953044.png" alt="image-20250615173953044" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615173953044.png" alt="image-20250615173953044" style="zoom:50%;" />
 
-② layout.vue 粘贴官方代码测试			<img src="../images/image-20250615174003746.png" alt="image-20250615174003746" style="zoom:50%;" />
+② layout.vue 粘贴官方代码测试			<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615174003746.png" alt="image-20250615174003746" style="zoom:50%;" />
 
-<img src="../images/image-20250615174018047.png" alt="image-20250615174018047" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615174018047.png" alt="image-20250615174018047" style="zoom:50%;" />
 
 ③ 修改文字、图标、颜色
 
-<img src="../images/image-20250615174030943.png" alt="image-20250615174030943" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615174030943.png" alt="image-20250615174030943" style="zoom:50%;" />
 
 
 
@@ -2875,9 +2875,9 @@ Vue的组件库并不是唯一的，vant-ui 也仅仅只是组件库的一种。
 
 
 
-<img src="../images/image-20250615174056147.png" alt="image-20250615174056147" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615174056147.png" alt="image-20250615174056147" style="zoom:50%;" />
 
-<img src="../images/image-20250615174107014.png" alt="image-20250615174107014" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615174107014.png" alt="image-20250615174107014" style="zoom:50%;" />
 
 
 
@@ -2899,7 +2899,7 @@ Vue的组件库并不是唯一的，vant-ui 也仅仅只是组件库的一种。
 2.  通用样式覆盖
 3.  其他静态结构编写
 
-<img src="../images/image-20250615174810568.png" alt="image-20250615174810568" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615174810568.png" alt="image-20250615174810568" style="zoom:50%;" />
 
 
 
@@ -2913,7 +2913,7 @@ Vue的组件库并不是唯一的，vant-ui 也仅仅只是组件库的一种。
 
 所以项目开发中, 都会对 axios 进行基本的<font color='red'>二次封装</font>, 单独封装到一个 request 模块中, <font color='red'>便于维护使用</font>
 
-<img src="../images/image-20250615174908574.png" alt="image-20250615174908574" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615174908574.png" alt="image-20250615174908574" style="zoom:50%;" />
 
 **接口文档地址：**
 
@@ -2931,7 +2931,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 **目标：**基于请求回来的 base64 图片，实现图形验证码功能
 
-<img src="../images/image-20250615175031684.png" alt="image-20250615175031684" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615175031684.png" alt="image-20250615175031684" style="zoom:50%;" />
 
 **说明：**
 
@@ -2941,7 +2941,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 1. 动态将请求回来的 base64 图片，解析渲染出来
 2. 点击验证码图片盒子，要刷新验证码
 
-<img src="../images/image-20250615175039115.png" alt="image-20250615175039115" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615175039115.png" alt="image-20250615175039115" style="zoom:50%;" />
 
 
 
@@ -2951,7 +2951,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 **目标：**将请求封装成方法，统一存放到 api 模块，与页面分离
 
-<img src="../images/image-20250615175114606.png" alt="image-20250615175114606" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615175114606.png" alt="image-20250615175114606" style="zoom:50%;" />
 
 **以前的模式：**
 
@@ -2959,7 +2959,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 2. 相同的请求没有复用
 3. 请求没有统一管理
 
-<img src="../images/image-20250615175131137.png" alt="image-20250615175131137" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615175131137.png" alt="image-20250615175131137" style="zoom:50%;" />
 
 **封装api模块的好处：**
 
@@ -2967,7 +2967,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 2. 相同的请求可以直接复用
 3. 请求进行了统一管理
 
-<img src="../images/image-20250615175144341.png" alt="image-20250615175144341" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615175144341.png" alt="image-20250615175144341" style="zoom:50%;" />
 
 
 
@@ -2979,21 +2979,21 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 **注册安装：**
 
-<img src="../images/image-20250615175612337.png" alt="image-20250615175612337" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615175612337.png" alt="image-20250615175612337" style="zoom:50%;" />
 
 **两种使用方式**
 
 ① 导入调用 (组件内 或 非组件中均可)
 
-<img src="../images/image-20250615175629860.png" alt="image-20250615175629860" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615175629860.png" alt="image-20250615175629860" style="zoom:50%;" />
 
 ② 通过this直接调用 (必须组件内) 
 
 **本质：**将方法，注册挂载到了Vue原型上 <font color='red'>Vue.prototype.$toast = xxx</font>
 
-<img src="../images/image-20250615175741346.png" alt="image-20250615175741346" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615175741346.png" alt="image-20250615175741346" style="zoom:50%;" />
 
-<img src="../images/image-20250615175750060.png" alt="image-20250615175750060" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615175750060.png" alt="image-20250615175750060" style="zoom:50%;" />
 
 
 
@@ -3003,14 +3003,14 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 **目标：**实现短信验证倒计时功能
 
-<img src="../images/image-20250615175829274.png" alt="image-20250615175829274" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615175829274.png" alt="image-20250615175829274" style="zoom:50%;" />
 
 步骤分析：
 1. 点击按钮，实现 <font color='red'>倒计时</font> 效果
 2. 倒计时之前的 <font color='red'>校验处理</font> (手机号、验证码)
 3. 封装<font color='red'>短信验证请求接口</font>，发送请求添加提示
 
-<img src="../images/image-20250615175851289.png" alt="image-20250615175851289" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615175851289.png" alt="image-20250615175851289" style="zoom:50%;" />
 
 
 
@@ -3026,9 +3026,9 @@ http://cba.itlike.com/public/index.php?s=/api/
 2. 登录前的校验 (<font color='red'>手机号</font>，图形验证码，<font color='red'>短信验证码</font>)
 3. <font color='red'>调用方法</font>，发送请求，成功添加提示并跳转
 
-<img src="../images/image-20250615180057905.png" alt="image-20250615180057905" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615180057905.png" alt="image-20250615180057905" style="zoom:50%;" />
 
-<img src="../images/image-20250615180105496.png" alt="image-20250615180105496" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615180105496.png" alt="image-20250615180105496" style="zoom:50%;" />
 
 
 
@@ -3042,9 +3042,9 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 **说明：**响应拦截器是咱们拿到数据的 第一个 数据流转站，可以在里面<font color='red'>统一处理错误</font>。**只要不是 200, 就给默认提示，抛出错误**
 
-<img src="../images/image-20250615191220160.png" alt="image-20250615191220160" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615191220160.png" alt="image-20250615191220160" style="zoom:50%;" />
 
-<img src="../images/image-20250615191227175.png" alt="image-20250615191227175" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615191227175.png" alt="image-20250615191227175" style="zoom:50%;" />
 
 
 
@@ -3059,9 +3059,9 @@ http://cba.itlike.com/public/index.php?s=/api/
 1. token 存入 vuex 的好处，<font color='red'>易获取，响应式</font>
 2. vuex 需要分模块 => user 模块
 
-<img src="../images/image-20250615191318183.png" alt="image-20250615191318183" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615191318183.png" alt="image-20250615191318183" style="zoom:50%;" />
 
-<img src="../images/image-20250615191325881.png" alt="image-20250615191325881" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615191325881.png" alt="image-20250615191325881" style="zoom:50%;" />
 
 
 
@@ -3073,13 +3073,13 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 问题1：vuex 刷新会丢失，怎么办？
 
-<img src="../images/image-20250615191407716.png" alt="image-20250615191407716" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615191407716.png" alt="image-20250615191407716" style="zoom:50%;" />
 
 问题2：每次存取操作太长，太麻烦？
 
-<img src="../images/image-20250615191422599.png" alt="image-20250615191422599" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615191422599.png" alt="image-20250615191422599" style="zoom:50%;" />
 
-<img src="../images/image-20250615191430600.png" alt="image-20250615191430600" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615191430600.png" alt="image-20250615191430600" style="zoom:50%;" />
 
 
 
@@ -3101,7 +3101,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 1. <font color='red'>请求拦截器</font>中，每次请求，<font color='red'>打开 loading</font>
 2. <font color='red'>响应拦截器</font>中，每次响应，<font color='red'>关闭 loading</font>
 
-<img src="../images/image-20250615191548436.png" alt="image-20250615191548436" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615191548436.png" alt="image-20250615191548436" style="zoom:50%;" />
 
 
 
@@ -3115,7 +3115,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 **但是：**对于支付页，订单页等，必须是登录的用户才能访问的，游客不能进入该页面，<font color='red'>需要做拦截处理</font>
 
-<img src="../images/image-20250615191646094.png" alt="image-20250615191646094" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615191646094.png" alt="image-20250615191646094" style="zoom:50%;" />
 
 路由导航守卫 - 全局前置守卫([导航守卫 | Vue Router](https://v3.router.vuejs.org/zh/guide/advanced/navigation-guards.html#全局前置守卫))
 1. 所有的路由一旦被匹配到，都会先经过全局前置守卫
@@ -3124,9 +3124,9 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 访问权限页面时，拦截或放行的关键点？ → <font color='red'>用户是否有登录权证 token</font>
 
-<img src="../images/image-20250615191740456.png" alt="image-20250615191740456" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615191740456.png" alt="image-20250615191740456" style="zoom:50%;" />
 
-<img src="../images/image-20250615191748337.png" alt="image-20250615191748337" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615191748337.png" alt="image-20250615191748337" style="zoom:50%;" />
 
 
 
@@ -3136,7 +3136,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 **目标：**实现首页静态结构，封装接口，完成首页动态渲染
 
-<img src="../images/image-20250615191835672.png" alt="image-20250615191835672" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615191835672.png" alt="image-20250615191835672" style="zoom:50%;" />
 
 
 
@@ -3156,7 +3156,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 3. 清空历史：添加清空图标，可以清空历史记录
 4. 持久化：搜索历史需要持久化，刷新历史不丢失
 
-<img src="../images/image-20250615191943802.png" alt="image-20250615191943802" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615191943802.png" alt="image-20250615191943802" style="zoom:50%;" />
 
 
 
@@ -3166,7 +3166,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 **目标：**实现搜索列表页静态结构，封装接口，完成搜索列表页的渲染
 
-<img src="../images/image-20250615192014311.png" alt="image-20250615192014311" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615192014311.png" alt="image-20250615192014311" style="zoom:50%;" />
 
 
 
@@ -3176,7 +3176,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 **目标：**实现商品详情静态结构，封装接口，完成商品详情页渲染
 
-<img src="../images/image-20250615192040856.png" alt="image-20250615192040856" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615192040856.png" alt="image-20250615192040856" style="zoom:50%;" />
 
 
 
@@ -3190,7 +3190,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 **目标：**点击加入购物车，唤起弹层效果
 
-<img src="../images/image-20250615192105060.png" alt="image-20250615192105060" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615192105060.png" alt="image-20250615192105060" style="zoom:50%;" />
 
 
 
@@ -3209,7 +3209,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 5. 数字不能减到小于 1
 6. 可以直接输入内容，输入完成判断是否合法
 
-<img src="../images/image-20250615192220054.png" alt="image-20250615192220054" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615192220054.png" alt="image-20250615192220054" style="zoom:50%;" />
 
 
 
@@ -3226,7 +3226,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 1. 若存在：继续加入购物车操作
 2. 不存在：<font color='red'>提示</font> 用户未登录，引导到登录页，<font color='red'>登录完回跳</font>
 
-<img src="../images/image-20250615192319232.png" alt="image-20250615192319232" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615192319232.png" alt="image-20250615192319232" style="zoom:50%;" />
 
 
 
@@ -3242,7 +3242,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 4. 解决问题：请求拦截器统一携带 token
 5. 小图标定制
 
-<img src="../images/image-20250615192453601.png" alt="image-20250615192453601" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615192453601.png" alt="image-20250615192453601" style="zoom:50%;" />
 
 
 
@@ -3263,7 +3263,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 7. 编辑切换状态，删除功能
 8. 空购物车处理
 
-<img src="../images/image-20250615192613945.png" alt="image-20250615192613945" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615192613945.png" alt="image-20250615192613945" style="zoom:50%;" />
 
 
 
@@ -3273,7 +3273,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 **说明：**所有的结算，本质上就是 <font color='red'>跳转到 "订单结算台"</font>，并且，跳转的同时，需要<font color='red'> 携带上对应的订单相关参数</font>，具体需要哪些参数，基于 "订单结算台" 的需求来定。
 
-<img src="../images/image-20250615192659073.png" alt="image-20250615192659073" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615192659073.png" alt="image-20250615192659073" style="zoom:50%;" />
 
 
 
@@ -3290,7 +3290,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 订单信息确认，可以共用同一个接口(参数不同)
 
-<img src="../images/image-20250615193024151.png" alt="image-20250615193024151" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615193024151.png" alt="image-20250615193024151" style="zoom:50%;" />
 
 
 
@@ -3307,7 +3307,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 3. 调用接口，获取数据
 4. 基于数据渲染
 
-<img src="../images/image-20250615193112079.png" alt="image-20250615193112079" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615193112079.png" alt="image-20250615193112079" style="zoom:50%;" />
 
 
 
@@ -3331,7 +3331,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 5. 未登录时，确认框的复用 (<font color='red'>mixins混入</font>)
 
-<img src="../images/image-20250615193342591.png" alt="image-20250615193342591" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615193342591.png" alt="image-20250615193342591" style="zoom:50%;" />
 
 
 
@@ -3347,15 +3347,15 @@ http://cba.itlike.com/public/index.php?s=/api/
 2. 买家留言绑定
 3. 注册事件，调用方法提交订单并支付
 
-<img src="../images/image-20250615193600320.png" alt="image-20250615193600320" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615193600320.png" alt="image-20250615193600320" style="zoom:50%;" />
 
 ### mixin
 
 
 
-<img src="../images/image-20250618100059240.png" alt="image-20250618100059240" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250618100059240.png" alt="image-20250618100059240" style="zoom:50%;" />
 
-<img src="../images/image-20250618100124930.png" alt="image-20250618100124930" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250618100124930.png" alt="image-20250618100124930" style="zoom:50%;" />
 
 ## 29. 订单管理 & 个人中心 (快速实现)
 
@@ -3363,9 +3363,9 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 **目标：**基于笔记，快速实现 订单管理 和 个人中心 跑通流程
 
-<img src="../images/image-20250615193632726.png" alt="image-20250615193632726" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615193632726.png" alt="image-20250615193632726" style="zoom:50%;" />
 
-<img src="../images/image-20250615193701235.png" alt="image-20250615193701235" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615193701235.png" alt="image-20250615193701235" style="zoom:50%;" />
 
 
 
@@ -3386,7 +3386,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 ③ less sass ts 语法解析
 ④ ....
 
-<img src="../images/image-20250615193846389.png" alt="image-20250615193846389" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615193846389.png" alt="image-20250615193846389" style="zoom:50%;" />
 
 打包后，可以生成，浏览器能够直接运行的网页 => 就是需要上线的源码！
 
@@ -3404,9 +3404,9 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 **配置：**默认情况下，需要放到服务器根目录打开，如果希望双击运行，需要配置publicPath 配成相对路径
 
-<img src="../images/image-20250615193951081.png" alt="image-20250615193951081" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615193951081.png" alt="image-20250615193951081" style="zoom:50%;" />
 
-<img src="../images/image-20250615194003176.png" alt="image-20250615194003176" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615194003176.png" alt="image-20250615194003176" style="zoom:50%;" />
 
 
 
@@ -3422,11 +3422,11 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 步骤1： 异步组件改造
 
-<img src="../images/image-20250615194158473.png" alt="image-20250615194158473" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615194158473.png" alt="image-20250615194158473" style="zoom:50%;" />
 
 步骤2： 路由中应用
 
-<img src="../images/image-20250615194209398.png" alt="image-20250615194209398" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250615194209398.png" alt="image-20250615194209398" style="zoom:50%;" />
 
 
 
@@ -3442,7 +3442,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 
 
-<img src="../images/image-20250621200148055.png" alt="image-20250621200148055" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621200148055.png" alt="image-20250621200148055" style="zoom:50%;" />
 
 
 
@@ -3450,7 +3450,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 
 
-<img src="../images/image-20250621200213372.png" alt="image-20250621200213372" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621200213372.png" alt="image-20250621200213372" style="zoom:50%;" />
 
 
 
@@ -3458,11 +3458,11 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 
 
-<img src="../images/image-20250621200242258.png" alt="image-20250621200242258" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621200242258.png" alt="image-20250621200242258" style="zoom:50%;" />
 
 **需求：**点击按钮，让数字 +1
 
-<img src="../images/image-20250621200301389.png" alt="image-20250621200301389" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621200301389.png" alt="image-20250621200301389" style="zoom:50%;" />
 
 
 
@@ -3476,7 +3476,7 @@ http://cba.itlike.com/public/index.php?s=/api/
 
 create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切换到了 <font color='red'>vite（下一代构建工具）</font>，为开发提供极速响应
 
-<img src="../images/image-20250621200522797.png" alt="image-20250621200522797" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621200522797.png" alt="image-20250621200522797" style="zoom:50%;" />
 
 
 
@@ -3494,7 +3494,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
   <font color='red'>npm init vue@latest</font>
   这一指令将会安装并执行 create-vue
 
-<img src="../images/image-20250621200613792.png" alt="image-20250621200613792" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621200613792.png" alt="image-20250621200613792" style="zoom:50%;" />
 
 
 
@@ -3506,7 +3506,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 
 
-<img src="../images/image-20250621200655463.png" alt="image-20250621200655463" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621200655463.png" alt="image-20250621200655463" style="zoom:50%;" />
 
 **关键文件：**
 
@@ -3532,7 +3532,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 1. 执行时机，比 beforeCreate 还要早
 2. setup 函数中，获取不到this （this 是 undefined)，因为 setup 创建时机很早，导致组件实例还没有被创建出来，所以没有this
 
-<img src="../images/image-20250621200756315.png" alt="image-20250621200756315" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621200756315.png" alt="image-20250621200756315" style="zoom:50%;" />
 
 
 
@@ -3540,7 +3540,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 
 
-<img src="../images/image-20250621200816426.png" alt="image-20250621200816426" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621200816426.png" alt="image-20250621200816426" style="zoom:50%;" />
 
 
 
@@ -3548,7 +3548,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 
 
-<img src="../images/image-20250621200902286.png" alt="image-20250621200902286" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621200902286.png" alt="image-20250621200902286" style="zoom:50%;" />
 
 
 
@@ -3556,7 +3556,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 
 
-<img src="../images/image-20250621200924768.png" alt="image-20250621200924768" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621200924768.png" alt="image-20250621200924768" style="zoom:50%;" />
 
 
 
@@ -3593,7 +3593,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 **核心步骤：**
 
-<img src="../images/image-20250621201704176.png" alt="image-20250621201704176" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621201704176.png" alt="image-20250621201704176" style="zoom:50%;" />
 
 1. 从 vue 包中<font color='red'>导入 reactive 函数</font>
 2. 在 `<script setup>` 中<font color='red'>执行 reactive 函数</font>并传入<font color='red'>类型为对象</font>的初始值，并使用变量接收返回值
@@ -3608,7 +3608,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 **核心步骤：**
 
-<img src="../images/image-20250621201813023.png" alt="image-20250621201813023" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621201813023.png" alt="image-20250621201813023" style="zoom:50%;" />
 
 1. 从 vue 包中<font color='red'>导入 ref 函数</font>
 2. 在 `<script setup>` 中<font color='red'>执行 ref 函数</font>并传入初始值，使用<font color='red'>变量接收 </font>ref 函数的返回值
@@ -3651,13 +3651,13 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 2. <font color='red'>执行函数</font> 在回调参数中<font color='red'>return基于响应式数据做计算的值</font>，用<font color='red'>变量接收</font>
 
-<img src="../images/image-20250621221950285.png" alt="image-20250621221950285" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621221950285.png" alt="image-20250621221950285" style="zoom:50%;" />
 
 
 
 **计算属性小案例**
 
-<img src="../images/image-20250621202126596.png" alt="image-20250621202126596" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621202126596.png" alt="image-20250621202126596" style="zoom:50%;" />
 
 <font color='red'>计算公式</font>：始终从原始响应式数组中筛选出大于2的所有项 - filter
 
@@ -3697,11 +3697,11 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 1. <font color='red'>导入watch</font>函数
 2. <font color='red'>执行watch函数</font>传入要侦听的响应式数据<font color='red'>(ref对象)</font>和回调函数
 
-<img src="../images/image-20250621202334206.png" alt="image-20250621202334206" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621202334206.png" alt="image-20250621202334206" style="zoom:50%;" />
 
 **说明：**同时侦听多个响应式数据的变化，<font color='red'>不管哪个数据变化都需要执行回调</font>
 
-<img src="../images/image-20250621202356923.png" alt="image-20250621202356923" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621202356923.png" alt="image-20250621202356923" style="zoom:50%;" />
 
 
 
@@ -3711,7 +3711,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 **说明：**在侦听器创建时<font color='red'>立即触发回调</font>, 响应式数据变化之后继续执行回调
 
-<img src="../images/image-20250621202428704.png" alt="image-20250621202428704" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621202428704.png" alt="image-20250621202428704" style="zoom:50%;" />
 
 
 
@@ -3721,7 +3721,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 **默认机制：**通过watch监听的ref对象默认是<font color='red'>浅层侦听的，直接修改嵌套的对象属性不会触发回调执行</font>，需要开启deep选项
 
-<img src="../images/image-20250621202510030.png" alt="image-20250621202510030" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621202510030.png" alt="image-20250621202510030" style="zoom:50%;" />
 
 
 
@@ -3733,7 +3733,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 
 
-<img src="../images/image-20250621202537282.png" alt="image-20250621202537282" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621202537282.png" alt="image-20250621202537282" style="zoom:50%;" />
 
 
 
@@ -3786,7 +3786,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 1. 导入生命周期函数
 2. 执行生命周期函数 传入回调
 
-<img src="../images/image-20250621203323624.png" alt="image-20250621203323624" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621203323624.png" alt="image-20250621203323624" style="zoom:50%;" />
 
 
 
@@ -3798,7 +3798,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 
 
-<img src="../images/image-20250621203347686.png" alt="image-20250621203347686" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621203347686.png" alt="image-20250621203347686" style="zoom:50%;" />
 
 
 
@@ -3830,13 +3830,13 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 1. 父组件中给<font color='red'>子组件绑定属性</font>
 2. 子组件内部通过<font color='red'>props选项接收</font>
 
-<img src="../images/image-20250621203514489.png" alt="image-20250621203514489" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621203514489.png" alt="image-20250621203514489" style="zoom:50%;" />
 
 
 
 **defineProps 原理：**就是编译阶段的一个标识，实际编译器解析时，遇到后会进行编译转换
 
-<img src="../images/image-20250621203534727.png" alt="image-20250621203534727" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621203534727.png" alt="image-20250621203534727" style="zoom:50%;" />
 
 
 
@@ -3849,7 +3849,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 1. 父组件中给<font color='red'>子组件标签通过@绑定事件</font>
 2. 子组件内部通过<font color='red'> emit 方法触发事件</font>
 
-<img src="../images/image-20250621203630557.png" alt="image-20250621203630557" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621203630557.png" alt="image-20250621203630557" style="zoom:50%;" />
 
 
 
@@ -3887,7 +3887,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 通过<font color='red'>ref标识</font>获取真实的<font color='red'>dom对象或者组件实例对象</font>
 
-<img src="../images/image-20250621203837346.png" alt="image-20250621203837346" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621203837346.png" alt="image-20250621203837346" style="zoom:50%;" />
 
 
 
@@ -3895,7 +3895,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 
 
-<img src="../images/image-20250621203858344.png" alt="image-20250621203858344" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621203858344.png" alt="image-20250621203858344" style="zoom:50%;" />
 
 1. 调用ref函数生成一个ref对象
 2. 通过ref标识绑定ref对象到标签
@@ -3908,7 +3908,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 默认情况下在`<script setup>`语法糖下<font color='red'>组件内部的属性和方法是不开放</font>给父组件访问的，可以通过defineExpose编译宏<font color='red'>指定哪些属性和方法允许访问</font>
 
-<img src="../images/image-20250621203956116.png" alt="image-20250621203956116" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621203956116.png" alt="image-20250621203956116" style="zoom:50%;" />
 
 
 
@@ -3934,7 +3934,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 顶层组件向任意的底层组件<font color='red'>传递数据和方法</font>，实现<font color='red'>跨层组件通信</font>
 
-<img src="../images/image-20250621204113128.png" alt="image-20250621204113128" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621204113128.png" alt="image-20250621204113128" style="zoom:50%;" />
 
 
 
@@ -3945,7 +3945,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 1. 顶层组件通过<font color='red'>provide函数提供</font>数据
 2. 底层组件通过<font color='red'>inject函数获取</font>数据
 
-<img src="../images/image-20250621204210273.png" alt="image-20250621204210273" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621204210273.png" alt="image-20250621204210273" style="zoom:50%;" />
 
 
 
@@ -3955,7 +3955,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 在调用provide函数时，第二个参数设置为<font color='red'>ref对象</font>
 
-<img src="../images/image-20250621204237168.png" alt="image-20250621204237168" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621204237168.png" alt="image-20250621204237168" style="zoom:50%;" />
 
 
 
@@ -3965,7 +3965,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 顶层组件可以向底层组件传递方法，<font color='red'>底层组件调用方法修改顶层组件中的数据</font>
 
-<img src="../images/image-20250621204313904.png" alt="image-20250621204313904" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621204313904.png" alt="image-20250621204313904" style="zoom:50%;" />
 
 
 
@@ -3973,7 +3973,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 
 
 
-<img src="../images/image-20250621204337354.png" alt="image-20250621204337354" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621204337354.png" alt="image-20250621204337354" style="zoom:50%;" />
 
 
 
@@ -4015,7 +4015,7 @@ create-vue是Vue<font color='red'>官方新的脚手架工具</font>，底层切
 所以在 Vue 3.3 中新引入了<font color='red'> defineOptions</font> 宏。顾名思义，主要是用来定义 <font color='red'>Options API</font> 的选项。可以用
 defineOptions 定义任意的选项， props, emits, expose, slots 除外（因为这些可以使用 defineXXX 来做到）
 
-<img src="../images/image-20250621204639424.png" alt="image-20250621204639424" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621204639424.png" alt="image-20250621204639424" style="zoom:50%;" />
 
 
 
@@ -4029,11 +4029,11 @@ defineOptions 定义任意的选项， props, emits, expose, slots 除外（因�
 
 在Vue3中，自定义组件上使用v-model, 相当于传递一个modelValue属性，同时触发 update:modelValue 事件
 
-<img src="../images/image-20250621204742599.png" alt="image-20250621204742599" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621204742599.png" alt="image-20250621204742599" style="zoom:50%;" />
 
 我们需要先定义 props，再定义 emits 。其中有许多重复的代码。如果需要修改此值，还需要手动调用 emit 函数。
 
-<img src="../images/image-20250621204753740.png" alt="image-20250621204753740" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250621204753740.png" alt="image-20250621204753740" style="zoom:50%;" />
 
 
 
@@ -4049,7 +4049,7 @@ defineOptions 定义任意的选项， props, emits, expose, slots 除外（因�
 
 Pinia 是 Vue 的最新 <font color='red'>状态管理工具</font> ，是 Vuex 的 <font color='red'>替代品</font>
 
-<img src="../images/image-20250622222303792.png" alt="image-20250622222303792" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622222303792.png" alt="image-20250622222303792" style="zoom:50%;" />
 
 1. 提供更加简单的API （去掉了 mutation ）
 2. 提供符合，组合式风格的API （和 Vue3 新语法统一）
@@ -4070,7 +4070,7 @@ Pinia 是 Vue 的最新 <font color='red'>状态管理工具</font> ，是 Vuex 
 npm create vue@latest
 2. <font color='red'>按照官方文档</font> 安装 pinia 到项目中
 
-![image-20250623103114260](../images/image-20250623103114260.png)
+![image-20250623103114260](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250623103114260.png)
 
 > 以上代码在 main.js 中
 
@@ -4081,7 +4081,7 @@ npm create vue@latest
 1. 定义store
 2. 组件使用store
 
-<img src="../images/image-20250622222404002.png" alt="image-20250622222404002" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622222404002.png" alt="image-20250622222404002" style="zoom:50%;" />
 
 
 
@@ -4091,7 +4091,7 @@ npm create vue@latest
 
 Pinia中的 getters 直接使用 <font color='red'>computed函数</font> 进行模拟, 组件中需要使用<font color='red'>需要把 getters return出去</font>
 
-<img src="../images/image-20250622222439956.png" alt="image-20250622222439956" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622222439956.png" alt="image-20250622222439956" style="zoom:50%;" />
 
 
 
@@ -4105,7 +4105,7 @@ Pinia中的 getters 直接使用 <font color='red'>computed函数</font> 进行�
 
 **需求：**在Pinia中获取频道列表数据并把数据渲染App组件的模板中
 
-<img src="../images/image-20250622222517098.png" alt="image-20250622222517098" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622222517098.png" alt="image-20250622222517098" style="zoom:50%;" />
 
 
 
@@ -4115,9 +4115,9 @@ Pinia中的 getters 直接使用 <font color='red'>computed函数</font> 进行�
 
 使用storeToRefs函数可以辅助保持数据<font color='red'>（state + getter）</font>的响应式解构
 
-<img src="../images/image-20250622222542350.png" alt="image-20250622222542350" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622222542350.png" alt="image-20250622222542350" style="zoom:50%;" />
 
-<img src="../images/image-20250622222553255.png" alt="image-20250622222553255" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622222553255.png" alt="image-20250622222553255" style="zoom:50%;" />
 
 
 
@@ -4127,7 +4127,7 @@ Pinia中的 getters 直接使用 <font color='red'>computed函数</font> 进行�
 
 Vue官方的 <font color='red'>dev-tools 调试工具</font> 对 Pinia直接支持，可以直接进行调试
 
-<img src="../images/image-20250622222624114.png" alt="image-20250622222624114" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622222624114.png" alt="image-20250622222624114" style="zoom: 50%;" />
 
 
 
@@ -4139,15 +4139,15 @@ Vue官方的 <font color='red'>dev-tools 调试工具</font> 对 Pinia直接支�
 
 1. 安装插件 pinia-plugin-persistedstate
 
-	<img src="../images/image-20250622222814235.png" alt="image-20250622222814235" style="zoom:50%;" />
+	<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622222814235.png" alt="image-20250622222814235" style="zoom:50%;" />
 
 2. main.js 使用
 
-  <img src="../images/image-20250622222825648.png" alt="image-20250622222825648" style="zoom:50%;" />
+  <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622222825648.png" alt="image-20250622222825648" style="zoom:50%;" />
 
 3. store仓库中，<font color='red'>persist: true</font> 开启
 
-<img src="../images/image-20250624152723661.png" alt="image-20250624152723661" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250624152723661.png" alt="image-20250624152723661" style="zoom:50%;" />
 
 
 
@@ -4195,7 +4195,7 @@ Vue官方的 <font color='red'>dev-tools 调试工具</font> 对 Pinia直接支�
 
 **基地址：** http://big-event-vue-api-t.itheima.net
 
-<img src="../images/image-20250622223025829.png" alt="image-20250622223025829" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622223025829.png" alt="image-20250622223025829" style="zoom:50%;" />
 
 
 
@@ -4223,7 +4223,7 @@ Vue官方的 <font color='red'>dev-tools 调试工具</font> 对 Pinia直接支�
 
 
 
-<img src="../images/image-20250622223327160.png" alt="image-20250622223327160" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622223327160.png" alt="image-20250622223327160" style="zoom:50%;" />
 
 
 
@@ -4243,7 +4243,7 @@ Vue官方的 <font color='red'>dev-tools 调试工具</font> 对 Pinia直接支�
 
 提示：安装Eslint且配置保存修复，不要开启默认的自动保存格式化
 
-<img src="../images/image-20250622223449141.png" alt="image-20250622223449141" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622223449141.png" alt="image-20250622223449141" style="zoom:50%;" />
 
 
 
@@ -4260,7 +4260,7 @@ Vue官方的 <font color='red'>dev-tools 调试工具</font> 对 Pinia直接支�
 https://typicode.github.io/husky/
 3. 修改 .husky/pre-commit 文件
 
-<img src="../images/image-20250622223538139.png" alt="image-20250622223538139" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622223538139.png" alt="image-20250622223538139" style="zoom:50%;" />
 
 问题：pnpm lint 是全量检查，<font color='red'>耗时</font>问题，<font color='red'>历史</font>问题
 
@@ -4274,9 +4274,9 @@ https://typicode.github.io/husky/
 2. package.json 配置 lint-staged 命令
 3. .husky/pre-commit 文件修改
 
-<img src="../images/image-20250622223628633.png" alt="image-20250622223628633" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622223628633.png" alt="image-20250622223628633" style="zoom:50%;" />
 
-<img src="../images/image-20250622223616685.png" alt="image-20250622223616685" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622223616685.png" alt="image-20250622223616685" style="zoom:50%;" />
 
 
 
@@ -4305,7 +4305,7 @@ https://typicode.github.io/husky/
 3. 新增调整我们需要的目录结构
 4. 拷贝全局样式和图片，安装预处理器支持
 
-<img src="../images/image-20250622223730335.png" alt="image-20250622223730335" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622223730335.png" alt="image-20250622223730335" style="zoom:50%;" />
 
 
 
@@ -4317,7 +4317,7 @@ https://typicode.github.io/husky/
 
 
 
-<img src="../images/image-20250622223757595.png" alt="image-20250622223757595" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622223757595.png" alt="image-20250622223757595" style="zoom:50%;" />
 
 1. 创建路由实例由<font color='red'> createRouter</font> 实现
 2. 路由模式
@@ -4326,9 +4326,9 @@ https://typicode.github.io/husky/
 - hash 模式使用<font color='red'> createWebHashHistory()</font>         地址栏带 #
 - 参数是<font color='red'>基础路径</font>，默认/，可以在vite.confiig.js文件中配置base属性，以设置此参数的值
 
-<img src="../images/image-20250624145650869.png" alt="image-20250624145650869" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250624145650869.png" alt="image-20250624145650869" style="zoom:50%;" />
 
-<img src="../images/image-20250624145707290.png" alt="image-20250624145707290" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250624145707290.png" alt="image-20250624145707290" style="zoom:50%;" />
 
 此属性的效果是恒定地在地址前面加上base属性的值
 
@@ -4336,7 +4336,7 @@ https://typicode.github.io/husky/
 
 
 
-<img src="../images/image-20250622223920694.png" alt="image-20250622223920694" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622223920694.png" alt="image-20250622223920694" style="zoom:50%;" />
 
 创建一个路由实例，路由模式是history模式，路由的基础地址是 vite.config.js中的 base 配置的值，默认是 / , 环境变量地址： https://cn.vitejs.dev/guide/env-and-mode.html
 
@@ -4360,7 +4360,7 @@ https://typicode.github.io/husky/
 
 4. 彩蛋：默认 <font color='red'>components</font> 下的文件也会被 <font color='red'>自动注册~</font>font>
 
-<img src="../images/image-20250622224206956.png" alt="image-20250622224206956" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622224206956.png" alt="image-20250622224206956" style="zoom:50%;" />
 
 
 
@@ -4368,7 +4368,7 @@ https://typicode.github.io/husky/
 
 
 
-![image-20250622224241341](../images/image-20250622224241341.png)
+![image-20250622224241341](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622224241341.png)
 
 
 
@@ -4391,7 +4391,7 @@ pinia 独立维护
 
 
 
-<img src="../images/image-20250622224432480.png" alt="image-20250622224432480" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622224432480.png" alt="image-20250622224432480" style="zoom:50%;" />
 
 
 
@@ -4403,7 +4403,7 @@ pinia 独立维护
 
 
 
-<img src="../images/image-20250622224523288.png" alt="image-20250622224523288" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622224523288.png" alt="image-20250622224523288" style="zoom:50%;" />
 
 
 
@@ -4420,9 +4420,9 @@ pinia 独立维护
 2. 注册功能 (校验 + 注册)
 3. 登录功能 (校验 + 登录 + 存token)
 
-<img src="../images/image-20250622224600655.png" alt="image-20250622224600655" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622224600655.png" alt="image-20250622224600655" style="zoom:50%;" />
 
-<img src="../images/image-20250624201526651.png" alt="image-20250624201526651" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250624201526651.png" alt="image-20250624201526651" style="zoom:50%;" />
 
 
 
@@ -4436,7 +4436,7 @@ pinia 独立维护
 3. 用户基本信息获取&渲染
 4. 退出功能 [element-plus 确认框]
 
-<img src="../images/image-20250622224626512.png" alt="image-20250622224626512" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622224626512.png" alt="image-20250622224626512" style="zoom:50%;" />
 
 
 
@@ -4450,4 +4450,4 @@ pinia 独立维护
 3. 文章分类添加编辑 [element-plus 弹层]
 4. 文章分类删除
 
-<img src="../images/image-20250622224649711.png" alt="image-20250622224649711" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250622224649711.png" alt="image-20250622224649711" style="zoom:50%;" />

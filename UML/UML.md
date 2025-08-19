@@ -2,7 +2,7 @@
 
 
 
-![image-20250108161958162](../images/image-20250108161958162.png)
+![image-20250108161958162](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108161958162.png)
 
 统一建模语言（<font color='red'>Unified Modeling Language</font>，简称<font color='red'>UML</font>），一种通用的可视建模语言，用于说明、可视化、构造并文档化软件系统的体系结构
 
@@ -18,7 +18,7 @@
 
 ## **5视图与9种图**
 
-<img src="../images/image-20250108212253569.png" alt="image-20250108212253569" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108212253569.png" alt="image-20250108212253569" style="zoom:50%;" />
 
 五类图：用例图、静态图、行为图、交互图、实现图
 
@@ -39,7 +39,7 @@ UML 的动态（或行为）模型图由活动图、顺序图、状态图、协�
 
 ——RUP的软件生命周期在内容轴上分为9个核心工作流
 
-![image-20250108212533051](../images/image-20250108212533051.png)
+![image-20250108212533051](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108212533051.png)
 
 # 二、UML建模工具
 
@@ -104,7 +104,7 @@ UML 的动态（或行为）模型图由活动图、顺序图、状态图、协�
 
 解释说明
 
-<img src="../images/image-20250108163202211.png" alt="image-20250108163202211" style="zoom: 67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108163202211.png" alt="image-20250108163202211" style="zoom: 67%;" />
 
 
 
@@ -185,7 +185,7 @@ extends
 
 i.一条带<font color='red'>空心三角箭头的实线</font>，从子类指向父类，或者子接口指向父接口。
 
-<img src="../images/image-20250108163406759.png" alt="image-20250108163406759" style="zoom:50%;" /><img src="../images/image-20250108163416614.png" alt="image-20250108163416614" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108163406759.png" alt="image-20250108163406759" style="zoom:50%;" /><img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108163416614.png" alt="image-20250108163416614" style="zoom:50%;" />
 
 
 
@@ -207,7 +207,7 @@ implements
 
 i.实现用一条<font color='red'>带空心三角箭头的虚线</font>表示，从类指向实现的接口
 
-<img src="../images/image-20250108163617479.png" alt="image-20250108163617479" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108163617479.png" alt="image-20250108163617479" style="zoom:67%;" />
 
 
 
@@ -227,7 +227,7 @@ i.实现用一条<font color='red'>带空心三角箭头的虚线</font>表示�
 
 i.由<font color='red'>类A指向类B的带箭头虚线</font>表示
 
-<img src="../images/image-20250108163758436.png" alt="image-20250108163758436" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108163758436.png" alt="image-20250108163758436" style="zoom:67%;" />
 
 
 
@@ -249,7 +249,7 @@ i.由<font color='red'>类A指向类B的带箭头虚线</font>表示
 
 由<font color='red'>类A指向类B的带箭头实线</font>表示；
 
-<img src="../images/image-20250108164007968.png" alt="image-20250108164007968" style="zoom: 67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108164007968.png" alt="image-20250108164007968" style="zoom: 67%;" />
 
 
 
@@ -275,7 +275,7 @@ iv.计算机与CPU、公司与员工的关系、班级和学生的关系
 
 <font color='red'>空心菱形加实线</font>
 
-<img src="../images/image-20250108164210462.png" alt="image-20250108164210462" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108164210462.png" alt="image-20250108164210462" style="zoom:67%;" />
 
 ## （6）组合关系
 
@@ -299,9 +299,9 @@ iv.人和四肢的关系
 
 <font color='red'>实心菱形加实线</font>
 
-<img src="../images/image-20250108164344630.png" alt="image-20250108164344630" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108164344630.png" alt="image-20250108164344630" style="zoom:67%;" />
 
-<img src="../images/image-20250108205623647.png" alt="image-20250108205623647" style="zoom:33%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108205623647.png" alt="image-20250108205623647" style="zoom:33%;" />
 
 箭头中间可以加数字，表示子类的数量
 
@@ -329,9 +329,9 @@ m..n——数字范围
 
 
 
-<img src="../images/image-20250108174354474.png" alt="image-20250108174354474" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108174354474.png" alt="image-20250108174354474" style="zoom:67%;" />
 
-<img src="../images/image-20250108174414047.png" alt="image-20250108174414047" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108174414047.png" alt="image-20250108174414047" style="zoom:67%;" />
 
 用例图主要用来描述角色以及角色与用例之间的连接关系。说明的是谁要使用系统，以及他们使用该系统可以做些什么。一个用例图包含了多个模型元素，如系统、参与者和用例，并且显示这些元素之间的各种关系，如泛化、关联和依赖。它展示了一个外部用户能够观察到的系统功能模型图。
 
@@ -348,13 +348,13 @@ m..n——数字范围
 
 与应用程序或系统进行交互的用户、组织或外部系统。用个小人表示，
 
-<img src="../images/image-20250108174603593.png" alt="image-20250108174603593" style="zoom: 80%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108174603593.png" alt="image-20250108174603593" style="zoom: 80%;" />
 
 ### (2）用例(UseCase)
 
 用例就是外部可见的系统功能，对系统提供的服务进行描述。用椭圆表示。
 
-<img src="../images/image-20250108174633738.png" alt="image-20250108174633738" style="zoom:80%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108174633738.png" alt="image-20250108174633738" style="zoom:80%;" />
 
 ### (3）子系统(Subsystem)
 
@@ -364,11 +364,11 @@ m..n——数字范围
 
 
 
-<img src="../images/image-20250108174715834.png" alt="image-20250108174715834" style="zoom:80%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108174715834.png" alt="image-20250108174715834" style="zoom:80%;" />
 
 ## 3.用例图所包含的的关系
 
-<img src="../images/image-20250108205206741.png" alt="image-20250108205206741" style="zoom: 33%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108205206741.png" alt="image-20250108205206741" style="zoom: 33%;" />
 
 用例图中涉及的关系有：**关联、泛化、包含、扩展**
 
@@ -376,10 +376,10 @@ m..n——数字范围
 
 | 关系类型 |            说明            |                           表示符号                           |
 | :------: | :------------------------: | :----------------------------------------------------------: |
-|   关联   |   参与者与用例之间的关系   | <img src="../images/image-20250108175004246.png" alt="image-20250108175004246" style="zoom: 50%;" /> |
-|   泛化   | 参与者之间或用例之间的关系 | <img src="../images/image-20250108175012393.png" alt="image-20250108175012393" style="zoom: 50%;" /> |
-|   包含   |       用例之间的关系       | <img src="../images/image-20250108175026373.png" alt="image-20250108175026373"  /> |
-|   拓展   |       用例之间的关系       | ![image-20250108175048279](../images/image-20250108175048279.png) |
+|   关联   |   参与者与用例之间的关系   | <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108175004246.png" alt="image-20250108175004246" style="zoom: 50%;" /> |
+|   泛化   | 参与者之间或用例之间的关系 | <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108175012393.png" alt="image-20250108175012393" style="zoom: 50%;" /> |
+|   包含   |       用例之间的关系       | <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108175026373.png" alt="image-20250108175026373"  /> |
+|   拓展   |       用例之间的关系       | ![image-20250108175048279](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108175048279.png) |
 
 
 
@@ -391,7 +391,7 @@ m..n——数字范围
 
 **【箭头指向】：**无箭头，将参与者与用例相连接，指向消息接收方
 
-<img src="../images/image-20250108175205526.png" alt="image-20250108175205526" style="zoom: 67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108175205526.png" alt="image-20250108175205526" style="zoom: 67%;" />
 
 ### b.泛化(Inheritance)
 
@@ -407,7 +407,7 @@ m..n——数字范围
 
 
 
-<img src="../images/image-20250108201017340.png" alt="image-20250108201017340" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108201017340.png" alt="image-20250108201017340" style="zoom:67%;" />
 
 PS：父类的功能少，子类的功能多
 
@@ -427,9 +427,9 @@ PS：父类的功能少，子类的功能多
 
 
 
-<img src="../images/image-20250108201305489.png" alt="image-20250108201305489" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108201305489.png" alt="image-20250108201305489" style="zoom:67%;" />
 
-<img src="../images/image-20250108201316126.png" alt="image-20250108201316126" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108201316126.png" alt="image-20250108201316126" style="zoom:67%;" />
 
 
 
@@ -446,7 +446,7 @@ PS：预约功能、结束功能都包含登陆功能，将通用功能（复用
 
 **【箭头指向】：**指向基础用例
 
-<img src="../images/image-20250108201456356.png" alt="image-20250108201456356" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108201456356.png" alt="image-20250108201456356" style="zoom:67%;" />
 
 
 
@@ -462,9 +462,9 @@ PS：预约功能、结束功能都包含登陆功能，将通用功能（复用
 
 描述一个对象的生命周期
 
-<img src="../images/image-20250108211455307.png" alt="image-20250108211455307" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108211455307.png" alt="image-20250108211455307" style="zoom: 50%;" />
 
-<img src="../images/image-20250108211501502.png" alt="image-20250108211501502" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108211501502.png" alt="image-20250108211501502" style="zoom:50%;" />
 
 ## 2、状态图所包含的元素
 
@@ -474,27 +474,27 @@ PS：预约功能、结束功能都包含登陆功能，将通用功能（复用
 
 （2）箭头上的文字：表示一个事件
 
-![image-20250108201731229](../images/image-20250108201731229.png)
+![image-20250108201731229](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108201731229.png)
 
 （3）长方形表示某种状态
 
-![image-20250108201747769](../images/image-20250108201747769.png)
+![image-20250108201747769](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108201747769.png)
 
 （4）起始状态：是一种伪状态，只是表示从这里要开始（可选）
 
-![image-20250108201755878](../images/image-20250108201755878.png)
+![image-20250108201755878](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108201755878.png)
 
 （5）结束状态：是一种伪状态，只是表示从这里要结束（可选）
 
-![image-20250108201804144](../images/image-20250108201804144.png)
+![image-20250108201804144](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108201804144.png)
 
 
 
 **示例：**
 
-![image-20250108201825764](../images/image-20250108201825764.png)
+![image-20250108201825764](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108201825764.png)
 
-<img src="../images/image-20250108201933801.png" alt="image-20250108201933801" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108201933801.png" alt="image-20250108201933801" style="zoom:67%;" />
 
 
 
@@ -508,21 +508,21 @@ PS：预约功能、结束功能都包含登陆功能，将通用功能（复用
 
 活动图(activitydiagram)是UML的动态规图之一，用来描述事物或对象的活动变化流程。类似流程图，描述从个动作转移到另外一个动作，阐明了业务用例实现的工作流程。
 
-<img src="../images/image-20250108210832923.png" alt="image-20250108210832923" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108210832923.png" alt="image-20250108210832923" style="zoom: 50%;" />
 
-<img src="../images/image-20250108210857636.png" alt="image-20250108210857636" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108210857636.png" alt="image-20250108210857636" style="zoom:50%;" />
 
-<img src="../images/image-20250108210914273.png" alt="image-20250108210914273" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108210914273.png" alt="image-20250108210914273" style="zoom:50%;" />
 
-<img src="../images/image-20250108210924884.png" alt="image-20250108210924884" style="zoom: 67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108210924884.png" alt="image-20250108210924884" style="zoom: 67%;" />
 
 泳道图：
 
-​                                                <img src="../images/image-20250108211248041.png" alt="image-20250108211248041" style="zoom:32.5%;" /> 
+​                                                <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108211248041.png" alt="image-20250108211248041" style="zoom:32.5%;" /> 
 
-<img src="../images/image-20250108211154574.png" alt="image-20250108211154574" style="zoom:33%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108211154574.png" alt="image-20250108211154574" style="zoom:33%;" />
 
-<img src="../images/image-20250108211407888.png" alt="image-20250108211407888" style="zoom:33%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108211407888.png" alt="image-20250108211407888" style="zoom:33%;" />
 
 
 
@@ -537,33 +537,33 @@ PS：预约功能、结束功能都包含登陆功能，将通用功能（复用
 
 （1）开始：线条表示-活动流(ActionFIw):描述活动之间的有向关系，表示一个活动向另外一个活动之间的转移。用带箭头的实线表示。
 
-![image-20250108202102033](../images/image-20250108202102033.png)
+![image-20250108202102033](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108202102033.png)
 
 （2）结束：
 
-![image-20250108202123399](../images/image-20250108202123399.png)
+![image-20250108202123399](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108202123399.png)
 
 （3）活动：
 
-![image-20250108202141105](../images/image-20250108202141105.png)
+![image-20250108202141105](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108202141105.png)
 
 
 
 （4）条件转移（分支）：表示从一个活动按照某种条件转移到几个不同的活动。
 
-![image-20250108202213741](../images/image-20250108202213741.png)
+![image-20250108202213741](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108202213741.png)
 
 （5）分劈和汇合：表示并发的同步行为，用同步杆表示。-》有分劈、有汇总
 
-![image-20250108202240753](../images/image-20250108202240753.png)
+![image-20250108202240753](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108202240753.png)
 
 **举例：**
 
 
 
-<img src="../images/image-20250108202318700.png" alt="image-20250108202318700" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108202318700.png" alt="image-20250108202318700" style="zoom:67%;" />
 
-<img src="../images/image-20250108202328294.png" alt="image-20250108202328294" style="zoom: 80%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108202328294.png" alt="image-20250108202328294" style="zoom: 80%;" />
 
 
 
@@ -602,22 +602,22 @@ PS：预约功能、结束功能都包含登陆功能，将通用功能（复用
 
 (1)角色(Actor)
 
-<img src="../images/image-20250108202557443.png" alt="image-20250108202557443" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108202557443.png" alt="image-20250108202557443" style="zoom:50%;" />
 
 (2）对象(Object)
 
-<img src="../images/image-20250108202655220.png" alt="image-20250108202655220" style="zoom: 50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108202655220.png" alt="image-20250108202655220" style="zoom: 50%;" />
 
 
 
 （3）生命线(LifeLine)
 
-<img src="../images/image-20250108202824268.png" alt="image-20250108202824268" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108202824268.png" alt="image-20250108202824268" style="zoom:67%;" />
 
 
 （4）控制焦点(Activation）
 
-<img src="../images/image-20250108202837566.png" alt="image-20250108202837566" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108202837566.png" alt="image-20250108202837566" style="zoom:67%;" />
 
 PS：控制焦点可以体现生命周期
 
@@ -625,7 +625,7 @@ PS：控制焦点可以体现生命周期
 
 （5）消息（Message）
 
-![image-20250108202858272](../images/image-20250108202858272.png)
+![image-20250108202858272](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108202858272.png)
 
 <font color='red'>4.2.1[x>3]:p=find(specs)</font>
 
@@ -665,13 +665,13 @@ PS：控制焦点可以体现生命周期
 
 **举例：**
 
-<img src="../images/image-20250108202915001.png" alt="image-20250108202915001" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108202915001.png" alt="image-20250108202915001" style="zoom:67%;" />
 
-<img src="../images/image-20250108210231226.png" alt="image-20250108210231226" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108210231226.png" alt="image-20250108210231226" style="zoom:50%;" />
 
-<img src="../images/image-20250108210246808.png" alt="image-20250108210246808" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108210246808.png" alt="image-20250108210246808" style="zoom:50%;" />
 
-![image-20250108210302400](../images/image-20250108210302400.png)
+![image-20250108210302400](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108210302400.png)
 
 
 
@@ -686,7 +686,7 @@ PS：控制焦点可以体现生命周期
 
 如javabean、ejb、jsp都是组件。在UML中，组件元素为：
 
-<img src="../images/image-20250108202956151.png" alt="image-20250108202956151" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108202956151.png" alt="image-20250108202956151" style="zoom:67%;" />
 
 
 
@@ -694,7 +694,7 @@ PS：控制焦点可以体现生命周期
 
 **举例：**
 
-<img src="../images/image-20250108203034472.png" alt="image-20250108203034472" style="zoom:67%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108203034472.png" alt="image-20250108203034472" style="zoom:67%;" />
 
 
 
@@ -705,7 +705,7 @@ PS：控制焦点可以体现生命周期
 
 表现用于部署软件应用的物理设备信息
 
-<img src="../images/image-20250108203104102.png" alt="image-20250108203104102" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108203104102.png" alt="image-20250108203104102" style="zoom:50%;" />
 
 
 
@@ -715,5 +715,5 @@ PS：控制焦点可以体现生命周期
 
 对象约束语言简称OCL（Object Constraint Language），它是一种用于施加在指定的模型元素上约束的语言。
 
-<img src="../images/image-20250108214044152.png" alt="image-20250108214044152" style="zoom:50%;" />
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250108214044152.png" alt="image-20250108214044152" style="zoom:50%;" />
 
