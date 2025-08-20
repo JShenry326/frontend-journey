@@ -71,8 +71,6 @@
 
 相对来说,这三种方式中编码类的实现方式更加灵活, 他可以融入到我们已有的项目中,和项目的贴合度是最高的, 但是他的门槛也高些, 需要有编程基础才能完成. 而我们的这么课程正是编码类可视化的实现, 并且选择的是百度开源的 ECharts.js .
 
-
-
 # 2. ECharts的基本使用
 
 
@@ -860,7 +858,7 @@ var option = {
 
 
 
-### 3.3.1.散点图的实现步骤
+### 3.3.1 散点图的实现步骤
 
 
 
@@ -964,7 +962,7 @@ var option = {
 
 <img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250818214937256.png" alt="image-20250818214937256" style="zoom:50%;" />
 
-### 3.3.2.散点图的常见效果
+### 3.3.2 散点图的常见效果
 
 
 
@@ -1086,7 +1084,7 @@ var option = {
 
 
 
-### 3.3.3.散点图的特点
+### 3.3.3 散点图的特点
 
 
 
@@ -1096,7 +1094,7 @@ var option = {
 
 
 
-### 3.3.4.直角坐标系的常见配置
+### 3.3.4 直角坐标系的常见配置
 
 
 
@@ -1220,11 +1218,11 @@ var option = {
 
 
 
-## 3.4.图表4 饼图
+## 3.4 图表4 饼图
 
 
 
-### 3.4.1.饼图的实现步骤
+### 3.4.1 饼图的实现步骤
 
 
 
@@ -1298,7 +1296,7 @@ var option = {
 
 
 
-### 3.4.2.饼图的常见效果
+### 3.4.2 饼图的常见效果
 
 
 
@@ -1408,9 +1406,1635 @@ var option = {
 
 
 
-### 3.4.3.饼图的特点
+### 3.4.3 饼图的特点
 
 饼图可以很好地帮助用户快速了解不同分类的数据的<font color='red'>占比情况</font>
 
 
+
+## 3.5 图表5 地图
+
+
+
+### 3.5.1 地图图表的使用方式
+
+
+
+百度地图API : 使用百度地图的 api , 它能够在线联网展示地图, 百度地图需要申请 ak
+矢量地图 : 可以离线展示地图, 需要开发者准备矢量地图数据
+接下来的实现是通过矢量图的方式来实现的
+
+
+
+### 3.5.2 矢量地图的实现步骤
+
+
+
+- **步骤1 ECharts 最基本的代码结构**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="js/echarts.min.js"></script>
+</head>
+<body>
+	<div style="width: 600px;height:400px"></div>
+	<script>
+		var mCharts = echarts.init(document.querySelector("div"))
+		var option = {}
+		mCharts.setOption(option)
+	</script>
+</body>
+</html>
+```
+
+此时 option 是一个空空如也的对象
+
+- **步骤2 准备中国的矢量 json 文件, 放到 json/map/ 目录之下**
+
+![image-20250820093601319](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820093601319.png)
+
+- **步骤3 使用 Ajax 获取 china.json**
+
+```js
+$.get('json/map/china.json', function (chinaJson) {
+})
+```
+
+- **步骤4 在Ajax的回调函数中, 往 echarts 全局对象注册地图的 json 数据**
+
+```js
+echarts.registerMap('chinaMap', chinaJson)
+```
+
+```js
+$.get('json/map/china.json', function (chinaJson) {
+	echarts.registerMap('chinaMap', chinaJson)
+})
+```
+
+- **步骤5 获取完数据之后, 需要配置 geo 节点, 再次的 setOption**
+
+`type : 'map'`
+`map : 'chinaMap'`
+
+```js
+var mCharts = echarts.init(document.querySelector("div"))
+$.get('json/map/china.json', function (chinaJson) {
+	echarts.registerMap('chinaMap', chinaJson)
+	var option = {
+		geo: {
+			type: 'map',// map是一个固定的值
+			map: 'chinaMap',//chinaMap需要和registerMap中的第一个参数保持一致
+		}
+	};
+	mCharts.setOption(option)
+})
+```
+
+![image-20250820093824706](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820093824706.png)
+
+<font color='red'>注意:</font> 需要注意的是, 由于在代码中使用了 Ajax , 所以, 关于此文件的打开, 不能以 file 的协议打开, 应该将其置于 HTTP 的服务之下方可正常展示地图
+
+
+
+### 3.5.3 地图的常见配置
+
+
+
+- **缩放拖动: roam**
+
+```js
+var option = {
+	geo: {
+		type: 'map',// map是一个固定的值
+		map: 'chinaMap',//chinaMap需要和registerMap中的第一个参数保持一致,
+		roam: true, // 运行使用鼠标进行拖动和缩放
+	}
+}
+```
+
+- **名称显示: label**
+
+```js
+var option = {
+	geo: {
+		type: 'map',// map是一个固定的值
+		map: 'chinaMap',//chinaMap需要和registerMap中的第一个参数保持一致,
+		roam: true,
+		label: {
+			show: true
+		}
+	}
+}
+```
+
+![image-20250820094032352](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820094032352.png)
+
+- **初始缩放比例: zoom**
+- **地图中心点: center**
+
+```js
+var option = {
+	geo: {
+		type: 'map',// map是一个固定的值
+		map: 'chinaMap',//chinaMap需要和registerMap中的第一个参数保持一致,
+		roam: true,
+		label: {
+			show: true
+		},
+		zoom: 0.8, // 地图的缩放比例, 大于1代表放大, 小于1代表缩小
+		center: [87.617733, 43.792818] // 当前视角的中心点，用经纬度表示
+	}
+}
+```
+
+![image-20250820094128062](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820094128062.png)
+
+
+
+### 3.5.4 地图的常见效果
+
+
+
+<font color='red'>**显示某个区域**</font>
+
+- 准备安徽省的矢量地图数据
+
+![image-20250820094156610](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820094156610.png)
+
+- 加载安徽省地图的矢量数据
+
+```js
+$.get('json/map/anhui.json', function (anhuiJson) {
+})
+```
+
+- 在Ajax的回调函数中注册地图矢量数据
+
+`echarts.registerMap('anhui', anhuiJson)`
+
+- 配置 geo 的 type:'map' , map:'anhui'
+
+- 通过 zoom 调整缩放比例
+
+- 通过 center 调整中心点
+
+```js
+<script>
+	var mCharts = echarts.init(document.querySelector("div"))
+	$.get('json/map/anhui.json', function (anhuiJson) {
+		console.log(anhuiJson)
+		echarts.registerMap('anhui', anhuiJson)
+		var option = {
+			geo: {
+				type: 'map',
+				map: 'anhui',
+				label: {
+					show: true
+				},
+				zoom: 1.2,
+				center: [116.507676, 31.752889]
+			}
+		};
+		mCharts.setOption(option)
+	})
+</script>
+```
+
+![image-20250820094450672](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820094450672.png)
+
+
+
+<font color='red'>**不同城市颜色不同**</font>
+
+- 1.显示基本的中国地图
+
+```js
+<body>
+	<div style="width: 600px;height:400px;border:1px solid red"></div>
+	<script>
+		var mCharts = echarts.init(document.querySelector("div"))
+		$.get('json/map/china.json', function (chinaJson) {
+			echarts.registerMap('chinaMap', chinaJson)
+			var option = {
+				geo: {
+					type: 'map',
+					map: 'chinaMap',
+					roam: true,
+					label: {
+						show: true
+					}
+				}
+			}
+			mCharts.setOption(option)
+		})
+	</script>
+</body>
+</html>
+```
+
+- 2.准备好城市空气质量的数据, 并且将数据设置给 series
+
+```js
+var airData = [{ name: '北京', value: 39.92 },{ name: '天津', value:
+39.13 },{ name: '上海', value: 31.22 },{ name: '重庆', value: 66 },{
+name: '河北', value: 147 },{ name: '河南', value: 113 },{ name: '云南',
+value: 25.04 },{ name: '辽宁', value: 50 },{ name: '黑龙江', value: 114
+},{ name: '湖南', value: 175 },{ name: '安徽', value: 117 },{ name: '山
+东', value: 92 },{ name: '新疆', value: 84 },{ name: '江苏', value: 67 },
+{ name: '浙江', value: 84 },{ name: '江西', value: 96 },{ name: '湖北',
+value: 273 },{ name: '广西', value: 59 },{ name: '甘肃', value: 99 },{
+name: '山西', value: 39 },{ name: '内蒙古', value: 58 },{ name: '陕西',
+value: 61 },{ name: '吉林', value: 51 },{ name: '福建', value: 29 },{
+name: '贵州', value: 71 },{ name: '广东', value: 38 },{ name: '青海',
+value: 57 },{ name: '西藏', value: 24 },{ name: '四川', value: 58 },{
+name: '宁夏', value: 52 },{ name: '海南', value: 54 },{ name: '台湾',
+value: 88 },{ name: '香港', value: 66 },{ name: '澳门', value: 77 },{
+name: '南海诸岛', value: 55 }]
+......
+var option = {
+	......
+	series: [
+		{
+			data: airData
+		}
+	]
+}
+```
+
+- 3.将 series 下的数据和 geo 关联起来
+
+`geoIndex: 0`
+`type: 'map'`
+
+```js
+var option = {
+	series: [
+		{
+			data: airData,
+			geoIndex: 0,
+			type: 'map'
+		}
+	]
+}
+```
+
+- 4.结合 visualMap 配合使用
+
+visualMap 是视觉映射组件, 和之前区域缩放 dataZoom 很类似, 可以做数据的过滤. 只不过dataZoom 主要使用在直角坐标系的图表, 而 visualMap 主要使用在地图或者饼图中
+
+```js
+var option = {
+	geo: {
+		type: 'map',
+		map: 'chinaMap',
+		roam: true,
+		label: {
+			show: true
+		}
+	},
+	series: [
+		{
+			data: airData,
+			geoIndex: 0,
+			type: 'map'
+		}
+	],
+	visualMap: {
+		min: 0, // 最小值
+		max: 300, // 最大值
+		inRange: {
+			color: ['white', 'red'] // 颜色的范围
+		},
+		calculable: true // 是否显示拖拽用的手柄（手柄能拖拽调整选中范围）
+	}
+}
+```
+
+![image-20250820094903954](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820094903954.png)
+
+
+
+<font color='red'>**地图和散点图结合**</font>
+
+- 1.给 series 这个数组下增加新的对象
+- 2.准备好散点数据,设置给新对象的 data
+
+```js
+var scatterData = [
+	{
+		value: [117.283042, 31.86119] // 散点的坐标, 使用的是经纬度
+	}
+]
+```
+
+- 3.配置新对象的 type
+
+	`type:effectScatter`
+
+- 让散点图使用地图坐标系统
+
+	`coordinateSystem: 'geo'`
+
+- 让涟漪的效果更加明显
+
+	`rippleEffect: { scale: 10 }`
+
+```js
+var option = {
+	series: [
+		{
+			data: airData,
+			geoIndex: 0,
+			type: 'map'
+		}, {
+			data: scatterData,
+			type: 'effectScatter',
+			coordinateSystem: 'geo',
+			rippleEffect: {
+				scale: 10
+			}
+		}
+	]
+}
+```
+
+![image-20250820095212486](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820095212486.png)
+
+
+
+### 3.5.5 地图的特点
+
+
+
+地图主要可以帮助我们从宏观的角度快速看出不同<font color='red'>地理位置</font>上数据的差异
+
+
+
+## 3.6 图表6 雷达图
+
+
+
+### 3.6.1 雷达图的实现步骤
+
+
+
+- **步骤1 ECharts 最基本的代码结构**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="js/echarts.min.js"></script>
+</head>
+<body>
+	<div style="width: 600px;height:400px"></div>
+	<script>
+		var mCharts = echarts.init(document.querySelector("div"))
+	    var option = {}
+		mCharts.setOption(option)
+	</script>
+</body>
+</html>
+```
+
+此时 option 是一个空空如也的对象
+
+- **步骤2 定义各个维度的最大值**
+
+```js
+var dataMax = [
+	{
+		name: '易用性', max: 100
+	},
+	{
+		name: '功能', max: 100
+	},
+	{
+		name: '拍照', max: 100
+	},
+	{
+		name: '跑分', max: 100
+	},
+	{
+		name: '续航', max: 100
+	}
+]
+```
+
+- **步骤3 准备具体产品的数据**
+
+```js
+var hwScore = [80, 90, 80, 82, 90]
+var zxScore = [70, 82, 75, 70, 78]
+```
+
+- **步骤4 在 series 下设置 type:radar**
+
+```js
+var option = {
+	radar: {
+		indicator: dataMax
+	},
+	series: [
+		{
+			type: 'radar',
+			data: [
+				{
+					name: '华为手机1',
+					value: hwScore
+				},
+				{
+					name: '中兴手机1',
+					value: zxScore
+				}
+			]
+		}
+	]
+}
+```
+
+![image-20250820095912484](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820095912484.png)
+
+
+
+### 3.6.2 雷达图的常见效果
+
+
+
+**显示数值 label**
+
+```js
+var option = {
+	series: [
+		{
+			type: 'radar',
+			label: {
+				show: true
+			},
+			data: [
+				{
+					name: '华为手机1',
+					value: hwScore
+				},
+				{
+					name: '中兴手机1',
+					value: zxScore
+				}
+			]
+		}
+	]
+}
+```
+
+![image-20250820100036638](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820100036638.png)
+
+
+
+**区域面积 areaStyle**
+
+```js
+var option = {
+	series: [
+		{
+			type: 'radar',
+			label: {
+				show: true
+			},
+			areaStyle: {},
+			data: [
+				{
+					name: '华为手机1',
+					value: hwScore
+				},
+				{
+					name: '中兴手机1',
+					value: zxScore
+				}
+			]
+		}
+	]
+}
+```
+
+![image-20250820100148257](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820100148257.png)
+
+
+
+**绘制类型 shape**
+
+雷达图绘制类型，支持 'polygon' 和 'circle'
+
+```js
+'polygon' : 多边形
+'circle' 圆形
+```
+
+```js
+var option = {
+	radar: {
+		indicator: dataMax,
+		shape: 'circle'
+	},
+	series: [
+		{
+			type: 'radar',
+			label: {
+				show: true
+			},
+			data: [
+				{
+					name: '华为手机1',
+					value: hwScore
+				},
+				{
+					name: '中兴手机1',
+					value: zxScore
+				}
+			]
+		}
+	]
+}
+```
+
+![image-20250820100340220](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820100340220.png)
+
+
+
+### 3.6.3 雷达图的特点
+
+
+
+雷达图可以用来分析<font color='red'>多个维度</font>的数据与标准数据的对比情况
+
+
+
+## 3.7 图表7 仪表盘图
+
+
+
+### 3.7.1 仪表盘的实现步骤
+
+
+
+- 步骤1 ECharts 最基本的代码结构
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="js/echarts.min.js"></script>
+</head>
+<body>
+	<div style="width: 600px;height:400px"></div>
+	<script>
+		var mCharts = echarts.init(document.querySelector("div"))
+		var option = {}
+		mCharts.setOption(option)
+	</script>
+</body>
+</html>
+```
+
+此时 option 是一个空空如也的对象
+
+- 步骤2: 准备数据, 设置给 series 下的 data
+
+	`data:[97]`
+
+- 步骤3: 在 series 下设置 type:gauge
+
+```js
+var option = {
+	series: [
+		{
+			type: 'gauge',
+			data: [{
+				value: 97,
+			}]
+		}
+	]
+}
+```
+
+![image-20250820101707266](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820101707266.png)
+
+
+
+### 3.7.2 仪表盘的常见效果
+
+
+
+- 数值范围: max min
+- 多个指针: 增加data中数组的元素
+- 多个指针颜色的差异: itemStyle
+
+```JS
+var option = {
+	series: [
+		{
+			type: 'gauge',
+			data: [{
+				value: 97,
+				itemStyle: {
+					color: 'pink'
+				}
+			}, {
+				value: 85,
+				itemStyle: {
+					color: 'green'
+				}
+			}],
+			min: 50
+		}
+	]
+}
+```
+
+![image-20250820101835526](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820101835526.png)
+
+
+
+### 3.7.3 仪表盘的特点
+
+
+
+仪表盘可以更直观的表现出某个指标的<font color='red'>进度</font>或实际情况
+
+
+
+# 4. 配置项小结
+
+
+
+## 4.1 柱状图 bar
+
+
+
+| series[].type | xAxis | yAxis |   markPoint   | markLine |  label   | barWidth |
+| :-----------: | :---: | :---: | :-----------: | :------: | :------: | :------: |
+|   图表类型    |  x轴  |  y轴  | 最大值\最小值 |  平均值  | 显示文本 |  柱宽度  |
+
+
+
+## 4.2 折线图 line
+
+
+
+| series[].type | xAxis | yAxis |   markPoint   | markLine | markArea | smooth |
+| :-----------: | :---: | :---: | :-----------: | :------: | :------: | :----: |
+|   图表类型    |  x轴  |  y轴  | 最大值\最小值 |  平均值  | 标注区域 | 平滑线 |
+
+| lineStyle | areaStyle | boundaryGap |    scale    |
+| :-------: | :-------: | :---------: | :---------: |
+| 线条风格  |  风格x轴  |  紧挨边缘   | 脱离0值比例 |
+
+
+
+## 4.3 散点图 scatter
+
+
+
+| series[].type | xAxis | yAxis | symbolSize |
+| :-----------: | :---: | :---: | :--------: |
+|   图表类型    |  x轴  |  y轴  |  散点大小  |
+
+| itemStyle | showEffectOn | rippleEffect |    scale    |
+| :-------: | :----------: | :----------: | :---------: |
+| 散点样式  |   显示时机   |   涟漪效果   | 脱离0值比例 |
+
+
+
+## 4.4 饼图 pie
+
+
+
+| series[].type |  label   | radius | roseType | selectedMode | selectedOffset |
+| :-----------: | :------: | :----: | :------: | :----------: | :------------: |
+|   图表类型    | 显示文本 |  半径  | 饼图类型 |   是否多选   | 选中扇区偏移量 |
+
+
+
+## 4.5 地图 map
+
+
+
+| series[].type |      geo       |     map      |        roam        |  zoom  |
+| :-----------: | :------------: | :----------: | :----------------: | :----: |
+|   图表类型    | 地理坐标系组件 | 指明地图数据 | 开启鼠标拖动和缩放 | 平均值 |
+
+|    center    |    label     |     geoIndex      |  visualMap   | coordinateSystem |
+| :----------: | :----------: | :---------------: | :----------: | :--------------: |
+| 图表的中心点 | 是否显示地区 | 指明关联的geo组件 | 视觉映射组件 |   使用坐标系统   |
+
+
+
+## 4.6 雷达图 radar
+
+
+
+| series[].type |   radar    |    ndicator    | label | areaStyle |   shape    |
+| :-----------: | :--------: | :------------: | :---: | :-------: | :--------: |
+|   图表类型    | 雷达图组件 | 雷达图的指示器 | 文字  | 区域颜色  | 雷达图形状 |
+
+
+
+## 4.7 仪表盘 gauge
+
+
+
+| series[].type |  max   |  min   | itemStyle |
+| :-----------: | :----: | :----: | :-------: |
+|   图表类型    | 最大值 | 最小值 | 指针样式  |
+
+
+
+## 4.8 直角坐标系配置
+
+
+
+- **grid**
+
+|   show   | borderWidth | borderColor | left | top  | right |
+| :------: | :---------: | :---------: | :--: | :--: | :---: |
+| 是否可见 |  边框宽度   |  边框颜色   | 左边 | 顶部 | 右边  |
+
+| bottom | width | height |
+| :----: | :---: | :----: |
+|  底部  | 宽度  |  高度  |
+
+
+
+- axis
+
+|  type  | data | position |
+| :----: | :--: | :------: |
+| 轴类型 | 数据 | 显示位置 |
+
+
+
+- dataZoom
+
+|    type    | xAxisIndex | yAxisIndex | start  |  end   |
+| :--------: | :--------: | :--------: | :----: | :----: |
+| 缩放块类型 |  x轴索引   |  y轴索引   | 初始值 | 结束值 |
+
+
+
+## 4.9 通用配置
+
+
+
+- title
+
+| textStyle | borderWidth | borderColor | borderRadius |
+| :-------: | :---------: | :---------: | :----------: |
+| 文字样式  |  边框宽度   |  边框颜色   |   边框圆角   |
+
+| left | top  | right | bottom |
+| :--: | :--: | :---: | :----: |
+| 左边 | 顶部 | 右边  |  底部  |
+
+
+
+- tooltip
+
+| trigger  | triggerOn | formatter  |
+| :------: | :-------: | :--------: |
+| 触发类型 | 触发时机  | 内容自定义 |
+
+
+
+- toolbox.feature
+
+| saveAsImage | dataView | restore | dataZoom | magicType |
+| :---------: | :------: | :-----: | :------: | :-------: |
+|  保存图片   | 数据视图 |  重置   |   缩放   | 图表转换  |
+
+
+
+- legend
+
+|                       data                       |
+| :----------------------------------------------: |
+| 图例数据, 需要和series数组中某组数据的name值一致 |
+
+
+
+# 5. ECharts高级
+
+
+
+## 5.1 显示相关
+
+
+
+### 5.1.1 主题
+
+
+
+**<font color='red'>默认主题</font>**
+
+ECharts 中默认内置了两套主题: light dark
+
+在初始化对象方法 init 中可以指明
+
+```JS
+var chart = echarts.init(dom, 'light')
+var chart = echarts.init(dom, 'dark')
+```
+
+
+
+<font color='red'>**自定义主题**</font>
+
+- **1.在主题编辑器中编辑主题**
+
+主题编辑器的地址为: https://www.echartsjs.com/theme-builder/
+在该地址中, 你可以定义一个主题的很多方面的内容:
+
+![image-20250820105043646](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820105043646.png)
+
+- **2.下载主题, 是一个 js 文件**
+
+在线编辑完主题之后, 可以点击下载主题按钮, 下载主题的js文件
+
+![image-20250820105106683](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820105106683.png)
+
+- **3.引入主题 js 文件**
+
+```js
+<script src="js/echarts.min.js"></script>
+<script src="js/itcast.js"></script>
+```
+
+其中, itcast.js 就是下载下来的主题文件
+
+- **4.在 init 方法中使用主题**
+
+```js
+var mCharts = echarts.init(document.querySelector("div"), 'itcast')
+```
+
+init方法中的第二个参数itcast就是主题的名称, 这个名称叫什么我们可以在itcast.js的代码中看出
+
+![image-20250820105229671](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820105229671.png)
+
+
+
+### 5.1.2 调色盘
+
+
+
+它是一组颜色，图形、系列会自动从其中选择颜色, 不断的循环从头取到尾, 再从头取到尾, 如此往复
+
+<font color='red'>**主题调色盘**</font>
+
+```js
+echarts.registerTheme('itcast', {
+	"color": [
+		"#893448",
+		"#d95850",
+		"#eb8146",
+		"#ffb248",
+		"#f2d643",
+		"#ebdba4"
+	],
+	"backgroundColor": "rgba(242,234,191,0.15)",
+	......
+})
+```
+
+
+
+<font color='red'>**全局调色盘**</font>
+
+全局调色盘是在 option 下增加一个 color 的数组
+
+```js
+var option = {
+	// 全局调色盘
+	color: ['red', 'green', 'blue'],
+	......
+}
+mCharts.setOption(option)
+```
+
+
+
+<font color='red'>**局部调色盘**</font>
+
+局部调色盘就是在 series 下增加一个 color 的数组
+
+```js
+var option = {
+	// 全局调色盘
+	color: ['red', 'green', 'blue'],
+	series: [
+		{
+			type: 'pie',
+			data: pieData,
+			// 局部调色盘
+			color: ['pink', 'yellow', 'black']
+		}
+	]
+}
+mCharts.setOption(option)
+```
+
+需要注意一点的是, 如果全局的调色盘和局部的调色盘都设置了, 局部调色盘会产生效果, 这里面遵循的是就近原则
+
+
+
+<font color='red'>**渐变颜色的实现**</font>
+
+在 ECharts 中, 支持线性渐变和径向渐变两种颜色渐变的方式
+
+- 线性渐变
+
+线性渐变的类型为 linear , 他需要配置线性的方向, 通过 x, y, x2, y2 即可进行配置
+x , y , x2 , y2 , 范围从 0 - 1，相当于在图形包围盒中的百分比，如果 global 为 true ，则该四个值是绝对的像素位置
+在下述代码中的 0 0 0 1 意味着从上往下进行渐变
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="js/echarts.min.js"></script>
+</head>
+<body>
+	<div style="width: 600px;height:400px"></div>
+	<script>
+	var mCharts = echarts.init(document.querySelector("div"))
+	var xDataArr = ['张三', '李四', '王五', '闰土', '小明', '茅台', '二妞', '大强']
+	var yDataArr = [88, 92, 63, 77, 94, 80, 72, 86]
+	var option = {
+		xAxis: {
+			type: 'category',
+			data: xDataArr
+		},
+		yAxis: {
+			type: 'value'
+		},
+		series: [
+			{
+				type: 'bar',
+				data: yDataArr,
+				itemStyle: {
+					color: {
+						type: 'linear',
+						x: 0,
+						y: 0,
+						x2: 0,
+						y2: 1,
+						colorStops: [{
+							offset: 0, color: 'red' // 0% 处的颜色
+						}, {
+							offset: 1, color: 'blue' // 100% 处的颜色
+						}],
+						globalCoord: false // 缺省为 false
+					}
+				}
+			}
+		]
+	};
+	mCharts.setOption(option)
+	</script>
+</body>
+</html>
+```
+
+![image-20250820111253410](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820111253410.png)
+
+- 径向渐变
+
+线性渐变的类型为 radial , 他需要配置径向的方向, 通过 x , y , r 即可进行配置
+前三个参数分别是圆心 x , y 和半径，取值同线性渐变
+在下述代码中的 0.5 0.5 0.5 意味着从柱的重点点, 向外径向扩散半径为宽度一半的圆
+
+```js
+series: [
+	{
+		itemStyle: {
+			color: {
+				type: 'radial',
+				x: 0.5,
+				y: 0.5,
+				r: 0.5,
+				colorStops: [{
+					offset: 0, color: 'red' // 0% 处的颜色
+				}, {
+					offset: 1, color: 'blue' // 100% 处的颜色
+				}],
+				global: false // 缺省为 false
+			}
+		}
+    }
+]
+```
+
+![image-20250820111400282](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820111400282.png)
+
+
+
+### 5.1.3 样式
+
+
+
+**直接样式**
+
+- itemStyle
+- textStyle
+- lineStyle
+- areaStyle
+- label
+
+```js
+data: [
+	{
+		value: 11231,
+		name: "淘宝",
+		itemStyle: {
+			color: 'black'
+		}
+	}
+]
+title: {
+	text: '我是标题',
+	textStyle: {
+		color: 'red'
+	}
+}
+label: {
+	color: 'green'
+}
+```
+
+这些样式一般都可以设置颜色或者背景或者字体等样式, 他们会<font color='red'>覆盖主题中的样式</font>
+
+**高亮样式**
+
+图表中, 其实有很多元素都是有两种状态的, 一种是<font color='red'>默认状态</font>, 另外一种就是鼠标滑过或者点击形成
+的高亮状态. 而高亮样式是针对于元素的高亮状态设定的样式
+
+那它的使用也非常简单,在 emphasis 中包裹原先的 itemStyle 等等, 我们来试一下
+
+```js
+series: [
+	{
+		type: 'pie',
+		label: {
+			color: 'green'
+		},
+		emphasis: {
+			label: {
+				color: 'red'
+			},
+		},
+data: [{
+	value: 11231,
+	name: "淘宝",
+	itemStyle: {
+        color: 'black'
+	},
+	emphasis: {
+		itemStyle: {
+			color: 'blue'
+		},
+	}
+}
+```
+
+
+
+### 5.1.4 自适应
+
+
+
+- 步骤1: 监听窗口大小变化事件
+- 步骤2: 在事件处理函数中调用 ECharts 实例对象的 resize 即可
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="js/echarts.min.js"></script>
+</head>
+<body>
+	<div style=" height:400px;border:1px solid red"></div>
+	<script>
+	var mCharts = echarts.init(document.querySelector("div"))
+	var xDataArr = ['张三', '李四', '王五', '闰土', '小明', '茅台', '二妞', '大强']
+	var yDataArr = [88, 92, 63, 77, 94, 80, 72, 86]
+	var option = {
+		xAxis: {
+			type: 'category',
+			data: xDataArr
+		},
+		yAxis: {
+			type: 'value'
+		},
+		series: [
+			{
+				type: 'bar',
+				data: yDataArr
+			}
+		]
+	};
+	mCharts.setOption(option)
+	// 监听window大小变化的事件
+	window.onresize = function () {
+	// 调用echarts示例对象的resize方法
+	mCharts.resize()
+	}
+	// window.onresize = mCharts.resize
+	</script>
+</body>
+</html>
+```
+
+
+
+## 5.2 动画的使用
+
+
+
+### 5.2.1 加载动画
+
+
+
+ECharts 已经内置好了加载数据的动画, 我们只需要在合适的时机显示或者隐藏即可
+
+- 显示加载动画
+
+```js
+mCharts.showLoading()
+一般, 我们会在获取图表数据之前 显示加载动画
+```
+
+![image-20250820112004092](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820112004092.png)
+
+- 隐藏加载动画
+
+```
+mCharts.hideLoading()
+一般, 我们会在获取图表数据之后 隐藏加载动画, 显示图表
+```
+
+
+
+### 5.2.2 增量动画
+
+
+
+所有数据的更新都通过 setOption 实现, 我们不用考虑数据到底产生了那些变化, ECharts 会找到两组
+数据之间的差异然后通过合适的动画去表现数据的变化。
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="js/echarts.min.js"></script>
+</head>
+<body>
+	<div style="width: 600px;height:400px"></div>
+	<button>修改数据</button>
+	<button id="btnAdd">增加数据</button>
+	<script>
+	var mCharts = echarts.init(document.querySelector("div"))
+	var xDataArr = ['张三', '李四', '王五', '闰土', '小明', '茅台', '二妞', '大强']
+	var yDataArr = [88, 92, 63, 77, 94, 80, 72, 86]
+	var option = {
+		xAxis: {
+			type: 'category',
+			data: xDataArr
+		},
+		yAxis: {
+			type: 'value'
+		},
+		series: [
+			{
+				type: 'bar',
+				data: yDataArr
+			}
+		]
+	};
+	mCharts.setOption(option)
+	var btn = document.querySelector('button');
+	btn.onclick = function () {
+		var newArr = [68, 62, 93, 67, 64, 90, 52, 36]
+		// setOption的方法可以被调用多次
+		// 新的option 和旧的option配置
+		// 新旧option配置项他们之间不是替换的关系,是相互整合的关系
+		// 我们在设置新的option的时候,只需要考虑到将变化的配置项配置就可以了
+		var option = {
+			series: [
+				{
+					data: newArr,
+				}
+			]
+		};
+		mCharts.setOption(option)
+	}
+	var btnAdd = document.querySelector('#btnAdd')
+	btnAdd.onclick = function () {
+		setInterval(function () {
+			//增加数据
+			xDataArr.push('小明')
+			yDataArr.push(parseInt(50 + Math.random() * 10))
+			var option = {
+				xAxis: {
+					data: xDataArr
+				},
+				series: [
+					{
+						data: yDataArr
+					}
+				]
+			}
+				mCharts.setOption(option)
+		}, 1000)
+	}
+	</script>
+</body>
+</html>
+```
+
+
+
+### 5.2.3 动画的配置
+
+
+
+- 开启动画
+
+```js
+animation: true
+```
+
+
+
+- 动画时长
+
+```js
+animationDuration: 5000
+```
+
+
+
+- 缓动动画
+
+```js
+animationEasing : 'bounceOut'
+```
+
+linear ,线性变化, 这样动画效果会很均匀
+bounceOut ,这样动画效果会有一个回弹效果
+
+缓动动画的可选值如下图:
+
+![image-20250820112746484](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820112746484.png)
+
+
+
+- 动画阈值
+
+```js
+animationThreshold: 8
+```
+
+单种形式的元素数量大于这个阈值时会关闭动画
+
+
+
+## 5.3 交互API
+
+
+
+### 5.3.1 全局echarts 对象
+
+
+
+全局 echarts 对象是引入 echarts.js 文件之后就可以直接使用的
+
+- echarts.init
+
+```
+初始化ECharts实例对象
+使用主题
+```
+
+- echarts.registerTheme
+
+```
+注册主题
+只有注册过的主题,才能在init方法中使用该主题
+```
+
+- echarts.registerMap
+
+```js
+// 注册地图数据
+$.get('json/map/china.json', function (chinaJson) {
+	echarts.registerMap('china', chinaJson);
+});
+// geo组件使用地图数据
+var option = {
+	geo: {
+		type: 'map',
+		map: 'china',
+	},
+})
+```
+
+- echarts.connect
+	- 一个页面中可以有多个独立的图表
+	- 每一个图表对应一个 ECharts 实例对象
+	- connect 可以实现多图关联，传入联动目标为 EChart 实例，支持数组
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="js/echarts.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+</head>
+<body>
+	<div style="width: 600px;height:400px;border:1px solid red"></div>
+	<div style="width: 600px;height:400px;border:1px solid green" id="div1">
+</div>
+	<script>
+	var mCharts = echarts.init(document.querySelector("div"), 'itcast')
+	var xDataArr = ['张三', '李四', '王五', '闰土', '小明', '茅台', '二妞', '大强']
+	var yDataArr = [88, 92, 63, 77, 94, 80, 72, 86]
+	var option = {
+		xAxis: {
+			type: 'category',
+			data: xDataArr
+		},
+		toolbox: {
+			feature: {
+				saveAsImage: {}
+			}
+		},
+		yAxis: {
+			type: 'value'
+		},
+		series: [
+			{
+				type: 'bar',
+				data: yDataArr
+			}
+		]
+	};
+	mCharts.setOption(option)
+	$.get('json/map/china.json', function (chinaJson) {
+		echarts.registerMap('china', chinaJson)
+		var mCharts2 = echarts.init(document.querySelector('#div1'));
+		var option2 = {
+			geo: {
+				type: 'map',
+				map: 'china'
+			}
+		}
+		mCharts2.setOption(option2)
+		echarts.connect([mCharts, mCharts2])
+	})
+	</script>
+</body>
+</html>
+```
+
+这样, 由于我们打开了toolbox中的saveAsImage, 所以会出现下载图片的按钮. 而通过echarts.connect([mCharts, mCharts2]) , 此时点击下载图片按钮, 保存下来的图片就是两个图表的图片了.
+
+
+
+### 5.3.2 echartsInstance 对象
+
+
+
+eChartsInstance 对象是通过 echarts.init 方法调用之后得到的
+
+- echartsInstance.setOption
+
+```
+设置或修改图表实例的配置项以及数据
+多次调用setOption方法
+	合并新的配置和旧的配置
+	增量动画
+```
+
+- echartsInstance.resize
+
+```js
+// 重新计算和绘制图表
+// 一般和window对象的resize事件结合使用
+window.onresize = function(){
+	myChart.resize();
+}
+```
+
+- echartsInstance.on `echartsInstance.of`
+
+```
+绑定或者解绑事件处理函数
+```
+
+​	① 鼠标事件
+
+```js
+// 常见事件: 'click'、'dblclick'、'mousedown'、'mousemove'、'mouseup' 等
+// 事件参数 arg: 和事件相关的数据信息
+mCharts.on('click', function (arg) {
+	// console.log(arg)
+	console.log('饼图被点击了')
+})
+解绑事件:
+mCharts.off('click')
+```
+
+ 	② ECharts 事件
+
+```js
+// 常见事件:
+// legendselectchanged、'datazoom'、'pieselectchanged'、'mapselectchanged'等
+// 事件参数 arg: 和事件相关的数据信息
+mCharts.on('legendselectchanged', function (arg) {
+	console.log(arg)
+	console.log('图例选择发生了改变...')
+})
+```
+
+- echartsInstance.dispatchAction
+
+主动触发某些行为, 使用代码模拟用户的行为
+
+```js
+// 触发高亮的行为
+mCharts.dispatchAction({
+	type: "highlight",
+	seriesIndex: 0,
+	dataIndex: 1
+})
+// 触发显示提示框的行为
+mCharts.dispatchAction({
+	type: "showTip",
+	seriesIndex: 0,
+	dataIndex: 3
+})
+```
+
+- echartsInstance.clear
+
+清空当前实例，会移除实例中所有的组件和图表
+
+清空之后可以再次 setOption
+
+- echartsInstance.dispose
+
+销毁实例
+
+销毁后实例无法再被使用
+
+# 6. KOA2的使用
+
+
+
+## 6.1 KOA2的介绍\
+
+
+
+- 基于 Node.js 平台的Web服务器框架
+- 由 Express 原班人马打造
+
+Express Koa , Koa2 都是 Web 服务器的框架,他们之间的差别和关系可以通过下面这个表格表示出
+
+| 框架名  |   作用   |    异步处理     |
+| :-----: | :------: | :-------------: |
+| Express | web 框架 |    回调函数     |
+|   Koa   | web 框架 | Generator+yield |
+|  Koa2   | web 框架 |   async/await   |
+
+- 环境依赖 Node v7.6.0 及以上
+
+由于 Koa2 它是支持 async 和 await ，所以它对 Node 的版本是有要求的，它要求 Node 的版本至
+少是在7.6级以上,因为语法糖 async和await 是在 Node7.6 版本之后出现才支持
+
+- 洋葱模型的中间件
+
+如下图所示, 对于服务器而言，它其实就是来处理一个又一个的请求， Web 服务器接收由浏览器发
+过来的一个又一个请求之后，它形成一个又一个的响应返回给浏览器. 而请求到达我们的服务器是
+需要经过程序处理的,程序处理完之后才会形成响应，返回给浏览器，我们服务器处理请求的这一
+块程序，在 Koa2 的世界当中就把它称之为中间件
+
+![image-20250820131226176](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820131226176.png)
+
+这种中间件可能还不仅仅只有一个，可能会存在多个，比如上图所示, 它就存在三层中间件，这三层中间件在处理请求的过程以及它调用的顺序为:
+
+- 当一个请求到达咱们的服务器，最先最先处理这个请求的是第一层中间件
+- 第一层的中间件在处理这个请求之后，它会把这个请求给第二层的中间件
+- 第二层的中间件在处理这个请求之后，它会把这个请求给第三层的中间件
+- 第三层中间件内部并没有中间件了, 所以第三层中间件在处理完所有的代码之后，这个请求又会到了第二层的中间件，所以第二层中间件对这个请求经过了两次的处处理
+- 第二层的中间件在处理完这个请求之后，又到了第一层的中间件, 所以第一层的中间件也对这
+	个请求经过了两次的处理
+
+这个调用顺序就是洋葱模型, 中间件对请求的处理有一种先进后出的感觉，请求最先到达第一层中间件，而最后也是第一层中间件对请求再次处理了一下
+
+
+
+## 6.2 KOA2的快速上手
+
+
+
+如何对 Koa2 进行快速的上手呢?需要有如下几个步骤
+
+**检查 Node 的版本**
+
+- node -v 的命令可以帮助我们检查 Node 的版本, Koa2 的使用要求 Node 版本在7.6及以上
+
+![image-20250820131355239](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820131355239.png)
+
+**安装 Koa2**
+
+- npm init -y
+
+这个命令可以快速的创建出 package.json 的文件, 这个文件可以维护项目中第三方包的信息
+
+- npm install koa
+
+这个命令可以在线的联网下载最新版本 koa 到当前项目中, 由于线上最新版本的 koa 就是
+koa2 , 所以我们并不需要执行 npm install koa2
+
+如果下载特别慢的话, 需要将 npm 的下载源换成国内的下载源, 命令如下
+
+```bash
+npm set registry https://registry.npm.taobao.org/
+```
+
+
+
+**编写入口文件 app.js**
+
+- 创建 Koa 的实例对象
+
+```js
+// 1.创建koa对象
+const Koa = require('koa') // 导入构造方法
+const app = new Koa() // 通过构造方法, 创建实例对象
+```
+
+- 编写响应函数(中间件)
+
+响应函数是通过use的方式才能产生效果, 这个函数有两个参数, 一个是 ctx ,一个是 next
+
+① ctx :
+上下文, 指的是请求所处于的Web容器,我们可以通过 ctx.request 拿到请求对象, 也可以通过 ctx.response 拿到响应对象
+
+② next :
+内层中间件执行的入口
+
+```js
+// 2.编写响应函数(中间件)
+app.use((ctx, next) => {
+console.log(ctx.request.url)
+ctx.response.body = 'hello world'
+})
+```
+
+- 指明端口号
+
+通过 app.listen 就可以指明一个端口号
+
+```js
+// 3.绑定端口号 3000
+app.listen(3000)
+```
+
+- 启动服务器
+
+通过 node app.js 就可以启动服务器了
+
+随即打开浏览器, 在浏览器中输入 127.0.0.1:3000/ 你将会看到浏览器中出现 hello world 的字符串, 并且在服务器的终端中, 也能看到请求的 url
+
+
+
+## 6.3 KOA2中间件的特点
+
+
+
+- Koa2 的实例对象通过 use 方法加入一个中间件
+- 一个中间件就是一个函数,这个函数具备两个参数,分别是 ctx 和 next
+- 中间件的执行符合洋葱模型
+- 内层中间件能否执行取决于外层中间件的 next 函数是否调用
+- 调用 next 函数得到的是 Promise 对象, 如果想得到 Promise 所包装的数据, 可以结合 await 和 async
+
+```js
+app.use(async (ctx, next) => {
+// 刚进入中间件想做的事情
+await next()
+// 内层所有中间件结束之后想做的事情
+}
+```
 
