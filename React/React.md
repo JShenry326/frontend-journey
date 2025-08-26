@@ -637,11 +637,15 @@ useEffect副作用函数的执行时机存在多种情况，根据<font color='r
 
 抽象原则：App作为“智能组件”负责数据的获取，Item作为“UI组件”负责数据的渲染
 
-# 15. Redux快速上手
+# 15.Redux
 
 
 
-## 15.1 什么是Redux？
+## 15.1 Redux快速上手
+
+
+
+### 15.1.2 什么是Redux？
 
 
 
@@ -653,7 +657,7 @@ Redux 是React最常用的<font color='red'>集中状态管理工具</font>，�
 
 
 
-## 15.2 Redux快速体验
+### 15.1.3 Redux快速体验
 
 
 
@@ -671,7 +675,7 @@ Redux 是React最常用的<font color='red'>集中状态管理工具</font>，�
 
 
 
-## 15.3 Redux管理数据流程梳理
+### 15.1.4 Redux管理数据流程梳理
 
 
 
@@ -681,3 +685,192 @@ Redux 是React最常用的<font color='red'>集中状态管理工具</font>，�
 1. state - 一个对象 存放着我们管理的数据状态
 2. action - 一个对象 用来描述你想怎么改数据
 3. reducer - 一个函数 更具action的描述生成一个新的state
+
+
+
+## 15.2 Redux与React - 环境准备
+
+
+
+### 15.2.1 配套工具
+
+
+
+在React中使用redux，官方要求安装俩个其他插件 - <font color='red'>Redux Toolkit 和 react-redux</font>
+
+1. Redux Toolkit（RTK）- 官方推荐编写Redux逻辑的方式，是一套工具的集合集，<font color='red'>简化书写方式</font>
+
+![image-20250826140654786](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826140654786.png)
+
+2. react-redux - 用来 <font color='red'>链接 Redux 和 React组件</font> 的中间件
+
+![image-20250826140720191](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826140720191.png)
+
+
+
+### 15.2.2 配置基础环境
+
+
+
+1. 使用 CRA 快速创建 React 项目
+
+  ```bash
+  npx create-react-app react-redux
+  ```
+
+2. 安装配套工具
+
+  ```bash
+  npm i @reduxjs/toolkit react-redux
+  ```
+
+3. 启动项目
+
+  ```bash
+  npm run start
+  ```
+
+
+
+### 15.2.3 store目录结构设计
+
+
+
+![image-20250826155213093](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826155213093.png)
+
+1. 通常集中状态管理的部分都会单独创建一个单独的 `store` 目录
+2. 应用通常会有很多个子store模块，所以创建一个 `modules` 目录，在内部编写业务分类的子store
+3. store中的入口文件 index.js 的作用是组合modules中所有的子模块，并导出store
+
+
+
+## 15.3 Redux与React - 实现counter
+
+
+
+### 15.3.1 整体路径熟悉
+
+
+
+![image-20250826155301623](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826155301623.png)
+
+
+
+### 15.3.2 使用React Toolkit 创建 counterStore
+
+
+
+![image-20250826155324761](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826155324761.png)
+
+
+
+### 15.3.3 为React注入store
+
+
+
+react-redux负责把Redux和React 链接 起来，内置 Provider组件 通过 store 参数把创建好的store实例注入到应用中，链接正式建立
+
+![image-20250826155349165](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826155349165.png)
+
+
+
+### 15.3.4 React组件使用store中的数据
+
+
+
+在React组件中使用store中的数据，需要用到一个 钩子函数 - useSelector，它的作用是把store中的数据映射到组件中，使用样例如下：
+
+![image-20250826155441152](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826155441152.png)
+
+React组件中修改store中的数据需要借助另外一个hook函数 -<font color='red'> useDispatch</font>，它的作用是生成提交action对象的dispatch函数，使用样例如下:
+
+![image-20250826160137812](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826160137812.png)
+
+
+
+### 15.3.5 总结
+
+
+
+1. 组件中使用哪个hook函数获取store中的数据？
+
+  <font color='red'>useSelector</font>
+
+2. 组件中使用哪个hook函数获取dispatch方法？
+
+  <font color='red'>useDispatch</font>
+
+3. 如何得到要提交action对象？
+
+  <font color='red'>执行store模块中导出的actionCreater方法</font>
+
+
+
+## 15.4 Redux与React - 提交action传参
+
+
+
+### 15.4.1 需求说明
+
+
+
+![image-20250826160309473](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826160309473.png)
+
+组件中有俩个按钮 `add to 10` 和 `add to 20` 可以直接把count值修改到对应的数字，目标count值是在组件中传递过去的，需要在<font color='red'>提交action的时候传递参数</font>
+
+
+
+### 15.4.2 提交action传参实现需求
+
+
+
+在reducers的同步修改方法中<font color='red'>添加action对象参数</font>，在<font color='red'>调用actionCreater的时候传递参数</font>，参数会被传递到<font color='red'>action对象payload属性</font>上
+
+![image-20250826160420315](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826160420315.png)
+
+
+
+## 15.5 Redux与React - 异步状态操作
+
+
+
+### 15.5.1 需求理解
+
+
+
+![image-20250826160530972](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826160530972.png)
+
+
+
+### 15.5.2 异步操作样板代码
+
+
+
+![image-20250826160559310](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826160559310.png)
+
+![image-20250826160609995](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826160609995.png)
+
+![image-20250826160619639](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826160619639.png)
+
+1. 创建store的写法保持不变，配置好同步修改状态的方法
+
+2. 单独封装一个函数，在函数内部return一个新函数，在新函数中
+
+  2.1 封装异步请求获取数据
+  2.2 调用<font color='red'>同步actionCreater</font>传入异步数据生成一个action对象，并使用dispatch提交
+
+3. 组件中dispatch的写法保持不变
+
+
+
+## 15.6 Redux调试 - devtools
+
+
+
+### 15.6.1 安装chrome调试工具
+
+
+
+Redux官方提供了针对于Redux的调试工具，支持实时state信息展示，action提交信息查看等
+
+![image-20250826161647939](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826161647939.png)
