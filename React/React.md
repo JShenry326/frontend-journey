@@ -874,3 +874,735 @@ React组件中修改store中的数据需要借助另外一个hook函数 -<font c
 Redux官方提供了针对于Redux的调试工具，支持实时state信息展示，action提交信息查看等
 
 ![image-20250826161647939](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250826161647939.png)
+
+# 案例：美团外卖
+
+
+
+## 1. 案例演示和环境准备
+
+
+
+### 1.1 案例演示
+
+
+
+![image-20250827154858973](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827154858973.png)
+
+![image-20250827154907112](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827154907112.png)
+
+基本开发思路：使用 RTK（Redux Toolkit）来管理应用状态, 组件负责 数据渲染 和 dispatch action
+
+
+
+### 1.2 准备并熟悉环境
+
+
+
+1. 克隆项目到本地（<font color='red'>内置了基础静态组件和模版</font>）
+
+  ```bash
+  git clone http://git.itcast.cn/heimaqianduan/redux-meituan.git
+  ```
+
+2. 安装所有依赖
+
+  ```bash
+  npm i
+  ```
+
+3. 启动mock服务（<font color='red'>内置了json-server</font>）
+
+  ```bash
+  npm run serve
+  ```
+
+4. 启动前端服务
+
+  ```bash
+  npm run start
+  ```
+
+
+
+## 2. 分类和商品列表渲染
+
+
+
+### 2.1 需求理解
+
+
+
+![image-20250827155223038](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827155223038.png)
+
+
+
+### 2.2 实现步骤
+
+
+
+![image-20250827155253985](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827155253985.png)
+
+
+
+## 3. 点击分类激活交互实现
+
+
+
+### 3.1 理解需求
+
+
+
+![image-20250827155328027](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827155328027.png)
+
+
+
+### 3.2 步骤分析
+
+
+
+![image-20250827155350032](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827155350032.png)
+
+
+
+## 4. 商品列表切换显示
+
+
+
+### 4.1 需求理解
+
+
+
+![image-20250827155420571](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827155420571.png)
+
+
+
+## 5. 添加购物车实现
+
+
+
+### 5.1 需求理解
+
+
+
+![image-20250827155500322](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827155500322.png)
+
+
+
+### 5.2 实现步骤
+
+
+
+![image-20250827155522861](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827155522861.png)
+
+
+
+## 6. 统计区域功能实现
+
+
+
+### 6.1 需求理解
+
+
+
+![image-20250827155602931](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827155602931.png)
+
+
+
+### 6.2 实现步骤
+
+
+
+![image-20250827155619926](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827155619926.png)
+
+
+
+## 7. 购物车列表功能实现
+
+
+
+### 7.1 需求理解
+
+
+
+![image-20250827155710676](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827155710676.png)
+
+
+
+### 7.2 实现步骤
+
+
+
+![image-20250827155729832](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827155729832.png)
+
+
+
+## 8. 控制购物车显示和隐藏
+
+
+
+### 8.1 需求理解
+
+
+
+![image-20250827155818721](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827155818721.png)
+
+
+
+### 8.2 实现步骤
+
+
+
+![image-20250827155838631](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827155838631.png)
+
+# 16. ReactRouter
+
+
+
+## 16.1 快速开始
+
+
+
+### 16.1.1 什么是前端路由
+
+
+
+一个路径 path 对应一个组件 component 当我们在浏览器中访问一个 path 的时候，path 对应的组件会在页面中进行渲染
+
+![image-20250827160049490](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827160049490.png)
+
+
+
+### 16.1.2 创建路由开发环境
+
+
+
+使用路由我们还是采用CRA创建项目的方式进行基础环境配置
+1. 创建项目并安装所有依赖
+
+  ```bash
+  npx create-react-app react-router-pro
+  npm i
+  ```
+2. 安装最新的 ReactRouter包
+
+  ```bash
+  npm i react-router-dom
+  ```
+3. 启动项目
+
+  ```bash
+  npm run start
+  ```
+
+
+
+### 16.1.3 快速开始
+
+
+
+**需求：**创建一个可以切换登录页和文章页的路由系统
+
+![image-20250827161134328](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827161134328.png)
+
+![image-20250827161142064](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827161142064.png)
+
+
+
+## 16.2 抽象路由模块
+
+
+
+###  实际开发中的router配置
+
+
+
+![image-20250827161255261](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827161255261.png)
+
+
+
+## 16.3 路由导航
+
+
+
+### 16.3.1 什么是路由导航
+
+
+
+路由系统中的多个路由之间需要进行<font color='red'>路由跳转</font>，并且在跳转的同时有可能需要<font color='red'>传递参数进行通信</font>
+
+![image-20250827161357364](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827161357364.png)
+
+
+
+### 16.3.2 声明式导航
+
+
+
+声明式导航是指通过在模版中通过<font color='red'> `<Link/> ` 组件描述出要跳转到哪里</font>去，比如后台管理系统的左侧菜单通常使用这种方式进行
+
+![image-20250827161444003](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827161444003.png)
+
+**语法说明：**通过给组件的<font color='red'>to属性指定要跳转到路由path</font>，组件会被渲染为浏览器支持的a链接，如果需要传参直接<font color='red'>通过字符串拼接</font>的方式拼接参数即可
+
+
+
+### 16.3.3 编程式导航
+
+
+
+编程式导航是指通过<font color='red'> `useNavigate` </font>钩子得到导航方法，然后通过<font color='red'>调用方法以命令式的形式</font>font>进行路由跳转，比如想在登录请求完毕之后跳转就可以选择这种方式，更加灵活
+
+![image-20250827161632946](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827161632946.png)
+
+**语法说明：**通过调用navigate方法传入地址path实现跳转
+
+
+
+## 16.4 导航传参
+
+
+
+###  路由导航传参
+
+
+
+![image-20250827161738779](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827161738779.png)
+
+
+
+## 16.5 嵌套路由配置
+
+
+
+### 16.5.1 什么是嵌套路由
+
+
+
+在一级路由中又内嵌了其他路由，这种关系就叫做嵌套路由，嵌套至一级路由内的路由又称作二级路由，例如：
+
+![image-20250827161822744](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827161822744.png)
+
+
+
+### 16.5.2 嵌套路由配置
+
+
+
+实现步骤：
+1. 使用<font color='red'> children </font>属性配置路由嵌套关系
+2. 使用<font color='red'> `<Outlet/>` </font>组件配置二级路由渲染位置
+
+![image-20250827161924303](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827161924303.png)
+
+
+
+## 16.6 默认二级路由
+
+
+
+### 场景和配置方式
+
+
+
+当访问的是一级路由时，默认的二级路由组件可以得到渲染，只需要在二级路由的位置<font color='red'>去掉path，设置index属性为true</font>
+
+![image-20250827162005610](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827162005610.png)
+
+
+
+## 16.7 404路由配置
+
+
+
+### 16.7.1 404路由
+
+
+
+场景：当浏览器输入url的路径在整个路由配置中都找不到对应的 path，为了用户体验，可以使用 404 兜底组件进行渲染
+
+**实现步骤：**
+
+1. 准备一个NotFound组件
+2. 在路由表数组的末尾，以*号作为路由path配置路由
+
+![image-20250827162101215](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827162101215.png)
+
+
+
+## 16.8 两种路由模式
+
+
+
+各个主流框架的路由常用的路由模式有俩种，<font color='red'>history模式和hash模式</font>, ReactRouter分别由 createBrowerRouter 和createHashRouter 函数负责创建
+
+| 路由模式 |   url表现   |          底层原理           | 是否需要后端支持 |
+| :------: | :---------: | :-------------------------: | :--------------: |
+| history  |  url/login  | history对象 + pushState事件 |       需要       |
+|   hash   | url/#/login |     监听 hashChange事件     |      不需要      |
+
+# 案例：React极客园项目
+
+
+
+## 1.使用CRA初始化项目环境
+
+
+
+1. 使用CRA创建项目
+
+  ```bash
+  npx create-react-app react-jike
+  ```
+2. 按照业务规范整理项目目录（<font color='red'>重点SRC目录</font>）
+
+![image-20250827162509573](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827162509573.png)
+
+![image-20250827162517766](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827162517766.png)
+
+
+
+## 2. 配置SCSS预处理器，支持嵌套语法
+
+
+
+**SCSS是什么**
+
+SCSS是一种<font color='red'>预编译CSS语言</font>，支持一些原生CSS不支持的高级用法，比如变量使用，<font color='red'>嵌套语法</font>等，使用SCSS可以让样式代码<font color='red'>更加高效灵活</font>
+
+![image-20250827162614773](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827162614773.png)
+
+
+
+## 3. 安装Ant Design 组件库
+
+
+
+**Ant Design 是什么**
+
+Ant Design 是由蚂蚁金服出品的社区使用最广的React <font color='red'>PC端组件库</font>，内置了常用的<font color='red'>现成组件</font>，可以帮助我们快速开发PC管理后台项目
+
+**安装AntD到项目**
+
+1. npm i antd
+2. 引入Button组件进行渲染测试
+
+![image-20250827162705538](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827162705538.png)
+
+
+
+## 4. 配置基础路由Router
+
+
+
+**配置步骤**
+
+1. 安装路由包 <font color='red'>react-router-dom</font>
+2. 准备俩个基础路由组件<font color='red'> Layout 和 Login</font>
+3. 在router/index.js文件中引入组件进行路由配置，导出<font color='red'>router实例</font>
+4. 在入口文件中渲染<font color='red'>` <RouterProvider/>`</font>，传入router实例
+
+
+
+## 5. 配置@别名路径
+
+
+
+**什么是@别名路径？**
+
+通过@替代src路径，方便开发过程中的路径查找访问
+
+![image-20250827162905942](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827162905942.png)
+
+**如何配置？**
+
+1. 针对路径转换，修改webpack别名路径配置 <font color='red'>craco</font>
+2. 针对联想提示，修改VSCode配置 <font color='red'>jsconfig.json</font>
+
+
+
+## 6. 使用gitee管理项目
+
+
+
+**目的：**为了记录每次阶段性的功能，采取git管理我们的项目，方便复习
+
+**实现步骤**
+
+1. 在gitee上初始化一个空项目仓库
+2. 把远程仓库和本地仓库关联
+3. 提交代码到远程仓库
+
+
+
+## 7. 登录
+
+
+
+### 7.1 准备基础静态结构
+
+
+
+使用 AntD现成的组件 创建登录页的内容结构
+
+![image-20250827163032080](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827163032080.png)
+
+**主要组件：**Card、Form、Input、Button
+
+
+
+### 7.2 表单校验实现
+
+
+
+表单校验可以在提交登录之前<font color='red'>校验用户的输入是否符合预期</font>，如果不符合就阻止提交, 显示错误信息
+
+![image-20250827163133130](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827163133130.png)
+
+
+
+### 7.3 获取表单数据
+
+
+
+当用户输入了正确的表单内容，点击确认按钮时需要<font color='red'>收集到用户当前输入的内容</font>，用来提交接口请求
+
+![image-20250827163204299](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827163204299.png)
+
+**解决方案：**给Form组件绑定<font color='red'>onFinish回调函数</font>，通过回调函数的参数获取用户输入的内容
+
+
+
+### 7.4 封装request请求模块
+
+
+
+在整个项目中会发送很多网络请求，使用axios三方库做好统一封装，方便<font color='red'>统一管理和复用</font>
+1. 几乎所有的接口都是一样的接口域名
+2. 几乎所有的接口都需要设置一样的超时时间
+3. 几乎所有的接口都需要做Token权限处理
+4. ....
+
+![image-20250827163259471](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827163259471.png)
+
+
+
+### 7.5 使用Redux管理token
+
+
+
+Token作为一个用户的标识数据，需要在<font color='red'>很多个模块中共享</font>，Redux可以方便的解决状态共享问题
+
+![image-20250827163656852](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827163656852.png)
+
+1. Redux中编写获取Token的异步获取和同步修改
+2. Login组件负责提交action并且把表单数据传递过来
+
+
+
+### 7.6 Token持久化
+
+
+
+**现存问题**
+
+Redux存入Token之后如果<font color='red'>刷新浏览器</font>，Token会丢失（持久化就是防止刷新时丢失Token）
+
+**问题原因**
+
+Redux是基于浏览器内存的存储方式，刷新时状态恢复为初始值
+
+![image-20250827163738805](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827163738805.png)
+
+**技术方案**
+
+![image-20250827163751611](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827163751611.png)
+
+
+
+### 7.7 封装Token的存取删方法
+
+
+
+**封装的原因？**
+
+对于Token的各类操作在项目<font color='red'>多个模块中都有用到</font>，为了<font color='red'>共享复用</font>可以封装成工具函数
+
+![image-20250827163852558](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827163852558.png)
+
+
+
+## 8. Axios请求拦截器注入Token
+
+
+
+**为什么要做这件事儿？**
+
+Token作为用户的一个标识数据，<font color='red'>后端很多接口</font>都会以它作为接口权限判断的依据；请求拦截器注入Token之后，所有用到Axios实例的接口请求都<font color='red'>自动携带了Token</font>
+
+![image-20250827164138129](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827164138129.png)
+
+
+
+## 9. 使用Token做路由权限控制
+
+
+
+**具体要做什么事儿？**
+
+有些路由页面内的内容信息比较敏感，如果用户没有经过登录获取到有效Token，是没有权限跳转的，<font color='red'>根据Token的有无控制当前路由是否可以跳转</font>就是路由的权限控制
+
+**技术方案**
+
+![image-20250827164251816](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827164251816.png)
+
+
+
+## 10. Layout
+
+
+
+### 10.1 结构创建和样式初始化
+
+
+
+**静态结构搭建**
+
+![image-20250827164637007](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827164637007.png)
+
+**样式初始化**
+
+安装 Normalize.css
+
+
+
+### 10.2 二级路由配置
+
+
+
+![image-20250827164707246](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827164707246.png)
+
+
+
+### 10.3 菜单点击跳转路由实现
+
+
+
+**实现效果：**点击左侧菜单可以跳转到对应的目标路由
+
+**思路分析**
+
+1. 左侧菜单要和路由形成<font color='red'>一一对应的关系</font>（知道点了谁）
+2. 点击时拿到路由<font color='red'>路径</font>调用<font color='red'>路由方法跳转</font>（跳转到对应的路由下面）
+
+![image-20250827164750769](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827164750769.png)
+
+
+
+### 10.4 根据当前路由路径高亮菜单
+
+
+
+**实现效果：**页面在刷新时可以根据当前的路由路径让对应的左侧菜单高亮显示
+
+![image-20250827164828133](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827164828133.png)
+
+思路分析
+1. 获取当前url上的路由路径
+2. 找到菜单组件负责高亮的属性，绑定当前的路由路径
+
+
+
+### 10.5 展示个人信息
+
+
+
+![image-20250827164854300](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827164854300.png)
+
+**关键问题：**用户信息应该放到哪里维护？
+
+和Token令牌类似，用户的信息通常很有可能在多个组件中都需要<font color='red'>共享使用</font>，所以同样应该放到<font color='red'>Redux中维护</font>
+
+![image-20250827164918009](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827164918009.png)
+
+
+
+### 10.6 退出登录实现
+
+
+
+退出登录是一个通用的业务逻辑，退出登录都要做什么？
+
+![image-20250827165254098](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827165254098.png)
+
+1. 提示用户是否确认要退出（<font color='red'>危险操作，二次确认</font>）
+2. 用户确认之后清除用户信息（<font color='red'>Token以及其它个人信息</font>）
+3. 跳转到登录页（<font color='red'>为下次登录做准备</font>）
+
+
+
+### 10.7 处理Token失效
+
+
+
+**什么是Token失效？**
+
+为了用户的安全和隐私考虑，在用户<font color='red'>长时间未在网站中做任何操作</font>且<font color='red'>规定的失效时间到达之后</font>，当前的Token就会失效，一旦失效，不能再作为用户令牌标识请求隐私数据
+
+**前端如何知道Token已经失效了？**
+
+通常在Token失效之后再去请求接口，后端会返回<font color='red'>401状态码</font>，前端可以监控这个状态做后续的操作
+
+**Token失效了前端做什么？**
+
+![image-20250827165431372](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827165431372.png)
+
+
+
+## 11. Home-Echarts
+
+
+
+### 11.1 基础图表实现
+
+
+
+![image-20250827165452784](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827165452784.png)
+
+三方图表插件如何在项目中快速使用起来？
+1. 按照三方插件文档中的<font color='red'>“快速开始”</font>，快速跑起来Demo
+2. 按照业务需求修改配置项做定制处理
+
+注意：1. 图表的初始化在<font color='red'>useEffect</font>中完成 2. 挂载渲染的节点需要有宽高
+
+
+
+### 11.2 组件封装实现
+
+
+
+为什么要做组件封装？
+
+组件封装主要解决了<font color='red'>复用</font>的问题
+
+![image-20250827165636101](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827165636101.png)
+
+以上俩个图表除了Title不一样之外，其余部分都一样，把不一样的部分<font color='red'>抽象成props参数</font>做适配
+
+![image-20250827165654260](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827165654260.png)
+
+
+
+## 12. 拓展-API模块封装
+
+
+
+**现存问题**
+
+当前的接口请求放到了功能实现的位置，没有在固定的模块内维护，后期查找维护困难
+
+**解决思路**
+
+把项目中的所有接口按照业务模块<font color='red'>以函数的形式</font>统一封装到apis模块中
+
+![image-20250827165731746](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827165731746.png)
