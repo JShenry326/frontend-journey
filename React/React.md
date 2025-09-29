@@ -1606,3 +1606,344 @@ Token作为用户的一个标识数据，<font color='red'>后端很多接口</f
 把项目中的所有接口按照业务模块<font color='red'>以函数的形式</font>统一封装到apis模块中
 
 ![image-20250827165731746](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827165731746.png)
+
+
+
+## 13. 文章发布
+
+
+
+### 功能演示说明
+
+
+
+![image-20250908170753144](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908170753144.png)
+
+
+
+## 14. 基础文章发布
+
+
+
+### 14.1 创建并熟悉基础结构
+
+
+
+![image-20250908170833384](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908170833384.png)
+
+1. 面包屑导航组件 Breadcrumb
+2. 表单组件 Form
+3. 输入框组件 Input
+4. 下拉框组件 Select - Option
+5. 按钮组件 Button
+
+
+
+### 14.2 准备富文本编辑器
+
+
+
+![image-20250908170859234](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908170859234.png)
+
+1. 安装 <font color='red'>react-quill</font> 富文本编辑器
+
+  ```
+  npm i react-quill@2.0.0-beta.2
+  ```
+2. 导入编辑器组件和配套样式文件
+3. 渲染编辑器组件
+4. 调整编辑器组件样式
+
+
+
+### 14.3 频道数据获取渲染
+
+
+
+![image-20250908170945018](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908170945018.png)
+
+1. 根据接口文档在APIS模块中封装接口函数
+2. 使用 <font color='red'>useState</font> 维护数据
+3. 在 <font color='red'>useEffect</font> 中调用接口获取数据并存入state
+4. 绑定数据到下拉框组件
+
+
+
+### 14.4 收集表单数据提交表单
+
+
+
+![image-20250908171026701](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171026701.png)
+
+
+
+## 15. 上传文章封面基础功能实现
+
+
+
+![image-20250908171050853](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171050853.png)
+
+
+
+## 16. 实现切换封面类型
+
+
+
+**实现效果：**只有当前模式为单图或者三图模式时才显示上传组件
+
+![image-20250908171119584](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171119584.png)
+
+
+
+## 17. 控制上传图片的数量
+
+
+
+**实现的效果**
+
+1. 单图模式时，最多能上传一张图片
+1. 三图模式时，最多能上传三张图片
+
+**如何实现**
+
+1. 找到限制上传数量的组件属性
+2. 使用imageType进行绑定控制
+
+
+
+## 18. 发布带封面的文章
+
+
+
+![image-20250908171208809](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171208809.png)
+
+
+
+## 19. 文章列表模块
+
+
+
+### 19.1 功能描述和静态结构创建
+
+
+
+![image-20250908171301638](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171301638.png)
+
+
+
+### 19.2 渲染频道数据
+
+
+
+![image-20250908171327738](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171327738.png)
+
+可选的方案：
+1. 直接再写一遍
+2. 存到Redux中维护
+3. <font color='red'>使用自定义业务hook</font>
+
+
+
+### 19.3 渲染table文章列表
+
+
+
+![image-20250908171419536](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171419536.png)
+
+1. 封装请求接口
+2. 使用useState维护状态数据
+3. 使用useEffect发送请求
+
+
+
+### 19.4 适配文章状态
+
+
+
+![image-20250908171445522](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171445522.png)
+
+**实现效果：**根据文章的不同状态在状态列显示不同Tag
+
+**实现思路**
+
+1. 如果要适配的状态只有俩个 - 三元条件渲染
+2. 如果要适配的状态有多个 - 枚举渲染
+
+
+
+### 19.5 筛选功能实现
+
+
+
+![image-20250908171540388](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171540388.png)
+
+筛选功能的本质：给<font color='red'>请求列表接口传递不同的参数</font>和后端要不同的数据
+
+**实现步骤：**
+
+1. <font color='red'>准备完整的请求参数对象</font>
+2. 获取用户选择的表单数据
+3. 把表单数据放置到接口对应的字段中
+4. 重新调用文章列表接口渲染Table列表
+
+
+
+### 19.6 分页功能实现
+
+
+
+![image-20250908171622495](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171622495.png)
+
+**实现效果：**点击页数，在Table中显示当前页的数据列表
+
+**如何实现：**
+
+1. 实现分页展示 （<font color='red'>页数 = 总数 / 每页条数</font>）
+2. 点击分页拿到当前点击的页数
+3. 使用页数作为请求参数重新获取文章列表渲染
+
+
+
+### 19.7 删除功能实现
+
+
+
+![image-20250908171656165](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171656165.png)
+
+**实现效果：**点击删除按钮删除当前文章
+
+**如何实现：**
+
+1. 点击删除弹出确认框
+2. 得到文章id，使用id调用删除接口
+3. 更新文章列表
+
+
+
+### 19.8 编辑文章跳转
+
+
+
+![image-20250908171726296](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171726296.png)
+
+**实现效果：**点击编辑文章跳转到文章编辑页
+
+**如何实现：**
+
+1. 获取当前文章id
+2. 跳转到创建（编辑）文章的路由
+
+
+
+## 20. 编辑文章
+
+
+
+### 20.1 回填基础数据
+
+
+
+![image-20250908171831680](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171831680.png)
+
+**实现效果：**把页面中除了封面之外的其余字段完成回填
+
+**如何实现：**
+
+1. 通过文章id获取到文章详情数据
+2. 调用Form组件实例方法 <font color='red'>setFieldsValue</font> 回显数据
+
+
+
+### 20.2 回填封面信息
+
+
+
+![image-20250908171918719](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171918719.png)
+
+**实现效果：**回填封面的类型以及上传过的封面图片
+
+**如何实现：**
+
+1. 使用cover中的type字段回填封面类型
+2. 使用cover中的images字段回填封面图片
+
+
+
+### 20.3 根据id适配状态
+
+
+
+![image-20250908171959011](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908171959011.png)
+
+**实现效果：**发布文章时显示发布文章，编辑文章状态下显示编辑文章
+
+**如何实现：**
+
+<font color='red'>核心就是看是否有id</font>，有文章id代表编辑状态，没有文章id代表发布状态
+
+
+
+### 20.4 更新文章
+
+
+
+**实现效果：**当用户对文章内容做修改之后，点击确认更新文章内容
+
+**如何实现：**
+
+更新文章和新增文章相比，大部分的逻辑都是一致的，<font color='red'>稍作参数适配调用不同接口</font>即可
+
+1. 适配url参数
+
+![](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908172109305.png)
+
+2. 调用文章更新接口
+
+
+
+## 21. 项目打包和本地预览
+
+
+
+1. **项目打包**
+
+  打包指的是将项目中的<font color='red'>源代码和资源文件进行处理</font>，生成可在生产环境中运行的<font color='red'>静态文件</font>的过程
+  打包命令：npm run build
+
+2. **本地预览**（模拟服务器运行项目）
+  本地预览是指在本地通过静态服务器模拟生产服务器运行项目的过程
+
+  1. 安装本地服务包 npm i -g serve
+  2. serve -s ./build
+  3. 浏览器中访问 http://localhost:3000/
+
+
+
+## 22. 打包优化
+
+
+
+### 22.1 配置路由懒加载
+
+
+
+**什么是路由懒加载？**
+
+路由懒加载是指路由的JS资源只有在被访问时才会动态获取，目的是为了<font color='red'>优化项目首次打开的时间</font>
+
+![image-20250908172326748](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250908172326748.png)
+
+**如何进行配置？**
+
+1. 把路由修改为由React提供的 <font color='red'>lazy 函数进行动态导入</font>
+2. 使用React内置的 <font color='red'>Suspense组件</font> 包裹路由中element选项对应的组件
+
+
+
+### 22.2 包体积分析
+
+
+
+什么包体积分析？
+
+通过可视化</的方式，直观的体现项目中各种包打包之后的体积大小，方便做优化
