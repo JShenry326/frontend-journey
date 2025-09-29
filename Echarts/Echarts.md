@@ -79,7 +79,7 @@
 
 
 
-Charts是百度公司开源的一个使用 JavaScript 实现的开源可视化库，兼容性强，底层依赖矢量图形库 ZRender ，提供直观，交互丰富，可<font color='red'>高度个性化定制</font>的数据可视化图表。
+ECharts是百度公司开源的一个使用 JavaScript 实现的开源可视化库，兼容性强，底层依赖矢量图形库 ZRender ，提供直观，交互丰富，可<font color='red'>高度个性化定制</font>的数据可视化图表。
 
 - **开源免费**
 
@@ -2902,7 +2902,7 @@ mCharts.dispatchAction({
 
 
 
-## 6.1 KOA2的介绍\
+## 6.1 KOA2的介绍
 
 
 
