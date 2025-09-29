@@ -1,4 +1,4 @@
-# 1. React介绍
+#  1. React介绍
 
 
 
@@ -506,9 +506,9 @@ classnames是一个简单的JS库，可以非常方便的<font color='red'>通�
 
 ![image-20250820150102191](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250820150102191.png)
 
-**实现步骤：**
+**实现步骤：** 
 
-1. 使用createContext方法创建一个上下文对象Ctx
+1. 使用createContext方法创建一个上下文对象Ctx（可替换名称）
 2. 在顶层组件（App）中通过 Ctx.Provider 组件提供数据
 3. 在底层组件（B）中通过 useContext 钩子函数获取消费数据
 
@@ -554,8 +554,20 @@ useEffect副作用函数的执行时机存在多种情况，根据<font color='r
 |     依赖项     |         副作用函数执行时机          |
 | :------------: | :---------------------------------: |
 |   没有依赖项   |    组件初始渲染 + 组件更新时执行    |
-|   空数组依赖   |       只在初始渲染时执行一次        |
+|   空数组依赖   |       只在 初始渲染时执行一次       |
 | 添加特定依赖项 | 组件初始渲染 + 特性依赖项变化时执行 |
+
+- 没有依赖项
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250927230036487.png" alt="image-20250927230036487" style="zoom: 67%;" />
+
+- 空数组依赖项
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250927230105915.png" alt="image-20250927230105915" style="zoom:80%;" />
+
+- 有特定依赖项
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250927230249161.png" alt="image-20250927230249161" style="zoom:80%;" />
 
 
 
