@@ -649,7 +649,7 @@ useEffect副作用函数的执行时机存在多种情况，根据<font color='r
 
 抽象原则：App作为“智能组件”负责数据的获取，Item作为“UI组件”负责数据的渲染
 
-# 15.Redux
+# 15. Redux
 
 
 
@@ -1618,3 +1618,950 @@ Token作为用户的一个标识数据，<font color='red'>后端很多接口</f
 把项目中的所有接口按照业务模块<font color='red'>以函数的形式</font>统一封装到apis模块中
 
 ![image-20250827165731746](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20250827165731746.png)
+
+
+
+## 13. 文章发布
+
+
+
+**功能演示说明**
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006175425315.png" alt="image-20251006175425315" style="zoom:50%;" />
+
+
+
+## 14. 基础文章发布
+
+
+
+### 14.1 创建并熟悉基础结构
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006175502237.png" alt="image-20251006175502237" style="zoom:50%;" />
+
+1. 面包屑导航组件 Breadcrumb
+2. 表单组件 Form
+3. 输入框组件 Input
+4. 下拉框组件 Select - Option
+5. 按钮组件 Button
+
+
+
+### 14.2 准备富文本编辑器
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006175543517.png" alt="image-20251006175543517" style="zoom:50%;" />
+
+1. 安装<font color='red'> react-quill</font> 富文本编辑器
+
+  ```
+  npm i react-quill@2.0.0-beta.2
+  ```
+2. 导入编辑器组件和配套样式文件
+3. 渲染编辑器组件
+4. 调整编辑器组件样式
+
+
+
+### 14.3 频道数据获取渲染
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006175627054.png" alt="image-20251006175627054" style="zoom:50%;" />
+
+1. 根据接口文档在APIS模块中封装接口函数
+2. 使用 <font color='red'>useState</font> 维护数据
+3. 在 <font color='red'>useEffect</font> 中调用接口获取数据并存入state
+4. 绑定数据到下拉框组件
+
+
+
+### 14.4 收集表单数据提交表单
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006175716713.png" alt="image-20251006175716713" style="zoom:50%;" />
+
+
+
+## 15. 上传文章封面基础功能实现
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006175755145.png" alt="image-20251006175755145" style="zoom:50%;" />
+
+
+
+## 16. 实现切换封面类型
+
+
+
+**实现效果：**只有当前模式为单图或者三图模式时才显示上传组件
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006175858823.png" alt="image-20251006175858823" style="zoom:50%;" />
+
+
+
+## 17. 控制上传图片的数量
+
+
+
+**实现的效果**
+
+1. 单图模式时，最多能上传一张图片
+2. 三图模式时，最多能上传三张图片
+
+**如何实现**
+
+1. 找到限制上传数量的组件属性
+2. 使用imageType进行绑定控制
+
+
+
+## 18. 发布带封面的文章
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006180033700.png" alt="image-20251006180033700" style="zoom:50%;" />
+
+
+
+## 19. 文章列表模块
+
+
+
+### 19.1 功能描述和静态结构创建
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006180104007.png" alt="image-20251006180104007" style="zoom:50%;" />
+
+
+
+### 19.2 渲染频道数据
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006180124105.png" alt="image-20251006180124105" style="zoom:50%;" />
+
+可选的方案：
+1. 直接再写一遍
+2. 存到Redux中维护
+3. <font color='red'>使用自定义业务hook</font>
+
+
+
+### 19.3 渲染table文章列表
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006180231737.png" alt="image-20251006180231737" style="zoom: 50%;" />
+
+1. 封装请求接口
+2. 使用useState维护状态数据
+3. 使用useEffect发送请求
+
+
+
+### 19.4 适配文章状态
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006180258331.png" alt="image-20251006180258331" style="zoom:50%;" />
+
+**实现效果**：根据文章的不同状态在状态列显示不同Tag
+
+**实现思路**
+
+1. 如果要适配的状态只有俩个 - 三元条件渲染
+2. 如果要适配的状态有多个 - 枚举渲染
+
+
+
+### 19.5 筛选功能实现
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006180346859.png" alt="image-20251006180346859" style="zoom:50%;" />
+
+筛选功能的本质：给<font color='red'>请求列表接口传递不同的参数</font>和后端要不同的数据
+
+**实现步骤：**
+
+1. <font color='red'>准备完整的请求参数对象</font>
+2. 获取用户选择的表单数据
+3. 把表单数据放置到接口对应的字段中
+4. 重新调用文章列表接口渲染Table列表
+
+
+
+### 19.6 分页功能实现
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006180429057.png" alt="image-20251006180429057" style="zoom:50%;" />
+
+实现效果：点击页数，在Table中显示当前页的数据列表
+
+**如何实现：**
+
+1. 实现分页展示 （<font color='red'>页数 = 总数 / 每页条数</font>）
+2. 点击分页拿到当前点击的页数
+3. 使用页数作为请求参数重新获取文章列表渲染
+
+
+
+### 19.7 删除功能实现
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006180500669.png" alt="image-20251006180500669" style="zoom: 50%;" />
+
+**实现效果：**点击删除按钮删除当前文章
+
+**如何实现：**
+
+1. 点击删除弹出确认框
+2. 得到文章id，使用id调用删除接口
+3. 更新文章列表
+
+
+
+### 19.8 编辑文章跳转
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006180533861.png" alt="image-20251006180533861" style="zoom:50%;" />
+
+**实现效果：**点击编辑文章跳转到文章编辑页
+
+**如何实现：**
+
+1. 获取当前文章id
+2. 跳转到创建（编辑）文章的路由
+
+
+
+## 20. 编辑文章
+
+
+
+### 20.1 回填基础数据
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006180618397.png" alt="image-20251006180618397" style="zoom:50%;" />
+
+**实现效果：**把页面中除了封面之外的其余字段完成回填
+
+**如何实现：**
+
+1. 通过文章id获取到文章详情数据
+2. 调用Form组件实例方法 <font color='red'>setFieldsValue</font> 回显数据
+
+
+
+### 20.2 回填封面信息
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006180702436.png" alt="image-20251006180702436" style="zoom:50%;" />
+
+**实现效果：**回填封面的类型以及上传过的封面图片
+
+**如何实现：**
+
+1. 使用cover中的type字段回填封面类型
+2. 使用cover中的images字段回填封面图片
+
+
+
+### 20.3 根据id适配状态
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006180733088.png" alt="image-20251006180733088" style="zoom:50%;" />
+
+**实现效果：**发布文章时显示发布文章，编辑文章状态下显示编辑文章
+
+**如何实现：**
+
+<font color='red'>核心就是看是否有id</font>，有文章id代表编辑状态，没有文章id代表发布状态
+
+
+
+### 20.4 更新文章
+
+
+
+**实现效果：**当用户对文章内容做修改之后，点击确认更新文章内容
+
+**如何实现：**
+
+更新文章和新增文章相比，大部分的逻辑都是一致的，<font color='red'>稍作参数适配调用不同接口</font>即可
+
+1. 适配url参数
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006180925464.png" alt="image-20251006180925464" style="zoom:50%;" />
+
+2. 调用文章更新接口
+
+
+
+## 21. 项目打包和本地预览
+
+
+
+1. **项目打包**
+
+  打包指的是将项目中的<font color='red'>源代码和资源文件进行处理</font>，生成可在生产环境中运行的<font color='red'>静态文件</font>的过程
+  **打包命令**：npm run build
+
+  
+
+2. **本地预览（模拟服务器运行项目）**
+
+  本地预览是指在本地通过静态服务器模拟生产服务器运行项目的过程
+
+  1. 安装本地服务包 
+
+  	```
+  	npm i -g serve
+  	```
+
+  2. ```
+  	serve -s ./build
+  	```
+
+  3. 浏览器中访问 http://localhost:3000/
+
+
+
+## 22. 打包优化
+
+
+
+### 22.1 配置路由懒加载
+
+
+
+**什么是路由懒加载？**
+
+路由懒加载是指路由的JS资源只有在被访问时才会动态获取，目的是为了<font color='red'>优化项目首次打开的时间</font>
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006213832272.png" alt="image-20251006213832272" style="zoom:50%;" />
+
+**如何进行配置？**
+
+1. 把路由修改为由React提供的 <font color='red'>lazy 函数进行动态导入</font>
+2. 使用React内置的<font color='red'> Suspense组件</font> 包裹路由中element选项对应的组件
+
+
+
+### 22.2 包体积分析
+
+
+
+**什么包体积分析？**
+
+通过可视化的方式，直观的体现项目中各种包打包之后的体积大小，方便做优化
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006213922099.png" alt="image-20251006213922099" style="zoom:50%;" />
+
+怎么做到？<font color='red'>source-map-explorer</font>
+1. 安装包 2. 配置命令指定要分析的js文件
+
+
+
+### 22.3 CDN优化
+
+
+
+**什么是CDN?**
+
+CDN是一种内容分发网络服务，当用户请求网站内容时，由<font color='red'>离用户最近的服务器</font>将<font color='red'>缓存的</font>资源内容传递给用户
+
+**哪些资源可以放到CDN服务器？**
+
+体积较大的<font color='red'>非业务JS文件</font>, 比如react、react-dom
+
+1. 体积较大，需要利用CDN文件在浏览器的缓存特性，加快加载时间
+2. 非业务JS文件，不需要经常做变动，CDN不用频繁更新缓存
+
+**项目中怎么做？**
+
+1. 把需要做CDN缓存的文件排除在打包之外（react、react-dom）
+2. 以CDN的方式重新引入资源（react、react-dom）
+
+
+
+# 17. 性能优化相关API
+
+> useMemo/React.memo/useCallback
+
+
+
+## 17.1 useReducer
+
+
+
+**作用**：和useState的作用类似，用来管理<font color='red'>相对复杂</font>的状态数据
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006214148456.png" alt="image-20251006214148456" style="zoom:50%;" />
+
+
+
+### 17.1.1 基础用法
+
+
+
+1. 定义一个reducer函数（根据不同的action返回不同的新状态）
+2. 在组件中调用useReducer，并传入reducer函数和状态的初始值
+3. 事件发生时，通过dispatch函数分派一个action对象（通知reducer要返回哪个新状态并渲染UI）
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006214221978.png" alt="image-20251006214221978" style="zoom:50%;" />
+
+
+
+### 17.1.2 分派action时传参
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006214242574.png" alt="image-20251006214242574" style="zoom:50%;" />
+
+
+
+### 17.1.3 小结
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006214304015.png" alt="image-20251006214304015" style="zoom:50%;" />
+
+
+
+## 17.2 useMemo
+
+
+
+**作用：**在组件每次重新渲染的时候<font color='red'>缓存计算的结果</font>
+
+看个需求：
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006214346581.png" alt="image-20251006214346581" style="zoom:50%;" />
+
+**基础语法**
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006214442171.png" alt="image-20251006214442171" style="zoom:50%;" />
+
+**说明：**使用useMemo做缓存之后可以保证只有count1依赖项发生变化时才会重新计算
+
+
+
+## 17.3 React.memo
+
+
+
+**作用：**允许组件在<font color='red'>Props没有改变</font>的情况下跳过渲染
+
+React组件默认的渲染机制：只要父组件重新渲染子组件就会重新渲染
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006214612087.png" alt="image-20251006214612087" style="zoom:50%;" />
+
+思考：如果Son组件本身并不需要做渲染更新，是不是存在浪费？
+
+
+
+### 17.3.1 基础语法
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006214638518.png" alt="image-20251006214638518" style="zoom:50%;" />
+
+**说明：**经过memo函数包裹生成的缓存组件只有在props发生变化的时候才会重新渲染
+
+
+
+### 17.3.2 props的比较机制
+
+
+
+**机制:** 在使用memo缓存组件之后，React会对<font color='red'>每一个 prop</font> 使用 <font color='red'>Object.is</font> 比较新值和老值，返回true，表示没有变化
+
+prop是简单类型
+
+<font color='red'>Object.is(3, 3) => true</font> 没有变化
+
+prop是引用类型（对象 / 数组）
+
+<font color='red'>Object([], []) => false</font> 有变化，React只关心引用是否变化
+
+
+
+## 17.4 useCallback
+
+
+
+**作用：**在组件多次重新渲染的时候缓存函数
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006214802503.png" alt="image-20251006214802503" style="zoom:50%;" />
+
+
+
+### 17.4.1 基础语法
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006214829933.png" alt="image-20251006214829933" style="zoom:50%;" />
+
+**说明：**使用useCallback包裹函数之后，函数可以保证在App<font color='red'>重新渲染的时候保持引用稳定</font>
+
+# 18. React.forwardRef
+
+> 使用ref暴露DOM节点给父组件
+
+
+
+**forwardRef - 场景说明**
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006214945182.png" alt="image-20251006214945182" style="zoom:50%;" />
+
+**forwardRef - 语法实现**
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006215000192.png" alt="image-20251006215000192" style="zoom:50%;" />
+
+# 19. useInperativeHandle
+
+> 通过ref暴露子组件中的方法
+
+
+
+**useInperativeHandlle - 场景说明**
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006215050554.png" alt="image-20251006215050554" style="zoom:50%;" />
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006215107047.png" alt="image-20251006215107047" style="zoom:50%;" />
+
+# 20. Class API
+
+> 编写类组件
+
+
+
+## 20.1 类组件基础结构
+
+
+
+类组件就是通过<font color='red'>JS中的类来组织组件的代码</font>
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006215745571.png" alt="image-20251006215745571" style="zoom:50%;" />
+
+1. 通过类<font color='red'>属性state</font>定义状态数据 
+1. 通过<font color='red'>setState方法</font>来修改状态数据
+1. 通过<font color='red'>render</font>来写UI模版（JSX语法一致）
+
+
+
+## 20.2 类组件的生命周期函数
+
+
+
+**概念：**组件从创建到销毁的各个阶段自动执行的函数就是生命周期函数
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006215845251.png" alt="image-20251006215845251" style="zoom:50%;" />
+
+1. componentDidMount：组件挂载完毕自动执行 - <font color='red'>异步数据获取</font>
+2. componentWillUnmount: 组件卸载时自动执行 - <font color='red'>清理副作用</font>
+
+
+
+## 20.3 类组件的组件通信
+
+
+
+**概念：**类组件和Hooks编写的组件在组件通信的<font color='red'>思想上完全一致</font>
+
+1. 父传子：通过prop绑定数据
+2. 子传父：通过prop绑定父组件中的函数，子组件调用
+3. 兄弟通信：状态提升，通过父组件做桥接
+
+# 21. zustand
+
+> 极简的状态管理工具
+
+
+
+## 21.1 快速上手
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006220030124.png" alt="image-20251006220030124" style="zoom:50%;" />
+
+
+
+## 21.2 异步支持
+
+
+
+对于异步的支持不需要特殊的操作，直接在函数中编写异步逻辑，最后只需要<font color='red'>调用set方法传入新状态</font>即可
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006220102437.png" alt="image-20251006220102437" style="zoom:50%;" />
+
+
+
+## 21.3 切片模式
+
+
+
+**场景：**当单个store比较大的时候，可以采用 <font color='red'>切片模式</font> 进行模块拆分组合，类似于模块化
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006220137368.png" alt="image-20251006220137368" style="zoom:50%;" />
+
+# 22. React与TypeScript
+
+> 开发环境创建
+
+
+
+**基于Vite创建开发环境**
+
+
+
+Vite是一个<font color='red'>框架无关的前端工具链</font>，可以快速的生成一个 React + TS 的开发环境，并且可以提供快速的开发体验
+
+```
+npm create vite@latest react-ts-pro -- --template react-ts
+```
+
+**说明：**
+
+1. npm create vite@latest 固定写法 （使用最新版本vite初始化项目）
+2. react-ts-pro 项目名称 （可以自定义）
+3. -- --template react-ts 指定项目模版位react+ts
+
+# 23. useState与TypeScript
+
+
+
+## 23.1 useState-自动推导
+
+
+
+通常React会根据传入<font color='red'>useState的默认值</font>来自动推导类型,不需要显式标注类型
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006220349138.png" alt="image-20251006220349138" style="zoom:50%;" />
+
+**说明：**
+
+1. value: 类型为boolean
+2. toggle: 参数类型为boolean
+
+
+
+## 23.2 useState-传递泛型参数
+
+
+
+useState本身是一个<font color='red'>泛型函数</font>，可以传入具体的自定义类型
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006220421712.png" alt="image-20251006220421712" style="zoom:50%;" />
+
+**说明：**
+
+1. 限制useState函数参数的初始值必须满足类型为： User | （）=> User
+2. 限制setUser函数的参数必须满足类型为：User | （）=> User | undefined
+3. user状态数据具备User类型相关的类型提示
+
+
+
+## 23.3 useState-初始值为null
+
+
+
+当我们不知道状态的初始值是什么，将useState的<font color='red'>初始值为null</font>是一个常见的做法，可以通过<font color='red'>具体类型联合null</font>来做显式注解
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006220500425.png" alt="image-20251006220500425" style="zoom:50%;" />
+
+**说明：**
+
+1. 限制useState函数参数的初始值可以是 User | null
+2. 限制setUser函数的参数类型可以是 User | null
+
+# 24. 事件与TypeScript
+
+
+
+**为事件回调添加类型**
+
+
+
+为事件回调添加类型约束需要使用<font color='red'>React内置的泛型函数</font>来做，比如最常见的鼠标点击事件和表单输入事件：
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006220549836.png" alt="image-20251006220549836" style="zoom:50%;" />
+
+**说明：**通过泛型函数约束了<font color='red'>整个事件回调函数的类型</font>，主要是为了约束事件参数e的类型
+
+# 25. Props与TypeScript
+
+
+
+## 25.1 基础使用
+
+
+
+为组件prop添加类型，本质是给<font color='red'>函数的参数做类型注解</font>，可以使用<font color='red'>type对象类型或者interface接口</font>来做注解
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006220644296.png" alt="image-20251006220644296" style="zoom:50%;" />
+
+**说明：**Button组件只能传入名称为className的prop参数，类型为string, 且为必填
+
+
+
+## 25.2 为children添加类型
+
+
+
+children是一个比较特殊的prop, 支持多种不同类型数据的传入，需要通过一个<font color='red'>内置的ReactNode类型</font>来做注解
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006220726273.png" alt="image-20251006220726273" style="zoom:50%;" />
+
+**说明：**注解之后，children可以是多种类型，包括：React.ReactElement 、string、number、React.ReactFragment 、React.ReactPortal 、boolean、 null 、undefined
+
+
+
+## 25.3 为事件prop添加类型
+
+
+
+组件经常执行类型为函数的prop实现子传父，这类prop重点在于函数参数类型的注解
+
+![image-20251006220816125](https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006220816125.png)
+
+**说明：**
+
+1. 在组件内部调用时需要遵守类型的约束，参数传递需要满足要求
+2. 绑定prop时如果绑定内联函数直接可以推断出参数类型，否则需要单独注解匹配的参数类型
+
+# 26. useRef与TypeScript
+
+
+
+## 26.1 获取dom
+
+
+
+获取dom的场景，可以直接把要获取的<font color='red'>dom元素的类型当成泛型参数传递给useRef</font>,可以推导出<font color='red'>.current属性的类型</font>
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006220951379.png" alt="image-20251006220951379" style="zoom:50%;" />
+
+
+
+## 26.2 引用稳定的存储器
+
+
+
+把useRef当成引用稳定的存储器使用的场景可以通过<font color='red'>泛型传入联合类型</font>来做，比如定时器的场景：
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006221018255.png" alt="image-20251006221018255" style="zoom:50%;" />
+
+# 极客园移动端
+
+> 项目开发环境创建
+
+
+
+## 1. 基于Vite创建开发环境
+
+
+
+Vite是一个<font color='red'>框架无关的前端工具链</font>，可以快速的生成一个 React + TS 的开发环境，并且可以提供快速的开发体验
+
+```
+npm create vite@latest react-jike-mobile -- --template react-ts
+```
+
+**说明：**
+
+1. npm create vite@latest 固定写法 （使用最新版本vite初始化项目）
+2. react-ts-pro 项目名称 （可以自定义）
+3. -- --template react-ts 指定项目模版位react+ts
+
+
+
+## 2. 安装Ant Design Mobile
+
+
+
+Ant Design Mobile 是 Ant Design 家族里专门针对于移动端的组件库
+
+看文档！
+
+
+
+## 3. 初始化路由
+
+
+
+React的路由初始化，我们采用 <font color='red'>react-router-dom</font> 进行配置
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006221237551.png" alt="image-20251006221237551" style="zoom:50%;" />
+
+
+
+## 4. 配置路径别名
+
+
+
+**场景：**项目中各个模块之间的互相导入导出，可以通过@别名路径做路径简化，经过配置@相当于src目录，比如：
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006221324269.png" alt="image-20251006221324269" style="zoom:50%;" />
+
+**步骤：**
+
+1. 让Vite做路径解析（真实的路径转换）
+2. 让VSCode做智能路径提示（开发者体验）
+
+
+
+## 5. 安装axios
+
+
+
+**场景：**axios作为最流行的请求插件，同样是类型友好的，基于axios做一些基础的封装
+
+1. 安装axios到项目
+2. 在utils中封装http模块，主要包括<font color='red'>接口基地址、超时时间、拦截器</font>
+3. 在utils中做统一导出
+
+
+
+## 6. 封装API模块
+
+
+
+### 6.1 axios和ts的配合使用
+
+
+
+**场景：**axios提供了request泛型方法，方便我们<font color='red'>传入类型参数推导出接口返回值的类型</font>
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006221440829.png" alt="image-20251006221440829" style="zoom:50%;" />
+
+**说明：**泛型参数 <font color='red'>Type 的类型决定了 res.data 的类型</font>
+
+**步骤：**
+
+1. 根据接口文档创建一个通用的泛型接口类型（多个接口返回值的结构是相似的）
+2. 根据接口文档创建特有的接口数据类型（每个接口有自己特殊的数据格式）
+3. 组合1和2的类型，得到最终传给request泛型的参数类型
+
+**流程图:**
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006221528929.png" alt="image-20251006221528929" style="zoom:50%;" />
+
+
+
+## 7. Home模块
+
+
+
+### 7.1 整体组件嵌套设计
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006221611550.png" alt="image-20251006221611550" style="zoom:50%;" />
+
+
+
+### 7.2 Tabs区域实现
+
+
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006221634174.png" alt="image-20251006221634174" style="zoom:50%;" />
+
+**实现步骤：**
+
+1. 使用 ant-mobile 组件库中的 Tabs 组件进行页面结构创建
+2. 使用真实接口数据进行渲染
+3. 有优化的点进行优化处理
+
+
+
+### 7.3 自定义hook函数优化（可选）
+
+
+
+**场景：**当前状态数据的各种操作逻辑和组件渲染是写在一起的，可以采用<font color='red'>自定义hook封装的方式让逻辑和渲染相分离</font>
+
+**实现步骤：**
+
+1. 把和Tabs相关的响应式数据状态以及操作数据的方法放到hook函数中
+2. 组件中调用hook函数，消费其返回的状态和方法
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006221716645.png" alt="image-20251006221716645" style="zoom:50%;" />
+
+
+
+### 7.4 List组件实现
+
+
+
+**实现步骤：**
+
+1. 搭建基础结构，并获取基础数据
+2. 为组件设计 channelId 参数，点击tab时传入不同的参数
+3. 实现上拉加载功能
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006221754818.png" alt="image-20251006221754818" style="zoom:50%;" />
+
+
+
+### 7.5 List列表无限滚动实现
+
+
+
+**交互要求：**List列表在滑动到底部时，自动加载下一页列表数据
+
+**实现思路：**
+
+1. 滑动到底部触发加载下一页动作
+
+  ```
+  <InfiniteScroll/>
+  ```
+
+2. 加载下一页数据
+
+  ```
+  pre_timestamp 接口参数
+  ```
+
+3. 把老数据和新数据做拼接处理
+
+  ```
+  [...oldList, ... newList]
+  ```
+
+4. 停止监听边界值
+
+  ```
+  hasMore
+  ```
+
+
+
+### 7.6 详情模块-路由跳转&数据渲染
+
+
+
+**需求：**点击列表中的某一项跳转到详情路由并显示当前文章
+
+1. 通过路由跳转方法进行跳转，并传递参数
+2. 在详情路由下获取参数，并请求数据
+3. 渲染数据到页面中
+
+<img src="https://ossjshenry.oss-cn-hangzhou.aliyuncs.com/img/image-20251006221913578.png" alt="image-20251006221913578" style="zoom:50%;" />
